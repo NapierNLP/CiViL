@@ -1,0 +1,2421 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - i would like to cook toad in the hole
+    
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    
+
+- intent: r1
+  examples: |
+    - Ok, I have added the ingredients to a mixing bowl, what do I do next?
+    - The ingredients are mixed together into a smooth dough, what is the next step?
+    - The dough has risen to double its size, now what?
+    - I have flattened the dough, what is the next step?
+    - I have sixteen muffins on the griddle what now?
+    - The muffins have puffed up a little, now what?
+    - The muffins are cooked, what do I do now?
+
+- intent: r2
+  examples: |
+    - I would like to cook a Strawberry Pie
+    - I have combined the ingredients, now what? 
+    - The time has passed, what do I do now?
+    - While it bakes, what should I do next?
+    - I have done that, now what?
+    - I have mixed the strawberries in, what do I do now?
+    - I have mixed the strawberries in, what do I do now?
+    - Okay, is there anything left to do?
+    
+- intent: r3
+  examples: |
+    - Okay I have mixed the ingredients, now what? 
+    - I have made the dough, what do I do now? 
+    - I have rolled the dough, now what? 
+    - The donuts are now double their size, what do I do next? 
+    - I have air fried the donuts, what do I do now?
+    - I have made the icing, now what do I do?
+    
+- intent: r4
+  examples: |
+    - I have turned on the oven, now what? 
+    - I have combined the ingredients, now what do I do? 
+    - I have combined these ingredients too, what is next? 
+    - I have made the donuts, what do I do now?
+    - I have baked and let all the donuts cool down, what do I do next?
+    
+- intent: r5
+  examples: |
+    - I have done this, now what?
+    - The instant pot is now ready, what is next? 
+    - The mixture is now fragrant, what do I do now? 
+    
+- intent: r6
+  examples: |
+    - What is next?
+    - What now?
+    
+- intent: r7
+  examples: |
+    - Okay the ingredients are now on the baking sheet, what do I do now?
+    - Everything is now in the oven, is there anything I can do while it cooks? 
+    - Okay the noodles are out of the oven, what are the last examples?
+
+- intent: r8
+  examples: |
+    - Okay the ingredients are now on the baking sheet, what do I do now? 
+    - Everything is now in the oven, is there anything I can do while it cooks?
+    - Okay the noodles are out of the oven, what are the last steps? 
+
+- intent: r9
+  examples: |
+    - I have sauted the ingredients, what’s next?
+    - Yes, please
+    - I have mashed the avocados, now what?
+    - I have mixed the ingredients, now what?
+    - Thank you. Now what do I do with the Quinoa Burrito Bowl?
+
+- intent: r10
+  examples: |
+    - I have made the mango puree, now what?
+    - The peppers are in the bowl, what do I do now? 
+    - The mix is now in the pan, now what? 
+    - The mixture is back in the pan, what’s next? 
+
+- intent: r11
+  examples: |
+    - I have cut the onion, what do I do now? 
+    - I have processed the ingredients, what now?
+    - I have made the onion with the spices, what now? 
+    - I have cooked all the ingredients, what do I do now? 
+    - The veggies are cooking, is there anything else for me to do? 
+
+- intent: r12
+  examples: |
+    - All done, how do I make the crumb topping? 
+    - Okay I have combined all the ingredients, what do I do now? 
+    - The butter is done, what do I do now?
+    - All the ingredients are combined, what now? 
+    - All of my ingredients are now mixed, what’s next?
+
+- intent: r13
+  examples: |
+    - I have room temperature butter, what do I do?
+    - I have greased the Bundt, what’s next?
+    - I have combined the ingredients, what do I do now?
+    - Everything is now blended, what comes next?
+    - All the ingredients are mixed, what should I do now?
+    - The cake is now cooling down. How do I make the icing?
+    - The mixture is now done, what comes next?
+
+- intent: r14
+  examples: |
+    - Yes go ahead.
+    - Ok, thank you. What comes next?
+    - I have removed the fat, what’s next?
+    - The stock is done, what do I do now? 
+    - The onion is now cooked, what now? 
+    - The gravy has now started to thicken, what’s next? 
+
+- intent: r15
+  examples: |
+    - I have mixed the ingredients together, what do I do now? 
+    - I have placed the ingredients into the cake pan, what’s next?
+    - The ingredients are now combined, what now? 
+    - The cake is now done, what are the rest of the steps? 
+
+- intent: r16
+  examples: |
+    - I have prepared the cake pan, what do I do now? 
+    - I have prepared the mixture, what’s next? 
+    - All ingredients are now fully mixed, what now? 
+    - The batter is now thick and frosty, what do I do now? 
+    - The cakes are now fully cooled, how do I make the frosting?
+    - I have cut the tops of the cakes off, now what? 
+    - The egg whites and the syrup are now mixed, what’s next? 
+    - The frosting is now done, is there anything left for me to do? 
+
+- intent: r17
+  examples: |
+    - I have combined the ingredients, what do I do now?  
+    - Everything is now combined, is there anything left to do? 
+
+- intent: r18
+  examples: |
+    - The ingredients are now combined, what’s next? 
+
+- intent: r19
+  examples: |
+    - I have room-temperature butter and the oven is being preheated, can you tell me the first step for the recipe? 
+    - The mixture and the strawberries are done, what now? 
+    - I have made the butter mixture, what’s next? 
+    - Yes, please. 
+    - The butter and the strawberries are now done, what’s next? 
+
+- intent: r20
+  examples: |
+    - The carrots, parsnips, and onions are now in the pan, what do I do now? 
+    - The vegetables are now soft, what’s next? 
+    - The puree is now back in the pot, what now? 
+
+- intent: r21
+  examples: |
+    - The egg is now incorporated into the breadcrumb mixture, what do I do now? 
+    - The meatball mixture is combined, what now? 
+    - How do I make the sauce? 
+    - The meatballs are done, what is the next step? 
+    - It is 20 minutes before the meatballs are done, what is the last step? 
+
+- intent: r22
+  examples: |
+    - What are the next steps?
+    - The ingredients are now chopped, what do I do now? 
+
+- intent: r23
+  examples: |
+    - The chicken is now ready, what’s next? 
+    - The Marsala reduction is now back in the pan, what do I do now? 
+    - The Marsala is now done, what now? 
+    - The chicken and the mushrooms are ready, what do I do now? 
+
+- intent: r24 
+    - The veggies are now in the oven, how do I make the noodles? 
+    - The noodles and cheese mixture are done, what now? 
+    - The lasagna is now assembled, how long should I cook it for? 
+
+- intent: r25 
+    - The streusel topping is done, what comes next? 
+    - The pecans and sugar are done, what do I do now? 
+    - The batter is thickening, is there anything I can do in the meantime? 
+    - The batter is done, what do I do for the baking?
+
+- intent: r26
+    - The dough is now made, what do I do now?
+    - The crust has finished pre-baking, what do I do now? 
+
+- intent: r27
+    - The ingredients are blended, what do I do now? 
+    - The crust is baking, is there anything I can do in the meantime? 
+
+- intent: r28
+    - The veggies are now done, what do I do now? 
+    - The mushrooms are done, what’s next? 
+
+- intent: r29
+    - All the vegetables are prepped and the beans boiled, what do I do now?
+    - All the veggies are done, what’s next?
+    - The soup has finished cooking, is there anything left to do? 
+
+- intent: r30
+    - The ingredients are now combined, what now?
+    - All the veggies are done, what’s next?
+
+- intent: r31
+    - No thanks, I have marzipan
+    - The streusel topping is done, what comes next? 
+    - The ingredients are combined, what do I do now?
+
+- intent: r32
+    - The beans are cooking, what can I do in the meantime? 
+    - The potatoes, beans and salsa are done, what do I do now?
+    - The burrito filling is done, what now?
+
+- intent: r33
+    - The dry ingredients and the butter are now mixed, what do I do now? 
+    - The scones are now on the sheet, is there anything left to be done? 
+
+- intent: r34
+    - A rough dough has formed, what do I do now?  
+
+- intent: r35
+    - The butter mixture is now ready, what do I do now? 
+    - The dough is ready, what’s next? 
+    - The cookies are in the oven, how do I make the cherry glaze? 
+
+- intent: r36 
+    - Thank you. 
+
+- intent: r37
+    - The soup is now boiling, what now? 
+
+- intent: r38
+    - The ingredients are now combined, what do I do now? 
+    - The dough is now ready, what comes next? 
+
+- intent: r39
+    - I have finished prepping, what comes next?
+    - The pasta and steak are ready, what do I do now? 
+    - The sauce is now done, what’s next? 
+
+- intent: r40
+    - The squash is now in a bowl, what comes next? 
+
+- intent: r41
+    - The cauliflower is ready, what do I do now? 
+
+- intent: r42
+    - The sweet potatoes are combined with the ingredients, what now?
+
+- intent: r43
+    - The ground buffalo and veggies are now done, what do I do now? 
+    - The 30 minutes have gone by already, what comes next? 
+    - The time is up, what are the last steps?
+
+- intent: r184
+  examples: |
+    - I have peeled, blanched and sliced the potatoes, what is the next step?
+    - I have prepared, and cooked the vegetables, what now?
+    - I have cooled the vegetables under a cold water tap, what is next?
+    - The vegetables are on the cooking tray and seasoned, what is the next step?
+    - I have added the purple asparagus spears to a bowl and sprinkled lemon juice on them, what now?
+    - I have made the salad dressing, what is the next phase?
+    - I have added the vegetables to the bowl and poured over the salad dressing, what now?
+    
+- intent: r185
+  examples: |
+    - I have placed the black beans in the cold water and left them overnight, what do I do next?
+    - Alright, I have heated half of the olive oil in the frying pan and it’s on a medium heat, what comes next?
+    - I have seasoned the smoked and unsmoked pork ribs and added the ground black pepper, what comes after?
+    - The onions and garlic have been added and stirred for the required additional time, what comes after this?
+    - I have cleaned the frying pan by wiping it with kitchen paper and heated the rest of the olive oil at a medium heat.
+    - Ok, I have a stirred them well. 
+
+- intent: r186
+  examples: |
+    -  I have poured the olive oil in a large saucepan and heated it over a medium heat, what comes after this step?
+    - The chopped onions, green peppers, cumin and oregano have been added and I have stirred them, what do I do after this?
+    - I have added the garlic and stirred for two more minutes, what do I do after that?
+    
+- intent: r187
+  examples: |
+    - I have all of the ingredients ready, what is the first step I need to take?
+    - I have evenly distributed the garlic, ginger and the onions, what is next?
+    - I have arranged the sliced fish and the eggplant on top of the spices, what do I do now?
+    - I have poured the water, vinegar, soy sauce and the oil, what do I do next?
+    - I have added the remaining half of the garlic, ginger and onions, the salt and the black peppercorns and bay leaves, what is the next step after this?
+    - I have cooked the ingredients on a medium fire, what do I do now?
+    - I have turned the sliced fish and added the pepper, what do I do now?
+    - I have added the oil and I let it simmer for another minute, what is the next step?
+    
+- intent: r188
+  examples: |
+    - I have all the required ingredients, where do I begin?
+    - Ok, I have placed the vegetables in the slow cooker and stirred the five-spice powder with the water and soy sauce, what do I do next?
+    - I have cut the strings from the chicken and removed the skin with my fingers, what do I do next?
+    - I have done the same for the legs, what comes after this?
+    - The chicken has been placed around the vegetables and seasoned with salt and pepper, what do I do next?
+    - Ok, the food has been covered, left and cooked for four and a half hours, what comes next?
+    -  I have cut off the fat from the stock and I have used a large metal spoon. What do I do after?
+    
+- intent: r189
+  examples: |
+    - have these ingredients at hand, where do I begin to cook this recipe?
+    - the stock, porcini, star anise, ginger, garlic and the white parts of the onions and chicken have been added, what do I do next?
+    - I have brought it to a gentle simmer, the chicken is cooked through well and is tender. What is the next step?
+    - I have thrown away the chicken from the pan and put it aside and I have poured the broth through a sieve into a jug and thrown away the rest of the contents, what is the next step?
+    - I have returned the broth to the pan and placed it over a medium-high heat, what is the next step?
+    - I have added the eggs into their shells, and I let them cook for six minutes, what comes next?
+    - I have transferred them to a bowl with iced water and they are now cool, what now?
+    - I have whisked the miso pasted into the broth and stirred the mirin and soy sauce, what comes next?
+    - I have added and seasoned the shiitake mushrooms, they are tender enough, thank you, what is the next step?
+    - The noodles have been added and cooked, they are also warmed through well. I have also removed the noodles with a slotted spoon and divided them among four bowls, thank you for that, what is the next step?
+
+- intent: r190
+  examples: |
+    - I have heated the oil in a pan and added the cumin seeds, what now?
+    - Thank you, I have added the hing and chopped potatoes. They have been cooked for 2 minutes, what do I do now?
+
+- intent: r191
+  examples: |
+    - I have pricked the holes all over the roast with the pronged fork and rubbed the rib roast with salt and flour, what do I do now?
+    - I have put the prime ribs in the roasting pan and marinated the ribs, what next?
+    - They have been covered and refrigerated for three hours and basted them two times, also the oven has been preheated to 400F, what do I do now?
+    - The thermometer has been added in the middle of the roast and it does not touch any bones, what now?
+    - I have covered the pan with aluminium foil and the edges have been sealed tightly, what comes next?
+    - The roast has been cooked for sixty minutes and I removed the aluminium foil, what now?
+    - I have basted the prime ribs and reduced to 325F and continued to roast the ribs for another sixty minutes, what do I do now?
+    - I have removed the roasting pan from the oven and it has rested for thirty minutes, what now?
+
+    
+- intent: r192
+  examples: |
+    - I have preheated the oven to 200C/180C Fan/ Gas six. What is next?
+    - The onions, red peppers, beans, chorizo, garlic and rosemary have been added in a very large roasting tin, what do I do next?
+    - I have topped it with chicken and drizzled it with oil, what is the next step?
+    - I have scattered 1tsp of sea salt flakes and added a big pinch of black pepper and it has been roasted for sixty minutes, what do I do now?
+    - I have checked the chicken by piercing it with a skewer and the juice runs clear, no signs of pink. What is next?
+
+
+- intent: r193
+  examples: |
+    - I have added two tbsp of olive oil and four garlic cloves, what is the next step?
+    - the four cans of diced tomatoes, italian seasoning, peppers and onion powder have been added and simmered on low, what do I do next?
+    - I have added water, salt and pepper as well as ½ tsp of garlic salt, what comes after this step?
+    - The soup has been brought to a boil and I have added the acini de pepe, what do I do now?
+    - The pasta has been cooked and I have continued to season the pasta, what is the next step?
+
+    
+- intent: r194
+  examples: |
+    - I have squeezed the moisture out of the spinach and chopped it finely, what is the next step?
+    - I have boiled the water, cooked and drained the pasta, what comes next?
+    - Thank you, I have put half of the butter in the saute pan and turned it to a medium high, how do I proceed next?
+    - The 4oz of boiled ham have been added and turned 2-3 times, I have also added the 2lbs of fresh spinach and added liberal pinches of salt to the spinach, what do I do now?
+    - I have turned it to a high and saute the spinach, what do I do next?
+    - I have removed it from the heat and mixed the nutmeg and made sure to not add anymore than the required amount of tsp, what do I do next?
+    - I have tossed the pasta with the contents of the pan, added the ½ cup of fresh ricotta, the remaining butter and the ½ cup of parmesan cheese, what do I do now?
+
+    
+- intent: r195
+  examples: |
+    - I have stirred the spice rub ingredients and rubbed on the chicken, what do I do now?
+    - I have heated 1tbsp of oil in a nonstick skillet over a medium high and added the chicken in batches, what is the next step?
+    - The browned chicken pieces have been transferred to a bowl, what do I do now?
+    - I have added 1 tbsp of oil, 1 small onion, bell peppers, 1 carrot, 1 garlic clove and the jalapeno to the pan. They have been cooked for 5 minutes and the vegetables are soft, what do I do next?
+    - Alright, thank you, I have added the chicken broth and it’s been simmered for 20 minutes. I have also reduced the heat to a medium low and continued to stir in the remaining ingredients, what is the next step?
+    - The browned chicken has been cooked for 25-30 minutes and it is tender, what now?
+    - Ok, I have stirred the sauce to ensure even cooking, what is the next step?
+
+    
+- intent: r196
+  examples: |
+    - I have placed the pears, figs and vinegar in the saucepan and left it over a medium heat for 15 minutes and stirred occasionally, what is the next step?
+    - I have added all of the spices and the 1 cup of honey required, I have also brought it to a boil and stirred frequently, where do I go from here?
+    - I have reduced it to a simmer and reduced the liquids after the 20 minutes have passed, what now?
+    - I have added the black pepper and stirred for 15 minutes, what is the next step?
+    - I have spooned the chutney into 2 different jars and I have filled one full and the other one half way, what next?
+    - They have been refrigerated for two days, what is the next step?
+    
+    
+- intent: r197
+  examples: |
+    - I flattened the pheasant into ¼ thickness and then into a shallow bowl and beat the egg, what comes next?
+    - I have combined the cracker crumbs and salt in another shallow bowl, dipped the chicken in the egg and set aside for some time, what is the next step?
+    - I have set aside the saute mushrooms, what comes next?
+    - Alright, thank you very much, I have done this, I have cooked the pheasant in the remaining butter for the remaining time, what is next?
+    - I have topped the pheasant breast with 4 thin slices of ham, ½ lb of fresh mushrooms and 1 cheese slice, what is the next step?
+
+    
+- intent: r198
+  examples: |
+    - I have preheated the oven to 350 degrees fahrenheit and greased the loaf pan, what is the next step?
+    - I have lined the bottom of the parchment paper and greased the pan, what do I do now?
+    - I have sifted the flour, 2 teaspoons of baking powder and the kosher salt into one bowl, what next?
+    - I have whisked together the whole-milk yogurt, cup of sugar, the 3 large eggs, 2 teaspoons of lemon zest and the ½ teaspoon of vanilla extract, what do I do after this?
+    - I have whisked the dry ingredients into the wet ingredients, what now?
+    - I have folded the vegetable oil into the batter and incorporated well, what is the next step?
+    - I have poured the batter into the prepared pan, it has been baked for the required 50 minutes, what do I do now?
+    - The ⅓ cup of lemon juice and the ⅓ cup of sugar has been cooked in the small pan, the sugar is dissolved and the mixture is clear, also I have set it aside, what is the next step?
+    - I have let the cake cool in the pan for 10 minutes, what next?
+    - Ok, I have done this, what do I do now?
+    - I have poured the lemon-sugar mixture over the cake and it has soaked, what is the next step?
+    
+- intent: r199
+  examples: |
+    - I have preheated the oven to 220C, tipped the squash, onion, added the 2 tablespoons of olive oil, the chili flakes and 1 teaspoon of the sea salt inside a tin, what is the next step after this?
+    - Ok, thank you very much, I have scattered the ⅓ of sage leaves and left it to roast for 20 minutes, what do I do now while I wait?
+    - I have chopped the remaining sage leaves, I popped half of them into a shallow bowl with the remaining olive oil and black pepper, what do I do now?
+    - I have added the steaks and turned them to coat in the sage oil, I have also set them aside, what do I do now?
+    - I have poured the boiling water and left it to sit for two minutes, also drained it well, what is the next step after this?
+    - The broccoli has been added to the tin with olive oil on top and I let it roast for 10 minutes, what is the next step?
+    - I have laid the vegetables and baked for the required time, I let it cook for 15 minutes for a well-done steak, what do I do now?
+    - I have put the steaks on a plate, what do I do next?
+    - I have added the tablespoons of the chilli and lemon dressing. Also, I have covered the foil and let it rest for 10 minutes, what next?
+
+
+- intent: r200
+  examples: |
+    - I have preheated the oven, tipped the leeks, fennel and squash in a roasting tin, what is the next step after this?
+    - I have stirred the 2 tbsp of olive oil, chili and half of the tarragon, they have been roasted for 45 minutes, what is the next step?
+    - I have chopped the tarragon leaves, what now?
+    - I have poured the cream over the vegetables and scattered them with the chopped tarragon, hazelnuts and cheddar, what do I do now?
+    - I have turned the oven down to 200C and returned the gratin to the oven for another 15 minutes, what next?
+
+
+- intent: r201
+  examples: |
+    - I have made a well in the center, what do I do next?
+    - I have beaten the eggs into the well, added the water, butter and salt, what is the next after this?
+    - I have blended the ingredients with my hands and gathered the dough into a ball, what comes after this?
+    - I have kneaded the dough and it is smooth and elastic, what is the next step?
+    - I have cut the dough into 2-3 squares, what is the next step that I have to follow after this?
+    - I have dropped them into the pot pie broth and let it cook for 2-3 minutes, what do I do next?
+    
+    
+- intent: r202
+  examples: |
+    - I have preheated the oven to 425 degrees, what is next?
+    - I have combined the panko and 1 cup of parmesan cheese on the first plate and on the second plate I have beaten the eggs with the peanut oil, what do I do next?
+    - I have combined the ingredients together, what is the next step I have to take?
+    - The baking sheet has been lined with a foil and covered successfully with a baking rack, what comes after this?
+    - Ok, thank you, the fish has been patted and dredged in the flour, what do I do next?
+    - The fish has been dipped into the egg mixture and fish has been coated with the parmesan breadcrumbs, what next?
+    - I have placed the fish back onto the rack, what is the next step that I have to follow?
+
+    
+- intent: r203
+  examples: |
+    - I have preheated the oven and mixed the cream cheese, crab meat and the hot sauce in the bowl, what is the next step?
+    - I have added a teaspoon and a half of the mixture in the center of each wrapper, what next?
+    - I have dipped my fingers in water and wet the edges of the wrapper, what do I do next?
+    - I have sealed them tightly and placed the wontons on the baking sheet which is coated with cooking spray, where do I go from here?
+
+    
+- intent: r204
+  examples: |
+    - I have cut out the marrows and taken them out by scooping with a teaspoon, what is the next step?
+    -  I have fried the large onion and garlic, also I added in some olive oil to make it soft, what do I do next?
+    - I have added the chopped tomatoes as well as the paste and I let it cook for a further few minutes, what do I do now?
+    - I have placed the bacon in the food processor and it is blended well, what now?
+    - I have added the beef and bacI have stirred the marrow pulp and allowed it to cool, what do I do next?
+    - I have stirred the marrow pulp and allowed it to cool, what do I do next?
+    - The 2 beaten eggs have been added as well as the parmesan cheese, what is the next step?
+    - I have filled the marrow halves with the meat mixture and sprinkled it with semolina, what do I do now?
+
+    
+- intent: r205
+  examples: |
+    - I have rinsed the beans thoroughly and removed any bad beans, what do I do next?
+    - I have placed the water in a large stockpot and then brought it to a boil over a high heat, what next?
+    - The salt and beans have been added and covered with a lit, I also removed them from the heat and I let it stand for 1 hour, what next?
+    - I have added the remaining ingredients and left out the ham, then brought to a boil and cooked for 2 more hours, what do I have to do next?
+    - I have stirred the ham and let it simmer for another 30 minutes, what next?
+
+    
+- intent: r206
+  examples: |
+    - I preheated the oven to 200C at Gas 6 and buttered an ovenproof dish at a capacity of 2.5 litres, what is the next step?
+    - I melted the three tablespoons of butter in a large frying pan, added the onions and sprinkled the teaspoon of the sea salt flakes. What is the next step that I have to take?
+    - I turned down the heat and cooked gently for 15-20 minutes, what do I do next?
+    - I added a bit more butter and used a bendy spatula to scrape the buttery juices into the bowl, what is the next step?
+    - Ok, I have seasoned it with 1 teaspoon of sea salt flakes, what is the next step after that?
+    - I have spreaded half of the soft onions over the potatoes and the one tin of sprats, what next?
+    - I have layered the second third of potatoes followed by the remaining onions and the second tin of sprats, what do I do after that?
+    - Ok, I have mixed together the milk and cream in a jug and spread it over the potatoes, what do I have to do next?
+    - I have sprinkled over the breadcrumbs and let it cook for 1 hour, what is the next step?
+    - I have pushed a fork into it and the potatoes are cooked well as they are soft underneath, what do I do next?
+
+
+- intent: r208
+  examples: |
+    - I have combined all of the ingredients in a mortar and they are now a smooth paste, what do I do next?
+    - I have heated the oil in a wok over a medium heat and added the spice paste and is now fragrant, what is the next step?
+    - Yes, thank you, I have put my fan on a high and removed the pan and let it cool down, what is the next step?
+    - I have trimmed the excess fat with a knife, what do I do now?
+    - I have filled the pockets with the spice paste and then tied the roast back together, what is next?
+    - I have preheated the grill and cooked for 1.5 hours, what do I do next?
+    - I have moved the charcoal to either side of the place where I will cook the roast and dripped the pan in the middle, what do I do from here?
+    - I have turned off the middle burner and placed the foil on top of the center burner, what next?
+    - Thank you, I have torn 3 pieces of foil that are 16 inches long and overlapped them, then folded the edges about 2 inches, what do I do now?
+    - I have set up the grill and preheated it on a high, after that I turned down the grill and placed the roast over the drip pan, what do I do from here?
+    - I have adjusted the heat so that the internal temperature sits at 350 degrees and let it cook for 120 minutes, what is the next step?
+    - I have turned the meat on its sides so that they are browned, what do I do now?
+    
+- intent: r209
+  examples: |
+    - I have combined 1 cup of flour, ¼ cup of sugar, yeast and 1 tsp of salt, what do I do next?
+    - Yes, thank you, I have added the cups of warm milk and 2 tsp of soft butter and beat it for 2 minutes on medium, what do I do next?
+    - Thank you, I have mixed the fruits, nuts and aniseed, what do I do next?
+    - I have stirred the remaining flour to form a nice dough, what now?
+    - I have kneaded it for about 6-8 minutes, what is the next step?
+    - I have placed it in a greased bowl and turned it to grease the top, what is the next step I have to take?
+    - I have covered it and let it rise in a warm place for 60 minutes, what do I do next?
+    - I have dyed the remaining eggs, what next?
+    - The dough has been punched down and divided in half and rolled them into 24-in ropes, what now?
+    - I have covered it and let it rise for 30 minutes, what do I do next?
+    - I have baked it for 30-35 minutes, what do I do next
+    - I have removed it from the pan and let it cool for a while, what do I do now?
+
+- intent: r209
+  examples: |
+    - I have combined 1 cup of flour, ¼ cup of sugar, yeast and 1 tsp of salt, what do I do next?
+    - Yes, thank you, I have added the cups of warm milk and 2 tsp of soft butter and beat it for 2 minutes on medium, what do I do next?
+    - Thank you, I have mixed the fruits, nuts and aniseed, what do I do next?
+    - I have stirred the remaining flour to form a nice dough, what now?
+    - I have kneaded it for about 6-8 minutes, what is the next step?
+    - I have placed it in a greased bowl and turned it to grease the top, what is the next step I have to take?
+    - I have covered it and let it rise in a warm place for 60 minutes, what do I do next?
+    - I have dyed the remaining eggs, what next?
+    - The dough has been punched down and divided in half and rolled them into 24-in ropes, what now?
+    - I have covered it and let it rise for 30 minutes, what do I do next?
+    - I have baked it for 30-35 minutes, what do I do next
+    - I have removed it from the pan and let it cool for a while, what do I do now?
+  
+- intent: r210
+  examples: |
+    - I have the ingredients all ready, what is the first step I need to take?
+    - I have blanched the green beans, asparagus and broccoli, what next?
+    - I have left it under cold water to dry, what do I do next?
+    - I have separated the broccoli into bite sized pieces, what do I do now?
+    - I have peeled out the outer leaves of the cabbage and hollowed out the cabbage, what is the next step?
+    - I have lined the platter with the lettuce and allowed it to overlap, what next?
+    - I have arranged and piled the vegetables around the cabbage, what next?
+
+- intent: r211
+  examples: |
+    - I have the ingredients ready for the fries, where do I begin?
+    - Yes, I have peeled and washed the potatoes, what do I do next?
+    - I cut them into long strips and they are a half inch of thickness, what next?
+    - I have deep fried the strips of potatoes into the pan, what is the next step?
+    - I have let them fry for 2 minutes and they are now a bit more tender, what do I do next?
+    - I have added the brown sugar for it to caramelize, what do I do next?
+    - I have let it cook for a minute, what do I do next?
+    - I have let it drip on a paper towel, what is the next step?
+    - I have arranged the strips on a tall glass with wax paper and used paper cups, what do I do next?
+
+- intent: r212
+  examples: |
+    - I have heated 100g of unsalted butter, 200ml of milk, 1 tsp of salt and the butter has been melted, what is the next step after this?
+    - I have allowed the mixture to cool and is now lukewarm, what is the next step?
+    - I have stirred the flour, yeast, cardamom and the caster sugar, now they are all combined perfectly, what do I do after this?
+    - I have made a well in the middle and cracked the eggs, what do I do next?
+    - I have poured the milk mixture and stirred everything to form a sticky dough, what do I do now?
+    - I have oiled the work surface with a teaspoon of olive oil and turned the dough onto the oiled surface using a plastic scraper, what do I do next?
+    - I have kneaded until the dough is sticky and more elastic, I have also placed it into a large greased bowl, what do I do next?
+    - I have covered the bowl with a clean tea towel and set it aside in a warm place for 60 minutes, what do I do next?
+    - I have mixed the softened butter in a bowl with half of the sugar, what comes next?
+    - I have mixed the sugar and the spice into the butter, then I set it aside, what is the next step?
+    - I have rolled up the dough into a cylinder and cut it into 12 even slices, what next?
+    - I have placed each slice on a flattened out paper case on a baking tray, what do I do next?
+    - I have covered it with a clean tea towel and set it aside for the required amount of time, what is the next step?
+    - I have preheated the oven to 200C at Gas 6, what is the next step?
+    - I have brushed the top of the bun with the beaten egg and dusted with the cinnamon sugar, what do I do next?
+
+- intent: r213
+  examples: |
+    - I put the peas on a girdle, what is the next step?
+    - I have beaten up the eggs, what comes next?
+    - I have added 100ml of milk, what do I do next?
+    - I have added the eggs with the milk on the girdle, what next?
+
+- intent: r214
+  examples: |
+    - I have mixed the ingredients and cooked at a medium heat for 10 minutes and refrigerated, what is the next step?
+    - I have mixed all of the dough ingredients and rolled them in a 1 inch tube then wrapped it with plastic and refrigerated for 15 minutes. What do I do after that?
+    - I have preheated the oven to 400 degrees fahrenheit, what do I do next?
+    - I have taken out the filling and the dough from the refrigerator and cut the dough in ¼ inch discs, what now?
+    - I have flattened the discs to create a 2 inch diameter and I scooped 1 tablespoon filling and wrapped and sealed the dough around it, what next?
+    - I have pressed the dough ball to flatten and sealed the side down at the required dimensions, what is the next step that I have to take?
+    - I have laid the pieces on a baking pan and brushed it with the egg . What now?
+    - I have baked it for 15-20 minutes and the top is golden brown, what next?
+
+- intent: r215
+  examples: |
+    - I have placed the potatoes in a 13 inch pan, what is the next step?
+    - I have seasoned the potatoes with salt and pepper and also melted the butter in the microwave, what is the next step?
+    - I have added the minced onions, sour cream, the cream of chicken soup and the melted butter in a bowl, what do I do next?
+    - I have mixed the items together and poured the soup mixture over the potatoes and sprinkled with Cheddar Cheese, what now?
+
+- intent: r216
+  examples: |
+    - I have whisked the sherry, soy sauce, sesame oil, cornstarch and the garlic sauce together in a bowl, what is the next step?
+    - I have heated 1 tbsp of oil in a large and heavy skillet over medium-heat, what do I do next?
+    - I added the broccoli and sprinkled with sugar and stirred frequently for 8-10 minutes, what next?
+    - I pushed the broccoli to the edges of the skillet, what now?
+    - I added the contents of the smaller bowl to the center and mashed for 20-30 seconds with a spoon and also mixed the broccoli. What is the next step that I have to take?
+
+- intent: r217
+  examples: |
+    - I have mixed 60g of flour and 1 large free-range egg into the bowl and whisked in half of the milk and is now smooth, what do I do next?
+    - I have added the remaining milk and whisked, I have also poured the mixture into a jug and set aside, what is the next step that I have to follow?
+    - I have mixed 100g of yoghurt, 2 tbsp of finely chopped fresh dill and lemon juice with a small pinch of salt and ground black pepper, what is the next step?
+    - I have added a little more extra lemon juice and I set it aside, what next?
+    - I have brushed a little oil over the base of a small pan, what is the next step after this?
+    - I have poured a quarter of the crepe batter into the pan and swirled around, what is the next step?
+    - I have cooked it for 1 minute, what next?
+    - I loosened the sides with a knife, what next?
+    - I have cooked the other side for 40-60 seconds and transferred them to a warm plate and continued to cook the remaining 3 pancakes. What is the next step after this?
+
+- intent: r218
+  examples: |
+    - I have all of the ingredients for the coating, what is the first step that I need to take to make the rice balls?
+    - I have sauteed the rice and the onions and they are now translucent. I also added the rice and sauteed for another minute. What is the next step that I need to take?
+    - I have added the grated cheese, what is next?
+    - I have set it in the fridge and done the rice, what is the next step?
+    - I have sauteed the onion and the garlic clove in the olive oil, what do I do now?
+    - I have added the ground beef and drained the fat and also returned to the pot, what is the next step after this?
+    - I have added 1 cup of baby peas, marinara, 1 teaspoon of minced parsley, 1 teaspoon of basil and salt and pepper, what do I do next?
+    - I have covered it and left it to cook on the lowest flame for 1 hour, now the meat is tender and has been cooled down in the fridge, what is the next step after this?
+    - I have covered it and left it to cook on the lowest flame for 1 hour, now the meat is tender and has been cooled down in the fridge, what is the next step after this?
+    - I have added 2 tbsp of the meat filling on the top of the flattened rice and another on the top of the filling, what next?
+    - I have pressed down on the rice over the meat, what is the next step?
+    - I have rolled the arancini into a ball shape and dipped it into the flour as well as the eggs, what do I do next after that?
+    - I have heated the fryer to 350 degrees and gently fried the arancini, what next?
+
+- intent: r219
+  examples: |
+    - Now what is the first step that I need to take in order to make the quesadillas?
+    - I put the tomatoes in a bowl for the salsa, what next?
+    - I have mixed in the onion and the 1-2 tsp of jalapenos, what is the next step after this?
+    - I have added honey, lime juice, cayenne pepper, salt and pepper and mixed the ingredients. What should I do next?
+    - I have added the coriander and set it aside for 30 minutes and made the mango salsa, what do I do next?
+    - I have preheated the oven to 180C and greased a baking sheet, what do I do next?
+    - I have heated the frying pan over a high heat and also added a knob of butter, what is next?
+    - I have cooked the bacon for a couple of minutes and also removed it from the heat, what is the next step?
+    - I have whisked the eggs together in the saucepan and added salt and pepper as well as a splash of milk, I also melted a knob of butter in a saucepan, what is the next step?
+    - I have added the eggs and they are cooking over a low heat, after scrambled I have removed them from the heat, what is next?
+    - I have melted more butter and laid the tortillas on a board and also lightly brushed with the melted butter, what is next?
+    - I added a quarter of the bacon on one half of each tortilla and topped it with the scrambled egg, what next?
+    - I have sprinkled the chopped red onion, grated cheese and the coriander, what is the next step?
+    - I have folded the tortilla to make a semicircle shape, I have also brushed the top with some more melted butter and sprinkled it with a pinch of cayenne pepper. What is the next step that I have to follow?
+    - I have cut the tortillas in half and placed them on the baking sheet, what is next?
+
+- intent: r220
+  examples: |
+    - I have heated the oven to 350 degrees, what do I do next?
+    - I have dumped the cake mix and the undrained pineapple into the baking pan, what next?
+    - I stirred until well blended and baked it for 25 minutes. What is the next step?
+    - I have cooled it on a wire rack, what next?
+
+- intent: r221
+  examples: |
+    - I have preheated the oven to 300 degrees fahrenheit, what is the next step?
+    - I have laid the milkfish on a glass plate, what is the next step after that?
+    - I have dubbed it in with butter,  what comes after this?
+    - I have seasoned it with salt, pepper and lemon juice, what do I do after that?
+    - I have sprinkled it with 1 cup of grated cheese, what is the next step?
+    - I baked the cheese for 5 minutes, what do I do next?
+
+- intent: r222
+  examples: |
+    -  I have added the water and brought it to a boil, what next?
+    -  I have heated 1 tbsp of olive oil over medium-high and added the garlic and sautéed for 1 minute, what do I do next?
+    -  I have stirred in the eggplant and cooked for 3-5 minutes, what is next?
+    -  I have added the spaghetti to the pot of boiling water and thereafter drained it, what do I do now?
+    -  I have added the ¾ cup of white wine to the eggplant and let it simmer, what do I do next?
+    -  I have stirred the chicken broth and the tomato paste and I have also simmered the sauce for the required time, what do I do now?
+    -  I have added a handful of spinach which I have stirred, I also stirred the tomatoes and the cooked chicken, what do I do next?
+    -  I have seasoned the ingredients with vinegar, pepper and salt, what do I do now?
+    -  I have divided the cooked spaghetti among 4 different bowls and topped them with sauce, what next?
+
+- intent: r223
+  examples: |
+    - I have mixed in all of the ingredients and put them in a container and also left them to cool overnight. What is the next step?
+    - Yes, I have rolled the mixture into balls and created log sausages, what do I do now?
+    - I have put them side by side and refrigerated them for the amount of time required, what do I do next?
+    - I have boiled the skinless longganisa in the water, what do I do next?
+    - I have stirred it on its own fat for the amount of time needed, what is next?
+    
+- intent: r368
+  examples: |
+    - Okay I’ve done that, what do I do now?
+    - Right, now what?
+    - I’ve added those in, what comes next?
+    - I have combined those ingredients. What do I do now?
+    - I have added the milk, what do I add next?
+    - Okay I have added in the beaten egg. What next?
+    - I have added in the butter. What now?
+    - Alright, I have done that. What now?
+    - The muffins are finished. How do I do the topping?
+
+    
+- intent: r369
+  examples: |
+    - I have finished with the mixture. What comes next?
+    - The chicken has finished marinating in the fridge. What is the next step?
+    - The grill is ready. What do I do now?
+    - I have done that. What comes next?
+
+    
+- intent: r370
+  examples: |
+    - The pot is boiling, what now?
+    - The pot is simmering, what’s the next step?
+    - Okay, the zest is ready. What do I do now?
+    - The sugar has dissolved, what’s the next step?
+    - I’ve coated the blueberries. Next step?
+    - It’s been a couple of hours, am I ready to serve?
+
+    
+- intent: r371
+  examples: |
+    - The fatty pieces are looking golden. Now what?
+    - Okay I have added those in. What do I do next?
+    - The rice is ready and the meat looks nice and tender. What now?
+
+    
+- intent: r372
+  examples: |
+    - Okay I have mixed all of the ingredients together. What do I do now?
+    - I have my dough, now what?
+    - I have mixed those ingredients into the dough, what is the next step?
+    - I have done that, the patties are done
+
+    
+- intent: r373
+  examples: |
+    - Okay the mussels are open. What now?
+    - I have prepared the mussel and set them to the side. What is the next step?
+    - I have added the ingredients and fried them for 5 minutes. What do I do now?
+    - I added those in and let it boil and simmer for 30 minutes. What next?
+    
+- intent: r374
+  examples: |
+    - I have transferred the fennel, what next?
+    - I have cut and boiled the potatoes and added them to the fennel. What do I do now?
+    - I have cooked the chicken, what comes next?
+    - The oven is ready and I have prepared the rest of the ingredients into the bowl. What comes next?
+    - I have cooked the mixture, what is the next step?
+    - The chicken is in the oven, how do I make the salsa verde?
+    - I have made the salsa verde. What now?
+    
+- intent: r375
+  examples: |
+    - I have prepared the seasoning. What do I do now?
+    - I have prepared the brisket, and it has finished standing. What next?
+    - I have grilled and smoked the brisket, what now?
+    - The brisket has finished in the oven, what is the next step?
+    
+- intent: r376
+  examples: |
+    - Those ingredients were added and cooked for another 20 minutes. What next?
+    - I have mixed in the paste, what now?
+    
+- intent: r377
+  examples: |
+    - I have heated the oven and prepared the plate. What next?
+    - I have mixed the ingredients and poured it into the pie plate. What is the next step?
+
+    
+- intent: r378
+  examples: |
+    - I have soaked the fish in the wine, what next?
+    - I have patted the fillets dry in the casserole dish. What do I do next?
+    - I have sprinkled those ingredients on, what do I do now?
+    - I have used all of the fish, what now?
+    - I have heated the pan and added the garlic, what do I do now?
+    - I have cooked all of my fillets and they are all heating in the oven, now what?
+    
+- intent: r379
+  examples: |
+    - I have preheated the oven to 220ºC, what next?
+    - I have tossed the ingredients in the bowl. What do I do now?
+    - Okay I have mixed the other ingredients in a small bowl, what now?
+    - The shrimp is in the dish, what is the next step?
+    - I have spread the butter over the shrimp. What now?
+
+
+- intent: r380
+  examples: |
+    - Okay, I have sliced and placed the shallots, what next?
+    - I have soaked the shallots, what do I do now?
+    - I have washed and dried the leaves, what is the next step?
+    - The green beans have finished cooking and are now cooled, what next?
+    - I have added the green beans and the lettuce to the salad bowl. What now?
+
+- intent: r381
+  examples: |
+    - The onions have cooked, what next?
+    - I have added those ingredients in the pan. What do I do now?
+    - I have added the tomato puree to the pan and cooked it, what now?
+    - I have cooked the chicken in the sauce, what is the next step?
+
+    
+- intent: r382
+  examples: |
+    - I have diced the mushrooms, what next?
+    - I have added these to the pan, what do I do now?
+    - I have added in the tomatoes and the wine and it has been simmering. What now?
+    - I have prepared the pasta, what next?
+    - I have combined the ingredients and cooked the shrimp, what do I do now?
+
+    
+- intent: r383
+  examples: |
+    - The noodles are soaking and I have stir fried the other ingredients, what next?
+    - I have fried the pork, what comes next?
+    - I have finished stir frying the ingredients, what now?
+    - I have added the broth and soy sauce, what is next?
+    - The noodles are cooked into the other ingredients, what is the next step?
+
+- intent: r385
+  examples: |
+    - The oven is heated and I have lined the pan. What next?
+    - I have combined the ingredients, what do I do now?
+    - The butter is melted and I have mixed in the cocoa powder. What now?
+    - I have whisked in the brown sugar. What is the next step?
+    - The eggs and the vanilla are in the pan, what now?
+    - I have blended the mixtures. What do I do now?
+    - I have laid out the chocolate on the batter in the pan. What is next?
+    - Thank you for helping me make Caramilk Brownies.
+
+- intent: r386
+  examples: |
+    - I have added those ingredients into a bowl, what next?
+    - The ingredients have finished chilling. What do I do now?
+    - The turkey is cooked. What now?
+    - I have brushed the turkey with the ghee, what is the next step?
+    - Thank you for helping me make Grilled Tandoori Turkey Tenderloin.
+
+- intent: r388
+  examples: |
+    - I have pureed the ingredients. What next?
+    - I have added the basil, what now?
+    - I have grilled the fillets on each side, what do I do now?
+    - Thank you for helping me make Grilled salmon with garlic marinade
+
+- intent: r389
+  examples: |
+    - I have chopped the fish into small pieces, what do I do next?
+    - I have mixed the salt in and it has been refrigerated. What is the next step?
+    - I have juiced the limes and mixed them in, what now?
+    - I have marinaded the fish, salt, and limes. What do I do now?
+    - I have mixed in those ingredients, what next?
+    - Thank you for helping me make ceviche de pescado.
+
+- intent: r390
+  examples: |
+    - I have simmered the peppers and onions on medium heat in the butter. The peppers have been thrown away, what now?
+    - The chicken is in a dish and I have  poured the butter and onions over it. What next?
+    - I have sprinkled those ingredients over the chicken, what is next?
+    - The chicken is cooked, what do I do now?
+    - Thank you for helping me make Habanero Butter Chicken
+
+- intent: r391
+  examples: |
+    - I have combined the ingredients, what next?
+    - I have divided the dough onto the tray and flattened them a bit. What now?
+    - I have baked the biscuits, what do I do next?
+    - I have melted the butter with the herbs, what next?
+    - Thanks for helping me make Red Lobster Cheddar Biscuits
+
+- intent: r392
+  examples: |
+    - I have  prepared the chicken carcass. What do I do next?
+    - I have  prepared the chicken stock, what do I do with it?
+    - The stock has finished simmering, what is the next step?
+    - I have got the stock ready, what now?
+    - I have fried the onion and cumin in the pan, what next?
+    - I have fried the other ingredients. What do I do now?
+    - I have cooked the mixture and the sauce has thickened. What is next?
+    - The liquids were added and now the rice has finished simmering, now what?
+    - The rice is cooked and I have  removed it from the heat, what is next?
+    - I have combined those into the rice, what do I do next?
+    - Thank you for helping me make Chicken with rice.
+
+
+- intent: affirm
+  examples: |
+    - yes I have those ingredients
+    - yes
+    - ok
+    - yes that is ok
+    - I have them
+    - of course
+    - I have that
+    - yes I have all of those ingredients
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    
+- intent: toadinthehole
+  examples: |
+    - I would like to cook toad in the hole
+    - I would like to make toad in the hole
+    - toad in the hole
+    - I want to eat toad in the hole
+
+- intent: caramilkbrownies
+  examples: |
+    - I would like to cook Caramilk Brownies
+    - I would like to make Caramilk Brownies
+    - Caramilk Brownies
+    - I want to eat Caramilk Brownies
+    
+- intent: next
+  examples: |
+    - next
+    - I have done that
+    - what is next
+    - what is the next step
+    - I have done this
+    - ok what now
+    - ok what is next
+    - whats next
+    - I have whisked them
+    - they are whisked
+    - whisked
+    - Ok the pan is on the stove
+    - The onions are now browned
+    - Ok, what now?
+    - Ok I have added them
+    
+- intent: search_rec
+  examples: |
+    - I dont have any [plain flour](food)
+    - I dont have any [salt](food)
+    - I dont have any [olive oil](food)
+    - I dont have any [black pepper](food)
+    - I dont have any [eggs](food)
+    - I dont have any [milk](food)
+    - I dont have any [sausage](food)
+    - I dont have any [mustard](food)
+    - I dont have any [beef stock](food)
+    - I dont have any [cabbage](food)
+    - I dont have any [garlic](food)
+    - I dont have any [mixed herbs](food)
+    - I dont have any [butter](food)
+    - I dont have any [potato](food)
+    - I dont have any [frozen peas](food)
+    - I dont have any [mushrooms](food)
+    - I dont have any [oat meal](food)
+    - I dont have any [yeast](food)
+    - I dont have any [bacon](food)
+    - I dont have any [tomatoes](food)
+    - I dont have any [baked beans](food)
+    - I dont have any [paprika](food)
+    - I dont have any [feta](food)
+    - I dont have any [parsley](food)
+    - I dont have any [cheddar](food)
+    - I dont have any [pork fillet](food)
+    - I dont have any [red pepper](food)
+    - I dont have any [courgette](food)
+    - I dont have any [chickpeas](food)
+    - I dont have any [chicken stock](food)
+    - I dont have any [muscovado sugar](food)
+    - I dont have any [balsamic vinegar](food)
+    - I dont have any [paraham](food)
+    - I dont have any [passata](food)
+    - I dont have any [goats cheese](food)
+    - I dont have any [basil](food)
+    - I dont have any [golden syrup](food)
+    - I dont have any [breadcrumbs](food)
+    - I dont have any [lemon](food)
+    - I dont have any [sunflower oil](food)
+    - I dont have any [sweet potato](food)
+    - I dont have any [apple](food)
+    - I dont have any [curry powder](food)
+    - I dont have any [tomato puree](food)
+    - I dont have any [mango chutney](food)
+    - I dont have any [basmati rice](food)
+    - I dont have any [sour cream](food)
+    - I dont have any [coriander](food)
+    - I dont have any [braising steak](food)
+    - I dont have any [brown ale](food)
+    - I dont have any [celery](food)
+    - I dont have any [bay leaf](food)
+    - I dont have any [thyme](food)
+    - I dont have any [carrots](food)
+    - I dont have any [onions](food)
+    - I dont have any [cornstarch](food)
+    - I dont have any [pectin](food)
+    - I dont have any [heavy cream](food)
+    - I dont have any [vegetable shortening](food)
+    - I dont have any [vanilla extract](food)
+    - I dont have any [powdered sugar](food)
+    - I dont have any [maple syrup](food)
+    - I dont have any [sprinkles](food)
+    - I dont have any [cinnamon powder](food)
+    - I dont have any [cooking spray](food)
+    - I dont have any [canned pumpkin](food)
+    - I dont have any [brown sugar](food)
+    - I dont have any [pumpkin](food)
+    - I dont have any [cinnamon](food)
+    - I dont have any [nutmeg](food)
+    - I dont have any [allspice](food)
+    - I dont have any [ground cloves](food)
+    - I dont have any [ginger](food)
+    - I dont have any [berbere seasoning](food)
+    - I dont have any [tomato paste](food)
+    - I dont have any [red lentils](food)
+    - I dont have any [strawberries](food)
+    - I dont have any [pineapple](food)
+    - I dont have any [red onion](food)
+    - I dont have any [sweet red pepper](food)
+    - I dont have any [cilantro](food)
+    - I dont have any [key lime juice](food)
+    - I dont have any [unsalted butter](food)
+    - I dont have any [egg yolk](food)
+    - I dont have any [pear](food)
+    - I dont have any [lemon juice](food)
+    - I dont have any [black beans](food)
+    - I dont have any [pork ribs](food)
+    - I dont have any [smokey bacon](food)
+    - I dont have any [pork belly](food)
+    - I dont have any [dried chili](food)
+    - I dont have any [cumin](food)
+    - I dont have any [oregano](food)
+    - I dont have any [beans](food)
+    - I dont have any [long grain rice](food)
+    - I dont have any [star anise](food)
+    - I dont have any [spring onions](food)
+    - I dont have any [miso paste](food)
+    - I dont have any [mirin](food)
+    - I dont have any [soy sauce](food)
+    - I dont have any [shiitake mushrooms](food)
+    - I dont have any [baby spinach](food)
+    - I dont have any [white pepper](food)
+    - I dont have any [furikake](food)
+    - I dont have any [pasta](food)
+    - I dont have any [curry leaves](food)
+    - I dont have any [asafoetida](food)
+    - I dont have any [peanuts](food)
+    - I dont have any [almonds](food)
+    - I dont have any [sesame seeds](food)
+    - I dont have any [golden raisins](food)
+    - I dont have any [cashew nuts](food)
+    - I dont have any [green chili](food)
+    - I dont have any [rib roast](food)
+    - I dont have any [kosher salt](food)
+    - I dont have any [worcestershire sauce](food)
+    - I dont have any [liquid smoke](food)
+    - I dont have any [beef broth](food)
+    - I dont have any [mustard powder](food)
+    - I dont have any [coriander powder](food)
+    - I dont have any [onion powder](food)
+    - I dont have any [bay leaves](food)
+    - I dont have any [dried thyme](food)
+    - I dont have any [rosemary](food)
+    - I dont have any [yellow pepper](food)
+    - I dont have any [chorizo](food)
+    - I dont have any [cannellini beans](food)
+    - I dont have any [italian seasoniong](food)
+    - I dont have any [garlic salt](food)
+    - I dont have any [pepe pasta](food)
+    - I dont have any [parmesan cheese](food)
+    - I dont have any [spinach](food)
+    - I dont have any [ricotta](food)
+    - I dont have any [boiled ham](food)
+    - I dont have any [spice rub](food)
+    - I dont have any [cayenne pepper](food)
+    - I dont have any [peanut sauce](food)
+    - I dont have any [jalapeno pepper](food)
+    - I dont have any [chicken broth](food)
+    - I dont have any [peanut butter](food)
+    - I dont have any [coconut milk](food)
+    - I dont have any [figs](food)
+    - I dont have any [honey](food)
+    - I dont have any [apple vinegar](food)
+    - I dont have any [deli ham](food)
+    - I dont have any [swiss cheese](food)
+    - I dont have any [milk yoghurt](food)
+    - I dont have any [confectioners sugar](food)
+    - I dont have any [low fat greek yogurt](food)
+    - I dont have any [butternut squash](food)
+    - I dont have any [chili flakes](food)
+    - I dont have any [broccoli](food)
+    - I dont have any [gorgonzola](food)
+    - I dont have any [leek](food)
+    - I dont have any [fennel](food)
+    - I dont have any [acord squash](food)
+    - I dont have any [sea slat flakes](food)
+    - I dont have any [tarragon](food)
+    - I dont have any [hazelnuts](food)
+    - I dont have any [mature cheddar cheese](food)
+    - I dont have any [tilapia](food)
+    - I dont have any [panko breadcrumbs](food)
+    - I dont have any [cream cheese](food)
+    - I dont have any [hot sauce](food)
+    - I dont have any [tortilla wraps](food)
+    - I dont have any [marrow](food)
+    - I dont have any [semolina](food)
+    - I dont have any [northen beans](food)
+    - I dont have any [dry mustard powder](food)
+    - I dont have any [ansjovis](food)
+    - I dont have any [shallots](food)
+    - I dont have any [tumeric](food)
+    - I dont have any [galangal](food)
+    - I dont have any [lemongrass](food)
+    - I dont have any [dry yeast](food)
+    - I dont have any [aniseed](food)
+    - I dont have any [asparagus](food)
+    - I dont have any [jicama](food)
+    - I dont have any [red cabbage](food)
+    - I dont have any [purple cabbage](food)
+    - I dont have any [lettuce](food)
+    - I dont have any [blueberries](food)
+    - I dont have any [mint](food)
+    - I dont have any [mine confit zest](food)
+    - I dont have any [chinese oyster sauce](food)
+    - I dont have any [apple cider vinegar](food)
+    - I dont have any [saffron](food)
+    - I dont have any [mussels](food)
+    - I dont have any [prawns](food)
+    - I dont have any [monkfish](food)
+    - I dont have any [squid](food)
+    - I dont have any [risotto rice](food)
+    - I dont have any [dry white wine](food)
+    - I dont have any [chicken legs](food)
+    - I dont have any [cherry tomatoes](food)
+    - I dont have any [capers](food)
+    - I dont have any [djion mustard](food)
+    - I dont have any [beef bouillon](food)
+    - I dont have any [celery seeds](food)
+    - I dont have any [lamb stock](food)
+    - I dont have any [canned tomatoes](food)
+    - I dont have any [caramilk chocolate](food)
+    - I dont have any [coca](food)
+    - I dont have any [garam masala](food)
+    - I dont have any [arbol chili powder](food)
+    - I dont have any [ghee](food)
+    - I dont have any [turkey tenderloin](food)
+    - I dont have any [Egg noodles](food)
+    - I dont have any [Chicken liver](food)
+    - I dont have any [Chicken Gizzard](food)
+    - I dont have any [Bell pepper](food)
+    - I dont have any [Small head wombok](food)
+    - I dont have any [Oyster sauce](food)
+    - I dont have any [Calamansi](food)
+    - I dont have any [Dry white wine](food)
+    - I dont have any [Orange Roughy](food)
+    - I dont have any [Limes](food)
+    - I dont have any [Serrano peppers](food)
+    - I dont have any [Avocado](food)
+    - I dont have any [Honey](food)
+    - I dont have any [Roma tomato](food)
+    - I dont have any [Yellow rice](food)
+    - I dont have any [Bisquick](food)
+    - I dont have any [Smoked paprika](food)
+    - I don't have any [split pig's feet](food)
+    - I don't have any [chicken bouillon cube](food)
+    - I don't have any [butternut squash and beet noodles](food)
+    - I don't have any [bosc pears](food)
+    - I don't have any [pecans](food)
+    - I don't have any [canola oil](food)
+    - I don't have any [vodka](food)
+    - I don't have any [cane sugar](food)
+    - I don't have any [apple cider vinegar](food)
+    - I don't have any [jasmine rice](food)
+    - I don't have any [ground cinnamon](food)
+    - I don't have any [canned plum tomatoes](food)
+    - I don't have any [can of tomato sauce](food)
+    - I don't have any [coconut cream](food)
+    - I don't have any [sugar](food)
+    - I don't have any [all-purpose flour](food)
+    - I don't have any [baking powder](food)
+    - I don't have any [baking soda](food)
+    - I don't have any [grated nutmeg](food)
+    - I don't have any [ginger powder](food)
+    - I don't have any [granulated sugar](food)
+    - I don't have any [packed light brown sugar](food)
+    - I don't have any [canned unsweetened pumpkin puree](food)
+    - I don't have any [cranberries](food)
+    - I don't have any [maple syrup](food)
+    - I don't have any [turkey neck](food)
+    - I don't have any [celery sticks](food)
+    - I don't have any [tamari](food)
+    - I don't have any [walnuts](food)
+    - I don't have any [whole milk](food)
+    - I don't have any [red currant](food)
+    - I don't have any [raspberry jelly](food)
+    - I don't have any [bittersweet chocolate](food)
+    - I don't have any [unsweetened cocoa powder](food)
+    - I don't have any [buttermilk](food)
+    - I don't have any [semisweet chocolate chips](food)
+    - I don't have any [cream of tartar](food)
+    - I don't have any [egg whites](food)
+    - I don't have any [dark brown sugar](food)
+    - I don't have any [vegetable oil](food)
+    - I don't have any [ground nutmeg](food)
+    - I don't have any [old-fashioned rolled-oats](food)
+    - I don't have any [raisins](food)
+    - I don't have any [vanilla](food)
+    - I don't have any [lemon zest](food)
+    - I don't have any [parsnips](food)
+    - I don't have any [thyme leaves](food)
+    - I don't have any [white bread](food)
+    - I don't have any [canned cannelini beans](food)
+    - I don't have any [baby lima beans](food)
+    - I don't have any [large egg](food)
+    - I don't have any [powdered gelatin](food)
+    - I don't have any [ground beef](food)
+    - I don't have any [prociutto](food)
+    - I don't have any [parsley leaves](food)
+    - I don't have any [crushed tomatoes](food)
+    - I don't have any [cooking wine](food)
+    - I don't have any [cooking wine](food)
+    - I don't have any [spaghetti](food)
+    - I don't have any [red potatoes](food)
+    - I don't have any [mayonnaise](food)
+    - I don't have any [chicken breast](food)
+    - I don't have any [marsala red wine](food)
+    - I don't have any [unflavoured gelatin](food)
+    - I don't have any [porcini mushrooms](food)
+    - I don't have any [cremini mushrooms](food)
+    - I don't have any [white mushrooms](food)
+    - I don't have any [pasta sauce](food)
+    - I don't have any [lasagna noodles](food)
+    - I don't have any [mozzarella cheese](food)
+    - I don't have any [baking spray](food)
+    - I don't have any [gruyere cheese](food)
+    - I don't have any [cherries](food)
+    - I don't have any [yellow onion](food)
+    - I don't have any [mixed mushrooms](food)
+    - I don't have any [dried white beans](food)
+    - I don't have any [canned peeled tomatos](food)
+    - I don't have any [swiss chard](food)
+    - I don't have any [kale](food)
+    - I don't have any [almond flour](food)
+    - I don't have any [almond extract](food)
+    - I don't have any [rose water](food)
+    - I don't have any [food colouring](food)
+    - I don't have any [marzipan](food)
+    - I don't have any [dried black beans](food)
+    - I don't have any [lime juice](food)
+    - I don't have any [red bell pepper](food)
+    - I don't have any [cocoa powder](food)
+    - I don't have any [agave syrup](food)
+    - I don't have any [nutella](food)
+    - I don't have any [maraschino cherries](food)
+    - I don't have any [maraschino cherry juice](food)
+    - I don't have any [greek yogurt](food)
+    - I don't have any [roasted chicken meat](food)
+    - I don't have any [old bay seasoning](food)
+    - I don't have any [unsalted butter](food)
+    - I don't have any [butterscotch chips](food)
+    - I don't have any [sirloin steak](food)
+    - I don't have any [dry mustard](food)
+    - I don't have any [white wine](food)
+    - I don't have any [cauliflower](food)
+    - I don't have any [orange zest](food)
+    - I don't have any [green bell pepper](food)
+    - I don't have any [chipotle chillies](food)
+    - I don't have any [chilli powder](food)
+    - I don't have any [ground coriander](food)
+    - I don't have any [ground cumin](food)
+    - I don't have any [ground buffalo](food)
+    - I don't have any [pinto beans](food)
+    - I don't have any [masa harina flour](food)
+    - I don't have any [green beans](food)
+    - I don't have any [white flour](food)
+    - I don't have any [cardamom](food)
+    - I don't have any [caster sugar](food)
+    - I don't have any [free-range eggs](food)
+    - I don't have any [shortening](food)
+    - I don't have any [vinegar](food)
+    - I don't have any [mung beans](food)
+    - I don't have any [hash browns](food)
+    - I don't have any [cream of chicken soup](food)
+    - I don't have any [colby cheese](food)
+    - I don't have any [sherry](food)
+    - I don't have any [sesame oil](food)
+    - I don't have any [garlic sauce](food)
+    - I don't have any [red pepper flakes](food)
+    - I don't have any [dill](food)
+    - I don't have any [smoked salmon](food)
+    - I don't have any [arborio rice](food)
+    - I don't have any [marinara sauce](food)
+    - I don't have any [baby green peas](food)
+    - I don't have any [bread crumbs](food)
+    - I don't have any [flour tortillas](food)
+    - I don't have any [chillies](food)
+    - I don't have any [guacamole](food)
+    - I don't have any [refried beans](food)
+    - I don't have any [angel food cake mix](food)
+    - I don't have any [milkfish](food)
+    - I don't have any [calamansi juice](food)
+    - I don't have any [pickles](food)
+    - I don't have any [eggplant](food)
+    - I don't have any [grapes](food)
+    - I don't have any [pork](food)
+    - I don't have any [annatto powder](food)
+    - I don't have any [kinchay](food)
+
+    
+- intent: search_utensils
+  examples: |
+    - what is a [bowl](utensils)
+    - i cant find a [bowl](utensils)
+    - where is a [bowl](utensils)
+    - what is a [spoon](utensils)
+    - i cant find a [spoon](utensils)
+    - where is a [spoon](utensils)
+    - what is a [sieve](utensils)
+    - i cant find a [sieve](utensils)
+    - where is a [sieve](utensils)
+    - what is a [pan](utensils)
+    - i cant find a [pan](utensils)
+    - where is a [pan](utensils)
+    - what is a [baking tray](utensils)
+    - i cant find a [baking tray](utensils)
+    - where is a [baking tray](utensils)
+    - what is a [whisk](utensils)
+    - i cant find a [whisk](utensils)
+    - where is a [whisk](utensils)
+    - what is a [oven](utensils)
+    - i cant find a [oven](utensils)
+    - where is a [oven](utensils)
+    - what is a [cellophane](utensils)
+    - i cant find a [cellophane](utensils)
+    - where is a [cellophane](utensils)
+    - what is a [tea towel](utensils)
+    - i cant find a [tea towel](utensils)
+    - where is a [tea towel](utensils)
+    - what is a [frying pan](utensils)
+    - i cant find a [frying pan](utensils)
+    - where is a [frying pan](utensils)
+    - what is a [kettle](utensils)
+    - i cant find a [kettle](utensils)
+    - where is a [kettle](utensils)
+    - what is a [kitchen knife](utensils)
+    - i cant find a [kitchen knife](utensils)
+    - where is a [kitchen knife](utensils)
+    - what is a [saucepan](utensils)
+    - i cant find a [saucepan](utensils)
+    - where is a [saucepan](utensils)
+    - what is a [greaseproof paper](utensils)
+    - i cant find a [greaseproof paper](utensils)
+    - where is a [greaseproof paper](utensils)
+    - what is a [cup](utensils)
+    - i cant find a [cup](utensils)
+    - where is a [cup](utensils)
+    - what is a [measuring jug](utensils)
+    - i cant find a [measuring jug](utensils)
+    - where is a [measuring jug](utensils)
+    - what is a [dinner plate](utensils)
+    - i cant find a [dinner plate](utensils)
+    - where is a [dinner plate](utensils)
+    - what is a [rolling pin](utensils)
+    - i cant find a [rolling pin](utensils)
+    - where is a [rolling pin](utensils)
+    - what is a [food processor](utensils)
+    - i cant find a [food processor](utensils)
+    - where is a [food processor](utensils)
+    - what is a [fluted flan tin](utensils)
+    - i cant find a [fluted flan tin](utensils)
+    - where is a [fluted flan tin](utensils)
+    - what is a [dinner fork](utensils)
+    - i cant find a [dinner fork](utensils)
+    - where is a [dinner fork](utensils)
+    - what is a [pastry brush](utensils)
+    - i cant find a [pastry brush](utensils)
+    - where is a [pastry brush](utensils)
+    - what is a [round bladed knife](utensils)
+    - i cant find a [round bladed knife](utensils)
+    - where is a [round bladed knife](utensils)
+    - what is a [fridge](utensils)
+    - i cant find a [fridge](utensils)
+    - where is a [fridge](utensils)
+    - what is a [food bag](utensils)
+    - i cant find a [food bag](utensils)
+    - where is a [food bag](utensils)
+    - what is a [casserole dish](utensils)
+    - i cant find a [casserole dish](utensils)
+    - where is a [casserole dish](utensils)
+    - what is a [teaspoon](utensils)
+    - i cant find a [teaspoon](utensils)
+    - where is a [teaspoon](utensils)
+    - what is a [mixing bowl](utensils)
+    - i cant find a [mixing bowl](utensils)
+    - where is a [mixing bowl](utensils)
+    - what is a [wooden spoon](utensils)
+    - i cant find a [wooden spoon](utensils)
+    - where is a [wooden spoon](utensils)
+    - what is a [chop sticks](utensils)
+    - i cant find a [chop sticks](utensils)
+    - where is a [chop sticks](utensils)
+    - what is a [colander](utensils)
+    - i cant find a [colander](utensils)
+    - where is a [colander](utensils)
+    - what is a [filleting knife](utensils)
+    - i cant find a [filleting knife](utensils)
+    - where is a [filleting knife](utensils)
+    - what is a [fish slice](utensils)
+    - i cant find a [fish slice](utensils)
+    - where is a [fish slice](utensils)
+    - what is a [bottle opener](utensils)
+    - i cant find a [bottle opener](utensils)
+    - where is a [bottle opener](utensils)
+    - what is a [dessert spoon](utensils)
+    - i cant find a [dessert spoon](utensils)
+    - where is a [dessert spoon](utensils)
+    - what is a [can opener](utensils)
+    - i cant find a [can opener](utensils)
+    - where is a [can opener](utensils)
+    - what is a [bread knife](utensils)
+    - i cant find a [bread knife](utensils)
+    - where is a [bread knife](utensils)
+    - what is a [dinner knife](utensils)
+    - i cant find a [dinner knife](utensils)
+    - where is a [dinner knife](utensils)
+    - what is a [ladle](utensils)
+    - i cant find a [ladle](utensils)
+    - where is a [ladle](utensils)
+    - what is a [masher](utensils)
+    - i cant find a [masher](utensils)
+    - where is a [masher](utensils)
+    - what is a [peeler](utensils)
+    - i cant find a [peeler](utensils)
+    - where is a [peeler](utensils)
+    - what is a [pizza cutter](utensils)
+    - i cant find a [pizza cutter](utensils)
+    - where is a [pizza cutter](utensils)
+    - what is a [serving spoon](utensils)
+    - i cant find a [serving spoon](utensils)
+    - where is a [serving spoon](utensils)
+    - what is a [soup spoon](utensils)
+    - i cant find a [soup spoon](utensils)
+    - where is a [soup spoon](utensils)
+    - what is a [tongs](utensils)
+    - i cant find a [tongs](utensils)
+    - where is a [tongs](utensils)
+    - what is a [kitchen scissors](utensils)
+    - i cant find a [kitchen scissors](utensils)
+    - where is a [kitchen scissors](utensils)
+    - what is a [mason jar](utensils)
+    - i cant find a [mason jar](utensils)
+    - where is a [mason jar](utensils)
+    - what is a [food blender](utensils)
+    - i cant find a [food blender](utensils)
+    - where is a [food blender](utensils)
+    - what is a [bottle](utensils)
+    - i cant find a [bottle](utensils)
+    - where is a [bottle](utensils)
+    - what is a [paring knife](utensils)
+    - i cant find a [paring knife](utensils)
+    - where is a [paring knife](utensils)
+    - what is a [garlic press](utensils)
+    - i cant find a [garlic press](utensils)
+    - where is a [garlic press](utensils)
+    - what is a [food grater](utensils)
+    - i cant find a [food grater](utensils)
+    - where is a [food grater](utensils)
+    - what is a [kitchen scales](utensils)
+    - i cant find a [kitchen scales](utensils)
+    - where is a [kitchen scales](utensils)
+    - what is a [measuring spoon](utensils)
+    - i cant find a [measuring spoon](utensils)
+    - where is a [measuring spoon](utensils)
+    - what is a [ovenproof dish](utensils)
+    - i cant find a [ovenproof dish](utensils)
+    - where is a [ovenproof dish](utensils)
+    - what is a [stirring spoon](utensils)
+    - i cant find a [stirring spoon](utensils)
+    - where is a [stirring spoon](utensils)
+    - what is a [slotted spoon](utensils)
+    - i cant find a [slotted spoon](utensils)
+    - where is a [slotted spoon](utensils)
+    - what is a [spatula](utensils)
+    - i cant find a [spatula](utensils)
+    - where is a [spatula](utensils)
+    - what is a [oven glove](utensils)
+    - i cant find a [oven glove](utensils)
+    - where is a [oven glove](utensils)
+    - what is a [pot holder](utensils)
+    - i cant find a [pot holder](utensils)
+    - where is a [pot holder](utensils)
+    - what is a [meat thermometer](utensils)
+    - i cant find a [meat thermometer](utensils)
+    - where is a [meat thermometer](utensils)
+    - what is a [pasta fork](utensils)
+    - i cant find a [pasta fork](utensils)
+    - where is a [pasta fork](utensils)
+    - what is a [corkscrew](utensils)
+    - i cant find a [corkscrew](utensils)
+    - where is a [corkscrew](utensils)
+    - what is a [cling film](utensils)
+    - i cant find a [cling film](utensils)
+    - where is a [cling film](utensils)
+    - what is a [kitchen foil](utensils)
+    - i cant find a [kitchen foil](utensils)
+    - where is a [kitchen foil](utensils)
+    - what is a [cutting board](utensils)
+    - i cant find a [cutting board](utensils)
+    - where is a [cutting board](utensils)
+    - what is a [salad spinner](utensils)
+    - i cant find a [salad spinner](utensils)
+    - where is a [salad spinner](utensils)
+    - what is a [kitchen shears](utensils)
+    - i cant find a [kitchen shears](utensils)
+    - where is a [kitchen shears](utensils)
+    - what is a [lemon squeezer](utensils)
+    - i cant find a [lemon squeezer](utensils)
+    - where is a [lemon squeezer](utensils)
+    - what is a [sharpening rod](utensils)
+    - i cant find a [sharpening rod](utensils)
+    - where is a [sharpening rod](utensils)
+    - what is a [Knife sharpener](utensils)
+    - i cant find a [Knife sharpener](utensils)
+    - where is a [Knife sharpener](utensils)
+    - what is a [skillet](utensils)
+    - i cant find a [skillet](utensils)
+    - where is a [skillet](utensils)
+    - what is a [Saute pans](utensils)
+    - i cant find a [Saute pans](utensils)
+    - where is a [Saute pans](utensils)
+    - what is a [grill pan](utensils)
+    - i cant find a [grill pan](utensils)
+    - where is a [grill pan](utensils)
+    - what is a [muffin pan](utensils)
+    - i cant find a [muffin pan](utensils)
+    - where is a [muffin pan](utensils)
+    - what is a [broiling pan](utensils)
+    - i cant find a [broiling pan](utensils)
+    - where is a [broiling pan](utensils)
+    - what is a [Stock pot](utensils)
+    - i cant find a [Stock pot](utensils)
+    - where is a [Stock pot](utensils)
+    - what is a [trivet](utensils)
+    - i cant find a [trivet](utensils)
+    - where is a [trivet](utensils)
+    - what is a [splatter guard](utensils)
+    - i cant find a [splatter guard](utensils)
+    - where is a [splatter guard](utensils)
+    - what is a [sponge](utensils)
+    - i cant find a [sponge](utensils)
+    - where is a [sponge](utensils)
+    - what is a [dish rack](utensils)
+    - i cant find a [dish rack](utensils)
+    - where is a [dish rack](utensils)
+    - what is a [ice cube tray](utensils)
+    - i cant find a [ice cube tray](utensils)
+    - where is a [ice cube tray](utensils)
+    - what is a [bin bag](utensils)
+    - i cant find a [bin bag](utensils)
+    - where is a [bin bag](utensils)
+    - what is a [serrated blade](utensils)
+    - i cant find a [serrated blade](utensils)
+    - where is a [serrated blade](utensils)
+    - what is a [food turner](utensils)
+    - i cant find a [food turner](utensils)
+    - where is a [food turner](utensils)
+    - what is a [zester](utensils)
+    - i cant find a [zester](utensils)
+    - where is a [zester](utensils)
+    - what is a [microwave](utensils)
+    - i cant find a [microwave](utensils)
+    - where is a [microwave](utensils)
+    - what is a rice cooker[](utensils)
+    - i cant find a [rice cooker](utensils)
+    - where is a [rice cooker](utensils)
+    - what is a [slow cooker](utensils)
+    - i cant find a [slow cooker](utensils)
+    - where is a [slow cooker](utensils)
+    - what is a [electric grill](utensils)
+    - i cant find a [electric grill](utensils)
+    - where is a [electric grill](utensils)
+    - what is a [air fryer](utensils)
+    - i cant find a [air fryer](utensils)
+    - where is a [air fryer](utensils)
+    - what is a [bachelor grill](utensils)
+    - i cant find a [bachelor grill](utensils)
+    - where is a [bachelor grill](utensils)
+    - what is a [barbecue](utensils)
+    - i cant find a [barbecue](utensils)
+    - where is a [barbecue](utensils)
+    - what is a [beehive oven](utensils)
+    - i cant find a [beehive oven](utensils)
+    - where is a [beehive oven](utensils)
+    - what is a [brazier](utensils)
+    - i cant find a [brazier](utensils)
+    - where is a [brazier](utensils)
+    - what is a [bread machine](utensils)
+    - i cant find a [bread machine](utensils)
+    - where is a [bread machine](utensils)
+    - what is a [burjiko](utensils)
+    - i cant find a [burjiko](utensils)
+    - where is a [burjiko](utensils)
+    - what is a [butane torch](utensils)
+    - i cant find a [butane torch](utensils)
+    - where is a [butane torch](utensils)
+    - what is a [chapati maker](utensils)
+    - i cant find a [chapati maker](utensils)
+    - where is a [chapati maker](utensils)
+    - what is a [cheese melter](utensils)
+    - i cant find a [cheese melter](utensils)
+    - where is a [cheese melter](utensils)
+    - what is a [chocolatier](utensils)
+    - i cant find a [chocolatier](utensils)
+    - where is a [chocolatier](utensils)
+    - what is a [chorkor](utensils)
+    - i cant find a [chorkor](utensils)
+    - where is a [chorkor](utensils)
+    - what is a [clome oven](utensils)
+    - i cant find a [clome oven](utensils)
+    - where is a [clome oven](utensils)
+    - what is a [comal](utensils)
+    - i cant find a [comal](utensils)
+    - where is a [comal](utensils)
+    - what is a [combi oven](utensils)
+    - i cant find a [combi oven](utensils)
+    - where is a [combi oven](utensils)
+    - what is a [convection microwave](utensils)
+    - i cant find a [convection microwave](utensils)
+    - where is a [convection microwave](utensils)
+    - what is a [convection oven](utensils)
+    - i cant find a [convection oven](utensils)
+    - where is a [convection oven](utensils)
+    - what is a [corn roaster](utensils)
+    - i cant find a [corn roaster](utensils)
+    - where is a [corn roaster](utensils)
+    - what is a [crepe maker](utensils)
+    - i cant find a [crepe maker](utensils)
+    - where is a [crepe maker](utensils)
+    - what is a [deep fryer](utensils)
+    - i cant find a [deep fryer](utensils)
+    - where is a [deep fryer](utensils)
+    - what is a [earth oven](utensils)
+    - i cant find a [earth oven](utensils)
+    - where is a [earth oven](utensils)
+    - what is a [electric cooker](utensils)
+    - i cant find a [electric cooker](utensils)
+    - where is a [electric cooker](utensils)
+    - what is a [espresso machine](utensils)
+    - i cant find a [espresso machine](utensils)
+    - where is a [espresso machine](utensils)
+    - what is a [fire pot](utensils)
+    - i cant find a [fire pot](utensils)
+    - where is a [fire pot](utensils)
+    - what is a [flattop grill](utensils)
+    - i cant find a [flattop grill](utensils)
+    - where is a [flattop grill](utensils)
+    - what is a [food steamer](utensils)
+    - i cant find a [food steamer](utensils)
+    - where is a [food steamer](utensils)
+    - what is a [fufu machine](utensils)
+    - i cant find a [fufu machine](utensils)
+    - where is a [fufu machine](utensils)
+    - what is a [griddle](utensils)
+    - i cant find a [griddle](utensils)
+    - where is a [griddle](utensils)
+    - what is a [halogen oven](utensils)
+    - i cant find a [halogen oven](utensils)
+    - where is a [halogen oven](utensils)
+    - what is a [haybox](utensils)
+    - i cant find a [haybox](utensils)
+    - where is a [haybox](utensils)
+    - what is a [horno](utensils)
+    - i cant find a [horno](utensils)
+    - where is a [horno](utensils)
+    - what is a [hot box](utensils)
+    - i cant find a [hot box](utensils)
+    - where is a [hot box](utensils)
+    - what is a [hot plate](utensils)
+    - i cant find a [hot plate](utensils)
+    - where is a [hot plate](utensils)
+    - what is a [instant pot](utensils)
+    - i cant find a [instant pot](utensils)
+    - where is a [instant pot](utensils)
+    - what is a [kamado](utensils)
+    - i cant find a [kamado](utensils)
+    - where is a [kamado](utensils)
+    - what is a [kitchner range](utensils)
+    - i cant find a [kitchner range](utensils)
+    - where is a [kitchner range](utensils)
+    - what is a [Kujiejun](utensils)
+    - i cant find a [Kujiejun](utensils)
+    - where is a [Kujiejun](utensils)
+    - what is a [kyoto box](utensils)
+    - i cant find a [kyoto box](utensils)
+    - where is a [kyoto box](utensils)
+    - what is a [makiyakinabe](utensils)
+    - i cant find a [makiyakinabe](utensils)
+    - where is a [makiyakinabe](utensils)
+    - what is a [masonry oven](utensils)
+    - i cant find a [masonry oven](utensils)
+    - where is a [masonry oven](utensils)
+    - what is a [multicooker](utensils)
+    - i cant find a [multicooker](utensils)
+    - where is a [multicooker](utensils)
+    - what is a [pancake machine](utensils)
+    - i cant find a [pancake machine](utensils)
+    - where is a [pancake machine](utensils)
+    - what is a [sandwich grill](utensils)
+    - i cant find a [sandwich grill](utensils)
+    - where is a [sandwich grill](utensils)
+    - what is a [popcorn maker](utensils)
+    - i cant find a [popcorn maker](utensils)
+    - where is a [popcorn maker](utensils)
+    - what is a [pressure cooker](utensils)
+    - i cant find a [pressure cooker](utensils)
+    - where is a [pressure cooker](utensils)
+    - what is a [pressure fryer](utensils)
+    - i cant find a [pressure fryer](utensils)
+    - where is a [pressure fryer](utensils)
+    - what is a [reflector oven](utensils)
+    - i cant find a [reflector oven](utensils)
+    - where is a [reflector oven](utensils)
+    - what is a [remoska](utensils)
+    - i cant find a [remoska](utensils)
+    - where is a [remoska](utensils)
+    - what is a [rice polisher](utensils)
+    - i cant find a [rice polisher](utensils)
+    - where is a [rice polisher](utensils)
+    - what is a [rotisserie](utensils)
+    - i cant find a [rotisserie](utensils)
+    - where is a [rotisserie](utensils)
+    - what is a [stove](utensils)
+    - i cant find a [stove](utensils)
+    - where is a [stove](utensils)
+    - what is a [tandoor](utensils)
+    - i cant find a [tandoor](utensils)
+    - where is a [tandoor](utensils)
+    - what is a [tangia](utensils)
+    - i cant find a [tangia](utensils)
+    - where is a [tangia](utensils)
+    - what is a [toaster](utensils)
+    - i cant find a [toaster](utensils)
+    - where is a [toaster](utensils)
+    - what is a [turkey fryer](utensils)
+    - i cant find a [turkey fryer](utensils)
+    - where is a [turkey fryer](utensils)
+    - what is a [vacuum fryer](utensils)
+    - i cant find a [vacuum fryer](utensils)
+    - where is a [vacuum fryer](utensils)
+    - what is a [waffle iron](utensils)
+    - i cant find a [waffle iron](utensils)
+    - where is a [waffle iron](utensils)
+    - what is a [wet grinder](utensils)
+    - i cant find a [wet grinder](utensils)
+    - where is a [wet grinder](utensils)
+    - what is a food boiler[](utensils)
+    - i cant find a [food boiler](utensils)
+    - where is a [food boiler](utensils)
+    - what is a [coffee percolator](utensils)
+    - i cant find a [coffee percolator](utensils)
+    - where is a [coffee percolator](utensils)
+    - what is a [apple corer](utensils)
+    - i cant find a [apple corer](utensils)
+    - where is a [apple corer](utensils)
+    - what is a [apple slicer](utensils)
+    - i cant find a [apple slicer](utensils)
+    - where is a [apple slicer](utensils)
+    - what is a [baster](utensils)
+    - i cant find a [baster](utensils)
+    - where is a [baster](utensils)
+    - what is a [beanpot](utensils)
+    - i cant find a [beanpot](utensils)
+    - where is a [beanpot](utensils)
+    - what is a [cookie press](utensils)
+    - i cant find a [cookie press](utensils)
+    - where is a [cookie press](utensils)
+    - what is a [browning dish](utensils)
+    - i cant find a [browning dish](utensils)
+    - where is a [browning dish](utensils)
+    - what is a [pie server](utensils)
+    - i cant find a [pie server](utensils)
+    - where is a [pie server](utensils)
+    - what is a [cheese cutter](utensils)
+    - i cant find a [cheese cutter](utensils)
+    - where is a [cheese cutter](utensils)
+    - what is a [cheese knife](utensils)
+    - i cant find a [cheese knife](utensils)
+    - where is a [cheese knife](utensils)
+    - what is a [cheesecloth](utensils)
+    - i cant find a [cheesecloth](utensils)
+    - where is a [cheesecloth](utensils)
+    - what is a [cherry pitter](utensils)
+    - i cant find a [cherry pitter](utensils)
+    - where is a [cherry pitter](utensils)
+    - what is a [chinois](utensils)
+    - i cant find a [chinois](utensils)
+    - where is a [chinois](utensils)
+    - what is a [clay pot](utensils)
+    - i cant find a [clay pot](utensils)
+    - where is a [clay pot](utensils)
+    - what is a [cookie cutter](utensils)
+    - i cant find a [cookie cutter](utensils)
+    - where is a [cookie cutter](utensils)
+    - what is a [crab cracker](utensils)
+    - i cant find a [crab cracker](utensils)
+    - where is a [crab cracker](utensils)
+    - what is a [scraper](utensils)
+    - i cant find a [scraper](utensils)
+    - where is a [scraper](utensils)
+    - what is a [egg piercer](utensils)
+    - i cant find a [egg piercer](utensils)
+    - where is a [egg piercer](utensils)
+    - what is a [egg poacher](utensils)
+    - i cant find a [egg poacher](utensils)
+    - where is a [egg poacher](utensils)
+    - what is a [egg separator](utensils)
+    - i cant find a [egg separator](utensils)
+    - where is a [egg separator](utensils)
+    - what is a [egg slicer](utensils)
+    - i cant find a [egg slicer](utensils)
+    - where is a [egg slicer](utensils)
+    - what is a [egg timer](utensils)
+    - i cant find a [egg timer](utensils)
+    - where is a [egg timer](utensils)
+    - what is a [fat separator](utensils)
+    - i cant find a [fat separator](utensils)
+    - where is a [fat separator](utensils)
+    - what is a [flour sifter](utensils)
+    - i cant find a [flour sifter](utensils)
+    - where is a [flour sifter](utensils)
+    - what is a [food mill](utensils)
+    - i cant find a [food mill](utensils)
+    - where is a [food mill](utensils)
+    - what is a [funnel](utensils)
+    - i cant find a [funnel](utensils)
+    - where is a [funnel](utensils)
+    - what is a [grapefruit knife](utensils)
+    - i cant find a [grapefruit knife](utensils)
+    - where is a [grapefruit knife](utensils)
+    - what is a [gravy strainer](utensils)
+    - i cant find a [gravy strainer](utensils)
+    - where is a [gravy strainer](utensils)
+    - what is a [herb chopper](utensils)
+    - i cant find a [herb chopper](utensils)
+    - where is a [herb chopper](utensils)
+    - what is a [honey dipper](utensils)
+    - i cant find a [honey dipper](utensils)
+    - where is a [honey dipper](utensils)
+    - what is a [lame](utensils)
+    - i cant find a [lame](utensils)
+    - where is a [lame](utensils)
+    - what is a [citrus reamer](utensils)
+    - i cant find a [citrus reamer](utensils)
+    - where is a [citrus reamer](utensils)
+    - what is a [lobster pick](utensils)
+    - i cant find a [lobster pick](utensils)
+    - where is a [lobster pick](utensils)
+    - what is a [mandoline](utensils)
+    - i cant find a [mandoline](utensils)
+    - where is a [mandoline](utensils)
+    - what is a [meat grinder](utensils)
+    - i cant find a [meat grinder](utensils)
+    - where is a [meat grinder](utensils)
+    - what is a [melon baller](utensils)
+    - i cant find a [melon baller](utensils)
+    - where is a [melon baller](utensils)
+    - what is a [mezzaluna](utensils)
+    - i cant find a [mezzaluna](utensils)
+    - where is a [mezzaluna](utensils)
+    - what is a [milk frother](utensils)
+    - i cant find a [milk frother](utensils)
+    - where is a [milk frother](utensils)
+    - what is a [mortar and pestle](utensils)
+    - i cant find a [mortar and pestle](utensils)
+    - where is a [mortar and pestle](utensils)
+    - what is a [nutmeg grater](utensils)
+    - i cant find a [nutmeg grater](utensils)
+    - where is a [nutmeg grater](utensils)
+    - what is a [pastry bag](utensils)
+    - i cant find a [pastry bag](utensils)
+    - where is a [pastry bag](utensils)
+    - what is a [pastry blender](utensils)
+    - i cant find a [pastry blender](utensils)
+    - where is a [pastry blender](utensils)
+    - what is a [pepper mill](utensils)
+    - i cant find a [pepper mill](utensils)
+    - where is a [pepper mill](utensils)
+    - what is a [pie bird](utensils)
+    - i cant find a [pie bird](utensils)
+    - where is a [pie bird](utensils)
+    - what is a [roller docker](utensils)
+    - i cant find a [roller docker](utensils)
+    - where is a [roller docker](utensils)
+    - what is a [salt shaker](utensils)
+    - i cant find a [salt shaker](utensils)
+    - where is a [salt shaker](utensils)
+    - what is a [tomato knife](utensils)
+    - i cant find a [tomato knife](utensils)
+    - where is a [tomato knife](utensils)
+    - what is a [freezer](utensils)
+    - i cant find a [freezer](utensils)
+    - where is a [freezer](utensils)
+    - what is a [skewer](utensils)
+    - i cant find a [skewer](utensils)
+    - where is a [skewer](utensils)
+    
+- intent: sausageandmash
+  examples: |
+    - I would like to cook sausage mashed potato and gravy
+    - I would like to make sausage and mask
+    - sausage and mash
+    - sausage mash and gravy
+    
+- intent: staffordshireoatcakes
+  examples: |
+    - I would like to cook staffordshire oatcakes
+    - I would like to make staffordshire oatcakes
+    - staffordshire oatcakes
+    - I want staffordshire oatcakes
+    - I want to eat staffordshire oatcakes
+    
+- intent: porkandchickpeastew
+  examples: |
+    - I would like to cook pork and chickpea stew
+    - I would like to make pork and chickpea stew
+    - pork and chickpea stew
+    - I want pork and chickpea stew
+    - I want to eat pork and chickpea stew
+    
+- intent: parmahampizza
+  examples: |
+    - I would like to cook caramelised onion goats cheese and parma ham pizza
+    - I would like to make caramelised onion goats cheese and parma ham pizza
+    - caramelised onion goats cheese and parma ham pizza
+    - I want caramelised onion goats cheese and parma ham pizza
+    - I want to eat caramelised onion goats cheese and parma ham pizza
+    
+- intent: englishmuffins
+  examples: |
+    - I would like to cook english muffins
+    - I would like to make english muffins
+    - english muffins
+    - I want english muffins
+    - I want to eat english muffins
+
+- intent: pancitcanton
+  examples: |
+    - I would like to cook pancit canton
+    - I would like to make pancit canton
+    - pancit canton
+    - I want pancit canton
+    - I want to eat pancit canton
+
+- intent: cevichederescado
+  examples: |
+    - I would like to cook ceviche de rescado
+    - I would like to make ceviche de rescado
+    - ceviche de rescado
+    - I want ceviche de rescado
+    - I want to eat ceviche de rescado
+
+- intent: habanerobutterchicken
+  examples: |
+    - I would like to cook Habanero Butter Chicken
+    - I would like to make Habanero Butter Chicken
+    - Habanero Butter Chicken
+    - I want Habanero Butter Chicken
+    - I want to eat Habanero Butter Chicken   
+    
+- intent: redlobstercheddarbiscuits
+  examples: |
+    - I would like to cook Red Lobster Cheddar Biscuits
+    - I would like to make Red Lobster Cheddar Biscuits
+    - Red Lobster Cheddar Biscuits
+    - I want Red Lobster Cheddar Biscuits
+    - I want to eat Red Lobster Cheddar Biscuits 
+
+- intent: grilledsalmonwithbraziliangarlicmarinade
+  examples: |
+    - I would like to cook grilled salmon with brazilian garlic marinade
+    - I would like to make grilled salmon with brazilian garlic marinade
+    - grilled salmon with brazilian garlic marinade
+    - I want grilled salmon with brazilian garlic marinade
+    - I want to eat grilled salmon with brazilian garlic marinade
+    
+- intent: strawberrypie
+  examples: |
+    - I would like to cook strawberry pie
+    - I would like to make strawberry pie
+    - strawberry pie
+    - I want strawberry pie
+    - I want to eat strawberry pie
+    
+- intent: airfryerglazeddonuts
+  examples: |
+    - I would like to cook airfryer glazed donuts
+    - I would like to make airfryer glazed donuts
+    - airfryer glazed donuts
+    - I want airfryer glazed donuts
+    - I want to eat airfryer glazed donuts
+    
+- intent: pumpkinspicedonuts
+  examples: |
+    - I would like to cook pumpkin spice donuts
+    - I would like to make pumpkin spice donuts
+    - pumpkin spice donuts
+    - I want pumpkin spice donuts
+    - I want to eat pumpkin spice donuts
+    
+- intent: misirwot
+  examples: |
+    - I would like to cook misir wot
+    - I would like to make misir wot
+    - misir wot
+    - I want misir wot
+    - I want to eat misir wot
+    
+- intent: pineapplestrawberrysalad
+  examples: |
+    - I would like to cook pineapple strawberry salad
+    - I would like to make pineapple strawberry salad
+    - pineapple strawberry salad
+    - I want pineapple strawberry salad
+    - I want to eat pineapple strawberry salad
+    
+- intent: peartartetatin
+  examples: |
+    - I would like to cook pear tarte tatin
+    - I would like to make pear tarte tatin
+    - pear tarte tatin
+    - I want pear tarte tatin
+    - I want to eat pear tarte tatin
+
+- intent: feijoada
+  examples: |
+    - I would like to cook Feijoada
+    - I would like to make Feijoada
+    - Feijoada
+    - I want Feijoada
+    - I want to eat Feijoada
+    
+- intent: cubanblackbeansandrice
+  examples: |
+    - I would like to cook Cuban Black Beans and Rice
+    - I would like to make Cuban Black Beans and Rice
+    - Cuban Black Beans and Rice
+    - I want Cuban Black Beans and Rice
+    - I want to eat Cuban Black Beans and Rice
+    
+- intent: slowcookerchickenpho
+  examples: |
+    - I would like to cook slow cooker chicken pho
+    - I would like to make slow cooker chicken pho
+    - slow cooker chicken pho
+    - I want slow cooker chicken pho
+    - I want to eat slow cooker chicken pho
+    
+- intent: chickenmisoandmushroomramen
+  examples: |
+    - I would like to cook chicken miso and mushroom ramen
+    - I would like to make chicken miso and mushroom ramen
+    - chicken miso and mushroom ramen
+    - I want chicken miso and mushroom ramen
+    - I want to eat chicken miso and mushroom ramen
+    
+- intent: pastabataka
+  examples: |
+    - I would like to cook pasta bataka
+    - I would like to make pasta bataka
+    - pasta bataka
+    - I want pasta bataka
+    - I want to eat pasta bataka
+    
+- intent: marinatedprimeribroast
+  examples: |
+    - I would like to cook marinated prime rib roast
+    - I would like to make marinated prime rib roast
+    - marinated prime rib roast
+    - I want marinated prime rib roast
+    - I want to eat marinated prime rib roast
+    
+- intent: chickentraybakewithchorizo
+  examples: |
+    - I would like to cook chicken traybake with chorizo
+    - I would like to make chicken traybake with chorizo
+    - chicken traybake with chorizo
+    - I want chicken traybake with chorizo
+    - I want to eat chicken traybake with chorizo
+    
+- intent: pastinasoup
+  examples: |
+    - I would like to cook pastina soup
+    - I would like to make pastina soup
+    - pastina soup
+    - I want pastina soup
+    - I want to eat pastina soup
+
+
+- intent: chickenwithrice
+  examples: |
+    - I would like to cook chicken with rice
+    - I would like to make chicken with rice
+    - chicken with rice
+    - I want chicken with rice
+    - I want to eat chicken with rice
+    
+- intent: pastawithspinach
+  examples: |
+    - I would like to cook pasta with spinach
+    - I would like to make pasta with spinach
+    - pasta with spinach
+    - I want pasta with spinach
+    - I want to eat pasta with spinach
+    
+- intent: africanchickeninpeanutsauce
+  examples: |
+    - I would like to cook african chicken in peanut sauce
+    - I would like to make african chicken in peanut sauce
+    - african chicken in peanut sauce
+    - I wantafrican chicken in peanut sauce
+    - I want to eat african chicken in peanut sauce
+
+- intent: pearandfigchutney
+  examples: |
+    - I would like to cook pear and fig chutney
+    - I would like to make pear and fig chutney
+    - pear and fig chutney
+    - I want pear and fig chutney
+    - I want to eat pear and fig chutney
+    
+- intent: swissmushroompheasantbreast
+  examples: |
+    - I would like to cook swiss mushroom pheasant breast
+    - I would like to make swiss mushroom pheasant breast
+    - swiss mushroom pheasant breast
+    - I want swiss mushroom pheasant breast
+    - I want to eat swiss mushroom pheasant breast
+    
+- intent: meyerlemonyogurtbundtcake
+  examples: |
+    - I would like to cook meyer lemon yogurt bundt cake
+    - I would like to make meyer lemon yogurt bundt cake
+    - meyer lemon yogurt bundt cake
+    - I want meyer lemon yogurt bundt cake
+    - I want to eat meyer lemon yogurt bundt cake
+    
+- intent: flashroastedsteakwithsquash
+  examples: |
+    - I would like to cook flash-roasted steak with squash
+    - I would like to make flash-roasted steak with squash
+    - flash-roasted steak with squash
+    - I want flash-roasted steak with squash
+    - I want to eat flash-roasted steak with squash
+    
+- intent: fennelleekandsquashgratin
+  examples: |
+    - I would like to cook fennel leek and squash gratin
+    - I would like to make fennel leek and squash gratin
+    - fennel leek and squash gratin
+    - I want fennel leek and squash gratin
+    - I want to eat fennel leek and squash gratin
+    
+- intent: amishpotpiesquares
+  examples: |
+    - I would like to cook amish pot pie squares
+    - I would like to make amish pot pie squares
+    - amish pot pie squares
+    - I want amish pot pie squares
+    - I want to eat amish pot pie squares
+    
+- intent: bakedparmesantilapia
+  examples: |
+    - I would like to cook baked parmesan tilapia
+    - I would like to make baked parmesan tilapia
+    - baked parmesan tilapia
+    - I want baked parmesan tilapia
+    - I want to eat baked parmesan tilapia
+    
+- intent: crabwontons
+  examples: |
+    - I would like to cook crab wontons
+    - I would like to make crab wontons
+    - crab wontons
+    - I want crab wontons
+    - I want to eat crab wontons
+    
+- intent: maltesestuffedmarrows
+  examples: |
+    - I would like to cook maltese stuffed marrows
+    - I would like to make maltese stuffed marrows
+    - maltese stuffed marrows
+    - I want maltese stuffed marrows
+    - I want to eat maltese stuffed marrows
+    
+- intent: beansoupwithham
+  examples: |
+    - I would like to cook bean soup with ham
+    - I would like to make bean soup with ham
+    - bean soup with ham
+    - I want bean soup with ham
+    - I want to eat bean soup with ham
+    
+    
+- intent: janssonstemptation
+  examples: |
+    - I would like to cook
+    - I would like to make
+    - 
+    - I want 
+    - I want to eat 
+    
+- intent: balinesebbqporkroast
+  examples: |
+    - I would like to cook balinese bbq pork roast
+    - I would like to make balinese bbq pork roast
+    - balinese bbq pork roast
+    - I want balinese bbq pork roast
+    - I want to eat balinese bbq pork roast
+    
+    
+- intent: italianeasterbread
+  examples: |
+    - I would like to cook italian easter bread
+    - I would like to make italian easter bread
+    - italian easter bread
+    - I want italian easter bread
+    - I want to eat italian easter bread
+    
+- intent: snickerdoodlemuffins
+  examples: |
+    - I would like to cook snickerdoodle muffins
+    - I would like to make snickerdoodle muffins
+    - snickerdoodle muffins
+    - I want snickerdoodle muffins
+    - I want to eat snickerdoodle muffins
+    
+    
+- intent: afghanchicken
+  examples: |
+    - I would like to cook afghan chicken
+    - I would like to make afghan chicken
+    - afghan chicken
+    - I want afghan chicken
+    - I want to eat afghan chicken
+    
+- intent: blueberrieswithlimesugarandcitrusconfit
+  examples: |
+    - I would like to cook blueberries with lime sugar and citrus confit
+    - I would like to make blueberries with lime sugar and citrus confit
+    - blueberries with lime sugar and citrus confit
+    - I want blueberries with lime sugar and citrus confit
+    - I want to eat blueberries with lime sugar and citrus confit
+    
+    
+- intent: porkadobo
+  examples: |
+    - I would like to cook pork adobo
+    - I would like to make pork adobo
+    - pork adobo
+    - I want pork adobo
+    - I want to eat pork adobo
+    
+- intent: tunapatties
+  examples: |
+    - I would like to cook tuna patties
+    - I would like to make tuna patties
+    - tuna patties
+    - I want tuna patties
+    - I want to eat tuna patties
+
+- intent: tandooriturkeytenderloin
+  examples: |
+    - I would like to cook Grilled Tandoori Turkey Tenderloin
+    - I would like to make Grilled Tandoori Turkey Tenderloin
+    - Grilled Tandoori Turkey Tenderloin
+    - I want Grilled Tandoori Turkey Tenderloin
+    - I want to eat Grilled Tandoori Turkey Tenderloin
+
+- intent: seafoodrisotto
+  examples: |
+    - I would like to cook seafood risotto
+    - I would like to make seafood risotto
+    - seafood risotto
+    - I want seafood risotto
+    - I want to eat seafood risotto
+    
+- intent: roastchickenlegswithpotatoes
+  examples: |
+    - I would like to cook roast chicken legs with potatoes
+    - I would like to make roast chicken legs with potatoes
+    - roast chicken legs with potatoes
+    - I want roast chicken legs with potatoes
+    - I want to eat roast chicken legs with potatoes
+    
+    
+- intent: grubrubbedandsmokedcornedbeefbrisket
+  examples: |
+    - I would like to cook grub rubbed and smoked corned beef brisket
+    - I would like to make grub rubbed and smoked corned beef brisket
+    - grub rubbed and smoked corned beef brisket
+    - I want grub rubbed and smoked corned beef brisket
+    - I want to eat grub rubbed and smoked corned beef brisket
+    
+- intent: harirasoup
+  examples: |
+    - I would like to cook harira soup
+    - I would like to make harira soup
+    - harira soup
+    - I want harira soup
+    - I want to eat harira soup
+    
+- intent: germanpancakes
+  examples: |
+    - I would like to cook german pancakes
+    - I would like to make v
+    - german pancakes
+    - I want german pancakes
+    - I want to eat german pancakes
+    
+- intent: mediterraneanfiletofsole
+  examples: |
+    - I would like to cook mediterranean filet of sole
+    - I would like to make mediterranean filet of sole
+    - mediterranean filet of sole
+    - I want mediterranean filet of sole
+    - I want to eat mediterranean filet of sole
+    
+    
+- intent: italianshrimpscampi
+  examples: |
+    - I would like to cook italian shrimp scampi
+    - I would like to make italian shrimp scampi
+    - italian shrimp scampi
+    - I want italian shrimp scampi
+    - I want to eat italian shrimp scampi
+    
+- intent: frenchsidesalad
+  examples: |
+    - I would like to cook a french side salad
+    - I would like to make a french side salad
+    - a french side salad
+    - I want a french side salad
+    - I want to eata french side salad
+    
+- intent: punjabichickencurry
+  examples: |
+    - I would like to cook punjabi chicken curry
+    - I would like to make punjabi chicken curry
+    - punjabi chicken curry
+    - I want punjabi chicken curry
+    - I want to eat punjabi chicken curry
+    
+- intent: maltagliati
+  examples: |
+    - I would like to cook maltagliati
+    - I would like to make maltagliati
+    - maltagliati
+    - I want maltagliati
+    - I want to eat maltagliati
+    
+- intent: pancitbihonguisado
+  examples: |
+    - I would like to cook pancit bihon guisado
+    - I would like to make pancit bihon guisado
+    - pancit bihon guisado
+    - I want pancit bihon guisado
+    - I want to eat pancit bihon guisado
+    
+- intent: adobonggalunggong
+  examples: |
+    - I would like to cook adobong galunggong
+    - I would like to make adobong galunggong
+    - adobong galunggong
+    - I want adobong galunggong
+    - I want to eat adobong galunggong
+
+- intent: superspringsalad
+  examples: |
+    - I would like to cook super spring salad
+    - I would like to make super spring salad
+    - super spring salad
+    - I want super spring salad
+    - I want to eat super spring salad
