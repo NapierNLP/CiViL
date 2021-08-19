@@ -118,8 +118,6 @@ class BertQA:
                 all_results.append(result)
 
         self.logger.debug('_all_results: {size}'.format(size=len(all_results)))
-        end = time.time()
-        self.logger.info('-- compute batch predict: {}'.format(end - start))
 
         all_pred_answers, all_n_best = self.compute_predictions_logits(
             all_examples=examples,
@@ -133,9 +131,6 @@ class BertQA:
             tokenizer=self._tokenizer,
             enable_softmax=self.component_config.get("enable_softmax")
         )
-
-        end = time.time()
-        self.logger.info('-- compute predictions logits: {}'.format(end - start))
 
         all_answers = []
 
@@ -183,7 +178,6 @@ class BertQA:
         _sorted_answers = [result.toJson() for result in _sorted_answers]
         self.logger.debug('_sorted_answers: {}'.format(_sorted_answers))
         end = time.time()
-        self.logger.info('-- get the final data 2: {}'.format(end - start))
         self._model.to(self.device)
         return _sorted_answers
 
