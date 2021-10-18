@@ -1,6 +1,7 @@
 version: '2.0'
 config:
   store_entities_as_slots: true
+pre_turn_number: 10
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -468,13 +469,19 @@ intents:
 entities:
 - food
 - utensils
-slots: {}
+slots:
+    recipe_ID:
+        type: string
+    recipe_step_ID:
+        type: string
+    is_question:
+        type: bool
 responses:
   utter_greet:
   - text: Hello, What meal would you like to cook?
   utter_goodbye:
   - text: Bye
-  utter_startrep1:
+  utter_rep1_xxx:
   - text: Toad in the hole has 12 ingredients, takes approximately 90 minutes to cook and serves 2 to 4 people, is this ok?
   utter_rep1a:
   - text: To make toad in the hole you will need the following ingredients. 175g plain flour, salt and black pepper, 3 free-range eggs, 300ml oz milk, 2 tbsp olive oil, 8 sausages, 1 tbsp olive oil, 2 onions, finely sliced, half tsp English mustard, 500ml oz beef stock, 1 Savoy shredded cabbage, half tbsp olive oil, 2 chopped garlic cloves, do you have these ingredients?
