@@ -1,23 +1,21 @@
-import json
 import os
 import random
-import sys
 import uuid
 from argparse import ArgumentParser
 
 import requests
 import yaml
-from flask import Flask, request
+from flask import request
 
-from dm.state import State
-from nlu.rasa_nlu import RasaNLU
-from utils.queue_query import QueueQuery
+from core.dm.state import State
+from core.nlu.rasa_nlu import RasaNLU
+from core.utils.queue_query import QueueQuery
 
 
 class CheifBot:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('dm', ''), 'rasax', 'domain.yml')) as domain_file:
+        with open(os.path.join(os.getcwd().replace('core.dm', ''), 'rasax', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
 
             self.system_actions = _domain.get('actions')
@@ -31,12 +29,12 @@ class CheifBot:
             print('self.dialog_slots: {}'.format(self.dialog_slots))
             print('self.dialogue_history: {}'.format(self.dialogue_history))
 
-        with open(os.path.join(os.getcwd().replace('dm', ''), 'dm_configs', 'recipe_resp.yaml'),
+        with open(os.path.join(os.getcwd().replace('core.dm', ''), 'dm_configs', 'recipe_resp.yaml'),
                   "r") as recipe_resp_file:
             self.recipe_resp = yaml.safe_load(recipe_resp_file)
             print('self.recipe_resp: {}'.format(self.recipe_resp))
 
-        with open(os.path.join(os.getcwd().replace('dm', ''), 'dm_configs', 'recipe_intent_map.yaml'),
+        with open(os.path.join(os.getcwd().replace('core.dm', ''), 'dm_configs', 'recipe_intent_map.yaml'),
                   "r") as recipe_intent_map_file:
             self.recipe_intent_map = yaml.safe_load(recipe_intent_map_file)
             print('self.recipe_intent_map: {}'.format(self.recipe_intent_map))

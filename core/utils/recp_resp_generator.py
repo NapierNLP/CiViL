@@ -5,7 +5,7 @@ import yaml
 
 
 def write_to_yaml(filename: str, data):
-    with open(os.path.join(os.getcwd().replace('utils', ''), 'dm_configs', filename),
+    with open(os.path.join(os.getcwd().replace('core.utils', ''), 'dm_configs', filename),
               "w") as yaml_file:
         print('yaml_file: {}'.format(os.path.join(os.getcwd().replace('utils', ''), 'dm_configs', filename)))
         yaml.dump(data, yaml_file)
@@ -14,7 +14,7 @@ def write_to_yaml(filename: str, data):
 class RecipeResponseGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('utils', ''), 'rasax', 'domain.yml')) as domain_file:
+        with open(os.path.join(os.getcwd().replace('core.utils', ''), 'rasax', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
 
         self.system_response = _domain.get('responses')

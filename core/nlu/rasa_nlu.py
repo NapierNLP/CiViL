@@ -1,6 +1,3 @@
-from utils.local_logger import Logger
-
-
 class RasaIntent():
     """ Represents the SPRING intent."""
 

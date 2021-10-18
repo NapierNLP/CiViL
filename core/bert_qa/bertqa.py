@@ -1,21 +1,19 @@
 """Rank Documents with an lucnene index using Aserini"""
-import copy
 import collections
 import itertools
 import random
 from typing import List
 import time
 import multiprocessing as mp
-from multiprocessing import set_start_method
 
 import numpy as np
 import torch
 
 from torch.utils.data import DataLoader, SequentialSampler
 
-from bert_qa.data_example import DataExample
+from core.bert_qa.data_example import DataExample
 from logger import Logger
-from bert_qa.utils import Context, Answer, SquadResult
+from core.bert_qa.utils import Context, Answer, SquadResult
 
 try:
     from transformers import BasicTokenizer, AutoModelForQuestionAnswering, \
