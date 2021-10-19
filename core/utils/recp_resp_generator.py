@@ -64,7 +64,7 @@ class RecipeIntentMappingGenerator:
         self._stories = self._stories.get('stories')
         print('type of _stories: {}'.format(type(self._stories)))
 
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'custom_stories.yaml')) as segment_file:
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'data/dm/custom_stories.yaml')) as segment_file:
             self._segments = yaml.safe_load(segment_file)
         self._segments = self._segments.get('segments')
         print('type of _segments: {}'.format(type(self._segments)))

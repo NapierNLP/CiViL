@@ -11,16 +11,6 @@ segments:
       - intent: search_rec
       - action: action_search_rec
 
-  - segment: affirm_action
-    steps:
-      - intent: affirm
-      - action: utter_rep
-
-  - segment: yesmode_action
-    steps:
-      - intent: yesmode
-      - - action: utter_rep
-
   - segment: next_action
     steps:
       - intent: next
@@ -51,28 +41,17 @@ segments:
       - intent: dessertmenumeat
       - action: utter_meal_types
 
-  - segment: not_all_ingredients
-    setps:
-      - intent: nomode
-      - action: utter_not_all_ingredients
-
-  - segment:
+  - segment: lightsnacksmenuveg
     steps:
-      - intent: search_rec_r1d
-      - action: utter_sugar
-      - or:
-          - intent: affirm
-          - intent: deny
-      - action: utter_not_all_ingredients_english_muffins
-
-  - segment:
-    steps:
-      - or:
-          - intent: lightsnacksmenumeat
-          - intent: lightsnacksmenuveg
+      - intent: lightsnacksmenuveg
       - action: utter_meal_types
 
-  - segment:
+  - segment: lightsnacksmenumeat
     steps:
-      - intent: all_ingredients_(/S+)
+      - intent: lightsnacksmenumeat
+      - action: utter_meal_types
+
+  - segment: all_ingredients
+    steps:
+      - intent: all_ingredients
       - action: utter_rep

@@ -35,7 +35,7 @@ rules:
         action: display_meal_types
 
       - state:
-          last_action: utter_replace_(/S+)
+          last_action: utter_replace
           sys_q_type: confirm_ingredients
           action: display_not_all_ingredients_<meal_type>
 
@@ -47,6 +47,6 @@ rules:
         action: utter_rep
 
       - state:
-          last_action: utter_replace_(/S+)
+          last_action: utter_replace
           sys_q_type: confirm_ingredients
         action: display_not_all_ingredients_<meal_type>

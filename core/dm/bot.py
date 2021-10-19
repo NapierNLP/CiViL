@@ -50,18 +50,25 @@ class CheifBot:
         # loading DM rules and segments
         with open(os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'dm', 'segments.yaml'),
                   "r") as segments_file:
-            self.segments = yaml.safe_load(segments_file)
-
-            self.segments = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in self.segments.get('segments')}
-            self.segments_regex = {re.compile(k, re.I): v for k, v in self.segments.items()}
+            _segments = yaml.safe_load(segments_file)
+            _segments = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in _segments.get('segments')}
+            self.rules_regex = {re.compile(k, re.I): v for k, v in _segments.items()}
             # print('self.segments[{}]: {}'.format(len(self.segments), self.segments))
-            print('self.segments_regex[{}]: {}'.format(len(self.segments_regex), self.segments_regex))
+            print('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
+
+        with open(os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'dm', 'custom_stories.yaml'),
+                  "r") as custom_stories_file:
+            _custom_stories = yaml.safe_load(custom_stories_file)
+            _custom_stories = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in _custom_stories.get('segments')}
+            self.rules_regex.update({re.compile(k, re.I): v for k, v in _custom_stories.items()})
+            # print('self.segments[{}]: {}'.format(len(self.segments), self.segments))
+            print('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
 
         with open(os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'dm', 'rules.yml'),
                   "r") as rules_file:
-            self.rules = yaml.safe_load(rules_file)
-            self.rules = {item.get('intent'): item.get('conditions') for item in self.rules.get('rules')}
-            self.rules_regex = {re.compile(k, re.I): v for k, v in self.rules.items()}
+            _rules = yaml.safe_load(rules_file)
+            _rules = {item.get('intent'): item.get('conditions') for item in _rules.get('rules')}
+            self.rules_regex.update({re.compile(k, re.I): v for k, v in _rules.items()})
             print('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
 
     def get(self):
@@ -113,39 +120,63 @@ class CheifBot:
         if recipe_id:
             self.dialog_slots.add('meal_type', intent.type)
             self.dialog_slots.add('recipe_ID', recipe_id)
-            self.dialog_slots.add('recipe_step_ID', list(self.recipe_resp.get(recipe_id).keys())[0])
+            self.dialog_slots.add('recipe_step_ID', list(self.responses.get('utter_rep').get(recipe_id).keys())[0])
 
         # Rule-based DM
         system_action = self.search_for_response_action(intent=intent.type)
+        self.dialog_slots.add('last_action', system_action)
 
         # NLG
-        if system_action.startswith('utter_rep'):
+        if system_action == 'utter_rep':
             recipe_id = self.dialog_slots.get('recipe_ID')
-            recipe_responses = self.recipe_resp.get(recipe_id)
+            recipe_responses = self.responses.get(system_action).get(recipe_id)
             _response = recipe_responses.get(self.dialog_slots.get('recipe_step_ID'))
             self.dialog_slots.add('sys_q_type', _response['qType'])
             self.dialog_slots.add('recipe_step_ID', self.dialog_slots.get('recipe_step_ID')+1)
-        elif system_action == 'action_search_rec':
-            # TODO: Linked to the Bert QA model for question answering
-            pass
-        else:
-            response_examples = self.system_responses.get(system_action)
-            _response = random.choice(response_examples)
 
-        return {"system_action": system_action,
-                "response": _response,
-                "stateInfo": self.dialog_slots}
+            print('current dialogue state: {}'.format(self.dialog_slots))
+
+        # elif system_action == 'action_search_rec':
+        #     # TODO: Linked to the Bert QA model for question answering
+        #     pass
+        # else:
+        #     response_examples = self.system_responses.get(system_action)
+        #     _response = random.choice(response_examples)
+        #
+        # return {"system_action": system_action,
+        #         "response": _response,
+        #         "stateInfo": self.dialog_slots}
 
     def search_for_response_action(self, intent: str, **kwargs):
         print('current user intent: {}'.format(intent))
         print('current dialogue state: {}'.format(self.dialog_slots))
 
-        for pattern, action in self.segments_regex.items():
+        for pattern, action in self.rules_regex.items():
             # print('(2) found searches: {}'.format(re.search(pattern, intent)))
             if re.search(pattern, intent):
                 print('matched intent: {}'.format(intent))
-                print('corresponding action : {}'.format(action))
-                return action
+                if isinstance(action, str):
+                    if "<" in action and ">" in action:
+                        key = self.find_between_r(action, "<", ">")
+                        action = action.replace("<{}>".format(key), self.dialog_slots.get(key))
+
+                    print('corresponding action : {}'.format(action))
+                    return action
+
+                elif isinstance(action, list): # judge the rules by different states
+                    for option in action:
+                        state = option.get('state')
+                        print('state: {}'.format(state))
+                        print('matched? : {}'.format(state.items() <= self.dialog_slots.state.items()))
+                        act = option.get('action')
+
+                        if state.items() <= self.dialog_slots.state.items():
+                            if "<" in act and ">" in act:
+                                key = self.find_between_r(act, "<", ">")
+                                act = act.replace("<{}>".format(key), self.dialog_slots.get(key))
+
+                            print('corresponding action : {}'.format(act))
+                            return act
 
     def _fill_slots(self, entities: {}):
         if isinstance(entities, dict):
@@ -157,6 +188,14 @@ class CheifBot:
         result = resp.get("result")
         print("\n \033[90mALANA >\033[0m \033[96m{}\033[0m\n".format(result))
 
+    @staticmethod
+    def find_between_r(origin_text:str, first: str, last: str):
+        try:
+            start = origin_text.rindex(first) + len(first)
+            end = origin_text.rindex(last, start)
+            return origin_text[start:end]
+        except ValueError:
+            return ""
 
 def terminal_test():
     bot = CheifBot()

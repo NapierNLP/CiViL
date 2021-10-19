@@ -78,9 +78,12 @@ slots:
   sys_q_type:
     type: string
     influence_conversation: false
-  #  requested_slot:
-    #    type: unfeaturized
-    #    influence_conversation: false
+  last_action:
+    type: string
+    influence_conversation: false
+  requested_ingredient:
+    type: string
+    influence_conversation: false
 
 actions:
 - action_ask_meal_type
