@@ -39,7 +39,8 @@ class CheifBot:
             print('self.recipe_intent_map[{}]: {}'.format(len(self.recipe_intent_map), self.recipe_intent_map))
 
         # loading NLG templates
-        response_files = glob.glob(os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'response', '*.yaml'))
+        response_files = glob.glob(
+            os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'response', '*.yaml'))
         print('files: {}'.format(response_files))
         self.responses = {}
         for file in response_files:
@@ -51,7 +52,8 @@ class CheifBot:
         with open(os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'dm', 'segments.yaml'),
                   "r") as segments_file:
             _segments = yaml.safe_load(segments_file)
-            _segments = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in _segments.get('segments')}
+            _segments = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in
+                         _segments.get('segments')}
             self.rules_regex = {re.compile(k, re.I): v for k, v in _segments.items()}
             # print('self.segments[{}]: {}'.format(len(self.segments), self.segments))
             print('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
@@ -59,7 +61,8 @@ class CheifBot:
         with open(os.path.join(os.getcwd().replace('core/dm', ''), 'rasax', 'data', 'dm', 'custom_stories.yaml'),
                   "r") as custom_stories_file:
             _custom_stories = yaml.safe_load(custom_stories_file)
-            _custom_stories = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in _custom_stories.get('segments')}
+            _custom_stories = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in
+                               _custom_stories.get('segments')}
             self.rules_regex.update({re.compile(k, re.I): v for k, v in _custom_stories.items()})
             # print('self.segments[{}]: {}'.format(len(self.segments), self.segments))
             print('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
@@ -132,16 +135,24 @@ class CheifBot:
             recipe_responses = self.responses.get(system_action).get(recipe_id)
             _response = recipe_responses.get(self.dialog_slots.get('recipe_step_ID'))
             self.dialog_slots.add('sys_q_type', _response['qType'])
-            self.dialog_slots.add('recipe_step_ID', self.dialog_slots.get('recipe_step_ID')+1)
+            self.dialog_slots.add('recipe_step_ID', self.dialog_slots.get('recipe_step_ID') + 1)
 
-            print('current dialogue state: {}'.format(self.dialog_slots))
+        elif system_action == 'action_search_rec':
+            # TODO: Linked to the Bert QA model for question answering
+            pass
 
-        # elif system_action == 'action_search_rec':
-        #     # TODO: Linked to the Bert QA model for question answering
-        #     pass
-        # else:
-        #     response_examples = self.system_responses.get(system_action)
-        #     _response = random.choice(response_examples)
+        elif system_action == 'utter_replace':
+            requested_ingredient = self.dialog_slots.get('requested_ingredient')
+            _responses = self.responses.get(system_action).get(requested_ingredient)
+        else:
+            response_examples = self.responses.get(system_action)
+            print('current response_examples for {}: {}'.format(system_action, response_examples))
+            _response = random.choice(response_examples)
+            self.dialog_slots.add('sys_q_type', _response['qType'])
+
+
+        print('current dialogue state: {}'.format(self.dialog_slots))
+        print('current _response for {}: {}'.format(system_action, _response))
         #
         # return {"system_action": system_action,
         #         "response": _response,
@@ -163,7 +174,7 @@ class CheifBot:
                     print('corresponding action : {}'.format(action))
                     return action
 
-                elif isinstance(action, list): # judge the rules by different states
+                elif isinstance(action, list):  # judge the rules by different states
                     for option in action:
                         state = option.get('state')
                         print('state: {}'.format(state))
@@ -189,13 +200,14 @@ class CheifBot:
         print("\n \033[90mALANA >\033[0m \033[96m{}\033[0m\n".format(result))
 
     @staticmethod
-    def find_between_r(origin_text:str, first: str, last: str):
+    def find_between_r(origin_text: str, first: str, last: str):
         try:
             start = origin_text.rindex(first) + len(first)
             end = origin_text.rindex(last, start)
             return origin_text[start:end]
         except ValueError:
             return ""
+
 
 def terminal_test():
     bot = CheifBot()

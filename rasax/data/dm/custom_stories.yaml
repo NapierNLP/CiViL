@@ -29,27 +29,27 @@ segments:
   - segment: vegmeals
     steps:
       - intent: vegmeals
-      - action: utter_veg_menu_types
+      - action: display_veg_menu_types
 
   - segment: meatmeals
     steps:
       - intent: meatmeals
-      - action: utter_meat_menu_types
+      - action: display_meat_menu_types
 
   - segment: dessertmenumeat
     steps:
       - intent: dessertmenumeat
-      - action: utter_meal_types
+      - action: display_meal_types
 
   - segment: lightsnacksmenuveg
     steps:
       - intent: lightsnacksmenuveg
-      - action: utter_meal_types
+      - action: display_meal_types
 
   - segment: lightsnacksmenumeat
     steps:
       - intent: lightsnacksmenumeat
-      - action: utter_meal_types
+      - action: display_meal_types
 
   - segment: all_ingredients
     steps:

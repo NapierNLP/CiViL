@@ -57,6 +57,7 @@ display_not_all_ingredients_<meal_type>:
     buttons:
     - title: I now have all the Ingredients
       payload: /all_ingredients_<meal_type>
-    templates:
-      - title: <ingredient>
-        payload: /search_rec(<ingredient>)
+
+#    templates:
+#      - title: <ingredient>
+#        payload: /search_rec(<ingredient>)
