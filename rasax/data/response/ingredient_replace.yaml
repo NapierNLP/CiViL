@@ -1,0 +1,89 @@
+#ingredients list
+utter_replace:
+  plain_flour:
+  - text: instead of plain flour, you can use; oat flour, bread flour, cake flour or coconut flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  salt:
+  - text: instead of salt, you can use; mint, rosemary, nutmeg, basil, cardamon, chili, cinnamon or chives, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sugar:
+  - text: instead of sugar you can use, cane sugar or brown sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  instant_yeast:
+  - text: instead of instant yeast you can use; baking powder. baking soda or sourdough, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  milk:
+  - text: instead of milk you can use; cream, powerdered milk, plain yogurt, nut milk, soy milk, oat milk or rice milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+    egg:
+  - text: instead of egg you can use; commerical egg substitute or tofu, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  unsalted_butter:
+  - text: instead of unsalted butter you can use, maragarine, vegetable shortening, coconut oil or salted butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  oil_spray:
+  - text: instead of oil spray you can use; olive oil, peanut oil, butter, walnut oil, sunflower oil, canola oil or vegetable oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vanilla_extract:
+  - text: instead of vanilla extract, you can use, maple syrup, almond extract, bourbon, brandy, rum, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+    powdered_sugar:
+  - text: instead of powdered sugar you can use, sweetner or cornstarch do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  maple_syrup:
+  - text: instead of maple syrup, you can use, honey, corn syrup or agave nectar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cinnamon_powder:
+  - text: instead of cinnamon powder, you can use, all spice or or nutmeg, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+    butter:
+  - text: instead of butter you can use; olive oil, ghee, greek yogurt, avocado, pumpkin puree or coconut oil, do you have any of these ingredients?"
+    qType: confirm_ingredients
+
+  bread_flour:
+  - text: instead of bread flour you can use; all purpose flour do you have this ingredient?
+    qType: confirm_ingredients
+
+  sprinkles:
+  - text: instead of sprinkles, you can use, brown sugar or honey, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+    canned_pumpkin:
+  - text: instead of canned pumpkin, you can use, mashed sweet potato or butternut squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+    brown_sugar:
+  - text: instead of brown sugar you can use, white sugar, honey, maple syrup, coconut sugar or muscovado sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vegetable_oil:
+  - text: instead of vegetable oil you can use, canola oil, sunflower oil, peanut oil or grapeseed oil, do you have any of these ingredients
+    qType: confirm_ingredients
+
+  baking_powder:
+  - text: instead of baking powder you can use, buttermilk, plain yogurt, molasses, cream of tartar, sour milk, vinegar, lemon juice, self-rising flour or whipped egg whites, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  nutmeg:
+  - text: instead of nutmeg you can use, mace, garam masala, allspice, cinnamon, apple pie spice, giner or cloves, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  allspice:
+  - text: instead of allspice you can use, cinnamon, nutmeg, cloves or applie pie spice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_cloves:
+  - text: instead of ground cloves you can use, allspice, caradamon, pumpkin pie spice or cinnamon, do you have any of these ingredients?
+    qType: confirm_ingredients

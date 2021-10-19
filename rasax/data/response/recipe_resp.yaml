@@ -1,0 +1,481 @@
+utter_rep:
+  r1:
+    1:
+      qType: confirm
+      text: English Muffins takes 180 minutes to cook, serves 16 and contains 7 ingredients,
+        is this ok?
+    2:
+      qType: confirm_ingredients
+      text: "To cook English Muffins you will need, 'milk', 'butter', 'salt', 'sugar',\
+        \ 'egg\u2019, 'bread flour', 'instant yeast', do you have these ingredients?"
+    3:
+      qType: None
+      text: To start with combine 1 and three quarter cups of lukewarm milk, 3 tablespoons
+        of soft butter, one and a half teaspoons of salt, 2 tablespoons of sugar, one
+        egg, 5 cups of bread flour, and 2 teaspoons of yeast in a large mixing bowl
+        of an electric stand mixer.
+    4:
+      qType: None
+      text: Next, use the paddle attachment on your mixer and mix the ingredients on
+        the lowest setting for 3 to 5 minutes until the dough becomes satin-smooth and
+        shiny.
+    5:
+      qType: None
+      text: Using a silicone spatula scrape the dough down in the mixing bowl into a
+        ball. Cover the bowl and set aside for 1 to 2 hours in a warm spot to rise until
+        it has doubled or tripled in size.
+    6:
+      qType: None
+      text: Using a silicone spatula, scrape the dough onto a floured work surface and
+        divide the dough into 16 pieces. Shape each piece into a ball, then flatten
+        the balls until they're about 3 to 3 1/2 inches in diameter.
+    7:
+      qType: None
+      text: On an electric griddle, place 16 of the English Muffins, if the griddle
+        is not big enough for 16 split into 8 and cook separately. Sprinkle a generous
+        amount of corn meal into each ring or spot in between the muffins on the griddle.
+    8:
+      qType: None
+      text: Cover the muffins and let them rest until they've puffed up a little bit
+        and are touching the edges of the rings, about 20 minutes.
+    9:
+      qType: None
+      text: "Cook the muffins at 325\xB0F on the electric griddle for 12 minutes, until\
+        \ golden brown on the bottom. Using tongs and a spatula, flip the muffins over\
+        \ and cook the other side for 12 minutes until the center of the muffins reads\
+        \ 195\xB0F on an instant-read thermometer."
+    10:
+      qType: None
+      text: 'Remove the muffins from the griddle and let them cool thoroughly. Using
+        a large fork, poke holes all along the sides of the muffin to split them open,
+        enjoy your meal. '
+  r10:
+    1:
+      qType: confirm
+      text: Mango Habanero Hot Sauce takes 45 minutes to cook, serves 40 ounces and
+        contains 12 ingredients, is this okay?
+    2:
+      qType: confirm_ingredients
+      text: "To cook Mango Habanero Hot Sauce you will need: \u2018frozen/fresh mango\u2019\
+        ,\u2019habanero peppers\u2019,\u2019onion\u2019,\u2019grated carrot\u2019,\u2019\
+        garlic cloves\u2019,\u2019lime juice\u2019,\u2019lime zest\u2019,\u2019vodka\u2019\
+        ,\u2019cane sugar\u2019,\u2019apple cider vinegar\u2019,\u2019salt\u2019,\u2019\
+        water\u2019, do you have these ingredients?"
+    3:
+      qType: None
+      text: "Okay let\u2019s begin. For this recipe you will need mangos, there are\
+        \ two options for ingredients. You could either use frozen mangos or fresh mangoes.\
+        \ I recommend that, unless your mangoes are very fresh, you use frozen ones.\
+        \ Whatever your choice is, take 32 ounces of frozen mango and let them melt\
+        \ or 8 very fresh mangos. Then put them into the bowl of a food processor and\
+        \ process until it becomes a very smooth puree. This should take about 3 minutes.\
+        \ Take the mango puree and put it into a bowl; set it aside."
+    4:
+      qType: None
+      text: Now we will be using habanero peppers, make sure you are wearing gloves
+        when handling this ingredient. Wash 8-12 habanero peppers, remove the stems
+        and cut them open. Wash out the seeds and using a kitchen knife and cutting
+        board dice the peppers. Place the peppers into a food processor bowl.
+    5:
+      qType: None
+      text: "Now using the kitchen knife and cutting board chop half an onion. Then\
+        \ using a grater, grate 1 carrot. Add these together with  3 garlic cloves,\
+        \ 1 tablespoon lime juice and 1 teaspoon lime zest into the food processor\u2019\
+        s bowl. Pulse the food processor several times in short bursts until it's all\
+        \ broken into small pieces but not pureed. When this is done take the mixture\
+        \ and add it into a large saucepan, and turn the heat on to medium."
+    6:
+      qType: None
+      text: "Wait till the mixture begins to cook and add \u2154 of a cup of vodka.\
+        \ Use a spatula to combine and cook until it's reduced by half, this should\
+        \ take about 5 minutes. When it's all cooked, take the mixture and put it back\
+        \ into the food processor\u2019s bowl and process until it\u2019s smooth. When\
+        \ its pureed, transfer it back into the saucepan."
+    7:
+      qType: None
+      text: "Now add the mangos, \xBE of a cup of pure cane sugar, \xBC of a cup of\
+        \ apple cider vinegar and 1 teaspoon of salt into the pan. Use a spatula to\
+        \ stir it together and combine. Cook the mixture over medium heat until it starts\
+        \ to bubble. This should take around 5-10 minutes. Add \xBC of a cup of water\
+        \ to the sauce and combine. Depending on the texture that you want you could\
+        \ use a fine-mesh cloth and strain the sauce onto a food container or vary the\
+        \ water quantities. When you are happy with the consistency of the sauce, transfer\
+        \ it into a jar using a funnel. Enjoy your meal!"
+  r2:
+    1:
+      qType: confirm
+      text: Strawberry Pie takes 3h and 25 minutes to cook, serves 8 and contains 10  ingredients,
+        is this ok?
+    2:
+      qType: confirm_ingredients
+      text: To cook stawberry pie you will need, all-purpose flour, teaspoon of salt,
+        vegetable shortening, ice-cold water,strawberries, sugar, cornstarch, low-sugar
+        pectin, heavy cream, do you have these ingredients?
+    3:
+      qType: None
+      text: "Let\u2019s start with the pie crust. Mix in a large bowl 1 \u2153 cups\
+        \ of all-purpose flour, 1 tablespoon of salt and \xBD cups of vegetable shortening.\
+        \ Use two dull butter knives or a pastry blender until the mixture is the size\
+        \ of  peas."
+    4:
+      qType: None
+      text: Take a glass of ice-cold water and add 6 tablespoons onto the previously
+        combined flour mixture, use a spatula or your hands if you prefer. Mix into
+        the mixture until it becomes a large ball of dough. Flatten it and cover with
+        wax paper. Put the dough in the freezer for 10 minutes or the fridge for 30
+        minutes
+    5:
+      qType: None
+      text: "Take the dough out and roll it to make it thinner,, make sure to put flour\
+        \ underneath so it doesn\u2019t stick to the surface. Place the rolled-out dough\
+        \ onto a deep dish pie plate. Place a second plate onto the crust to weigh it\
+        \ down. Put it into the oven and bake at 180\xB0C for approximately 20-25 minutes.\
+        \ When this is done be sure to let it cool down for 10 minutes before adding\
+        \ the filling."
+    6:
+      qType: None
+      text: "Now let\u2019s make the filling. Wash and take the green leaves off the\
+        \ 3 pounds of strawberries. Look for the ones that are overripe and place into\
+        \ a bowl until you have 1 \xBD cup of strawberries. These are the ones you will\
+        \ use for the filling. Put the strawberries into a food processor to make into\
+        \ a puree."
+    7:
+      qType: None
+      text: "Now put \xBE cups of sugar, 2 tablespoons of cornstarch, \xBD low-sugar\
+        \ pectin, a pinch of salt and the strawberries into a saucepan. Whisk until\
+        \ it is combined."
+    8:
+      qType: None
+      text: Heat the mixture until it boils at medium-high heat and keep stirring with
+        a rubber spatula. Once it boils, cook for 2 minutes and then take off the heat.
+        The mixture should look dark and thick
+    9:
+      qType: None
+      text: Put the mixture into a large bowl and add the remaining strawberries. Mix
+        until combined.
+    10:
+      qType: None
+      text: Remember to take the pie crust out of the oven, once you have let it rest
+        we can move on to the last step, assembly. Pour the strawberry mixture into
+        the pie crust. Put the completed pie into the fridge for 2-5 hours.
+    11:
+      qType: None
+      text: To combine with the pie, you can make whipped cream. Add 1 tablespoon of
+        sugar and 1 cup of heavy cream to an electric hand mixer bowl until it's thick
+        and fluffy; it should be about 3 minutes. Serve with the pie and enjoy your
+        meal.
+  r3:
+    1:
+      qType: confirm
+      text: Airfryer Glazed Donuts takes 2h and 30 minutes to cook, serves 10-12 donuts
+        and contains 10 ingredients, is this ok?
+    2:
+      qType: confirm_ingredients
+      text: "To cook Airfryer Glazed Donuts, you will need: 'all-purpose flour', 'sugar',\
+        \ 'salt', 'instant yeast', 'milk\u2019, 'egg', 'unsalted butter\u2019,'oil spray'.\
+        \ The recipie has 6 optional ingredients 'vanilla extract', 'hot water',\u2019\
+        powdered sugar\u2019,\u2019maple syrup\u2019, \u2018sprinkles\u2019, 'cinnamon\
+        \ powder, do you have these ingredients?"
+    3:
+      qType: None
+      text: "Let\u2019s start with the dough. Put 3 cups of all-purpose flour, \xBC\
+        \  cup of sugar, \xBD tablespoons of salt and 2 \xBD  teaspoons of instant yeast\
+        \ into a large bowl and mix until combined and a rough dough forms."
+    4:
+      qType: None
+      text: "Put 1 cup of room temperature milk, 1 previously whisked egg and \xBC of\
+        \ melted unsalted butter into the dough and combine. When everything is combined\
+        \ transfer it onto a surface to knead until it is smooth and elastic. Be sure\
+        \ to flour the surface so the dough doesn't stick to it. This process should\
+        \ take 5-10 minutes."
+    5:
+      qType: None
+      text: "Now let\u2019s let the dough rise. Place it into a lightly greased bowl\
+        \ and cover with plastic wrap. After roughly 1 hour transfer the dough onto\
+        \ a floured surface and roll it out until it's around \xBD inches."
+    6:
+      qType: None
+      text: Take a 3-inch round cutter and cut the donuts out, it should give you around
+        10 to 14 donuts. Then theake a 1-inch round cutter to remove the center of each
+        donut. Transfer the donuts and donut holes to a tray covered with lightly-greased
+        parchment paper. Then cover the donuts with greased plastic wrap and let them
+        rise until they double their volume. This should be around 30 minutes.
+    7:
+      qType: None
+      text: "Spray the air fryer basket with oil spray. Transfer the donuts onto it\
+        \ one layer at a time, there shouldn\u2019t be donuts on top of donuts. Spray\
+        \ the donuts with the same oil spray and fry for about 4-5 minutes at 350\xB0\
+        F (180\xB0C). Repeat with all the donuts."
+    8:
+      qType: None
+      text: Now it's time for the glazing, there are various options. Would you like
+        to know how to coat them with Vanilla Glaze, Maple Glaze or Cinnamon sugar?
+    9:
+      qType: None
+      text: "To make maple glaze, stir together \xBD cup of powdered sugar and 5 tablespoons\
+        \ of maple syrup until it's combined."
+    10:
+      qType: None
+      text: Take the donuts and dip them into the icing while they are still hot. Use
+        a fork to do this. When they are dipped, place them on a wire rack to let the
+        excess glaze to drip off. Make sure the wire rack is on top of a baking sheet
+        to catch the excess. Let them harden for 10 minutes and enjoy your meal. You
+        can add sprinkles on top if you wish.
+    11:
+      qType: None
+      text: "To make cinnamon sugar coating stir together \xBD cup of granulated sugar\
+        \ and 1 tablespoon of cinnamon powder until it's combined. Spay the doughnuts\
+        \ with oil before dipping them in them in the mixture. You can add sprinkles\
+        \ on top if you wish. Enjoy your meal"
+    12:
+      qType: None
+      text: "To make vanilla glaze, melt 6 tablespoons of unsalted butter on a small\
+        \ saucepan over medium heat. Once it's melted, stir in 2 cups of powdered sugar\
+        \ and 2 tablespoons of vanilla extract until it's all combined.  Take the mixture\
+        \ off the heat and add 4 tablespoons of hot water one tablespoon at a time to\
+        \ thin out the icing. Make sure it doesn\u2019t become too watery."
+    13:
+      qType: None
+      text: Take the donuts and dip them into the icing while they are still hot. Use
+        a fork to do this. When they are dipped, place them on a wire rack to let the
+        excess glaze to drip off. Make sure the wire rack is on top of a baking sheet
+        to catch the excess. Let them harden for 10 minutes and enjoy your meal. You
+        can add sprinkles on top if you wish. Enjoy your meal
+  r4:
+    1:
+      qType: confirm
+      text: Pumpkin Spice Donuts takes 45 minutes to cook, serves 12 donuts and contains
+        14  ingredients, is this ok?
+    2:
+      qType: None
+      text: "To make pumpkin Spice Donuts you will need 'cooking spray', 'canned pumpkin',\
+        \ 'milk', 'brown sugar', 'vegetable oil\u2019, 'egg', 'egg\u2019,'vanilla extract',\
+        \ 'flour', 'baking powder', 'salt', 'cinamon\u2019, 'nutmeg', 'allspice', \u2018\
+        ground cloves', do you have these indregients?"
+    3:
+      qType: None
+      text: "start by preheating the oven to 180\xB0C and lightly grease the inside\
+        \ of a donut pan. Set this aside."
+    4:
+      qType: None
+      text: "Now pour \xBE cup canned pumpkin, \xBD cup milk, \xBD cup brown sugar,\
+        \ \u2153 cup vegetable oil, 1 egg and 1 \xBD teaspoon of vanilla extract into\
+        \ a mixing bowl and combine the ingredients. Set this aside."
+    5:
+      qType: None
+      text: Start pouring the second mixture (dry ingredients) into the first one and
+        combine with a spatula. When this is done transfer half of the batter onto a
+        large plastic or zipper bag and cut one of the bottom corners to make a piping
+        bag. Use this to make the shape of the donuts. Make just enough to fit the donut
+        pan and set the rest of the batter aside
+    6:
+      qType: None
+      text: Now bake the donuts for about 12-15 minutes, until they are golden brown.
+        When they are done, transfer them onto a wire rack to let them cool for about
+        5 minutes. Keep doing this step until you are out of batter.
+    7:
+      qType: None
+      text: "Now let's make the coating. Mix \xBD cup of melted butter, \u2154 cup of\
+        \ sugar and 1-2 tablespoons of cinnamon (to taste) in a bowl. Dip the donuts\
+        \ onto the mixture and enjoy your meal."
+  r5:
+    1:
+      qType: confirm
+      text: Misir Wot takes 30 minutes to cook, serves 8 and contains 9 ingredients,
+        is that ok?
+    2:
+      qType: confirm_ingredients
+      text: "To cook Misir Wot you will need: 'garlic', 'ginger', 'onion', 'butter',\
+        \ 'berbere seasoning\u2019, 'tomato paste', 'water\u2019,'red lentils', 'salt',\
+        \ do you have these ingredients?"
+    3:
+      qType: None
+      text: "Okay, let's start. Put 2 cloves of garlic and \xBD inches of ginger into\
+        \ a food processor and pulse 10 times. When it's done, transfer the mixture\
+        \ to a bowl."
+    4:
+      qType: None
+      text: Chop 1 onion into chunks. Put them into the food processor (which should
+        be empty now) and pulse 6-8 times until it is finely chopped.  After, turn the
+        instant pot onto saute mode and wait 1 minute for it to preheat
+    5:
+      qType: None
+      text: Now add 3 tablespoons of butter to the pot and let it metl. Once melted,
+        add the chopped ginger and garlic and saute until fragrant. This should take
+        about 30 seconds
+    6:
+      qType: None
+      text: Add the chopped onions to the pot until saute until fragrant again. This
+        should take about 2 minutes.
+    7:
+      qType: None
+      text: "Add 1 \xBD cups water, 1 cup red lentils previously rinsed and 1 teaspoon\
+        \ sea salt onto the pot. Stir it all together to combine. Once it's combined\
+        \ press \u2018cancel\u2019 on the instant pot and close the lid. Cook on High\
+        \ Pressure for 8 minutes. When it's done, release the pressure and serve with\
+        \ injera or naan. Enjoy your meal."
+  r6:
+    1:
+      qType: confirm
+      text: Pineapple Strawberry Salad takes 20 minutes to cook, serves 4-6 and contains
+        8 ingredients, is this ok?
+    2:
+      qType: confirm_ingredients
+      text: "To make a Pineapple Strawberry Salad you will need: 'strawberries', 'pineapple',\
+        \ 'red onion', 'sweet red pepper', 'cilantro or parsley\u2019, 'key lime juice',\
+        \ 'salt\u2019,'pepper', do you have these ingredients?"
+    3:
+      qType: None
+      text: "Okay let's begin. Mix 2 cups of strawberries, 2 cups of chopped pineapple,\
+        \ \xBD medium chopped sweet red pepper, 2 tablespoons of chopped cilantro or\
+        \ parsley, 2 tablespoons of key lime juice, \xBC teaspoons of salt and a bit\
+        \ of pepper into a large bowl."
+    4:
+      qType: None
+      text: If you want you can put it in the fridge for 1 hour or overnight to enhance
+        the flavours, otherwise serve straight away. Enjoy your meal.
+    5:
+      qType: confirm
+      text: Pear Tarte Tatin takes 2 hours to cook, serves 8 and contains 8 ingredients,
+        is this ok?
+  r7:
+    1:
+      qType: confirm_ingredients
+      text: "To cook Pear Tarte Tatin you will need: 'all-purpose flour', 'salt', 'unsalted\
+        \ butter', 'egg yolk', 'water\u2019, 'pears', 'lemon juice\u2019,'sugar', do\
+        \ you have these ingredients?"
+    2:
+      qType: None
+      text: Okay let's begin with making the pastry. Combine 2 cups of all-purpose flour
+        and 1 tablespoon of salt into a large bowl. Once it's mixed, add 1 cup of unsalted
+        butter cut into small pieces and mix with your hands or with a pastry blender.
+        Combine until the mixture is in pea-sized pieces.
+    3:
+      qType: None
+      text: Now whisk 1 egg yolk and 2 tablespoons of water in a small bowl. When it's
+        whisked, add the mixture onto the dough. Stir it all together until the dough
+        begins to form. Then, use your hands to shape it into a bowl. Put the dough
+        into the fridge for about 30 minutes until it is firm. Afterwards let it rest
+        and do not roll it out until the fruit has finished cooking.
+    4:
+      qType: None
+      text: "Next put \xBE cups of sugar in a pan or tarte tatin pan. Put on the hob\
+        \ over low heat. Once some of the sugar begins to melt, start stirring with\
+        \ a wooden spoon until all the sugar it's melted. It should turn into a pale\
+        \ golden colour."
+    5:
+      qType: None
+      text: Now turn off the heat and remove the pan. Take the pears and put them on
+        top of the sugar in the pan. Arrange them cut-side-up with the narrow part facing
+        the centre and fill the pan.
+    6:
+      qType: None
+      text: Now cut 4 tablespoons of unsalted butter into small pieces and scatter over
+        the pears. Put the pan back on the hob over medium heat. Cook until the sugar
+        turns caramel colour, this should take 15-20 minutes. Do not move the pears
+        or stir.
+    7:
+      qType: None
+      text: "Next roll the reserved dough into a disc shape, it should be around \xBC\
+        \ inch thick. Roll it so it's bigger than the pan where you placed the pears.\
+        \ Cover the pears and tuck the sides in carefully."
+    8:
+      qType: None
+      text: "Finally, place the pan into the oven and bake it at 190\xB0C until the\
+        \ crust is golden brown. This should take 25-40 minutes. When it's done, let\
+        \ it cool for 10 minutes. To release the tarte from the pan use a kitchen knife\
+        \ and run it through the edges. Then place a large plate over the pan and, using\
+        \ oven mitts to protect you from burning yourself, flip the tarte over on the\
+        \ plate. Enjoy your meal"
+  r8:
+    1:
+      qType: confirm
+      text: Roasted Veggie Noodles takes 40 minutes to cook, serves 12 and contains
+        9 ingredients, is this okay?
+    2:
+      qType: confirm_ingredients
+      text: "To cook Roasted Veggie Noodles you will need: \u2018sweet potato', 'butternut\
+        \ squash and beet noodles\u2019,\u2019bosc pears\u2019,\u2019olive oil\u2019\
+        ,\u2019salt\u2019,\u2019pepper\u2019,\u2019butter\u2019,\u2019pecans\u2019,\
+        \ \u2018cinamon\u2019, \u2018lemon\u2019, do you have these ingredients?"
+    3:
+      qType: None
+      text: "Okay let\u2019s start.The first thing to do is preheat the oven at 180\xBA\
+        . Then, take 2 Bosc pears and use a kitchen knife to dice into small pieces.\
+        \ When this is done, toss 2 pounds of sweet potato, butternut squash and beet\
+        \ noodles, \xBC cup of olive oil and the cut pears into a big bowl. Then, season\
+        \ the ingredients with salt and pepper to taste and mix. When it is all combined,\
+        \ spread the mixture onto a baking sheet previously lined with parchment paper."
+    4:
+      qType: None
+      text: Now put it in the oven for about 20 minutes. Make sure you turn and mix
+        it all halfway through, around the 10 minute mark.
+    5:
+      qType: None
+      text: "While the noodles cook, take 2 tablespoons of butter and put into a small\
+        \ pan on medium heat. Wait until it's melted and add \xBE cup of chopped pecans.\
+        \ Stir often and cook until the pecans are fragrant. This should take 3-5 minutes.\
+        \ When it's done take it off the heat and set aside. For the last part of the\
+        \ recipe, come back and ask me once the noodles are done."
+    6:
+      qType: None
+      text: "To finish, put the noodles into a large bowl and add the pecans you just\
+        \ made, 1 teaspoon of cinnamon and lemon zest. Combine all the ingredients and\
+        \ it\u2019s done. Enjoy your meal"
+  r9:
+    1:
+      qType: confirm
+      text: Quinoa Burrito Bowl takes 40 minutes to cook, serves 4-6 and contains 12
+        ingredients, is this okay?
+    2:
+      qType: confirm_ingredients
+      text: "To cook Quinoa Burrito Bowl you will need: \u2018canola oil\u2019,\u2019\
+        red onion\u2019,\u2019jalape\xF1o\u2019,\u2019garlic\u2019,\u2019chicken/vegetable\
+        \ broth\u2019,\u2019black beans\u2019,\u2019uncooked quinoa\u2019,\u2019tomatoes\u2019\
+        ,\u2019frozen corn\u2019,\u2019kosher salt\u2019,\u2019cilantro/parsley\u2019\
+        , \u2018lime juice\u2019, do you have these ingredients?"
+    3:
+      qType: None
+      text: "Okay, let\u2019s start. Put 1 tablespoon of canola oil into a large saucepan\
+        \ or dutch oven and start preheating over medium heat. While the pan is heating\
+        \ up, use a kitchen knife and a cutting board and chop 1 small red onion, 1\
+        \ jalape\xF3 and mince 2 cloves of garlic. Add these onto the pan and use a\
+        \ spatula to saute until fragrant. This should take about 1 minute."
+    4:
+      qType: None
+      text: "Now take 15 ounces of black beans and 1 cup uncooked quinoa and use a sieve\
+        \ rinse and rain both ingredients. Then, using a kitchen knife and cutting board\
+        \ dice 2 tomatoes. Take these ingredients and  1 \u2153 cups of chicken or vegetable\
+        \ broth, 1 cup of frozen corn and \xBD teaspoon of kosher salt and add them\
+        \ to the pot. Use the spatula to combine and bring the pot to a boil. Once it\
+        \ boils, keep stirring and bring it down to a simmer. Cover and let it cook\
+        \ for about 25 minutes, or until the quinoa is cooked and the liquid has been\
+        \ absorbed."
+    5:
+      qType: None
+      text: "Next remove the pot from the heat. Chop \xBC cups of fresh cilantro or\
+        \ parsley using a kitchen knife and a cutting board. Add this and \xBD tablespoon\
+        \ of lime juice to the pot. Use the spatula to stir. To serve, choose what ingredients\
+        \ you would like to top it with. Some options are shredded cheese, shredded\
+        \ lettuce, sour cream or guacamole. I could tell you how to make homemade guacamole,\
+        \ would you like to do that?"
+    6:
+      qType: None
+      text: Okay, to make homemade guacamole cut 4 avocados in half with a knife and
+        remove the pits. Use a spoon to scoop out the avocado onto a bowl. Mash the
+        avocados using a potato masher or fork.
+    7:
+      qType: None
+      text: Now using a kitchen knife and cutting board, chop half a red onion. Add
+        this and 2 tablespoons of fresh squeezed lime juice, 2 teaspoons of sea salt
+        and 1/8 teaspoon of freshly ground black pepper onto the avocados. Mix all the
+        ingredients together with a spatula. Taste the guacamole and adjust any ingredients
+        that you want to your taste.
+    8:
+      qType: None
+      text: Now chop 1 ripe tomato using a kitchen knife and a cutting board. Mix this
+        with the guacamole and you are done!
+    9:
+      qType: None
+      text: Now top the bowl with any of the ingredients that you want and the guacamole
+        and enjoy your meal!

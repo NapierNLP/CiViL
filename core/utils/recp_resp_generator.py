@@ -5,9 +5,9 @@ import yaml
 
 
 def write_to_yaml(filename: str, data):
-    with open(os.path.join(os.getcwd().replace('core/utils', ''), 'dm_configs', filename),
+    with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', filename),
               "w") as yaml_file:
-        print('yaml_file: {}'.format(os.path.join(os.getcwd().replace('utils', ''), 'dm_configs', filename)))
+        print('yaml_file: {}'.format(os.path.join(os.getcwd().replace('utils', ''), 'rasax', 'data', filename)))
         yaml.dump(data, yaml_file)
 
 
@@ -33,13 +33,21 @@ class RecipeResponseGenerator:
                 number_step = 0 if alpha_step == "xxx" else (ord(alpha_step) - 96)
 
                 response_dict = recipe_responses.get('r{}'.format(rID), {})
-                response_dict[number_step] = {"text": str(recipe_response), "isQ": str(recipe_response).endswith("?")}
+                qType = "None"
+                if str(recipe_response).endswith("ingredients?"):
+                    qType = "confirm_ingredients"
+                elif str(recipe_response).endswith("ok?"):
+                    qType = "confirm"
+                elif str(recipe_response).endswith("okay?"):
+                    qType = "confirm"
+
+                response_dict[number_step] = {"text": str(recipe_response), "qType": qType}
                 recipe_responses['r{}'.format(rID)] = response_dict
 
         print('length of recipe responses: {}'.format(len(recipe_responses)))
         print('recipe responses: {}'.format(recipe_responses))
 
-        write_to_yaml('recipe_resp.yaml', recipe_responses)
+        write_to_yaml('response/recipe_resp.yaml', recipe_responses)
 
     @staticmethod
     def write_to_yaml(data):
@@ -51,7 +59,7 @@ class RecipeResponseGenerator:
 class RecipeIntentMappingGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'stories.yml')) as story_file:
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'data/dm/stories.yml')) as story_file:
             self._stories = yaml.safe_load(story_file)
         self._stories = self._stories.get('stories')
         print('type of _stories: {}'.format(type(self._stories)))
@@ -93,8 +101,8 @@ class RecipeIntentMappingGenerator:
         print('length of recipe responses: {}'.format(len(recipe_intent_map)))
         print('recipe responses: {}'.format(recipe_intent_map))
 
-        write_to_yaml(filename='recipe_intent_map.yaml', data=recipe_intent_map)
-        write_to_yaml(filename='segments.yaml',  data={"version": "2.0", "segments": self._segments})
+        write_to_yaml(filename='dm/recipe_intent_map.yaml', data=recipe_intent_map)
+        write_to_yaml(filename='dm/segments.yaml',  data={"version": "2.0", "segments": self._segments})
 
 
 if __name__ == "__main__":

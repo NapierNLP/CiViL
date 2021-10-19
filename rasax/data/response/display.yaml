@@ -1,0 +1,62 @@
+display_meat_menu_types:
+  - text: Please select a menu
+    buttons:
+    - title: Breakfast Menu
+      payload: /breakfastmenumeat
+    - title: Lunch Menu
+      payload: /lunchmenumeat
+    - title: Dinner Menu
+      payload: /dinnermenumeat
+    - title: Light Snacks Menu
+      payload: /lightsnacksmenumeat
+    - title: Dessert Menu
+      payload: /dessertmenumeat
+
+display_veg_menu_types:
+  - text: Please select a menu
+    buttons:
+    - title: Breakfast Menu
+      payload: /breakfastmenuveg
+    - title: Lunch Menu
+      payload: /lunchmenuveg
+    - title: Dinner Menu
+      payload: /dinnermenuvege
+    - title: Light Snacks Menu
+      payload: /lightsnacksmenuveg
+    - title: Dessert Menu
+      payload: /dessertmenuveg
+  
+
+display_meal_types:
+  - text: Select a recipe from the list, 
+    buttons:
+    - title: english muffins
+      payload: /englishmuffins
+    - title: airfryer glazed donuts
+      payload: /airfryerglazeddonuts
+    - title: strawberry pie
+      payload: /strawberrypie
+    - title: pumpkin spice donuts
+      payload: /pumpkinspicedonuts
+    - title: misir wot
+      payload: /misirwot
+    - title: pineapple strawberry salad
+      payload: /pineapplestrawberrysalad
+    - title: mango habanero hot sauce
+      payload: /bot_challenge
+    - title: pear tarte tatin
+      payload: /peartartetatin
+    - title: roasted veggie noodles
+      payload: /roastedveggienoodles
+    - title: quinoa burrito bowl
+      payload: /quinoaburritobowl
+
+
+display_not_all_ingredients_<meal_type>:
+  - text: Please click which ingredients are missing for alternative options.
+    buttons:
+    - title: I now have all the Ingredients
+      payload: /all_ingredients_<meal_type>
+    templates:
+      - title: <ingredient>
+        payload: /search_rec(<ingredient>)

@@ -16,6 +16,11 @@ segments:
       - intent: affirm
       - action: utter_rep
 
+  - segment: yesmode_action
+    steps:
+      - intent: yesmode
+      - - action: utter_rep
+
   - segment: next_action
     steps:
       - intent: next
@@ -23,11 +28,51 @@ segments:
 
   - segment: r_action
     steps:
-      - intent: r(\D+)
-      - action: utter_rep
+    - intent: r([0-9]+)
+    - action: utter_rep
 
   - segment: utensils_path
     steps:
       - intent: search_utensils
       - action: action_utensilexplan
 
+  - segment: vegmeals
+    steps:
+      - intent: vegmeals
+      - action: utter_veg_menu_types
+
+  - segment: meatmeals
+    steps:
+      - intent: meatmeals
+      - action: utter_meat_menu_types
+
+  - segment: dessertmenumeat
+    steps:
+      - intent: dessertmenumeat
+      - action: utter_meal_types
+
+  - segment: not_all_ingredients
+    setps:
+      - intent: nomode
+      - action: utter_not_all_ingredients
+
+  - segment:
+    steps:
+      - intent: search_rec_r1d
+      - action: utter_sugar
+      - or:
+          - intent: affirm
+          - intent: deny
+      - action: utter_not_all_ingredients_english_muffins
+
+  - segment:
+    steps:
+      - or:
+          - intent: lightsnacksmenumeat
+          - intent: lightsnacksmenuveg
+      - action: utter_meal_types
+
+  - segment:
+    steps:
+      - intent: all_ingredients_(/S+)
+      - action: utter_rep
