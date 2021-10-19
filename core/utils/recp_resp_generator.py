@@ -5,7 +5,7 @@ import yaml
 
 
 def write_to_yaml(filename: str, data):
-    with open(os.path.join(os.getcwd().replace('core.utils', ''), 'dm_configs', filename),
+    with open(os.path.join(os.getcwd().replace('core/utils', ''), 'dm_configs', filename),
               "w") as yaml_file:
         print('yaml_file: {}'.format(os.path.join(os.getcwd().replace('utils', ''), 'dm_configs', filename)))
         yaml.dump(data, yaml_file)
@@ -14,7 +14,7 @@ def write_to_yaml(filename: str, data):
 class RecipeResponseGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('core.utils', ''), 'rasax', 'domain.yml')) as domain_file:
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
 
         self.system_response = _domain.get('responses')
@@ -51,40 +51,55 @@ class RecipeResponseGenerator:
 class RecipeIntentMappingGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('utils', ''), 'rasax', 'data', 'stories.yml')) as story_file:
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'stories.yml')) as story_file:
             self._stories = yaml.safe_load(story_file)
         self._stories = self._stories.get('stories')
-        print('type : {}'.format(type(self._stories)))
+        print('type of _stories: {}'.format(type(self._stories)))
+
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'custom_stories.yaml')) as segment_file:
+            self._segments = yaml.safe_load(segment_file)
+        self._segments = self._segments.get('segments')
+        print('type of _segments: {}'.format(type(self._segments)))
 
     def run(self):
+        index = 1
         recipe_intent_map = {}
 
         for item in self._stories:
             steps = item.get('steps')
             for i in range(0, len(steps), 2):
-                print('......')
-                print(steps[i])
-                print(steps[i + 1])
-
                 sys_action = steps[i + 1].get('action')
 
                 if sys_action == 'utter_startrep1':
                     recipe_intent_map[steps[i]['intent']] = 'r1'
+                    self._segments.append({"segment": "trigger_{}".format(index),
+                                           "steps": [{"intent": steps[i]['intent']},
+                                                     {"action": "utter_rep"}]
+                                           })
+                    index += 1
+
                 elif sys_action.startswith('utter_r'):
                     rID = re.findall(r'\d+', sys_action)[0]
                     alpha_step = sys_action.split(rID)[1].replace('_', '')
                     if alpha_step == 'a':
                         recipe_intent_map[steps[i]['intent']] = 'r{}'.format(rID)
 
+                        self._segments.append({"segment": "trigger_{}".format(index),
+                                               "steps": [{"intent": steps[i]['intent']},
+                                                         {"action": "utter_rep"}]
+                                               })
+                        index += 1
+
         print('length of recipe responses: {}'.format(len(recipe_intent_map)))
         print('recipe responses: {}'.format(recipe_intent_map))
 
-        write_to_yaml('recipe_intent_map.yaml', recipe_intent_map)
+        write_to_yaml(filename='recipe_intent_map.yaml', data=recipe_intent_map)
+        write_to_yaml(filename='segments.yaml',  data={"version": "2.0", "segments": self._segments})
 
 
 if __name__ == "__main__":
     resp_gen = RecipeResponseGenerator()
     resp_gen.run()
 
-    map_gen = RecipeIntentMappingGenerator()
-    map_gen.run()
+    # map_gen = RecipeIntentMappingGenerator()
+    # map_gen.run()

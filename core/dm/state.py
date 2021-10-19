@@ -7,8 +7,7 @@ class State:
         self._state = {name: "" for name, config in state_config.items() if config['type'] != "unfeaturized"}
 
     def get(self, state_name: str = ""):
-        if state_name and state_name in self._state.keys():
-            return self._state.get('state_name')
+        return self._state.get(state_name)
 
     def add(self, state_name: str = "", state_value = None):
         if state_name and state_value and state_name in self._state.keys():
@@ -19,4 +18,7 @@ class State:
 
     def __str__(self):
         return str(self._state)
+
+    def __len__(self):
+        return len(self._state)
 

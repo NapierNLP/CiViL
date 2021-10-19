@@ -1,0 +1,33 @@
+version: "2.0"
+
+segments:
+  - segment: greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - segment: search_action
+    steps:
+      - intent: search_rec
+      - action: action_search_rec
+
+  - segment: affirm_action
+    steps:
+      - intent: affirm
+      - action: utter_rep
+
+  - segment: next_action
+    steps:
+      - intent: next
+      - action: utter_rep
+
+  - segment: r_action
+    steps:
+      - intent: r(\D+)
+      - action: utter_rep
+
+  - segment: utensils_path
+    steps:
+      - intent: search_utensils
+      - action: action_utensilexplan
+
