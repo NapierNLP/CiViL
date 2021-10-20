@@ -30,3 +30,6 @@ torchaudio==0.7.2
 tensorboardX>=2.1
 tqdm>=4.45.0
 transformers==4.0.0
+
+# Telegram
+python-telegram-bot

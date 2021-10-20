@@ -10,4 +10,5 @@ PROJECTROOTPATH="$(dirname "$SCRIPTPATH")"
 echo $PROJECTROOTPATH
 
 source ${SCRIPTPATH}/ENV/bin/activate
-rasa run --enable-api -m rasax/models/20211018-175812.tar.gz
+
+
