@@ -21,7 +21,6 @@ rules:
           sys_q_type: confirm
         action: display_meal_types
 
-
   - intent: deny
     conditions:
       - state:

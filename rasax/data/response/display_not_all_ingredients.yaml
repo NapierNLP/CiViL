@@ -1,0 +1,4097 @@
+display_not_all_ingredients_:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(bacon)
+    title: bacon
+  - payload: /search_rec(Swiss cheese)
+    title: Swiss cheese
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(chopped onions)
+    title: chopped onions
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(milk)
+    title: milk
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_adobonggalunggong:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(mackerel)
+    title: mackerel
+  - payload: /search_rec(eggplant)
+    title: eggplant
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(chilli pepper)
+    title: chilli pepper
+  - payload: /search_rec(garlic cloves)
+    title: garlic cloves
+  - payload: /search_rec(sliced onions)
+    title: sliced onions
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(black peppercorns)
+    title: black peppercorns
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_afghanchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(plain whole milk yogurt)
+    title: plain whole milk yogurt
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(cayenne pepper)
+    title: cayenne pepper
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(cumin seeds)
+    title: cumin seeds
+  - payload: /search_rec(chicken)
+    title: chicken
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_airfryerglazeddonuts:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(instant yeast)
+    title: instant yeast
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(unsalted butter)
+    title: unsalted butter
+  - payload: /search_rec(oil spray)
+    title: oil spray
+  - payload: /search_rec()
+    title: ''
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_all-in-oneholidaybundtcake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(baking soda)
+    title: baking soda
+  - payload: /search_rec(cinnamon)
+    title: cinnamon
+  - payload: /search_rec(grated nutmeg)
+    title: grated nutmeg
+  - payload: /search_rec()
+    title: ''
+  - payload: /search_rec(ginger powder)
+    title: ginger powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(granulated sugar)
+    title: granulated sugar
+  - payload: /search_rec(packed light brown sugar)
+    title: packed light brown sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(pure vanilla extract)
+    title: pure vanilla extract
+  - payload: /search_rec(canned unsweetened pumpkin puree)
+    title: canned unsweetened pumpkin puree
+  - payload: /search_rec(apple)
+    title: apple
+  - payload: /search_rec(cranberries)
+    title: cranberries
+  - payload: /search_rec(pecans)
+    title: pecans
+  - payload: /search_rec(confectioners sugar)
+    title: confectioners sugar
+  - payload: /search_rec(maple syrup)
+    title: maple syrup
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_aniraqidish:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(mutton chops)
+    title: mutton chops
+  - payload: /search_rec(arabian bread)
+    title: arabian bread
+  - payload: /search_rec(yoghurt)
+    title: yoghurt
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(fresh parsley)
+    title: fresh parsley
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(cubeb powder)
+    title: cubeb powder
+  - payload: /search_rec(black pepper powder)
+    title: black pepper powder
+  - payload: /search_rec(white pepper powder)
+    title: white pepper powder
+  - payload: /search_rec(sumak powder)
+    title: sumak powder
+  - payload: /search_rec(cloves powder)
+    title: cloves powder
+  - payload: /search_rec(cardamom green powder)
+    title: cardamom green powder
+  - payload: /search_rec(cinnamon powder)
+    title: cinnamon powder
+  - payload: /search_rec(pimento powder)
+    title: pimento powder
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_apacherattlesnakefry.:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(60-100cm rattlesnake)
+    title: 60-100cm rattlesnake
+  - payload: /search_rec(shortening)
+    title: shortening
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(onion powder)
+    title: onion powder
+  - payload: /search_rec(garlic juice)
+    title: garlic juice
+  - payload: /search_rec(ground cayenne pepper)
+    title: ground cayenne pepper
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(rosemary)
+    title: rosemary
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_apfelkuchen:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(cooking apples)
+    title: cooking apples
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(granulated sugar)
+    title: granulated sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(lemon extract)
+    title: lemon extract
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(golden raisins)
+    title: golden raisins
+  - payload: /search_rec(powdered sugar)
+    title: powdered sugar
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  text: Please click which ingredients are missing for alternative options.
+"display_not_all_ingredients_arrozcongr\xED":
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(white long grained rice)
+    title: white long grained rice
+  - payload: /search_rec(small grained black beans)
+    title: small grained black beans
+  - payload: /search_rec(black beans stock)
+    title: black beans stock
+  - payload: /search_rec(large white onion)
+    title: large white onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(sweet peppers)
+    title: sweet peppers
+  - payload: /search_rec(ground oregano)
+    title: ground oregano
+  - payload: /search_rec(bay leaf)
+    title: bay leaf
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_arrozconpollo:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(roast chicken carcass)
+    title: roast chicken carcass
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(leek)
+    title: leek
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(cumin seeds)
+    title: cumin seeds
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(smoked paprika)
+    title: smoked paprika
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(red pepper)
+    title: red pepper
+  - payload: /search_rec(lager)
+    title: lager
+  - payload: /search_rec(long-grain rice)
+    title: long-grain rice
+  - payload: /search_rec(peas)
+    title: peas
+  - payload: /search_rec(cooked leftover chicken)
+    title: cooked leftover chicken
+  - payload: /search_rec(fresh coriander)
+    title: fresh coriander
+  - payload: /search_rec(limes)
+    title: limes
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_aubergineandblackbeanbowl:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(aubergine)
+    title: aubergine
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(black beans)
+    title: black beans
+  - payload: /search_rec(tomato puree)
+    title: tomato puree
+  - payload: /search_rec(red wine vinegar)
+    title: red wine vinegar
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(smoked paprika)
+    title: smoked paprika
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(tortilla wraps)
+    title: tortilla wraps
+  - payload: /search_rec(feta)
+    title: feta
+  - payload: /search_rec(fresh coriander)
+    title: fresh coriander
+  - payload: /search_rec(lime)
+    title: lime
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_bamboosteamedsalmonwithsesameoil:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Salmon Fillets)
+    title: Salmon Fillets
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(scallions)
+    title: scallions
+  - payload: /search_rec(ginger slices)
+    title: ginger slices
+  - payload: /search_rec(lemon)
+    title: lemon
+  - payload: /search_rec(sesame oil)
+    title: sesame oil
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_bananapeanutbuttermockicecream:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(bananas)
+    title: bananas
+  - payload: /search_rec(peanut butter)
+    title: peanut butter
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_barbacoadecabeza:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(cheek meat)
+    title: cheek meat
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(dried oregano)
+    title: dried oregano
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(bay leaf)
+    title: bay leaf
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(broth)
+    title: broth
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_beefandpepperstir-fry:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(sweet chilli sauce)
+    title: sweet chilli sauce
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(chinese five spice powder)
+    title: chinese five spice powder
+  - payload: /search_rec(light muscovado sugar)
+    title: light muscovado sugar
+  - payload: /search_rec(lime)
+    title: lime
+  - payload: /search_rec(rump steaks)
+    title: rump steaks
+  - payload: /search_rec(fine egg noodles)
+    title: fine egg noodles
+  - payload: /search_rec(sunflower oil)
+    title: sunflower oil
+  - payload: /search_rec(red peppers)
+    title: red peppers
+  - payload: /search_rec(brown onion)
+    title: brown onion
+  - payload: /search_rec(chinese leaves)
+    title: chinese leaves
+  - payload: /search_rec(bunch of coriander)
+    title: bunch of coriander
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_beefcalderetawithcocomilk:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(stewing beef)
+    title: stewing beef
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(onions)
+    title: onions
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(fish sauce)
+    title: fish sauce
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(beef broth)
+    title: beef broth
+  - payload: /search_rec(coconut milk)
+    title: coconut milk
+  - payload: /search_rec(red potatoes)
+    title: red potatoes
+  - payload: /search_rec(carrots)
+    title: carrots
+  - payload: /search_rec(red bell pepper)
+    title: red bell pepper
+  - payload: /search_rec(green bell pepper)
+    title: green bell pepper
+  - payload: /search_rec(chilli pepper)
+    title: chilli pepper
+  - payload: /search_rec(del monte tomato sauce)
+    title: del monte tomato sauce
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_beefchowmein:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(rump steak)
+    title: rump steak
+  - payload: /search_rec(cornflour)
+    title: cornflour
+  - payload: /search_rec(dark soy sauce)
+    title: dark soy sauce
+  - payload: /search_rec(oyster sauce)
+    title: oyster sauce
+  - payload: /search_rec(beef stock)
+    title: beef stock
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(sesame oil)
+    title: sesame oil
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(mangetout)
+    title: mangetout
+  - payload: /search_rec(cooked egg noodles)
+    title: cooked egg noodles
+  - payload: /search_rec(beansprouts)
+    title: beansprouts
+  - payload: /search_rec(spring onions)
+    title: spring onions
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_beersauteed:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Live Blue Crabs)
+    title: Live Blue Crabs
+  - payload: /search_rec(Extra Virgin Olive Oil)
+    title: Extra Virgin Olive Oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(beer)
+    title: beer
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(old bay seasoning)
+    title: old bay seasoning
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_betterenglishmuffins:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(bread flour)
+    title: bread flour
+  - payload: /search_rec(instant yeast)
+    title: instant yeast
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_betteroatmealraisincookies:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(dark brown sugar)
+    title: dark brown sugar
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(ground nutmeg)
+    title: ground nutmeg
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(baking soda)
+    title: baking soda
+  - payload: /search_rec(old-fashioned rolled-oats)
+    title: old-fashioned rolled-oats
+  - payload: /search_rec(raisins)
+    title: raisins
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_blackforestcheesecakesquares:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(fudge marble cake mix)
+    title: fudge marble cake mix
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(cream cheese)
+    title: cream cheese
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(dairy sour cream)
+    title: dairy sour cream
+  - payload: /search_rec(whipped cream)
+    title: whipped cream
+  - payload: /search_rec(cherry pie filling)
+    title: cherry pie filling
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_blueberrieswithlimesugarandcitrusconfit:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Blueberries)
+    title: Blueberries
+  - payload: /search_rec(granulated sugar)
+    title: granulated sugar
+  - payload: /search_rec(limes)
+    title: limes
+  - payload: /search_rec(mint)
+    title: mint
+  - payload: /search_rec(almond extract)
+    title: almond extract
+  - payload: /search_rec(lime confit zest)
+    title: lime confit zest
+  - payload: /search_rec(water)
+    title: water
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_calamansicloudcake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Nestle All purpose cream)
+    title: Nestle All purpose cream
+  - payload: /search_rec(condensed milk)
+    title: condensed milk
+  - payload: /search_rec(cream cheese)
+    title: cream cheese
+  - payload: /search_rec(fresh calamansi or lime juice)
+    title: fresh calamansi or lime juice
+  - payload: /search_rec(green food colouring)
+    title: green food colouring
+  - payload: /search_rec(graham crackers)
+    title: graham crackers
+  - payload: /search_rec(kiwi)
+    title: kiwi
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_canine&felinehealthypumpkinballs:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Canned  Pumpkin or Sweet potato)
+    title: Canned  Pumpkin or Sweet potato
+  - payload: /search_rec(molasses)
+    title: molasses
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(brown rice flour)
+    title: brown rice flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(baking soda)
+    title: baking soda
+  - payload: /search_rec(dried cranberries)
+    title: dried cranberries
+  - payload: /search_rec(carob chips)
+    title: carob chips
+  - payload: /search_rec(roasted pumpkin seeds)
+    title: roasted pumpkin seeds
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_cannellinibeanstwoways:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(tinned chopped tomatoes)
+    title: tinned chopped tomatoes
+  - payload: /search_rec(tinned cannellini beans)
+    title: tinned cannellini beans
+  - payload: /search_rec(red wine)
+    title: red wine
+  - payload: /search_rec(thyme)
+    title: thyme
+  - payload: /search_rec(caster sugar)
+    title: caster sugar
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(baking potatoes)
+    title: baking potatoes
+  - payload: /search_rec(goats cheese)
+    title: goats cheese
+  - payload: /search_rec(breadcrumbs)
+    title: breadcrumbs
+  - payload: /search_rec(flat leaf parsley)
+    title: flat leaf parsley
+  - payload: /search_rec(parmesan)
+    title: parmesan
+  - payload: /search_rec(green salad)
+    title: green salad
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_caramilkbrownies:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(cocoa)
+    title: cocoa
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  - payload: /search_rec(caramilk chocolate bars)
+    title: caramilk chocolate bars
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_cevichedepescado:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(orange roughy fish)
+    title: orange roughy fish
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(limes)
+    title: limes
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(serrano peppers)
+    title: serrano peppers
+  - payload: /search_rec(cilantro)
+    title: cilantro
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(avocado)
+    title: avocado
+  - payload: /search_rec(tostadas)
+    title: tostadas
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chaatwithspicedsoup:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(dried whole green peas)
+    title: dried whole green peas
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(apple butter)
+    title: apple butter
+  - payload: /search_rec(jeera powder)
+    title: jeera powder
+  - payload: /search_rec(garam masala)
+    title: garam masala
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(turmeric)
+    title: turmeric
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(red chilli powder)
+    title: red chilli powder
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_cheesygarlicmashedpotatoes:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(potatoes)
+    title: potatoes
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(heavy cream)
+    title: heavy cream
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(cheddar cheese)
+    title: cheddar cheese
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chickenchilli:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(bay leaf)
+    title: bay leaf
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(smoked paprika)
+    title: smoked paprika
+  - payload: /search_rec(coriander)
+    title: coriander
+  - payload: /search_rec(chicken thighs)
+    title: chicken thighs
+  - payload: /search_rec(kidney beans)
+    title: kidney beans
+  - payload: /search_rec(passata)
+    title: passata
+  - payload: /search_rec(chicken stock)
+    title: chicken stock
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(dark chocolate)
+    title: dark chocolate
+  - payload: /search_rec(rice)
+    title: rice
+  - payload: /search_rec(avocado)
+    title: avocado
+  - payload: /search_rec(sour cream)
+    title: sour cream
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chickenwithrice:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(roast chicken carcass)
+    title: roast chicken carcass
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(leek)
+    title: leek
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(cumin seeds)
+    title: cumin seeds
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(smoked paprika)
+    title: smoked paprika
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(red pepper)
+    title: red pepper
+  - payload: /search_rec(lager)
+    title: lager
+  - payload: /search_rec(long-grain rice)
+    title: long-grain rice
+  - payload: /search_rec(peas)
+    title: peas
+  - payload: /search_rec(cooked leftover chicken)
+    title: cooked leftover chicken
+  - payload: /search_rec(fresh coriander)
+    title: fresh coriander
+  - payload: /search_rec(limes)
+    title: limes
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chile-corianderchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chicken leg and thigh pieces)
+    title: chicken leg and thigh pieces
+  - payload: /search_rec(coriander seeds)
+    title: coriander seeds
+  - payload: /search_rec(whole black peppercorns)
+    title: whole black peppercorns
+  - payload: /search_rec(cumin seeds)
+    title: cumin seeds
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(fresh ginger)
+    title: fresh ginger
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(hot paprika)
+    title: hot paprika
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(cilantro)
+    title: cilantro
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(lime)
+    title: lime
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chileanempanada:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(pork lard)
+    title: pork lard
+  - payload: /search_rec(warm milk)
+    title: warm milk
+  - payload: /search_rec(lukewarm water)
+    title: lukewarm water
+  - payload: /search_rec(ground beef)
+    title: ground beef
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(white wine)
+    title: white wine
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(hard eggs)
+    title: hard eggs
+  - payload: /search_rec(olives)
+    title: olives
+  - payload: /search_rec(raisins)
+    title: raisins
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+"display_not_all_ingredients_chilerellenossouffl\xE9":
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(canned green chile enchilada sauce)
+    title: canned green chile enchilada sauce
+  - payload: /search_rec(can of whole green chiles)
+    title: can of whole green chiles
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(monterey jack cheese)
+    title: monterey jack cheese
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chilipie:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(large yellow onions)
+    title: large yellow onions
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(canned green chillis)
+    title: canned green chillis
+  - payload: /search_rec(ground beef)
+    title: ground beef
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(worcestershire sauce)
+    title: worcestershire sauce
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(cinnamon)
+    title: cinnamon
+  - payload: /search_rec(nutmeg)
+    title: nutmeg
+  - payload: /search_rec(red pepper)
+    title: red pepper
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(diced tomatoes)
+    title: diced tomatoes
+  - payload: /search_rec(white kidney beans)
+    title: white kidney beans
+  - payload: /search_rec(corn)
+    title: corn
+  - payload: /search_rec(cheddar cheese)
+    title: cheddar cheese
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(cornmeal)
+    title: cornmeal
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(table salt)
+    title: table salt
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(sour cream)
+    title: sour cream
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chinesebarbecuedchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chicken pieces)
+    title: chicken pieces
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(hoisin sauce)
+    title: hoisin sauce
+  - payload: /search_rec(cider vinegar)
+    title: cider vinegar
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(dijon mustard)
+    title: dijon mustard
+  - payload: /search_rec(peanut oil)
+    title: peanut oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_chocolatechiffoncake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(cake and pastry flour)
+    title: cake and pastry flour
+  - payload: /search_rec(unsweetened cocoa powder)
+    title: unsweetened cocoa powder
+  - payload: /search_rec(granulated sugar)
+    title: granulated sugar
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(canola oil)
+    title: canola oil
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  - payload: /search_rec(egg yolks)
+    title: egg yolks
+  - payload: /search_rec(egg whites)
+    title: egg whites
+  - payload: /search_rec(cream of tartar)
+    title: cream of tartar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_coldangelhairpastaintruffleoilwithabaloneandcaviar:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(angel hair pasta)
+    title: angel hair pasta
+  - payload: /search_rec(canned australian abalone)
+    title: canned australian abalone
+  - payload: /search_rec(abalone stock from the can)
+    title: abalone stock from the can
+  - payload: /search_rec(sakura ebi)
+    title: sakura ebi
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(truffle oil)
+    title: truffle oil
+  - payload: /search_rec(caviar)
+    title: caviar
+  - payload: /search_rec(shrimp oil)
+    title: shrimp oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_cranberrymoussejellomoldsalad:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(strawberry gelatin)
+    title: strawberry gelatin
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(pineapple)
+    title: pineapple
+  - payload: /search_rec(cranberry sauce)
+    title: cranberry sauce
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(lemon peel)
+    title: lemon peel
+  - payload: /search_rec(nutmeg)
+    title: nutmeg
+  - payload: /search_rec(sour cream)
+    title: sour cream
+  - payload: /search_rec(pecans)
+    title: pecans
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_cranberryupside-downcake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(cinnamon)
+    title: cinnamon
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(walnuts/pecans)
+    title: walnuts/pecans
+  - payload: /search_rec(cranberries)
+    title: cranberries
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  - payload: /search_rec(whole milk)
+    title: whole milk
+  - payload: /search_rec(red currant/raspberry jelly)
+    title: red currant/raspberry jelly
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_crispydinuguan:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(pork belly)
+    title: pork belly
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(peppercorns)
+    title: peppercorns
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(pork liver)
+    title: pork liver
+  - payload: /search_rec(native vinegar)
+    title: native vinegar
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(pork blood)
+    title: pork blood
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(patis)
+    title: patis
+  - payload: /search_rec(hot pepper)
+    title: hot pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_crispyporkdinuguan:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(pork belly)
+    title: pork belly
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(peppercorns)
+    title: peppercorns
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(pork liver)
+    title: pork liver
+  - payload: /search_rec(native vinegar)
+    title: native vinegar
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(pork blood)
+    title: pork blood
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(patis)
+    title: patis
+  - payload: /search_rec(hot pepper)
+    title: hot pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_curriedlentilstewwithrice.:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(bacon)
+    title: bacon
+  - payload: /search_rec(cooked ham)
+    title: cooked ham
+  - payload: /search_rec(turmeric)
+    title: turmeric
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(cloves)
+    title: cloves
+  - payload: /search_rec(brown lentils)
+    title: brown lentils
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(carrots)
+    title: carrots
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(boiled brown or white rice)
+    title: boiled brown or white rice
+  text: Please click which ingredients are missing for alternative options.
+"display_not_all_ingredients_devil\u2019sfoodwhite-outcake":
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(unsalted butter)
+    title: unsalted butter
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(bittersweet chocolate)
+    title: bittersweet chocolate
+  - payload: /search_rec(unsweetened cocoa powder)
+    title: unsweetened cocoa powder
+  - payload: /search_rec(baking soda)
+    title: baking soda
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(light brown sugar)
+    title: light brown sugar
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  - payload: /search_rec(buttermilk/whole milk)
+    title: buttermilk/whole milk
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(semisweet chocolate chips)
+    title: semisweet chocolate chips
+  - payload: /search_rec(cream of tartar)
+    title: cream of tartar
+  - payload: /search_rec(egg whites)
+    title: egg whites
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_easychickentacos:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(orange)
+    title: orange
+  - payload: /search_rec(lime)
+    title: lime
+  - payload: /search_rec(hot mexican chilli sauce)
+    title: hot mexican chilli sauce
+  - payload: /search_rec(tomato puree)
+    title: tomato puree
+  - payload: /search_rec(dried oregano)
+    title: dried oregano
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(flaked sea salt)
+    title: flaked sea salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(boneless skinless chicken thigh fillets)
+    title: boneless skinless chicken thigh fillets
+  - payload: /search_rec(corn tortillas)
+    title: corn tortillas
+  - payload: /search_rec(gem lettuce)
+    title: gem lettuce
+  - payload: /search_rec(avocado)
+    title: avocado
+  - payload: /search_rec(sour cream)
+    title: sour cream
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(red or white wine vinegar)
+    title: red or white wine vinegar
+  - payload: /search_rec(caster sugar)
+    title: caster sugar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_escabechenggalunggong:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Galunggong/Mackerel Scad Fish)
+    title: Galunggong/Mackerel Scad Fish
+  - payload: /search_rec(carrots)
+    title: carrots
+  - payload: /search_rec(red bell peppers)
+    title: red bell peppers
+  - payload: /search_rec(pineapple chunks)
+    title: pineapple chunks
+  - payload: /search_rec(pineapple juice)
+    title: pineapple juice
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(onions)
+    title: onions
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(maple syrup)
+    title: maple syrup
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(canola oil)
+    title: canola oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_feijoada:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(black beans)
+    title: black beans
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(pork ribs)
+    title: pork ribs
+  - payload: /search_rec(unsmoked pork ribs)
+    title: unsmoked pork ribs
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(bacon)
+    title: bacon
+  - payload: /search_rec(pork belly)
+    title: pork belly
+  - payload: /search_rec(sausage)
+    title: sausage
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(dried chili)
+    title: dried chili
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_friedonionrings:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Spanish or Sweet Onions)
+    title: Spanish or Sweet Onions
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(canola cooking oil)
+    title: canola cooking oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_garlic-butteroctopusjalisco-style:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(octopus)
+    title: octopus
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_germanapplecake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(cooking apples)
+    title: cooking apples
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(granulated sugar)
+    title: granulated sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(lemon extract)
+    title: lemon extract
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(golden raisins)
+    title: golden raisins
+  - payload: /search_rec(powdered sugar)
+    title: powdered sugar
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_germanpancake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(powdered sugar)
+    title: powdered sugar
+  - payload: /search_rec(chopped fruit of your choice)
+    title: chopped fruit of your choice
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_ginisangpusongsaging:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Puso ng Saging/ Banana Heart)
+    title: Puso ng Saging/ Banana Heart
+  - payload: /search_rec(Kalabasa/Squash)
+    title: Kalabasa/Squash
+  - payload: /search_rec(vermicelli noodles)
+    title: vermicelli noodles
+  - payload: /search_rec(small shrimp)
+    title: small shrimp
+  - payload: /search_rec(tomato)
+    title: tomato
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_grilledsalmonwithbraziliangarlicmarinade:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(salmon fillets)
+    title: salmon fillets
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(dry white wine)
+    title: dry white wine
+  - payload: /search_rec(ketchup)
+    title: ketchup
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(fresh basil)
+    title: fresh basil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_grilledsquid:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(squid)
+    title: squid
+  - payload: /search_rec(honey)
+    title: honey
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(hot chilli pepper)
+    title: hot chilli pepper
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_grilledstuffedpomfretwithgreenchutney:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(pomfret)
+    title: pomfret
+  - payload: /search_rec(lemon)
+    title: lemon
+  - payload: /search_rec(salt and pepper powder)
+    title: salt and pepper powder
+  - payload: /search_rec(mint leaves)
+    title: mint leaves
+  - payload: /search_rec(coriander leaves)
+    title: coriander leaves
+  - payload: /search_rec(roasted ground nuts)
+    title: roasted ground nuts
+  - payload: /search_rec(roasted cumin seeds)
+    title: roasted cumin seeds
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(green chillies)
+    title: green chillies
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(oil)
+    title: oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_grilledtandooriturkeytenderloin:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(greek yogurt)
+    title: greek yogurt
+  - payload: /search_rec(sour cream)
+    title: sour cream
+  - payload: /search_rec(lime juice)
+    title: lime juice
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(garam masala)
+    title: garam masala
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(turmeric)
+    title: turmeric
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(arbol chili powder)
+    title: arbol chili powder
+  - payload: /search_rec(turkey tenderloin)
+    title: turkey tenderloin
+  - payload: /search_rec(ghee)
+    title: ghee
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_grubrubbedandsmokedcornedbeefbrisket:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Corned beef brisket)
+    title: Corned beef brisket
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(chili powder)
+    title: chili powder
+  - payload: /search_rec(soft beef bouillon cube)
+    title: soft beef bouillon cube
+  - payload: /search_rec(onion powder)
+    title: onion powder
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(mustard powder)
+    title: mustard powder
+  - payload: /search_rec(allspice)
+    title: allspice
+  - payload: /search_rec(celery seeds)
+    title: celery seeds
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(red pepper flakes)
+    title: red pepper flakes
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_habanerobutterchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chicken breast)
+    title: chicken breast
+  - payload: /search_rec(habaneros)
+    title: habaneros
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(honey)
+    title: honey
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(basil)
+    title: basil
+  - payload: /search_rec(roma tomato)
+    title: roma tomato
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(yellow rice)
+    title: yellow rice
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_harirasoup:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(canned chickpeas)
+    title: canned chickpeas
+  - payload: /search_rec(lamb or beef stew meat)
+    title: lamb or beef stew meat
+  - payload: /search_rec(chicken thighs)
+    title: chicken thighs
+  - payload: /search_rec(large onions)
+    title: large onions
+  - payload: /search_rec(dry brown lentils)
+    title: dry brown lentils
+  - payload: /search_rec(turmeric)
+    title: turmeric
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(dry chicken)
+    title: dry chicken
+  - payload: /search_rec(beef or vegetable stock)
+    title: beef or vegetable stock
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(rice)
+    title: rice
+  - payload: /search_rec(cilantro)
+    title: cilantro
+  - payload: /search_rec(flat leaf parsley)
+    title: flat leaf parsley
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(canned tomatoes)
+    title: canned tomatoes
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(lemons)
+    title: lemons
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_inihawnapusit:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(squid)
+    title: squid
+  - payload: /search_rec(honey)
+    title: honey
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(hot chilli pepper)
+    title: hot chilli pepper
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_inihawnatengangbaboy:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(pork ears)
+    title: pork ears
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(peppercorns)
+    title: peppercorns
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(bamboo skewers)
+    title: bamboo skewers
+  - payload: /search_rec(bottled vinaigrette)
+    title: bottled vinaigrette
+  - payload: /search_rec(dark brown sugar)
+    title: dark brown sugar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_irishsodamuffins:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(unsalted butter)
+    title: unsalted butter
+  - payload: /search_rec(raisins)
+    title: raisins
+  - payload: /search_rec(golden raisins)
+    title: golden raisins
+  - payload: /search_rec(buttermilk)
+    title: buttermilk
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_italianshrimpscampi:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(shrimp)
+    title: shrimp
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(dry white wine)
+    title: dry white wine
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(shallots)
+    title: shallots
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(rosemary)
+    title: rosemary
+  - payload: /search_rec(lemon zest)
+    title: lemon zest
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(egg yolk)
+    title: egg yolk
+  - payload: /search_rec(panko)
+    title: panko
+  - payload: /search_rec(lemon wedges)
+    title: lemon wedges
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(red pepper flakes)
+    title: red pepper flakes
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_italianspaghettisaucewithmeatballs:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(ground beef)
+    title: ground beef
+  - payload: /search_rec(ground pork)
+    title: ground pork
+  - payload: /search_rec(bread crumbs)
+    title: bread crumbs
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(parmesan cheese)
+    title: parmesan cheese
+  - payload: /search_rec(basil)
+    title: basil
+  - payload: /search_rec(marjoram)
+    title: marjoram
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(celery salt)
+    title: celery salt
+  - payload: /search_rec(hot pepper flakes)
+    title: hot pepper flakes
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(garlic salt)
+    title: garlic salt
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(canned tomato juice)
+    title: canned tomato juice
+  - payload: /search_rec(green pepper)
+    title: green pepper
+  - payload: /search_rec(bay leaf)
+    title: bay leaf
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_koreanfriedchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(caster sugar)
+    title: caster sugar
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(hot water)
+    title: hot water
+  - payload: /search_rec(plain flour)
+    title: plain flour
+  - payload: /search_rec(cornflour)
+    title: cornflour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(vodka)
+    title: vodka
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(mirin)
+    title: mirin
+  - payload: /search_rec(rice wine vinegar)
+    title: rice wine vinegar
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(sesame oil)
+    title: sesame oil
+  - payload: /search_rec(sesame seeds)
+    title: sesame seeds
+  - payload: /search_rec(korean chilli paste)
+    title: korean chilli paste
+  - payload: /search_rec(hot sauce)
+    title: hot sauce
+  - payload: /search_rec(honey)
+    title: honey
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_lambrisotto.:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(lamb)
+    title: lamb
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(chicken broth)
+    title: chicken broth
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(pine nuts)
+    title: pine nuts
+  - payload: /search_rec(arborio rice)
+    title: arborio rice
+  - payload: /search_rec(white wine)
+    title: white wine
+  - payload: /search_rec(feta)
+    title: feta
+  - payload: /search_rec(allspice)
+    title: allspice
+  - payload: /search_rec(mint)
+    title: mint
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_limeandchipotleblackbeantacos:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(chipotle paste)
+    title: chipotle paste
+  - payload: /search_rec(tinned black beans)
+    title: tinned black beans
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(cherry tomatoes)
+    title: cherry tomatoes
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(fresh coriander)
+    title: fresh coriander
+  - payload: /search_rec(lime juice)
+    title: lime juice
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(avocado)
+    title: avocado
+  - payload: /search_rec(green chili)
+    title: green chili
+  - payload: /search_rec(wheat or corn tortillas)
+    title: wheat or corn tortillas
+  - payload: /search_rec(free-range eggs)
+    title: free-range eggs
+  - payload: /search_rec(grated cheese)
+    title: grated cheese
+  - payload: /search_rec(breakfast radishes)
+    title: breakfast radishes
+  - payload: /search_rec(coriander springs)
+    title: coriander springs
+  - payload: /search_rec(sweet chilli sauce)
+    title: sweet chilli sauce
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_low-fatspicerubbedroastturkey:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(skinless turkey)
+    title: skinless turkey
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(smoked paprika)
+    title: smoked paprika
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  - payload: /search_rec(onion powder)
+    title: onion powder
+  - payload: /search_rec(dried oregano)
+    title: dried oregano
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_mac&cheese:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(plain flour)
+    title: plain flour
+  - payload: /search_rec(dijon mustard)
+    title: dijon mustard
+  - payload: /search_rec(full fat milk)
+    title: full fat milk
+  - payload: /search_rec(double cream)
+    title: double cream
+  - payload: /search_rec(bay leaf)
+    title: bay leaf
+  - payload: /search_rec(mature cheddar)
+    title: mature cheddar
+  - payload: /search_rec(grated nutmeg)
+    title: grated nutmeg
+  - payload: /search_rec(dried macaroni)
+    title: dried macaroni
+  - payload: /search_rec(smoked bacon lardons)
+    title: smoked bacon lardons
+  - payload: /search_rec(parmesan)
+    title: parmesan
+  - payload: /search_rec(breadcrumbs)
+    title: breadcrumbs
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_make-aheadgravy:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(turkey neck)
+    title: turkey neck
+  - payload: /search_rec(celery sticks)
+    title: celery sticks
+  - payload: /search_rec(carrots)
+    title: carrots
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(tamari/soy sauce)
+    title: tamari/soy sauce
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_maltagliatiwithtomatoes,porcinimushroomsandshrimp:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Porcini Mushrooms)
+    title: Porcini Mushrooms
+  - payload: /search_rec(Garlic)
+    title: Garlic
+  - payload: /search_rec(White Wine)
+    title: White Wine
+  - payload: /search_rec(Extra-Virgin Olive Oil)
+    title: Extra-Virgin Olive Oil
+  - payload: /search_rec(Tomatoes)
+    title: Tomatoes
+  - payload: /search_rec(Shrimp)
+    title: Shrimp
+  - payload: /search_rec(Maltagliati Pasta)
+    title: Maltagliati Pasta
+  - payload: /search_rec(Fish stock)
+    title: Fish stock
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_mediterraneanchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chicken breast)
+    title: chicken breast
+  - payload: /search_rec(lemon)
+    title: lemon
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(poultry seasoning)
+    title: poultry seasoning
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_mediterraneanfiletofsole:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Flat fish)
+    title: Flat fish
+  - payload: /search_rec(white wine)
+    title: white wine
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(lemon)
+    title: lemon
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_mexicanbeanstew:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(low-cal cooking spray)
+    title: low-cal cooking spray
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(yellow pepper)
+    title: yellow pepper
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(coriander)
+    title: coriander
+  - payload: /search_rec(tinned chopped tomatoes)
+    title: tinned chopped tomatoes
+  - payload: /search_rec(tomato puree)
+    title: tomato puree
+  - payload: /search_rec(tinned mixed beans)
+    title: tinned mixed beans
+  - payload: /search_rec(long grain rice)
+    title: long grain rice
+  - payload: /search_rec(greek yoghurt)
+    title: greek yoghurt
+  - payload: /search_rec(lime)
+    title: lime
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(tomato)
+    title: tomato
+  - payload: /search_rec(spring onions)
+    title: spring onions
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_mexicanstuffedjalapenos:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(jalapenos)
+    title: jalapenos
+  - payload: /search_rec(shredded mexican blend cheese)
+    title: shredded mexican blend cheese
+  - payload: /search_rec(shredded italian blend cheese)
+    title: shredded italian blend cheese
+  - payload: /search_rec(cream cheese)
+    title: cream cheese
+  - payload: /search_rec(fresh minced garlic)
+    title: fresh minced garlic
+  - payload: /search_rec(chorizo)
+    title: chorizo
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(cilantro)
+    title: cilantro
+  - payload: /search_rec(lime juice)
+    title: lime juice
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_misirwot:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(berbere seasoning)
+    title: berbere seasoning
+  - payload: /search_rec(tomato paste)
+    title: tomato paste
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(red lentils)
+    title: red lentils
+  - payload: /search_rec(salt)
+    title: salt
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_misuasoupwithupoandpatola:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(chicken breast fillet)
+    title: chicken breast fillet
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(upo)
+    title: upo
+  - payload: /search_rec(chicken broth cubes)
+    title: chicken broth cubes
+  - payload: /search_rec(patola)
+    title: patola
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(misua)
+    title: misua
+  - payload: /search_rec(quail eggs)
+    title: quail eggs
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_monaofeaster:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(sugar powder)
+    title: sugar powder
+  - payload: /search_rec(bakers yeast)
+    title: bakers yeast
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(orange zest)
+    title: orange zest
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(hard cooked eggs)
+    title: hard cooked eggs
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(small coloured candies)
+    title: small coloured candies
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_moussakamediterraneo:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Spanish onions)
+    title: Spanish onions
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(ground meat)
+    title: ground meat
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(large tomatoes)
+    title: large tomatoes
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(red pepper flakes)
+    title: red pepper flakes
+  - payload: /search_rec(flat leaf parsley)
+    title: flat leaf parsley
+  - payload: /search_rec(red wine)
+    title: red wine
+  - payload: /search_rec(sweet butter)
+    title: sweet butter
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(whole milk)
+    title: whole milk
+  - payload: /search_rec(nutmeg)
+    title: nutmeg
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(parmesan cheese)
+    title: parmesan cheese
+  - payload: /search_rec(eggplant)
+    title: eggplant
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_mushroomandleekpasta:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(dried lasagna sheets)
+    title: dried lasagna sheets
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(medium leeks)
+    title: medium leeks
+  - payload: /search_rec(button mushrooms)
+    title: button mushrooms
+  - payload: /search_rec(garlic cloves)
+    title: garlic cloves
+  - payload: /search_rec(fresh cream)
+    title: fresh cream
+  - payload: /search_rec(chicken stock)
+    title: chicken stock
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(red chilli flakes)
+    title: red chilli flakes
+  - payload: /search_rec(flat parsley)
+    title: flat parsley
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_newyorkcrumbcake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(cinnamon)
+    title: cinnamon
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(unsalted butter)
+    title: unsalted butter
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(baking soda)
+    title: baking soda
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(sour cream)
+    title: sour cream
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pancitbihonguisadowithatay-balunbalunan:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(rice noodles)
+    title: rice noodles
+  - payload: /search_rec(chicken liver)
+    title: chicken liver
+  - payload: /search_rec(pork)
+    title: pork
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(cabbage)
+    title: cabbage
+  - payload: /search_rec(chicken broth)
+    title: chicken broth
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(kinchay)
+    title: kinchay
+  - payload: /search_rec(canola oil)
+    title: canola oil
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pancitcanton:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(egg noodles)
+    title: egg noodles
+  - payload: /search_rec(chicken breast)
+    title: chicken breast
+  - payload: /search_rec(chicken liver)
+    title: chicken liver
+  - payload: /search_rec(chicken gizzard)
+    title: chicken gizzard
+  - payload: /search_rec(bell pepper)
+    title: bell pepper
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(sweet peas)
+    title: sweet peas
+  - payload: /search_rec(green beans)
+    title: green beans
+  - payload: /search_rec(small head wombok)
+    title: small head wombok
+  - payload: /search_rec(cabbage)
+    title: cabbage
+  - payload: /search_rec(oyster sauce)
+    title: oyster sauce
+  - payload: /search_rec(chicken stock)
+    title: chicken stock
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(calamansi)
+    title: calamansi
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pansearedlambchops:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(lamb chops)
+    title: lamb chops
+  - payload: /search_rec(trader joes 21 seasoning salute)
+    title: trader joes 21 seasoning salute
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pansearedsirloinsteakswithsauteedonions:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(sirloin steak)
+    title: sirloin steak
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(yellow onion)
+    title: yellow onion
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pastaconpangrattato:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(homemade breadcrumbs)
+    title: homemade breadcrumbs
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(parmesan cheese)
+    title: parmesan cheese
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(pasta)
+    title: pasta
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pastawithgarlicbreadcrumbs:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(homemade breadcrumbs)
+    title: homemade breadcrumbs
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(parmesan cheese)
+    title: parmesan cheese
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(pasta)
+    title: pasta
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_peartartetatin:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(all-purpose flour)
+    title: all-purpose flour
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(unsalted butter)
+    title: unsalted butter
+  - payload: /search_rec(egg yolk)
+    title: egg yolk
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(pears)
+    title: pears
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(sugar)
+    title: sugar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_perfectfrenchsidesalad:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(shallots)
+    title: shallots
+  - payload: /search_rec(white wine vinegar)
+    title: white wine vinegar
+  - payload: /search_rec(curly endive)
+    title: curly endive
+  - payload: /search_rec(fresh chives)
+    title: fresh chives
+  - payload: /search_rec(chervil)
+    title: chervil
+  - payload: /search_rec(slender green beans)
+    title: slender green beans
+  - payload: /search_rec(boston lettuce)
+    title: boston lettuce
+  - payload: /search_rec(Dijon mustard)
+    title: Dijon mustard
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(freshly ground black pepper)
+    title: freshly ground black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_peruvianroastchicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(mint leaves)
+    title: mint leaves
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(smoked paprika)
+    title: smoked paprika
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(lime zest)
+    title: lime zest
+  - payload: /search_rec(lime juice)
+    title: lime juice
+  - payload: /search_rec(jalapeno)
+    title: jalapeno
+  - payload: /search_rec(whole chicken)
+    title: whole chicken
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pineapplestrawberrysalad:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(strawberries)
+    title: strawberries
+  - payload: /search_rec(pineapple)
+    title: pineapple
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(sweet red pepper)
+    title: sweet red pepper
+  - payload: /search_rec(cilantro or parsley)
+    title: cilantro or parsley
+  - payload: /search_rec(key lime juice)
+    title: key lime juice
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pinoysumansaibos:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(malagkit rice)
+    title: malagkit rice
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(thick coconut milk)
+    title: thick coconut milk
+  - payload: /search_rec(buli leaves)
+    title: buli leaves
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_piri-pirichicken:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(whole chicken)
+    title: whole chicken
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(red chillies)
+    title: red chillies
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(salt flakes)
+    title: salt flakes
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(red wine vinegar)
+    title: red wine vinegar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_polishsausageandsauerkrautinsauce:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(canned sauerkraut)
+    title: canned sauerkraut
+  - payload: /search_rec(fresh cabbage)
+    title: fresh cabbage
+  - payload: /search_rec(bacon)
+    title: bacon
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(caraway seed)
+    title: caraway seed
+  - payload: /search_rec(canned stewed tomatoes)
+    title: canned stewed tomatoes
+  - payload: /search_rec(canned tomato sauce)
+    title: canned tomato sauce
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(fresh polish sausage)
+    title: fresh polish sausage
+  - payload: /search_rec(smoked sausage)
+    title: smoked sausage
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_porkadobo,hawaiianstyle:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(boneless pork butt)
+    title: boneless pork butt
+  - payload: /search_rec(coconut oil)
+    title: coconut oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(chinese oyster sauce)
+    title: chinese oyster sauce
+  - payload: /search_rec(apple cider vinegar)
+    title: apple cider vinegar
+  - payload: /search_rec(bay leaves)
+    title: bay leaves
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(date sugar)
+    title: date sugar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_porksouvlakiwithtzatziki:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(pork tenderloin)
+    title: pork tenderloin
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(italian parsley)
+    title: italian parsley
+  - payload: /search_rec(mint)
+    title: mint
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(cherry tomatoes)
+    title: cherry tomatoes
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(mushrooms)
+    title: mushrooms
+  - payload: /search_rec(flatbread)
+    title: flatbread
+  - payload: /search_rec(greek style yoghurt)
+    title: greek style yoghurt
+  - payload: /search_rec(lemon zest)
+    title: lemon zest
+  - payload: /search_rec(honey)
+    title: honey
+  - payload: /search_rec(sriracha sauce)
+    title: sriracha sauce
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_portuguesesweetrice:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(white rice)
+    title: white rice
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(lemon rind)
+    title: lemon rind
+  - payload: /search_rec(egg yolk)
+    title: egg yolk
+  - payload: /search_rec(cinnamon stick)
+    title: cinnamon stick
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pressurecookerlambkarahiwithnewpotatoes:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(lamb leg)
+    title: lamb leg
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(root ginger)
+    title: root ginger
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(brown onion)
+    title: brown onion
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(ground coriander)
+    title: ground coriander
+  - payload: /search_rec(ground turmeric)
+    title: ground turmeric
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(garam masala)
+    title: garam masala
+  - payload: /search_rec(ground fenugreek)
+    title: ground fenugreek
+  - payload: /search_rec(baby new potatoes)
+    title: baby new potatoes
+  - payload: /search_rec(green chillies)
+    title: green chillies
+  - payload: /search_rec(greek-style yoghurt)
+    title: greek-style yoghurt
+  - payload: /search_rec(basmati rice)
+    title: basmati rice
+  - payload: /search_rec(root ginger)
+    title: root ginger
+  - payload: /search_rec(fresh coriander)
+    title: fresh coriander
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_pumpkinspicedonuts:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(cooking spray)
+    title: cooking spray
+  - payload: /search_rec(canned pumpkin)
+    title: canned pumpkin
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(vanilla extract)
+    title: vanilla extract
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(cinamon)
+    title: cinamon
+  - payload: /search_rec(nutmeg)
+    title: nutmeg
+  - payload: /search_rec(allspice)
+    title: allspice
+  - payload: /search_rec( ground cloves)
+    title: ' ground cloves'
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_punjabichickencurry:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(cumin seeds)
+    title: cumin seeds
+  - payload: /search_rec(cinnamon stick)
+    title: cinnamon stick
+  - payload: /search_rec(green cardamom pods)
+    title: green cardamom pods
+  - payload: /search_rec(onions)
+    title: onions
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(root ginger)
+    title: root ginger
+  - payload: /search_rec(turmeric)
+    title: turmeric
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(chicken drumsticks and thighs)
+    title: chicken drumsticks and thighs
+  - payload: /search_rec(chicken stock)
+    title: chicken stock
+  - payload: /search_rec(garam masala)
+    title: garam masala
+  - payload: /search_rec(fresh coriander leaves)
+    title: fresh coriander leaves
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(freshly cooked rice)
+    title: freshly cooked rice
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_quebec-stylebakedbeansfevesaulard:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(dried white beans)
+    title: dried white beans
+  - payload: /search_rec(baking soda)
+    title: baking soda
+  - payload: /search_rec(cured skin on pork belly ham)
+    title: cured skin on pork belly ham
+  - payload: /search_rec(medium sweet onion)
+    title: medium sweet onion
+  - payload: /search_rec(maple syrup)
+    title: maple syrup
+  - payload: /search_rec(fancy molasses)
+    title: fancy molasses
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(ground mustard)
+    title: ground mustard
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_quinoaburritobowl:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(canola oil)
+    title: canola oil
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: "/search_rec(jalape\xF1o)"
+    title: "jalape\xF1o"
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(chicken/vegetable broth)
+    title: chicken/vegetable broth
+  - payload: /search_rec(black beans)
+    title: black beans
+  - payload: /search_rec(uncooked quinoa)
+    title: uncooked quinoa
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(frozen corn)
+    title: frozen corn
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(cilantro/parsley)
+    title: cilantro/parsley
+  - payload: /search_rec(lime juice)
+    title: lime juice
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_rabbitmixedgrill.:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(rabbit)
+    title: rabbit
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(flat leaf parsley)
+    title: flat leaf parsley
+  - payload: /search_rec(black olives)
+    title: black olives
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(meyer lemon)
+    title: meyer lemon
+  - payload: /search_rec(chilli flakes)
+    title: chilli flakes
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(lemons)
+    title: lemons
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_redlobstercheddarbiscuits:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(bisquick)
+    title: bisquick
+  - payload: /search_rec(1% fat buttermilk)
+    title: 1% fat buttermilk
+  - payload: /search_rec(cheddar cheese)
+    title: cheddar cheese
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  - payload: /search_rec(dried parsley flakes)
+    title: dried parsley flakes
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_roastchickenlegswithpotatoes,fennelandtomatoes:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chicken)
+    title: chicken
+  - payload: /search_rec(fennel bulbs)
+    title: fennel bulbs
+  - payload: /search_rec(charlotte potatoes)
+    title: charlotte potatoes
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(chicken legs)
+    title: chicken legs
+  - payload: /search_rec(thyme)
+    title: thyme
+  - payload: /search_rec(cherry tomatoes)
+    title: cherry tomatoes
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(flatleaf parsley)
+    title: flatleaf parsley
+  - payload: /search_rec(mint)
+    title: mint
+  - payload: /search_rec(basil)
+    title: basil
+  - payload: /search_rec(capers)
+    title: capers
+  - payload: /search_rec(Dijon mustard)
+    title: Dijon mustard
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_roastedhalibutorseabasswithbalsamicgarlicglaze:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(sea bass or halibut)
+    title: sea bass or halibut
+  - payload: /search_rec(balsamic vinegar)
+    title: balsamic vinegar
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_roastedveggienoodles:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(sweet potato)
+    title: sweet potato
+  - payload: /search_rec(butternut squash and beet noodles)
+    title: butternut squash and beet noodles
+  - payload: /search_rec(bosc pears)
+    title: bosc pears
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(pecans)
+    title: pecans
+  - payload: /search_rec(cinamon)
+    title: cinamon
+  - payload: /search_rec(lemon)
+    title: lemon
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_romainesaladwithcreamybasildressing:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(mayonnaise)
+    title: mayonnaise
+  - payload: /search_rec(plain yoghurt)
+    title: plain yoghurt
+  - payload: /search_rec(spanish sherry vinegar)
+    title: spanish sherry vinegar
+  - payload: /search_rec(kosher salt)
+    title: kosher salt
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(shallots)
+    title: shallots
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(fresh basil)
+    title: fresh basil
+  - payload: /search_rec(romaine lettuce hearts)
+    title: romaine lettuce hearts
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_salmonbakedinfoil:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(salmon fillets)
+    title: salmon fillets
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(light olive oil)
+    title: light olive oil
+  - payload: /search_rec(dried basil)
+    title: dried basil
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(parsley)
+    title: parsley
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_salmonfurikake:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(slab of salmon)
+    title: slab of salmon
+  - payload: /search_rec(bottle of furikake)
+    title: bottle of furikake
+  - payload: /search_rec(yoshida sauce)
+    title: yoshida sauce
+  - payload: /search_rec(wasabi)
+    title: wasabi
+  - payload: /search_rec(mayonnaise)
+    title: mayonnaise
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_sauteedbananaheartveggie:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Puso ng Saging/ Banana Heart)
+    title: Puso ng Saging/ Banana Heart
+  - payload: /search_rec(Kalabasa/Squash)
+    title: Kalabasa/Squash
+  - payload: /search_rec(vermicelli noodles)
+    title: vermicelli noodles
+  - payload: /search_rec(small shrimp)
+    title: small shrimp
+  - payload: /search_rec(tomato)
+    title: tomato
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_seafoodrisotto:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(leek)
+    title: leek
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(tomato)
+    title: tomato
+  - payload: /search_rec(saffron)
+    title: saffron
+  - payload: /search_rec(fish stock)
+    title: fish stock
+  - payload: /search_rec(mussels)
+    title: mussels
+  - payload: /search_rec(prawns)
+    title: prawns
+  - payload: /search_rec(monkfish)
+    title: monkfish
+  - payload: /search_rec(squid)
+    title: squid
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(shallots)
+    title: shallots
+  - payload: /search_rec(risotto rice)
+    title: risotto rice
+  - payload: /search_rec(dry white wine)
+    title: dry white wine
+  - payload: /search_rec(parmesan)
+    title: parmesan
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_sesamechickenstir-fry:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(toasted sesame oil)
+    title: toasted sesame oil
+  - payload: /search_rec(tenderstem broccoli)
+    title: tenderstem broccoli
+  - payload: /search_rec(runny honey)
+    title: runny honey
+  - payload: /search_rec(chinese rice wine vinegar)
+    title: chinese rice wine vinegar
+  - payload: /search_rec(dark soy sauce)
+    title: dark soy sauce
+  - payload: /search_rec(chicken thighs)
+    title: chicken thighs
+  - payload: /search_rec(sesame seeds)
+    title: sesame seeds
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_shallotandredwinebeefwellingtonsauce:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(shallots)
+    title: shallots
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(rosemary)
+    title: rosemary
+  - payload: /search_rec(beef or chicken stock)
+    title: beef or chicken stock
+  - payload: /search_rec(balsamic vinegar)
+    title: balsamic vinegar
+  - payload: /search_rec(red wine)
+    title: red wine
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_simplecubanblackbeans&riceinaricecooker:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(beans)
+    title: beans
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(long grain rice)
+    title: long grain rice
+  - payload: /search_rec(water)
+    title: water
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_simplepanfriedtrout:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(fresh trout or salmon)
+    title: fresh trout or salmon
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(lemon wedges)
+    title: lemon wedges
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_slowcookerchickenpho:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(oregano)
+    title: oregano
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(beans)
+    title: beans
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(long grain rice)
+    title: long grain rice
+  - payload: /search_rec(water)
+    title: water
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_slowcookerfrenchdip:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(beef roast)
+    title: beef roast
+  - payload: /search_rec(canned campbells french onion soup)
+    title: canned campbells french onion soup
+  - payload: /search_rec(canned campbells consomme)
+    title: canned campbells consomme
+  - payload: /search_rec(can of guinness)
+    title: can of guinness
+  - payload: /search_rec(kitchen bouquet)
+    title: kitchen bouquet
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  - payload: /search_rec(onion powder)
+    title: onion powder
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(mushrooms)
+    title: mushrooms
+  - payload: /search_rec(french rolls)
+    title: french rolls
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(mozzarella cheese)
+    title: mozzarella cheese
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_snickerdoodlemuffins:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(nutmeg)
+    title: nutmeg
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(cinnamon)
+    title: cinnamon
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_southernlowcountrybraisedpig'sfeet:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(split pigs feet)
+    title: split pigs feet
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(chicken bouillon cube)
+    title: chicken bouillon cube
+  - payload: /search_rec(vinegar)
+    title: vinegar
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_spanishbreadpinoystyle:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(bread flour)
+    title: bread flour
+  - payload: /search_rec(all purpose flour)
+    title: all purpose flour
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(rapid rise yeast)
+    title: rapid rise yeast
+  - payload: /search_rec(egg yolks)
+    title: egg yolks
+  - payload: /search_rec(fresh milk)
+    title: fresh milk
+  - payload: /search_rec(melted butter)
+    title: melted butter
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(bread crumbs)
+    title: bread crumbs
+  - payload: /search_rec(brown sugar)
+    title: brown sugar
+  - payload: /search_rec(vanilla)
+    title: vanilla
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_spicedlambwithsmashedsquashandspinac:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(lamb cutlets)
+    title: lamb cutlets
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(young spinach leaves)
+    title: young spinach leaves
+  - payload: /search_rec(fresh mint)
+    title: fresh mint
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(butternut squash)
+    title: butternut squash
+  - payload: /search_rec(dried chilli flakes)
+    title: dried chilli flakes
+  - payload: /search_rec(lemon)
+    title: lemon
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_st.patrick'sdaysalmonwithleeks:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(leek)
+    title: leek
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(lemon zest)
+    title: lemon zest
+  - payload: /search_rec(fresh dill)
+    title: fresh dill
+  - payload: /search_rec(salmon fillets)
+    title: salmon fillets
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(lemon wedges)
+    title: lemon wedges
+  - payload: /search_rec(fresh dill)
+    title: fresh dill
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_steaktacoswithburntcornsalsa.:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(ground cumin)
+    title: ground cumin
+  - payload: /search_rec(chilli powder)
+    title: chilli powder
+  - payload: /search_rec(dried oregano)
+    title: dried oregano
+  - payload: /search_rec(bavette steaks)
+    title: bavette steaks
+  - payload: /search_rec(1-cal sunflower oil spray)
+    title: 1-cal sunflower oil spray
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(corn tortilla wraps)
+    title: corn tortilla wraps
+  - payload: /search_rec(corn on the cob)
+    title: corn on the cob
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(green jalapeno)
+    title: green jalapeno
+  - payload: /search_rec(cherry tomatoes)
+    title: cherry tomatoes
+  - payload: /search_rec(coriander)
+    title: coriander
+  - payload: /search_rec(lime)
+    title: lime
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  - payload: /search_rec(avocado)
+    title: avocado
+  - payload: /search_rec(reduced fat soured cream)
+    title: reduced fat soured cream
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_steamedcleanedandsplitbluecrab:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Live Blue Crabs)
+    title: Live Blue Crabs
+  - payload: /search_rec(Extra Virgin Olive Oil)
+    title: Extra Virgin Olive Oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(beer)
+    title: beer
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(old bay seasoning)
+    title: old bay seasoning
+  - payload: /search_rec(garlic powder)
+    title: garlic powder
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_stir-friedcabbagewithgarlic:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chinese cabbage)
+    title: chinese cabbage
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(sea salt)
+    title: sea salt
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(ground black pepper)
+    title: ground black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_strawberrymilkshakecupcakes:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(baking powder)
+    title: baking powder
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(strawberries)
+    title: strawberries
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(vanilla)
+    title: vanilla
+  - payload: /search_rec(lemon zest)
+    title: lemon zest
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(egg whites)
+    title: egg whites
+  - payload: /search_rec(powdered sugar)
+    title: powdered sugar
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_strawberrypie:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec( all-purpose flour)
+    title: ' all-purpose flour'
+  - payload: /search_rec(teaspoon of salt)
+    title: teaspoon of salt
+  - payload: /search_rec(vegetable shortening)
+    title: vegetable shortening
+  - payload: /search_rec(ice-cold water)
+    title: ice-cold water
+  - payload: /search_rec(strawberries)
+    title: strawberries
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(cornstarch)
+    title: cornstarch
+  - payload: /search_rec(low-sugar pectin)
+    title: low-sugar pectin
+  - payload: /search_rec(heavy cream)
+    title: heavy cream
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_superspringsalad:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(aubergine)
+    title: aubergine
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(coriander seeds)
+    title: coriander seeds
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(double cream)
+    title: double cream
+  - payload: /search_rec(lemon)
+    title: lemon
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  - payload: /search_rec(monkfish)
+    title: monkfish
+  - payload: /search_rec(olives)
+    title: olives
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(capers)
+    title: capers
+  - payload: /search_rec(anchovies)
+    title: anchovies
+  - payload: /search_rec(chili)
+    title: chili
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(celery)
+    title: celery
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_swedishpancakes:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(large eggs)
+    title: large eggs
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(powdered sugar)
+    title: powdered sugar
+  - payload: /search_rec(fruit of choice)
+    title: fruit of choice
+  - payload: /search_rec(maple syrup)
+    title: maple syrup
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_sweetandsourfriedmackerel:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(Galunggong/Mackerel Scad Fish)
+    title: Galunggong/Mackerel Scad Fish
+  - payload: /search_rec(carrots)
+    title: carrots
+  - payload: /search_rec(red bell peppers)
+    title: red bell peppers
+  - payload: /search_rec(pineapple chunks)
+    title: pineapple chunks
+  - payload: /search_rec(pineapple juice)
+    title: pineapple juice
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(onions)
+    title: onions
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(maple syrup)
+    title: maple syrup
+  - payload: /search_rec(soy sauce)
+    title: soy sauce
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(ground pepper)
+    title: ground pepper
+  - payload: /search_rec(canola oil)
+    title: canola oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_sweetbreadofeasterinvalencia-spain:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(sugar powder)
+    title: sugar powder
+  - payload: /search_rec(bakers yeast)
+    title: bakers yeast
+  - payload: /search_rec(oil)
+    title: oil
+  - payload: /search_rec(milk)
+    title: milk
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(orange zest)
+    title: orange zest
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(hard cooked eggs)
+    title: hard cooked eggs
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(small coloured candies)
+    title: small coloured candies
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_tashreeb:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(mutton chops)
+    title: mutton chops
+  - payload: /search_rec(arabian bread)
+    title: arabian bread
+  - payload: /search_rec(yoghurt)
+    title: yoghurt
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(fresh parsley)
+    title: fresh parsley
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(tomatoes)
+    title: tomatoes
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(cubeb powder)
+    title: cubeb powder
+  - payload: /search_rec(black pepper powder)
+    title: black pepper powder
+  - payload: /search_rec(white pepper powder)
+    title: white pepper powder
+  - payload: /search_rec(sumak powder)
+    title: sumak powder
+  - payload: /search_rec(cloves powder)
+    title: cloves powder
+  - payload: /search_rec(cardamom green powder)
+    title: cardamom green powder
+  - payload: /search_rec(cinnamon powder)
+    title: cinnamon powder
+  - payload: /search_rec(pimento powder)
+    title: pimento powder
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_texasdebrazil-caipirinha:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(fresh lime)
+    title: fresh lime
+  - payload: /search_rec(sugar cane syrup)
+    title: sugar cane syrup
+  - payload: /search_rec(ice cubes)
+    title: ice cubes
+  - payload: /search_rec(cachaca)
+    title: cachaca
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_texasroadhouserollswithcinnamon-honeybutter:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(active dry yeast)
+    title: active dry yeast
+  - payload: /search_rec(lukewarm water)
+    title: lukewarm water
+  - payload: /search_rec(lukewarm milk)
+    title: lukewarm milk
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(egg)
+    title: egg
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(honey)
+    title: honey
+  - payload: /search_rec(cinnamon)
+    title: cinnamon
+  - payload: /search_rec(powdered sugar)
+    title: powdered sugar
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_tinolangmanokwithluyangdilaw:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(chicken cutlets)
+    title: chicken cutlets
+  - payload: /search_rec(medium papaya)
+    title: medium papaya
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(luyanag dilaw)
+    title: luyanag dilaw
+  - payload: /search_rec(chilli leaves)
+    title: chilli leaves
+  - payload: /search_rec(pechay tagalog)
+    title: pechay tagalog
+  - payload: /search_rec(fish sauce)
+    title: fish sauce
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(canola oil)
+    title: canola oil
+  - payload: /search_rec(chicken cubes)
+    title: chicken cubes
+  - payload: /search_rec(water)
+    title: water
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_tofupeanutveganstir-fry:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(tofu)
+    title: tofu
+  - payload: /search_rec(sesame oil)
+    title: sesame oil
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(root ginger)
+    title: root ginger
+  - payload: /search_rec(red chilli)
+    title: red chilli
+  - payload: /search_rec(straight to wok medium noodles)
+    title: straight to wok medium noodles
+  - payload: /search_rec(red pepper)
+    title: red pepper
+  - payload: /search_rec(yellow pepper)
+    title: yellow pepper
+  - payload: /search_rec(tenderstem broccoli stems)
+    title: tenderstem broccoli stems
+  - payload: /search_rec(spring onions)
+    title: spring onions
+  - payload: /search_rec(carrot)
+    title: carrot
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(sesame seeds)
+    title: sesame seeds
+  - payload: /search_rec(peanuts)
+    title: peanuts
+  - payload: /search_rec(tamari or soy sauce)
+    title: tamari or soy sauce
+  - payload: /search_rec(maple syrup)
+    title: maple syrup
+  - payload: /search_rec(peanut butter])
+    title: peanut butter]
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_truffle-crustedbeeftenderloin:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(beef tenderloin)
+    title: beef tenderloin
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(panko dried bread crumbs)
+    title: panko dried bread crumbs
+  - payload: /search_rec(truffle slices)
+    title: truffle slices
+  - payload: /search_rec(truffle oil)
+    title: truffle oil
+  - payload: /search_rec(fleur de sel)
+    title: fleur de sel
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_tunapatties:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(tuna)
+    title: tuna
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(eggs)
+    title: eggs
+  - payload: /search_rec(water)
+    title: water
+  - payload: /search_rec(parsley)
+    title: parsley
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(vegetable oil)
+    title: vegetable oil
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_tuscanbaconandbeansoupwithwildgarlicpesto:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(smoked streaky bacon)
+    title: smoked streaky bacon
+  - payload: /search_rec(sherry vinegar)
+    title: sherry vinegar
+  - payload: /search_rec(red onions)
+    title: red onions
+  - payload: /search_rec(carrots)
+    title: carrots
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(celery)
+    title: celery
+  - payload: /search_rec(leek)
+    title: leek
+  - payload: /search_rec(large wax potatoes)
+    title: large wax potatoes
+  - payload: /search_rec(vine tomatoes)
+    title: vine tomatoes
+  - payload: /search_rec(rosemary)
+    title: rosemary
+  - payload: /search_rec(thyme)
+    title: thyme
+  - payload: /search_rec(small orecchiette pasta)
+    title: small orecchiette pasta
+  - payload: /search_rec(beef stock)
+    title: beef stock
+  - payload: /search_rec(tinned cannellini beans)
+    title: tinned cannellini beans
+  - payload: /search_rec(purple sprouting broccoli)
+    title: purple sprouting broccoli
+  - payload: /search_rec(baby leaf spinach)
+    title: baby leaf spinach
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(pepper)
+    title: pepper
+  - payload: /search_rec(basil)
+    title: basil
+  - payload: /search_rec(wild garlic)
+    title: wild garlic
+  - payload: /search_rec(pine nuts)
+    title: pine nuts
+  - payload: /search_rec(parmesan)
+    title: parmesan
+  - payload: /search_rec(lemon)
+    title: lemon
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_vanillachipfruittart:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(butter)
+    title: butter
+  - payload: /search_rec(confectioners sugar)
+    title: confectioners sugar
+  - payload: /search_rec(flour)
+    title: flour
+  - payload: /search_rec(vanilla milk chips)
+    title: vanilla milk chips
+  - payload: /search_rec(whipping cream)
+    title: whipping cream
+  - payload: /search_rec(cream cheese)
+    title: cream cheese
+  - payload: /search_rec(sugar)
+    title: sugar
+  - payload: /search_rec(cornstarch)
+    title: cornstarch
+  - payload: /search_rec(pineapple juice)
+    title: pineapple juice
+  - payload: /search_rec(lemon juice)
+    title: lemon juice
+  - payload: /search_rec(assorted fruit)
+    title: assorted fruit
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_veganaubergineburgers:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(bread rolls)
+    title: bread rolls
+  - payload: /search_rec(aubergine)
+    title: aubergine
+  - payload: /search_rec(extra virgin olive oil)
+    title: extra virgin olive oil
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(ground coriander)
+    title: ground coriander
+  - payload: /search_rec(red pepper)
+    title: red pepper
+  - payload: /search_rec(yellow pepper)
+    title: yellow pepper
+  - payload: /search_rec(red onion)
+    title: red onion
+  - payload: /search_rec(red wine vinegar)
+    title: red wine vinegar
+  - payload: /search_rec(soft light brown sugar)
+    title: soft light brown sugar
+  - payload: /search_rec(fresh rocket)
+    title: fresh rocket
+  - payload: /search_rec(beef tomato)
+    title: beef tomato
+  - payload: /search_rec(coriander sprigs)
+    title: coriander sprigs
+  - payload: /search_rec(avocado)
+    title: avocado
+  - payload: /search_rec(lime juice)
+    title: lime juice
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(black pepper)
+    title: black pepper
+  text: Please click which ingredients are missing for alternative options.
+display_not_all_ingredients_veggietikkamasala:
+- buttons:
+  - payload: /all_ingredients
+    title: I now have all the Ingredients
+  - payload: /search_rec(jasmine rice)
+    title: jasmine rice
+  - payload: /search_rec(onion)
+    title: onion
+  - payload: /search_rec(ginger)
+    title: ginger
+  - payload: /search_rec(garlic)
+    title: garlic
+  - payload: /search_rec(cilantro/parsley)
+    title: cilantro/parsley
+  - payload: /search_rec(olive oil)
+    title: olive oil
+  - payload: /search_rec(garam masala)
+    title: garam masala
+  - payload: /search_rec(paprika)
+    title: paprika
+  - payload: /search_rec(salt)
+    title: salt
+  - payload: /search_rec(cumin)
+    title: cumin
+  - payload: /search_rec(ground cinnamon)
+    title: ground cinnamon
+  - payload: /search_rec(canned plum tomatoes)
+    title: canned plum tomatoes
+  - payload: /search_rec(can of tomato sauce)
+    title: can of tomato sauce
+  - payload: /search_rec(coconut cream/milk)
+    title: coconut cream/milk
+  - payload: /search_rec(heavy cream/vegan yogurt)
+    title: heavy cream/vegan yogurt
+  - payload: /search_rec(chickpeas)
+    title: chickpeas
+  - payload: /search_rec(frozen peas)
+    title: frozen peas
+  - payload: /search_rec(full-fat coconut cream/milk)
+    title: full-fat coconut cream/milk
+  text: Please click which ingredients are missing for alternative options.

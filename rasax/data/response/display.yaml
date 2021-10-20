@@ -50,14 +50,3 @@ display_meal_types:
       payload: /roastedveggienoodles
     - title: quinoa burrito bowl
       payload: /quinoaburritobowl
-
-
-display_not_all_ingredients_<meal_type>:
-  - text: Please click which ingredients are missing for alternative options.
-    buttons:
-    - title: I now have all the Ingredients
-      payload: /all_ingredients_<meal_type>
-
-#    templates:
-#      - title: <ingredient>
-#        payload: /search_rec(<ingredient>)

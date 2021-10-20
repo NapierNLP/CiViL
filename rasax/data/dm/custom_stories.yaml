@@ -9,7 +9,7 @@ segments:
   - segment: search_action
     steps:
       - intent: search_rec
-      - action: action_search_rec
+      - action: utter_replace
 
   - segment: next_action
     steps:

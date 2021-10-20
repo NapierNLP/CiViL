@@ -117,6 +117,9 @@ class CheifBot:
         self.dialogue_history.add(speaker="user", turn_data={"user_text": user_sentence, "rasa": intent})
         self._fill_slots(intent.entities)
 
+        if "(" in intent.type:
+            self.dialog_slots.add('requested_ingredient', self.find_between_r(intent.type, "(", ")"))
+
         recipe_id = self.recipe_intent_map.get(intent.type)
         self._logger.info('{intent} --> {recipe_id}'.format(intent=intent.type, recipe_id=recipe_id))
         if recipe_id:
@@ -133,7 +136,6 @@ class CheifBot:
             recipe_id = self.dialog_slots.get('recipe_ID')
             recipe_responses = self.responses.get(system_action).get(recipe_id)
             _response = recipe_responses.get(self.dialog_slots.get('recipe_step_ID'))
-            self.dialog_slots.add('sys_q_type', _response.get('qType'))
             self.dialog_slots.add('recipe_step_ID', self.dialog_slots.get('recipe_step_ID') + 1)
 
         elif system_action == 'action_search_rec':
@@ -142,12 +144,14 @@ class CheifBot:
 
         elif system_action == 'utter_replace':
             requested_ingredient = self.dialog_slots.get('requested_ingredient')
-            _responses = self.responses.get(system_action).get(requested_ingredient)
+            response_examples = self.responses.get(system_action).get(requested_ingredient)
+            _response = random.choice(response_examples)
         else:
             response_examples = self.responses.get(system_action)
             self._logger.info('current response_examples for {}: {}'.format(system_action, response_examples))
             _response = random.choice(response_examples)
-            self.dialog_slots.add('sys_q_type', _response.get('qType'))
+
+        self.dialog_slots.add('sys_q_type', _response.get('qType'))
 
         self._logger.info('current dialogue state: {}'.format(self.dialog_slots))
         self._logger.info('current _response for {}: {}'.format(system_action, _response))

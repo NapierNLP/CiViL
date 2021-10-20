@@ -44,11 +44,11 @@ def get_answer(update, user_input: str, button_intent: str):
     if buttons:
         button_list = []
         for item in buttons:
-            button_list.append(InlineKeyboardButton(item.get('title'),
-                                                    callback_data="[{}]".format(item.get('payload').replace('/', ''))))
+            button_list.append([InlineKeyboardButton(item.get('title'),
+                                                     callback_data="[{}]".format(item.get('payload').replace('/', '')))])
 
         logger.info("button_list: {}".format(button_list))
-        reply_markup = InlineKeyboardMarkup([button_list])
+        reply_markup = InlineKeyboardMarkup(button_list)
         return response.get('text'), reply_markup
     else:
         return response.get('text'), None

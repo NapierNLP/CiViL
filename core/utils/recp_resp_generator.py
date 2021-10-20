@@ -1,7 +1,17 @@
+import copy
 import os
 import re
 
 import yaml
+
+
+def find_between_r(origin_text: str, first: str, last: str):
+    try:
+        start = origin_text.rindex(first) + len(first)
+        end = origin_text.rindex(last, start)
+        return origin_text[start:end]
+    except ValueError:
+        return ""
 
 
 def write_to_yaml(filename: str, data):
@@ -49,22 +59,18 @@ class RecipeResponseGenerator:
 
         write_to_yaml('response/recipe_resp.yaml', recipe_responses)
 
-    @staticmethod
-    def write_to_yaml(data):
-        with open(os.path.join(os.getcwd().replace('utils', ''), 'dm_configs', 'recipe_resp.yaml'),
-                  "w") as recepy_resps_file:
-            yaml.dump(data, recepy_resps_file)
-
 
 class RecipeIntentMappingGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'data/dm/stories.yml')) as story_file:
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data',
+                               'data/dm/stories.yml')) as story_file:
             self._stories = yaml.safe_load(story_file)
         self._stories = self._stories.get('stories')
         print('type of _stories: {}'.format(type(self._stories)))
 
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'data/dm/custom_stories.yaml')) as segment_file:
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data',
+                               'data/dm/custom_stories.yaml')) as segment_file:
             self._segments = yaml.safe_load(segment_file)
         self._segments = self._segments.get('segments')
         print('type of _segments: {}'.format(type(self._segments)))
@@ -102,12 +108,86 @@ class RecipeIntentMappingGenerator:
         print('recipe responses: {}'.format(recipe_intent_map))
 
         write_to_yaml(filename='dm/recipe_intent_map.yaml', data=recipe_intent_map)
-        write_to_yaml(filename='dm/segments.yaml',  data={"version": "2.0", "segments": self._segments})
+        write_to_yaml(filename='dm/segments.yaml', data={"version": "2.0", "segments": self._segments})
+
+
+class IngredientDisplayGenerator:
+
+    def __init__(self):
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'original_data',
+                               'display_templates.yaml')) as display_file:
+            _display = yaml.safe_load(display_file)
+
+        self._action = "display_not_all_ingredients_<meal_type>"
+        self.ingredient_display = _display.get(self._action)
+        self.ingredient_display_template = self.ingredient_display[0].get('templates')
+        print('ingredient_display : {}'.format(self.ingredient_display))
+        print('ingredient_display_template : {}'.format(self.ingredient_display_template))
+
+        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'original_data',
+                               'RecipesV5.txt')) as ingredient_file:
+            data = ingredient_file.readlines()
+
+        self.recipe_ingredients = {}
+        for line in data:
+            if line:
+
+                recipe_id = line.split(":")[0].lower()
+                meal_type = find_between_r(line, ":", "[").strip().replace(" ", '').lower()
+                ingredients = find_between_r(line, "[", "]").replace("\'", '').replace('’', '')
+                ingredients = [item.strip() for item in ingredients.split(",")]
+
+                meal_types = []
+                if '(' in meal_type:
+                    meal_types.append(meal_type.split('(')[0].strip())
+                    meal_types.append(find_between_r(meal_type, "(", ")").strip())
+                elif '/' in meal_type:
+                    meal_types.extend(meal_type.split('/'))
+                else:
+                    meal_types.append(meal_type)
+
+                for type_name in meal_types:
+                    self.recipe_ingredients[type_name] = {"recipe_id": recipe_id, "ingredients": ingredients}
+
+    def run(self):
+        displays = {}
+
+        for key, value in self.recipe_ingredients.items():
+
+            ingredients_displays = []
+            for ingredient in value.get('ingredients'):
+                ingredient = re.sub(u"(\u2018|\u2019)", "", ingredient).replace('\'','')
+                ingredient_form = copy.deepcopy(self.ingredient_display_template)
+                ingredient_form['title'] = ingredient
+                payload = ingredient_form.get('payload')
+                ingredient_form['payload'] = payload.replace('<ingredient>', ingredient)
+
+                ingredients_displays.append(ingredient_form)
+
+            full_ingredient_form = copy.deepcopy(self.ingredient_display)
+            _buttons = full_ingredient_form[0].get('buttons')
+            _buttons.extend(ingredients_displays)
+            full_ingredient_form[0]['buttons'] = _buttons
+
+            del full_ingredient_form[0]['templates']
+
+            meal_display_name = copy.copy(self._action)
+            meal_display_name = meal_display_name.replace('<meal_type>', key)
+            displays[meal_display_name] = full_ingredient_form
+            print('full_ingredient_form[{}]: {}'.format(meal_display_name, full_ingredient_form))
+
+        # print('length of recipe responses: {}'.format(len(displays)))
+        # print('recipe responses: {}'.format(displays))
+
+        write_to_yaml('response/display_not_all_ingredients.yaml', displays)
 
 
 if __name__ == "__main__":
-    resp_gen = RecipeResponseGenerator()
-    resp_gen.run()
+    # resp_gen = RecipeResponseGenerator()
+    # resp_gen.run()
 
     # map_gen = RecipeIntentMappingGenerator()
     # map_gen.run()
+
+    display = IngredientDisplayGenerator()
+    display.run()
