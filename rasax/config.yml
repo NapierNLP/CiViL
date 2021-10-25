@@ -14,10 +14,10 @@ pipeline:
    constrain_similarities: true
    model_confidence: linear_norm
 
-policies:
- - name: AugmentedMemoizationPolicy
- - name: TEDPolicy
-   max_history: 20
-   epochs: 50
-   constrain_similarities: true
- - name: RulePolicy
+#policies:
+# - name: AugmentedMemoizationPolicy
+# - name: TEDPolicy
+#   max_history: 20
+#   epochs: 50
+#   constrain_similarities: true
+# - name: RulePolicy

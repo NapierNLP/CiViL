@@ -9,6 +9,15 @@ echo $SCRIPTPATH
 PROJECTROOTPATH="$(dirname "$SCRIPTPATH")"
 echo $PROJECTROOTPATH
 
+
 source ${SCRIPTPATH}/ENV/bin/activate
+#"${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
+#"${SCRIPTPATH}"/ENV/bin/pip3 install rasa==2.0 --use-feature=2020-resolver
+#
+#"${SCRIPTPATH}"/ENV/bin/pip3 install -r "${SCRIPTPATH}"/src/requirements.txt
 
+#"${SCRIPTPATH}"/ENV/bin/python3 -m spacy download en_core_web_md
+#"${SCRIPTPATH}"/ENV/bin/python3 -m spacy link en_core_web_md en
 
+cd "${SCRIPTPATH}"/rasax/
+rasa train nlu --config "${SCRIPTPATH}"/rasax/config.yml

@@ -32,7 +32,7 @@ def start(update: Update, context: CallbackContext) -> None:
 def process_query(update: Update, context: CallbackContext) -> None:
     """process the user message."""
     user_input = update.message.text
-    text, reply_markup = get_answer(update, user_input="", button_intent=user_input)
+    text, reply_markup = get_answer(update, user_input=user_input, button_intent="")
     update.message.reply_text(text, reply_markup=reply_markup)
 
 

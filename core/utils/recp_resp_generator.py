@@ -125,7 +125,7 @@ class IngredientDisplayGenerator:
         print('ingredient_display_template : {}'.format(self.ingredient_display_template))
 
         with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'original_data',
-                               'RecipesV5.txt')) as ingredient_file:
+                               'RecipesV6.txt')) as ingredient_file:
             data = ingredient_file.readlines()
 
         self.recipe_ingredients = {}
@@ -143,6 +143,8 @@ class IngredientDisplayGenerator:
                     meal_types.append(find_between_r(meal_type, "(", ")").strip())
                 elif '/' in meal_type:
                     meal_types.extend(meal_type.split('/'))
+                elif ',' in meal_type:
+                    meal_types.extend(meal_type.split(','))
                 else:
                     meal_types.append(meal_type)
 

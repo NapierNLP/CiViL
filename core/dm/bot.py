@@ -1,4 +1,5 @@
 import glob
+import json
 import logging
 import os
 import random
@@ -30,8 +31,6 @@ class CheifBot:
             self.dialog_slots = State(state_config=_domain.get('slots'))
             self.dialogue_history = QueueQuery(_domain.get('pre_turn_number'))
 
-            # self._logger.info('self.system_actions[{}]: {}'.format(len(self.system_actions), self.system_actions))
-            # self._logger.info('self.user_intents[{}]: {}'.format(len(self.user_intents), self.user_intents))
             self._logger.debug('self.dialog_slots[{}]: {}'.format(len(self.dialog_slots), self.dialog_slots))
             self._logger.debug('self.dialogue_history[{}]: {}'.format(len(self.dialogue_history.query_queue), self.dialogue_history))
 
@@ -98,8 +97,9 @@ class CheifBot:
             intent.confidence = 1.0
             intent.entities = {}
         else:
+            import requests
             # get NLU results
-            r = requests.post('http://localhost:5005/model/parse', data={"text": user_sentence})
+            r = requests.post('http://localhost:5005/model/parse', data=json.dumps({"text": user_sentence}))
 
             self._logger.info('r: {}'.format(r))
             if r.status_code == 200:
@@ -122,6 +122,7 @@ class CheifBot:
 
         recipe_id = self.recipe_intent_map.get(intent.type)
         self._logger.info('{intent} --> {recipe_id}'.format(intent=intent.type, recipe_id=recipe_id))
+
         if recipe_id:
             self.dialog_slots.add('meal_type', intent.type)
             self.dialog_slots.add('recipe_ID', recipe_id)
