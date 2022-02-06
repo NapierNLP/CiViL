@@ -1,0 +1,850 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - i want to cook
+    - i want to make a meal
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+    - hello world
+    - hi there
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thanks, goodbye
+- intent: affirm
+  examples: |
+    - ok
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - /affirm
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: stop
+  examples: |
+    - stop
+    - nevermind
+    - please stop
+    - i want to stop
+    - stop the form
+    
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - by the way, are you a human?
+
+
+- intent: yesmode
+  examples: |
+   - Yes I have those ingredients
+   - I have all the ingredients
+   - I have these ingredients
+
+- intent: nomode
+  examples: |
+   - I dont have all the ingredients
+   - I need more ingredients
+   - I am missing some ingredients
+
+- intent: vegmeals
+  examples: |
+   - I want to see vegetarian meal
+   - I want to eat vegetarian food
+  
+
+- intent: meatmeals
+  examples: |
+   - I want to eat meat meals
+   - I want to eat some meat
+   
+
+- intent: breakfastmenumeat
+  examples: |
+   - I would like to make a meat breakfast
+   - I would like to cook a meat breakfast
+   
+
+- intent: lunchmenumeat
+  examples: |
+   - I would like to have meat lunch
+   - I need to cook a meat lunch
+   
+
+- intent: dinnermenumeat
+  examples: |
+   - I need to eat meat for dinner
+   - I would like to eat meat for dinner
+  
+
+- intent: dessertmenumeat
+  examples: |
+   - I want to see the dessert menu
+   - I want to make something for dessert
+   
+
+- intent: breakfastmenuveg
+  examples: |
+   - I would like to make vegetarian breakfast
+   - I would like to cook vegetarian breakfast
+   
+
+- intent: lunchmenuveg
+  examples: |
+   - I would like to have vegetarian lunch
+   - I need vegetarian lunch
+   
+
+- intent: dinnermenuveg
+  examples: |
+   - I need to eat a vegetarian dinner
+   - I would like to eat a vegetarian dinner
+   
+
+- intent: dessertmenuveg
+  examples: |
+   - I want to see the vegetarian dessert menu
+   - I want a vegetarian meal for dessert
+   
+
+- intent: lightsnacksmenuveg
+  examples: |
+   - I would like a light vegetarian snack
+   - I want to order a light vegetarian snack
+   
+
+- intent: lightsnacksmenumeat
+  examples: |
+   - I want to cook a light meat snack
+   - I fancy a light meat snack
+   
+
+- intent: englishmuffins
+  examples: |
+   - englishmuffins
+   - i want englishmuffins
+   
+
+- intent: iwantsomethingelse
+  examples: |
+   - I want to cook a different meal
+   - i want to cook something else
+   
+
+
+- intent: inform
+  examples: |
+    - [english muffins](meal_type) 
+    - [airfryer glazed donuts](meal_type)
+    - [strawberry pie](meal_type) 
+    - [pumpkin spice donuts](meal_type)
+    - [misir wot](meal_type)
+    - [pineapple strawberry salad](meal_type)
+    - [pear tarte tatin](meal_type)
+    - [mango habanero hot sauce](meal_type)
+    - [roasted veggie noodles](meal_type)
+    - [quinoa burrito bowl](meal_type)
+    - [mangohabanerohotsauce](meal_type)
+    - [veggietikkamasala](meal_type)
+    - [newyorkcrumbcake](meal_type)
+    - [holidaybundtcake](meal_type)
+    - [makeaheadgravy](meal_type)
+    - [cranberryupsidedowncake](meal_type)
+    - [whiteoutcake](meal_type)
+    - [oatmealraisincookies](meal_type)
+    - [irishsodamuffins](meal_type)
+    - [strawberrymilkshakecupcakes](meal_type)
+    - [heartyvegetablesoup](meal_type)
+    - [spaghettiandmeatballs](meal_type)
+    - [potatosalad](meal_type)
+    - [chickenmasala](meal_type)
+    - [roastedvegetablelasagna](meal_type)
+    - [cranberrypecanmuffins](meal_type)
+    - [savorytomatopie](meal_type)
+    - [cherrypiebars](meal_type)
+    - [mushroomragu](meal_type)
+    - [minestronesoup](meal_type)
+    - [homemademarzipan](meal_type)
+    - [cherrymarzipanstreuselcake](meal_type)
+    - [sweetpotatoburritos](meal_type)
+    - [blueberryscones](meal_type)
+    - [nutellacereal](meal_type)
+    - [cherrybonboncookies](meal_type)
+    - [overnightoatmeal](meal_type)
+    - [chickennoodlesoup](meal_type)
+    - [butterscotchblondiecookies](meal_type)
+    - [beefstroganoff](meal_type)
+    - [mashedbutternutsquash](meal_type)
+    - [mashedcauliflower](meal_type)
+    - [sweetpotatobiscuits](meal_type)
+    - [buffalochili](meal_type)
+    - [sweetpotatoandpineapplefruitsalad](meal_type)
+    - [poundcake](meal_type)
+    - [creamyasparagussoup](meal_type)
+    - [crepes](meal_type)
+    - [bananabread](meal_type)
+    - [creamscones](meal_type)
+    - [herbquinoamilletcakes](meal_type)
+    - [spiralvegetabletart](meal_type)
+    - [homemadetortillachips](meal_type)
+    - [rhubarboatmealcrunch](meal_type)
+    - [coconutpineapplecake](meal_type)
+    - [bakedgermanapplepancakes](meal_type)
+    - [southernbuttermilkbiscuits](meal_type)
+    - [chocolatetrufflecake](meal_type)
+    - [sloppyjoes](meal_type)
+    - [stackedenchiladas](meal_type)
+    - [homemadeflourtortillas](meal_type)
+    - [macaroniandcheese](meal_type)
+    - [homemadechickennuggets](meal_type)
+    - [coconutblueberryoatmealcookies](meal_type)
+    - [fruitsdalsacemilletbreakfastcookies](meal_type)
+    - [superspringsalad](meal_type)
+    - [feijoada](meal_type)
+    - [cubanblackbeansandrice](meal_type)
+    - [adobonggalunggong](meal_type)
+    - [slowcookerchickenpho](meal_type)
+    - [chickenmisoandmushroomramen](meal_type)
+    - [pastabataka](meal_type)
+    - [marinatedprimeribroast](meal_type)
+    - [chickentraybakewithchorizo](meal_type)
+    - [pastinasoup](meal_type)
+    - [pastawithspinachricottaandham](meal_type)
+    - [africanchickeninpeanutaauce](meal_type)
+    - [pearandfigchutney](meal_type)
+    - [swissmushroompheasantbreast](meal_type)
+    - [meyerlemonyogurtbundtcake](meal_type)
+    - [flashroastedsteakwithsquashgorgonzolaandsage](meal_type)
+    - [fennelleekandsquashgratinwithtarragonandhazelnuts](meal_type)
+    - [amishpotpiesquares](meal_type)
+    - [bakedparmesantilapia](meal_type)
+    - [quickcrabwontons](meal_type)
+    - [maltesestuffedmarrows](meal_type)
+    - [beansoup](meal_type)
+    - [janssonstemptation](meal_type)
+    - [balinesebbqporkroast](meal_type)
+    - [italianeasterbreadtakes](meal_type)
+    - [kamotefries](meal_type)
+    - [cinnamonbuns](meal_type)
+    - [russianomelet](meal_type)
+    - [hopia](meal_type)
+    - [hashbrownscasserole](meal_type)
+    - [stirfriedbroccoliwithchiligarlicsauce](meal_type)
+    - [smokedsalmoncrepes](meal_type)
+    - [aranciniitalianriceballs](meal_type)
+    - [breakfastquesadillas](meal_type)
+    - [bakedbanguswithcheesytoppings](meal_type)
+    - [chickenandeggplantpasta](meal_type)
+    - [longganisafilipinostylesausage](meal_type)
+    - [classiccioppino](meal_type)
+    - [gypsyeggs](meal_type)
+    - [veganbreakfast](meal_type)
+    - [chickenandchorizojambalaya](meal_type)
+    - [cheeseburgermacaroni](meal_type)
+    - [whitechickenchili](meal_type)
+    - [breadpudding](meal_type)
+    - [broccolipasta](meal_type)
+    - [quickvegetariansingaporefriednoodles](meal_type)
+    - [teriyakisalmon](meal_type)
+    - [limpabread](meal_type)
+    - [veganandglutenfreechocolatechipchewybrownies](meal_type)
+    - [meatloaf](meal_type)
+    - [chickentraybakewithchorizotomatoandredpeppers](meal_type)
+    - [indianstylecauliflowerandpotatoes](meal_type)
+    - [chickenfricassee](meal_type)
+    - [chickenpiccata](meal_type)
+    - [caribbeanturkeywings](meal_type)
+    - [roastpheasantandbreadsauce](meal_type)
+    - [masalahotdogs](meal_type)
+    - [guernseypotatopeelpie](meal_type)
+    - [sweetchickpeafudgetakes](meal_type)
+    - [bbqspareribs](meal_type)
+    - [vegetablepizza](meal_type)
+    - [chilerelleons](meal_type)
+    - [mexicancoleslawwithlimeandcilantro](meal_type)
+    - [brusselsproutssauteedingarlicandoliveoil](meal_type)
+    - [freshsmallclams](meal_type)
+    - [slowcookerchicken](meal_type)
+    - [skinlesschickenlongganisa](meal_type)
+    - [chickennachos](meal_type)
+    - [taroroot](meal_type)
+    - [chickencashewcurry](meal_type)
+    - [spicyshrimpmoroccanstyle](meal_type)
+    - [crockpotsplitpeasoup](meal_type)
+    - [pelmeni](meal_type)
+    - [easychickencurry](meal_type)
+    - [steamtofuwithfish](meal_type)
+    - [redbeanswithrice](meal_type)
+    - [tacocasserole](meal_type)
+    - [chickencordonbleuschnitzelstyle](meal_type)
+    - [appleovenpancake](meal_type)
+    - [italianspinachsoup](meal_type)
+    - [chickenandcoconutcurry](meal_type)
+    - [butterchicken](meal_type)
+    - [brownbuttercolcannon](meal_type)
+    - [irishfishchowder](meal_type)
+    - [cornbreadjalapenomaplebacon](meal_type)
+    - [indianjeerachicken](meal_type)
+    - [dominicancake](meal_type)
+    - [pangatnasapsap](meal_type)
+    - [chickenalexander](meal_type)
+    - [mongateauauchocolat](meal_type)
+    - [bbqporktenderloin](meal_type)
+    - [lentilsoupwithdumplings](meal_type)
+    - [italianbreadedchickenbreast](meal_type)
+    - [frieddrylandfish](meal_type)
+    - [smokedsirlointiproast](meal_type)
+    - [mashedpotatopstuffedchickenbreast](meal_type)
+    - [juicychickenbreaktexmextstyle](meal_type)
+    - [irishbeefstew](meal_type)
+    - [uminchicken](meal_type)
+    - [stpatricksdaybeefstewwithguinness](meal_type)
+    - [irishapplecakewithwhiskycream](meal_type)
+    - [pavbhaji](meal_type)
+    - [creamymushroomchicken](meal_type)
+    - [lowcaloriechickencaesarsaladstuffedshells](meal_type)
+    - [bucopie](meal_type)
+    - [italianstylebakedmashedpotato](meal_type)
+    - [chilesrellenos](meal_type)
+    - [chilesrellenos](meal_type)
+    - [pankocrustedbakedtilapia](meal_type)
+    - [fetastuffedlambwithfriedpotatoes](meal_type)
+    - [shrimpscampiwithangelhairpasta](meal_type)
+    - [garlictomatobasilgrilledshrimp](meal_type)
+    - [carnitas](meal_type)
+    - [threesistersoup](meal_type)
+    - [binatog](meal_type)
+    - [lambsouvlaki](meal_type)
+    - [sinaingnatulingan](meal_type)
+    - [turkishflatbread](meal_type)
+    - [vegetariansingaporefriednoodles](meal_type)
+    - [lentilandbaconsoup](meal_type)
+    - [pastawithgarlicandoliveoil](meal_type)
+    - [butternutsquashsambar](meal_type)
+    - [arrozverde](meal_type)
+    - [salmonavocadoandrocketsalad](meal_type)
+    - [wrappedchildren](meal_type)
+    - [pinoycassavacake](meal_type)
+    - [germanpotatosaladheirloom](meal_type)
+    - [oreocookiecupcakes](meal_type)
+    - [stjosephsbread](meal_type)
+    - [courgettegratin](meal_type)
+    - [avocadoindianroti](meal_type)
+    - [beetrootwalnutandorangesaladwithorangeblossomdressing](meal_type)
+    - [lambmeatballs](meal_type)
+    - [healthymeatballs](meal_type)
+    - [kindsbreadpudding](meal_type)
+    - [irishchocolatestoutcake](meal_type)
+    - [apricotcheesepie](meal_type)
+    - [spanishsardinesandoliveoil](meal_type)
+    - [cheeseandonionenchiladaswithtexmexchiligravy](meal_type)
+    - [snowballcookies](meal_type)
+    - [flakypadancroissant](meal_type)
+    - [crabwontons](meal_type)
+    - [jerkchickenwings](meal_type)
+    - [ahitunatower](meal_type)
+    - [salsadechilipequin](meal_type)
+    - [jerkchickenthighs](meal_type)
+    - [caramelpecanpie](meal_type)
+    - [westindiespollocriollo](meal_type)
+    - [cabbagepachadisalad](meal_type)
+    - [cauliflowerandwhitebeansaute](meal_type)
+    - [mexicanmacandcheese](meal_type)
+    - [indiansalmonmasala](meal_type)
+    - [meatballsandwhich](meal_type)
+    - [persimmoncookies](meal_type)
+    - [chicharonbaby](meal_type)
+    - [tallerinecasserole](meal_type)
+    - [scottishshortbread](meal_type)
+    - [sweetcornarepa](meal_type)
+    - [georgianbeefstew](meal_type)
+    - [friedeggplant](meal_type)
+    - [italiansnowballcookies](meal_type)
+    - [fermentedriceandshrimp](meal_type)
+    - [chicharonbulaklak](meal_type)
+    - [strawberrydanishdessert](meal_type)
+    - [sicilianeggplantandricottapasta](meal_type)
+    - [spicycoconutchickencurry](meal_type)
+    - [pinoyokoy](meal_type)
+    - [filipinohotcakes](meal_type)
+    - [pansearedseabassinamarsalasauce](meal_type)
+    - [bananacue](meal_type)
+    - [thaibeefsalad](meal_type)
+    - [fishcakeswithparsleysauce](meal_type)
+    - [pinoyporksteak](meal_type)
+    - [irishstew](meal_type)
+    - [breakfastquiche](meal_type)
+    - [snickerdoodlemuffins](meal_type)
+    - [afganchicken](meal_type)
+    - [blueberrieswithlimeandcitrusconfit](meal_type)
+    - [porkadobo](meal_type)
+    - [tunapatties](meal_type)
+    - [seafoodrisotto](meal_type)
+    - [roastchickenlegs](meal_type)
+    - [smokedbeefbrisket](meal_type)
+    - [harirasoup](meal_type)
+    - [germanpancakes](meal_type)
+    - [mediterraneanfiletofsole](meal_type)
+    - [italianshrimpscampi](meal_type)
+    - [perfectfrenchsidesalad](meal_type)
+    - [punjabichickencurry](meal_type)
+    - [maltagliati](meal_type)
+    - [pancitbihonguisadowithataybalunbalunan](meal_type)
+    - [southernlowcountrybraisedpigsfeet](meal_type)
+    - [caramilkbrownies](meal_type)
+    - [grilledtandooriturkeytenderloin](meal_type)
+    - [pancitcanton](meal_type)
+    - [grilledsalmonwithbraziliangarlicmarinade](meal_type)
+    - [cevichedepescade](meal_type)
+    - [haranerobutterchicken](meal_type)
+    - [redlobstercheddarbiscuits](meal_type)
+    - [chickenwithrice](meal_type)
+    - [mushroomandleekpasta](meal_type)
+    - [roastedhalibutwithbalsamicgarlicglaze](meal_type)
+    - [rabbitmixedgrill](meal_type)
+    - [calamansicloudcake](meal_type)
+    - [apacherattlesnakefry](meal_type)
+    - [stpatricksdaysalmonwithleeks](meal_type)
+    - [chickenchilli](meal_type)
+    - [crispyporkdinuguan](meal_type)
+    - [quebecstylebakedbeans](meal_type)
+    - [cranberrymoussejellomoldsalad](meal_type)
+    - [portuguesesweetrice](meal_type)
+    - [cannellinibeans](meal_type)
+    - [aubergineandblackbeanbowl](meal_type)
+    - [swedishpancakes](meal_type)
+    - [chileanempanada](meal_type)
+    - [mexicanbeanstew](meal_type)
+    - [cheesygarlicmashedpotatoes](meal_type)
+    - [caipirinha](meal_type)
+    - [mexicanstuffedjalapenos](meal_type)
+    - [veganaubergineburgers](meal_type)
+    - [chickentacos](meal_type)
+    - [salmonbakedinfoil](meal_type)
+    - [peruvianroastchicken](meal_type)
+    - [limeandchipotleblackbeantacos](meal_type)
+    - [pansearedlambchops](meal_type)
+    - [lambrisotto](meal_type)
+    - [italianspaghettisaucewithmeatballs](meal_type)
+    - [apfelkuchen](meal_type)
+    - [pastawithgarlicbreadcrumbs](meal_type)
+    - [inihawnatengangbaboy](meal_type)
+    - [chocolatechiffoncake](meal_type)
+    - [canieandfelinehealthypumpkinballs](meal_type)
+    - [friedonionrings](meal_type)
+    - [shallotandredwinebeefwellingtonsauce](meal_type)
+    - [steamedcleanedandsplitbluecrabs](meal_type)
+    - [steaktacoswithburntcornsalsa](meal_type)
+    - [escabechenggalunggong](meal_type)
+    - [piripirichicken](meal_type)
+    - [grilledsquid](meal_type)
+    - [tofupeanutveganstirfry](meal_type)
+    - [moussakamediterraneo](meal_type)
+    - [chilerellenossouffle](meal_type)
+    - [garlicbutteroctopus](meal_type)
+    - [curriedlentilstewwithrice](meal_type)
+    - [barbacoadecabeza](meal_type)
+    - [chinesebarbecuedchicken](meal_type)
+    - [sauteedbananaheartveggie](meal_type)
+    - [beefchowmein](meal_type)
+    - [pinoysumansaibos](meal_type)
+    - [texasroadhouserollswithcinnamonhoneybutter](meal_type)
+    - [stirfriedcabbagewithgarlic](meal_type)
+    - [coldangelhairpastaintruffleoil](meal_type)
+    - [bamboosteamsalmonwithsesameoil](meal_type)
+    - [polishsausageandsauerkrautinsauce](meal_type)
+    - [spanishbreadpinoystyle](meal_type)
+    - [lowfatspicerubbedroastturkey](meal_type)
+    - [romaniesaladwithcreamybasildressing](meal_type)
+    - [grilledstuffedpomfretwithgreenchutney](meal_type)
+    - [monaofeaster](meal_type)
+    - [beefandpepperstirfry](meal_type)
+    - [sesamechickenstirfry](meal_type)
+    - [arrozcongri](meal_type)
+    - [blackforestcheesecakesquares](meal_type)
+    - [spicedlambwithsmashedsquashandspinach](meal_type)
+    - [sirloinsteakswithsauteedonions](meal_type)
+    - [porksouvlakiwithtzatziki](meal_type)
+    - [beefcaldertawithcocomilk](meal_type)
+    - [mediterraneanchicken](meal_type)
+    - [trufflecrustedbeeftenderloin](meal_type)
+    - [slowcookerfrenchdip](meal_type)
+    - [panfriedtrout](meal_type)
+    - [lambkarahiwithnewpotatoes](meal_type)
+    - [chilecorianderchicken](meal_type)
+    - [tuscanbaconandbeansoupwithwildgarlicpesto](meal_type)
+    - [macandcheese](meal_type)
+    - [misuasoupwithupoandpatola](meal_type)
+    - [tinolandmanokwithluyangdilaw](meal_type)
+    - [chaatwithspicedsoup](meal_type)
+    - [salmonfurikake](meal_type)
+    - [chilipie](meal_type)
+    - [bananapeanutbuttermocjicecream](meal_type)
+    - [koreanfriedchicken](meal_type)
+    - [tashreebe](meal_type)
+    - [vanillachipfruittart](meal_type)
+
+
+- intent: r1
+  examples: |
+    - I have added the ingredients to a mixing bowl
+    - I have mixed the ingredients together
+    - The ingredients are mixed together into a smooth dough
+    - The dough has risen to double its size
+    - I have flattened the dough
+    - I have sixteen muffins on the griddle
+    - The muffins have puffed up a little
+    - The muffins are cooked
+- intent: r2
+  examples: |
+    - I have combined the ingredients
+    - The time has passed
+    - While it bakes
+    - I have done that
+    - I have mixed the strawberries in
+- intent: r3
+  examples: |
+    - Okay I have mixed the ingredients
+    - I have made the dough
+    - I have rolled the dough
+    - The donuts are now double their size
+    - I have air fried the donuts
+    - I have made the icing
+- intent: r4
+  examples: |
+    - I have turned on the oven
+    - I have combined the ingredients
+    - I have combined these ingredients too
+    - I have made the donuts
+    - I have baked and let all the donuts cool down
+- intent: r5
+  examples: |
+    - The instant pot is now ready
+    - The mixture is now fragrant
+- intent: r6
+  examples: |
+    - I have mixed the fruit in a bowl
+    - I have left the mixture in the fridge over night
+- intent: r7
+  examples: |
+    - Okay the ingredients are now on the baking sheet
+    - Everything is now in the oven
+    - Okay the noodles are out of the oven
+- intent: r8
+  examples: |
+    - Okay the ingredients are now on the baking sheet
+    - Okay the noodles are out of the oven
+- intent: r9
+  examples: |
+    - I have sauted the ingredients
+    - I have mashed the avocados
+    - I have mixed the ingredients
+- intent: r10
+  examples: |
+    - I have made the mango puree
+    - The peppers are in the bowl
+    - The mix is now in the pan
+    - The mixture is back in the pan
+
+
+
+
+
+
+
+
+
+
+
+- intent: next
+  examples: |
+    - next
+    - I have done that
+    - what is next
+    - what is the next step
+    - I have done this
+    - ok what now
+    - ok what is next
+    - whats next
+
+
+- intent: search_rec
+  examples: |
+    - search for xx
+
+
+- intent: all_ingredients
+  examples: |
+    - I have all the ingredients now
+    - Thank you, I have all the ingredients
+    - I do not need anymore ingredients
+
+- intent: search_utensils
+  examples: |
+    - [bowl](utensils)
+    - [spoon](utensils)
+    - [sieve](utensils)
+    - [pan](utensils)
+    - [baking tray](utensils)
+    - [whisk](utensils)
+    - [oven](utensils)
+    - [cellophane](utensils)
+    - [tea towel](utensils)
+    - [frying pan](utensils)
+    - [kettle](utensils)
+    - [kitchen knife](utensils)
+    - [saucepan](utensils)
+    - [greaseproof paper](utensils)
+    - [cup](utensils)
+    - [measuring jug](utensils)
+    - [dinner plate](utensils)
+    - [rolling pin](utensils)
+    - [food processor](utensils)
+    - [fluted flan tin](utensils)
+    - [dinner fork](utensils)
+    - [pastry brush](utensils)
+    - [round bladed knife](utensils)
+    - [fridge](utensils)
+    - [food bag](utensils)
+    - [casserole dish](utensils)
+    - [teaspoon](utensils)
+    - [mixing bowl](utensils)
+    - [wooden spoon](utensils)
+    - [chop sticks](utensils)
+    - [colander](utensils)
+    - [filleting knife](utensils)
+    - [fish slice](utensils)
+    - [bottle opener](utensils)
+    - [dessert spoon](utensils)
+    - [can opener](utensils)
+    - [bread knife](utensils)
+    - [dinner knife](utensils)
+    - [ladle](utensils)
+    - [masher](utensils)
+    - [peeler](utensils)
+    - [pizza cutter](utensils)
+    - [serving spoon](utensils)
+    - [soup spoon](utensils)
+    - [tongs](utensils)
+    - [kitchen scissors](utensils)
+    - [mason jar](utensils)
+    - [food blender](utensils)
+    - [bottle](utensils)
+    - [paring knife](utensils)
+    - [garlic press](utensils)
+    - [food grater](utensils)
+    - [kitchen scales](utensils)
+    - [measuring spoon](utensils)
+    - [ovenproof dish](utensils)
+    - [stirring spoon](utensils)
+    - [slotted spoon](utensils)
+    - [spatula](utensils)
+    - [oven glove](utensils)
+    - [pot holder](utensils)
+    - [meat thermometer](utensils)
+    - [pasta fork](utensils)
+    - [corkscrew](utensils)
+    - [cling film](utensils)
+    - [kitchen foil](utensils)
+    - [cutting board](utensils)
+    - [salad spinner](utensils)
+    - [kitchen shears](utensils)
+    - [lemon squeezer](utensils)
+    - [sharpening rod](utensils)
+    - [Knife sharpener](utensils)
+    - [skillet](utensils)
+    - [Saute pans](utensils)
+    - [grill pan](utensils)
+    - [muffin pan](utensils)
+    - [broiling pan](utensils)
+    - [stock pot](utensils)
+    - [trivet](utensils)
+    - [splatter guard](utensils)
+    - [sponge](utensils)
+    - [dish rack](utensils)
+    - [ice cube tray](utensils)
+    - [bin bag](utensils)
+    - [serrated blade](utensils)
+    - [food turner](utensils)
+    - [zester](utensils)
+    - [microwave](utensils)
+    - [rice cooker](utensils)
+    - [slow cooker](utensils)
+    - [electric grill](utensils)
+    - [air fryer](utensils)
+    - [bachelor grill](utensils)
+    - [barbecue](utensils)
+    - [beehive oven](utensils)
+    - [brazier](utensils)
+    - [bread machine](utensils)
+    - [burjiko](utensils)
+    - [butane torch](utensils)
+    - [chapati maker](utensils)
+    - [cheese melter](utensils)
+    - [chocolatier](utensils)
+    - [chorkor](utensils)
+    - [clome oven](utensils)
+    - [comal](utensils)
+    - [combi oven](utensils)
+    - [convection microwave](utensils)
+    - [convection oven](utensils)
+    - [corn roaster](utensils)
+    - [crepe maker](utensils)
+    - [deep fryer](utensils)
+    - [earth oven](utensils)
+    - [electric cooker](utensils)
+    - [espresso machine](utensils)
+    - [fire pot](utensils)
+    - [flattop grill](utensils)
+    - [food steamer](utensils)
+    - [fufu machine](utensils)
+    - [griddle](utensils)
+    - [halogen oven](utensils)
+    - [haybox](utensils)
+    - [horno](utensils)
+    - [hot box](utensils)
+    - [hot plate](utensils)
+    - [instant pot](utensils)
+    - [kamado](utensils)
+    - [kitchner range](utensils)
+    - [Kujiejun](utensils)
+    - [kyoto box](utensils)
+    - [makiyakinabe](utensils)
+    - [masonry oven](utensils)
+    - [multicooker](utensils)
+    - [pancake machine](utensils)
+    - [sandwich grill](utensils)
+    - [popcorn maker](utensils)
+    - [pressure cooker](utensils)
+    - [pressure fryer](utensils)
+    - [reflector oven](utensils)
+    - [remoska](utensils)
+    - [rice polisher](utensils)
+    - [rotisserie](utensils)
+    - [stove](utensils)
+    - [tandoor](utensils)
+    - [tangia](utensils)
+    - [toaster](utensils)
+    - [turkey fryer](utensils)
+    - [vacuum fryer](utensils)
+    - [waffle iron](utensils)
+    - [wet grinder](utensils)
+    - [food boiler](utensils)
+    - [coffee percolator](utensils)
+    - [apple corer](utensils)
+    - [apple slicer](utensils)
+    - [baster](utensils)
+    - [beanpot](utensils)
+    - [cookie press](utensils)
+    - [browning dish](utensils)
+    - [pie server](utensils)
+    - [cheese cutter](utensils)
+    - [cheese knife](utensils)
+    - [cheesecloth](utensils)
+    - [cherry pitter](utensils)
+    - [chinois](utensils)
+    - [clay pot](utensils)
+    - [cookie cutter](utensils)
+    - [crab cracker](utensils)
+    - [scraper](utensils)
+    - [egg piercer](utensils)
+    - [egg poacher](utensils)
+    - [egg separator](utensils)
+    - [egg slicer](utensils)
+    - [egg timer](utensils)
+    - [fat separator](utensils)
+    - [flour sifter](utensils)
+    - [food mill](utensils)
+    - [funnel](utensils)
+    - [grapefruit knife](utensils)
+    - [gravy strainer](utensils)
+    - [herb chopper](utensils)
+    - [honey dipper](utensils)
+    - [lame](utensils)
+    - [citrus reamer](utensils)
+    - [lobster pick](utensils)
+    - [mandoline](utensils)
+    - [meat grinder](utensils)
+    - [melon baller](utensils)
+    - [mezzaluna](utensils)
+    - [milk frother](utensils)
+    - [mortar and pestle](utensils)
+    - [nutmeg grater](utensils)
+    - [pastry bag](utensils)
+    - [pastry blender](utensils)
+    - [pepper mill](utensils)
+    - [pie bird](utensils)
+    - [roller docker](utensils)
+    - [salt shaker](utensils)
+    - [tomato knife](utensils)
+    - [freezer](utensils)
+    - [skewer](utensils)
+    - [roasting tin](utensils)
+ 
+ 
