@@ -6,14 +6,13 @@ import random
 import re
 import uuid
 from argparse import ArgumentParser
-
 import requests
 import yaml
 from flask import request
 
-from core.dm.state import State
-from core.nlu.rasa_nlu import RasaNLU, RasaIntent
-from core.utils.queue_query import QueueQuery
+from dm.state import State
+from nlu.rasa_nlu import RasaNLU, RasaIntent
+from utils.queue_query import QueueQuery
 
 
 class CheifBot:
@@ -101,6 +100,8 @@ class CheifBot:
             # get NLU results
             r = requests.post('http://localhost:5005/model/parse', data=json.dumps({"text": user_sentence}))
 
+
+
             self._logger.info('r: {}'.format(r))
             if r.status_code == 200:
                 intent = self._nlu.process_user_sentence(r.json())
@@ -138,6 +139,12 @@ class CheifBot:
             recipe_responses = self.responses.get(system_action).get(recipe_id)
             _response = recipe_responses.get(self.dialog_slots.get('recipe_step_ID'))
             self.dialog_slots.add('recipe_step_ID', self.dialog_slots.get('recipe_step_ID') + 1)
+
+        elif system_action == 'utter_utensils':
+            utensils_entity = intent.entities.get('utensils')
+            _response = self.responses.get(system_action).get(utensils_entity)
+            print('utter_utensils: {}'.format(_response))
+
 
         elif system_action == 'action_search_rec':
             # TODO: Linked to the Bert QA model for question answering
@@ -208,7 +215,7 @@ class CheifBot:
 
 
 def terminal_test(logger: logging):
-    bot = CheifBot()
+    bot = CheifBot(logger)
     _logger = logger
 
     this_session = str(uuid.uuid1())
@@ -255,4 +262,4 @@ if __name__ == "__main__":
     )
     logger = logging.getLogger(__name__)
 
-    terminal_test_action(logger)
+    terminal_test(logger)

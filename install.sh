@@ -9,12 +9,12 @@ echo $SCRIPTPATH
 PROJECTROOTPATH="$(dirname "$SCRIPTPATH")"
 echo $PROJECTROOTPATH
 
-virtualenv -p python3 ${SCRIPTPATH}/ENV
+virtualenv -p python3
 
-source ${SCRIPTPATH}/ENV/bin/activate
+source env/bin/activate
 "${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
 "${SCRIPTPATH}"/ENV/bin/pip3 install -r requirements.txt
 
-"${SCRIPTPATH}"/ENV/bin/python3 -m spacy download en_core_web_md
-"${SCRIPTPATH}"/ENV/bin/python3 -m spacy link en_core_web_md en
+"${SCRIPTPATH}"/ENV/bin/python -m spacy download en_core_web_md
+"${SCRIPTPATH}"/ENV/bin/python -m spacy link en_core_web_md en
 

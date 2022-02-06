@@ -18,7 +18,7 @@ utter_ask_pizza_size:
 utter_ask_meal_type:
 - text: What kind of pizza would you like to buy?
 utter_ask_menu:
-- text: What meal do you want to cook?∂ç
+- text: What meal do you want to cook?
 utter_not_all_ingredients:
 - text: Please state which ingredients are missing
 utter_yes_no:

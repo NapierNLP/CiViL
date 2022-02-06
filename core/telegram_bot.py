@@ -26,7 +26,7 @@ def find_between_r(origin_text: str, first: str, last: str):
 
 
 def start(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text("Welcome to use CiVil Bot, what can I help you today?")
+    update.message.reply_text("Hello, welcome to CiVil Bot")
 
 
 def process_query(update: Update, context: CallbackContext) -> None:
@@ -83,8 +83,8 @@ def help_command(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Run the bot."""
-    # Create the Updater and pass it your bot's token.
-    updater = Updater("2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc", use_context=True)
+    # Create the Updater and pass it your bots token.
+    updater = Updater("2139720036:AAHLPCgkGjce4c5mSPDgpoxDGNSqNCIqSMg", use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
@@ -104,3 +104,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+

@@ -36,22 +36,70 @@ segments:
       - intent: meatmeals
       - action: display_meat_menu_types
 
+#meat meals
+
+
   - segment: dessertmenumeat
     steps:
       - intent: dessertmenumeat
-      - action: display_meal_types
+      - action: display_dessertmenumeat
 
-  - segment: lightsnacksmenuveg
-    steps:
-      - intent: lightsnacksmenuveg
-      - action: display_meal_types
 
   - segment: lightsnacksmenumeat
     steps:
       - intent: lightsnacksmenumeat
-      - action: display_meal_types
+      - action: display_lightsnacksmenumeat
+
+  - segment: breakfastmenumeat
+    steps:
+      - intent: breakfastmenumeat
+      - action: display_breakfastmenumeat
+
+  - segment: lunchmenumeat
+    steps:
+      - intent: lunchmenumeat
+      - action: display_lunchmenumeat
+
+  - segment: dinnermenumeat
+    steps:
+      - intent: dinnermenumeat
+      - action: display_dinnermenumeat
+
+#veg meals
+
+  - segment: lightsnacksmenuveg
+    steps:
+      - intent: lightsnacksmenuveg
+      - action: display_lightsnacksmenuveg
+
+  - segment: breakfastmenuveg
+    steps:
+      - intent: breakfastmenuveg
+      - action: display_breakfastmenuveg
+
+  - segment: lunchmenuveg
+    steps:
+      - intent: lunchmenuveg
+      - action: display_lunchmenuveg
+
+  - segment: dinnermenuvege
+    steps:
+      - intent: dinnermenuvege
+      - action: display_dinnermenuvege
+
+  - segment: dessertmenuveg
+    steps:
+      - intent: dessertmenuveg
+      - action: display_dessertmenuveg
+
 
   - segment: all_ingredients
     steps:
       - intent: all_ingredients
       - action: utter_rep
+
+
+  - segment: search_utensils
+    steps:
+      - intent: search_utensils
+      - action: utter_utensils

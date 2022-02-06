@@ -49,3 +49,11 @@ rules:
           last_action: utter_replace
           sys_q_type: confirm_ingredients
         action: display_not_all_ingredients_<meal_type>
+
+      - state:
+          sys_q_type: confirm_ingredients
+        action: utter_rep
+
+      - state:
+          sys_q_type: confirm_utensils
+        action: utter_rep

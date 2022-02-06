@@ -20,4 +20,4 @@ source ${SCRIPTPATH}/ENV/bin/activate
 #"${SCRIPTPATH}"/ENV/bin/python3 -m spacy link en_core_web_md en
 
 cd "${SCRIPTPATH}"/rasax/
-rasa train nlu --config "${SCRIPTPATH}"/rasax/config.yml
+rasa train nlu --config "${SCRIPTPATH}"/rasax/config.yml --nlu /rasax/data/nlu.yml

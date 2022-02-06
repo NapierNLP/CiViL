@@ -1,0 +1,3033 @@
+#IF dialogue from TASK2DIAL
+
+- intent: r1
+  examples: |
+   - Ok, I have added the ingredients to a mixing bowl
+   - The ingredients are mixed together into a smooth dough
+   - The dough has risen to double its size
+   - I have flattened the dough
+   - I have 16 muffins on the griddle
+   - The muffins have puffed up a little
+   - The muffins are cooked
+
+- intent: r2
+  examples: |
+   - I have combined the ingredients
+   - The ingredients are combined
+   - I have mixed the strawberries in the bowl
+
+- intent: r3
+  examples: |
+   - I have mixed the ingredients
+   - I have made the dough
+   - I have rolled the dough
+   - The donuts are now double their size
+   - I have air fried the donuts
+   - I have made the icing
+
+- intent: r4
+  examples: |
+   - I have turned on the oven
+   - I have combined the ingredients
+   - I have made the donuts
+   - I have baked and let all the donuts cool down
+
+- intent: r5
+  examples: |
+   - The instant pot is now ready
+   - The mixture is now fragrant
+   - The onion is now fragrant as well
+
+- intent: r7
+  examples: |
+   - I have mixed the ingredients
+   - The dough is in the fridge
+   - I have cut the pears
+   - The sugar it's done
+   - I have arranged the pears
+   - I have finished this step
+   - I have covered the pears
+
+- intent: r8
+  examples: |
+   - I want to make roasted Veggie Noodles with Pears
+   - The ingredients are now on the baking sheet
+   - Everything is now in the oven
+   - The noodles are out of the oven
+
+- intent: r9
+  examples: |
+   - I have sauted the ingredients
+   - The quinoa has finished cooking
+   - I have mashed the avocados
+   - I have mixed the ingredients
+
+- intent: r10
+  examples: |
+   - I have made the mango puree
+   - The peppers are in the bowl
+   - The mix is now in the pan
+   - The mixture is back in the pan
+
+- intent: r11
+  examples: |
+   - I have cut the onion
+   - I have processed the ingredients
+   - I have made the onion with the spices
+   - I have cooked all the ingredients
+   - The veggies are cooking
+
+- intent: r12
+  examples: |
+   - All donehow do I make the crumb topping
+   - I have combined all the ingredients
+   - The butter is done
+   - All the ingredients are combined
+   - All of my ingredients are now mixed
+
+- intent: r13
+  examples: |
+   - I have room temperature butter
+   - I have greased the Bundt
+   - I have combined the ingredients
+   - Everything is now blended
+   - All the ingredients are mixed
+   - The cake is now cooling down
+   - The mixture is now done
+
+- intent: r14
+  examples: |
+   - I have removed the fat
+   - The stock is done
+   - The onion is now cooked
+   - The gravy has now started to thicken
+
+- intent: r15
+  examples: |
+   - I have mixed the ingredients together
+   - I have placed the ingredients into the cake pan
+   - The ingredients are now combined
+   - The cake is now done are the rest of the steps
+
+- intent: r16
+  examples: |
+   - I have prepared the cake pan
+   - I have prepared the mixture
+   - All ingredients are now fully mixed
+   - The batter is now thick and frosty
+   - The cakes are now fully cooledhow do I make the frosting
+   - I have cut the tops of the cakes offnow
+   - The egg whites and the syrup are now mixed
+   - The frosting is now done
+
+- intent: r17
+  examples: |
+   - I have combined the ingredients
+   - Everything is now combined
+
+- intent: r18
+  examples: |
+   - The ingredients are now combined
+
+- intent: r19
+  examples: |
+   - I have room-temperature butter and the oven is being preheated
+   - The mixture and the strawberries
+   - I have made the butter mixture
+   - The butter and the strawberries
+
+- intent: r20
+  examples: |
+   - The carrotsparsnips and onions are now in the pan
+   - The vegetables are now soft
+   - The puree is now back in the pot
+
+- intent: r21
+  examples: |
+   - The egg is now incorporated into the breadcrumb mixture
+   - The meatball mixture is combined
+   - How do I make the sauce
+   - The meatballs are done
+   - It is 20 minutes before the meatballs are done
+
+- intent: r22
+  examples: |
+   - The ingredients are now chopped
+
+- intent: r23
+  examples: |
+   - The chicken is now ready
+   - The Marsala reduction is now back in the pan
+   - The Marsala is now done
+   - The chicken and the mushrooms are ready
+
+- intent: r24
+  examples: |
+   - The veggies are now in the ovenhow do I make the noodles
+   - The noodles and cheese mixture are done
+   - The lasagna is now assembledhow long should I cook it for
+
+- intent: r25
+  examples: |
+   - The streusel topping is done
+   - The pecans and sugar are done
+   - The batter is thickening
+   - The batter is done do I do for the baking
+
+- intent: r26
+  examples: |
+   - The dough is now made
+   - The crust has finished pre-baking
+
+- intent: r27
+  examples: |
+   - I want to make Cherry Pie Bars
+   - The ingredients are blended
+   - The crust is baking
+
+- intent: r28
+  examples: |
+   - The veggies are now done
+   - The mushrooms are done
+
+- intent: r29
+  examples: |
+   - All the vegetables are prepped and the beans boiled
+   - All the veggies are done
+   - The soup has finished cookingis there anything left to do
+
+- intent: r30
+  examples: |
+   - The ingredients are now combined
+
+- intent: r31
+  examples: |
+   - the marzipan is done
+   - The streusel topping is done
+   - The ingredients are combined
+
+- intent: r32
+  examples: |
+   - The beans are cooking can I do in the meantime
+   - The potatoesbeans and salsa are done
+   - The burrito filling is done
+
+- intent: r33
+  examples: |
+   - The dry ingredients and the butter are now mixed
+   - The scones are now on the sheet
+
+- intent: r34
+  examples: |
+   - A rough dough has formed
+
+- intent: r35
+  examples: |
+   - The butter mixture is now ready
+   - The dough is ready
+   - The cookies are in the ovenhow do I make the cherry glaze
+
+r36:
+#ALL GLOBAL INTENTS
+
+- intent: r37
+  examples: |
+   - The soup is now boiling
+
+- intent: r38
+  examples: |
+   - The ingredients are now combined
+   - The dough is now ready
+
+- intent: r39
+  examples: |
+   - I have finished prepping
+   - The pasta and steak are ready
+   - The sauce is now done
+
+- intent: r40
+  examples: |
+   - The squash is now in a bowl
+
+- intent: r41
+  examples: |
+   - The cauliflower is ready
+
+- intent: r42
+  examples: |
+   - The sweet potatoes are combined with the ingredients
+
+- intent: r43
+  examples: |
+   - The ground buffalo and veggies are now done
+   - The 30 minutes have gone by already
+
+- intent: r133
+  examples: |
+   - I have washed the sweet potatoes and poked it with a fork
+   - I pressed down with my finger for 10 minutes and I let it cool down
+   - I have diced the potatoes into smaller pieces and put them in a medium bowl
+   - I toasted the coconut on a skillet over medium heatI also stirred for 5 minutes
+   - I toasted the coconut and the coconut milk to the bowl and tossed it
+
+- intent: r134
+  examples: |
+   - I placed the butter on the counter and I let it rise at room temperature
+   - I preheated the oven to 350 degrees and creamed the butter using an electric mixer
+   - I added the cups of sugar to the butter and cream with the mixer and the cream has turned light and fluffy
+   - I creamed the eggs with an electric mixer and the cream has become fully combined
+   - I sifted the ingredients required and then set it aside
+   - I poured 1 cup of milk into the measuring cup
+   - I added the flour mixture and the milk to the creamed butter and I beated it with an electric mixer
+   - I coated the large pan with cooking spray and lined it up with parchment paper
+   - I poured the batter into the pan and divided it between the loaf pansI also baked it at 350 degrees
+
+- intent: r135
+  examples: |
+   - I washed and cut off the rough root ends from the asparagus and put them in a medium stock pot
+   - I added the vegetable stock and the fresh herbs and brought them to a boil
+   - I chopped and diced the vegetables and placed them in a large stock pot and added water and olive oil
+   - I cooked it over a medium-high heat and the vegetables are now soft
+   - I strained the vegetables into the large stock pot with the vegetables and stirred
+   - I have chopped the top of the asparagus and put it in a small bowl and chopped the stalks
+   - I cooked the soup over medium-high heat and the flavors have combined well
+   - I poured the soup into a bowl and it sat inside the ice bath Now the temperature has reduced
+
+- intent: r136
+  examples: |
+   - I added all of the ingredients inside the bowl and using an electric hand mixer I beat it for 30 seconds
+   - I refrigerated the batter for 3 days and poured it inside a shallow pie dish
+   - I dipped the side of the electric crepe in the batter for 3 seconds
+   - I topped the crepes and folded them
+
+- intent: r137
+  examples: |
+   - I mashed the ripe bananas and put them in a bowl I also preheated the oven to 350 degrees fahrenheit
+   - I removed the bananas from the preheated oven and they released some of their juices
+   - I beat the eggssugarvegetable oilhoney and the vanilla
+   - I added the bananas to the mix and combined wellI also set it aside
+   - I whisked the ingredients in a bowl
+   - I added the yoghurt and walnuts and stirred well
+   - I greased the two loaf pans and divided them evenly between the two pans
+   - I baked it at 350 degrees and the skewer came out clean for 40 minutes now
+   - I let it cool down for 10 minutes and then placed it on a wire rack for 1 hour
+
+- intent: r138
+  examples: |
+   - I adjusted the oven rack to a middle position and preheated the oven to 425 degrees
+   - I combined the ingredients in a bowl
+   - I added the butter to the bowl and used the two knives to cut it into small piecesI also incorporated it into the flour
+   - I added a cup of heavy cream to the bowl and mixed it with a spatula
+   - I turned the dough on a clean work surface and kneaded it by hand for 2 minutes
+   - I shaped the dough into a 9-inch wide disc and cut them into 8 pieces using a knife
+   - I placed the cut scones on top of the parchment paper on a baking sheet and left ½ inch space
+   - I baked the scones at 425 degrees and the top of the scones are now light brown I also removed them from the oven and let them cool down on a wire rack
+   - I served the scones warm and put the leftovers in an airtight container
+
+- intent: r139
+  examples: |
+   - I washed the quinoa and millet under cool water for 3 minutes
+   - I covered and decreased the heat and simmered the quinoathe quinoa and millet are now soft and tender
+   - I have beaten the eggs inside the bowl and put them aside I also mixed all of the ingredients that are required
+   - I added the beaten eggs and stirred themthe mixture is now moist
+   - I heated the olive oil inside the skillet and cooked 4-6 patties on each side they are now light brown
+   - I flipped and cooked the other side of the patties and added the additional oil
+
+- intent: r140
+  examples: |
+   - I measured the flour in a large bowl and added the salt and shortening
+   - I blended the floursalt and shortening and they are now the size of peas
+   - I filled a glass with iced water and added the cold water to the top and mixed it in with the flour mixture
+   - I mixed the water with the flour and I formed a large dough ball
+   - I formed the dough into a disc and wrapped it in wax paper and placed it in the freezer for 10 minutes
+   - I washed the vegetables and cut them into thick pieces with a sharp knifeI also discarded the pieces that disintegrated
+   - I sliced the vegetable in a separate bowl and preheated the oven to 350 degrees fahrenheit
+   - I greased a 9-inch tart pan and sprinkled a clean work space with flour and removed the dough from the fridge
+   - I rolled a strip of zucchini into a circle and wrapped a carrot strip around it
+   - I have a 2 diameter spiral now and placed it in the center of the dough
+   - I brushed the top of the vegetables and they are coated wellI also sprinkled the ingredients over the vegetables
+   - I baked the vegetables at 350 degrees for 35 minutes and they are now soft
+
+- intent: r141
+  examples: |
+   - I adjusted the rack to the middle position and preheated the oven to 350 degrees and cut the tortillas into 8 pieces
+   - I put the tortilla wedges on the baking sheets and coated them with vegetable oil spray
+   - I flipped the wedges over and sprayed the other side
+   - I sprinkled the wedges with salt and baked them at 350 degrees for 10 minutes
+   - I cooked tortillas for another 10 minutes and they are now light brown
+   - I removed them from the oven and let them cool on a wire rack for 10 minutes for helping me make Homemade Tortilla Chips
+   - I preheated the oven to 350 degrees fahrenheit and lined the pan with parchment paper and oiled it with cooking spray
+   - I have mixed the ingredients together and added them to the dry ingredients and mixed well
+   - I poured half of the mixture into the pan and pressed down on it and formed a crust
+   - I washed the rhubarb and cut it into ½ inch pieces and placed it in the pan on top of the bottom layer of the crust
+   - I combined the watersugarcornstarch and vanilla extractI also stirred well and the ingredients have dissolved
+   - I cooked the ingredients over a high heat and then after they became thick I removed them from the heat and poured over the rhubarb
+   - I poured the dry mix over the rhubarb and spread it evenly with a spatula
+
+- intent: r143
+  examples: |
+   - I removed the milk and the eggs from the fridge
+   - I placed the sticks of butter on a plate and I let them rise to room temperature
+   - I adjusted the rack to the lower-middle position and I heated it to 350 degrees
+   - I greased a cake pan with vegetable shortening and covered the bottom with parchment paper
+   - I dusted the cake pans with flour and tapped the excess out
+   - I drained the pineapple juice from the crushed pineapple and reserved it for the cake
+   - I put the juice in a saucepan and let it cook over a medium-high heat for 6 minutes
+   - I poured the pineapple juice in a small bowl and mixed the coconut well
+   - I whisked together the ingredients required
+   - I whisked the sugarcake flourbaking powder and salt together
+   - I added the butter and used a pastry blender to cut the butter into small pea-sized pieces with the flour
+   - I added the cups of egg-milk-vanilla mixture and mixed it at the lowest speed with a hand mixture and incorporated well
+   - I stopped the mixer after 10 seconds and scraped the sides at the bottom of the bowlthen beat on a medium-high
+   - I added the coconut-pineapple mixture and mixed it with a spatulaI also poured 2 cups of batter into the cake pans
+   - I spread the batter with a spatula and they are now smooth
+   - The top of the cakes are now golden brown and the toothpick came out cleanI did this for 25 minutes
+   - I removed the pan with the cake from the oven and I let it cool on a rack for 10 minutes
+   - I turned the cake on a large plate and peeled off the parchmentI also reinverted it onto a greased rack and I let it cool down
+   - In a saucepan I whisked the ingredients required
+   - I cooked the ingredients over a medium-low heat and whisked occasionallythe mixture steamed well after 10 minutes
+   - I combined the cornstarch and the heavy cream and whisked them allthe ingredients are now smooth with no lumps
+   - I added the cornstarch mixture to the saucepan and let it cook The pudding has now thickened well enough
+   - I have reduced the heat to very low and stirred for 5 minutes
+   - I removed the mixture from the heat and stirred in the coconut extract and also poured it into a 1-quart dish
+   - I covered the pudding with plastic wrap and refrigerated it for 2 hours
+   - I whisked the ingredients and stirred
+   - for thatI stirred the coconut extract and the mixture is now thickI also removed it from the heat and let it cool down
+   - I creamed the butter and sugar together in a medium bowl using an electric hand mixerthe mixture is now light and fluffy
+   - I added the milk mixture to the cream sugar mixture and I beat the frosting for 5 minutes for letting me knownow
+   - I have scraped down the sides of the bowl
+   - I placed one layer of the cake on a serving platter and topped it with half of the coconut pudding
+   - I sprinkled and spread ½ of the cup of crushed pineapple on the top of the pudding and placed another layer of the cake on the top
+   - I have placed the final layer of the cake on the top and decorated it with the reserved coconut frosting
+
+- intent: r144
+  examples: |
+   - I preheated the oven to 300 degrees fahrenheit and beat the 4 eggs with a hand mixer on medium speed
+   - I have added the milk and the whipping creamI also beat the mixture and blended it well for 1 minute
+   - I have sifted the ingredients together in a medium bowl
+   - I added ⅓ of the flour mixture to the reserved egg mixture and beat it on a low speed to combine
+   - I let the batter rest for 15 minutes
+   - I melted the butter in the non-stick-oven safe skillet over a medium heat and cooked the apple slices in a skillet
+   - I transferred it to a medium bowl and reserved the skillet for letting me know
+   - I mixed the ingredients in a small bowl with a fork
+   - I poured the butter into the cinnamon-sugar mixture and stirred with a fork
+   - I spread the cinnamon sugar mixture over the bottom of the skillet with a spatula
+   - I have layered the apples evenly over the sugar mixture and covered the bottom of the skillet
+   - I poured the batter over the apples and discarded the excess batter
+   - I placed the skillet in a preheated oven and reduced the heat from 300 degrees to 250 and I let it bake for 30 minutes
+   - I removed the skillet from the oven and covered it with foil I also increased the oven to 500 degrees
+   - I have removed the foil and placed it back in the oven and I also reduced the temperature to 450 degrees
+   - The pancakes have puffed up and the edges are now brown
+
+- intent: r145
+  examples: |
+   - I moved the oven rack to the middle position and preheated the oven to 450 degrees
+   - I have grated the butter using a cheese grater and added it to the dry ingredients
+   - I have added the shortening to the dry ingredients and used my hands to press the butter into the shortening Now the flour mixture looks like crumbs
+   - I have added the cups of buttermilk to the dry ingredients and I used a spatula to stir the ingredients
+   - I floured the work surface and turned the dough onto the surface and floured the top of it
+   - I have folded in the dough 5 times and I gently pressed it into 1-inch thickness
+   - I cut out the biscuits using the biscuit cutter at the dimensions requiredI also placed them on the baking sheet
+   - I combined the remaining dough into a ball and pressed it back into the 1-inch thick round and I also cut out the additional biscuits
+   - I baked the biscuits at 450 degrees and they have risen well with the tops golden brown
+   - I have removed them from the oven and they have cooled down for 5 minutes
+
+- intent: r146
+  examples: |
+   - I cut the butter into small pieces and put them on a warm plate
+   - I greased the cake pan and set it asideI also preheated the oven to 350 degrees
+   - I brought the water to boil over a high heat and added the sugar to the waterit has now dissolved
+   - I removed the sugar water from the heat and set it aside
+   - I whipped the 6 egg whites and they are now foamy
+   - I added the sugar a little bit at a time and it has incorporated well into the mixture
+   - The egg whites have now turned into soft peaks after beating them for 4 minutesI have also set them aside
+   - I melted the dark chocolate over a boiler and removed from the heat
+   - The chocolate has cooled down to 100 degrees
+   - I added the sugar water to the chocolate mixture and stirredI also added the butter in small pieces and continued to stir for 5 minutes
+   - I have folded the egg whites in the chocolate mixture
+   - I poured the batter into the cake pan and I let it bake at 350 degrees
+   - I removed the batter from the oven and let it cool down for 10 minutesI also inverted the cake pan onto the plate
+
+- intent: r147
+  examples: |
+   - I saute the garlic cloves in olive oil over a medium-high heat and they are now fragrant
+   - I added the ground beef and cooked slightlyI also drained the fat and liquid into a glass jar
+   - I have added the rest of the ingredients to the ground beef and cooked them on a low heat
+
+- intent: r148
+  examples: |
+   - I preheated the oven to 400 degrees and lightly coated a casserole dish with cooking spray
+   - I tore the tortillas into bite-sized pieces and placed them on the bottom of the baking dish
+   - I combined the beans with the enchilada sauce and stirred them together After that I spread the bean mixture over the tortillas
+   - I topped the tortillas with the cheese and green onions
+   - I baked them for 20 minutes they are now bubbling around the edges
+
+- intent: r149
+  examples: |
+   - I have combined the flourbaking powdersalt and the shortening in a bowl
+   - The mixture is now crumbly after pulsating it for 5 secondsI also scraped down the sides of the bowl
+   - I added the cup of water to the dough and it has formed into a ball
+   - I kneaded it for 30 seconds and it has become tackyno need for more flour
+   - I moved the dough to a work surface and divided it into 8 equal pieces
+   - I heated the large skillet over medium heat and patted the ball into a disco
+   - I dusted the dough with flour and rolled it into a thin circle
+   - I moved the tortilla to the heated skillet and cooked each side for 20 seconds
+   - I stored it in an airtight bag for 1 week
+
+- intent: r150
+  examples: |
+   - I have pulsed the slices of bread and butter in a food processor and the bread is now broken down into crumbs
+   - I adjusted the oven rack to a lower-middle position and heated the broiler
+   - I brought the quarts of water to a boil and added the salt
+   - I added the macaroni pasta to the water and stirred wellthe pasta is now al-denteI also drained the pasta and put it aside in a container
+   - I have waited until the pasta finished cooking and I used the empty stockpot for the sauce
+   - I added and heated the butter over a high heat and it is now foamy
+   - I added the flour and spices to the pot and whisked them and they are now combined well
+   - I poured in the cups of milk and continued to whisk them
+   - I brought the mixture to a boil and whisked frequently therefore now the mixture is thick and creamyI did this for 10 minutes
+   - I removed the mixture from the heat and stirred in the cheesesthe cheeses are now meltedI also added the pasta
+   - I returned the pot to the stove and cooked it over a medium-low heat
+   - I moved over the contents to an oven safe baking dish and sprinkled the top with bread crumbs
+   - I broiled the bread crumbs and they are now golden brown
+
+- intent: r151
+  examples: |
+   - I cut off the excess fat from the chicken and cut the tenderloins into nugget sizes
+   - I have dissolved the cup of salt and sugar in cold water
+   - I have added the cutlets and sealed the bagI also placed the bag in a bowl and it has been refrigerated for 30 minutes
+   - I lined the baking sheets with triple layers of paper towels and removed the chicken from the bag
+   - I have covered the nuggets with some more layers of paper towels and I pressed down firmly on themthey are now dry
+   - I peeled off the paper towels from the cutlets and sprinkled them with 2 tsp of black pepper and set them aside
+   - I spreaded the flour in a baking dish and beat the eggs with the oil
+   - I processed the slices of white bread in a food processor for 20 seconds
+   - I transferred the crumbs to the baking dish and added salt and pepper to them
+   - I covered the nuggets in flour and shook off the excess using tongs
+   - I placed the nuggets in a bowl with the breadcrumbs and fully coated them
+   - I placed the nuggets on a wire rack over a baking sheet and I let them stand for 5 minutesthey are now dry
+   - I heated the oil in a nonstick skillet over medium-high heat and it is now shimmering
+   - I have placed the nuggets on a skillet and given them space between each other I also pressed down on them with a spatula
+   - The nuggets have now been cooked and they are crispy and juicy on their sidesI also flipped them and reduced the heat
+   - I lined up the warmed place with the double layer of paper towels and I put the cutlets on top
+   - I have thrown away the oil in a skillet and wiped them down using a wad of paper towels
+   - I have cleaned the skillet and cooked the remaining nuggets
+
+- intent: r152
+  examples: |
+   - I have beaten the buttersugar and vanillathey are now light and fluffy
+   - I have added the eggs and mixed them well
+   - I have added the ingredients and mixed them wellthey are now blended well
+   - I added the blueberries and folded them in by hand
+   - I baked them for 15 minutes and they turned golden brown They look really good
+
+- intent: r153
+  examples: |
+   - I brought 1 cup of water to a boil and added the salt and dry milletI covered it and let it cook on a low heat for 30 minutes
+   - I put the oven racks on the lowest setting and the other in the middle of the oven
+   - I put the small cake pan filled with water on the lowest rack
+
+- intent: r184
+  examples: |
+   - I have preparedand cooked the vegetables
+   - I have cooled the vegetables under a cold water tap
+   - The vegetables are on the cooking tray and seasoned
+   - I have added the purple asparagus spears to a bowl and sprinkled lemon juice on them
+   - I have made the salad dressing
+   - I have added the vegetables to the bowl and poured over the salad dressing
+
+- intent: r185
+  examples: |
+   - I have heated half of the olive oil in the frying pan and its on a medium heat
+   - I have seasoned the smoked and unsmoked pork ribs and added the ground black pepper comes after
+   - The onions and garlic have been added and stirred for the required additional time
+   - I have cleaned the frying pan by wiping it with kitchen paper and heated the rest of the olive oil at a medium heat The baconpork belly and sausage are brown on all of the sides and I have moved them over to the casserole
+   - I have added the black beans to the casserole and stirred them well I have added the water to the casserole at regular intervals to prevent it from drying and left it for two and a half hours
+
+- intent: r186
+  examples: |
+   - I have poured the olive oil in a large saucepan and heated it over a medium heat step
+   - The chopped onionsgreen pepperscumin and oregano have been added and I have stirred them
+   - I have added the garlic and stirred for two more minutes
+
+- intent: r187
+  examples: |
+   - I have evenly distributed the garlicginger and the onions
+   - I have arranged the sliced fish and the eggplant on top of the spices
+   - I have poured the watervinegarsoy sauce and the oil
+   - I have added the remaining half of the garlicginger and onionsthe salt and the black peppercorns and bay leaves
+   - I have cooked the ingredients on a medium fire
+   - I have turned the sliced fish and added the pepper
+   - I have added the oil and I let it simmer for another minute
+
+- intent: r188
+  examples: |
+   - I have all the required ingredients
+   - I have placed the vegetables in the slow cooker and stirred the five-spice powder with the water and soy sauce
+   - I have cut the strings from the chicken and removed the skin with my fingers
+   - I have done the same for the legs
+   - The chicken has been placed around the vegetables and seasoned with salt and pepper
+   - the food has been coveredleft and cooked for 4 and a half hours
+   - the contents of the slow cooker have been drained in the large bowlI have also placed the chicken on the chopping board and stripped the meat from the carcassalso I have sliced it and covered it with foil this
+   - I have cut off the fat from the stock and I have used a large metal spoon
+   - I have poured the stock in the saucepanstirred the fish sauce and placed it on a gentle simmer
+   - I have half-filled the saucepan after adding the water and brought it to a boil
+   - I have added the noodles and they are tenderthey have also been drained well
+   - I have divided the noodles among 4 deep serving bowls and I have topped them with chickenspring onionsbeansprouts and coriander
+   - I have ladled over the hot stock and seasoned with soyI also garnished it with the remaining sliced chili and lime wedges
+
+- intent: r189
+  examples: |
+   - have these ingredients at hand to cook this recipe
+   - the stockporcinistar anisegingergarlic and the white parts of the onions and chicken have been added
+   - I have brought it to a gentle simmerthe chicken is cooked through well and is tender
+   - I have thrown away the chicken from the pan and put it aside and I have poured the broth through a sieve into a jug and thrown away the rest of the contents
+   - I have returned the broth to the pan and placed it over a medium-high heat
+   - I have added the eggs into their shellsand I let them cook for six minutes
+   - I have transferred them to a bowl with iced water and they are now cool
+   - I have whisked the miso pasted into the broth and stirred the mirin and soy sauce
+   - I have added and seasoned the shiitake mushroomsthey are tender enough
+   - The noodles have been added and cookedthey are also warmed through well I have also removed the noodles with a slotted spoon and divided them among four bowls for that
+   - I have shredded the chicken and discarded any additional bones and I have placed the chicken in the broth with the spinach leaves
+
+- intent: r190
+  examples: |
+   - I have heated the oil in a pan and added the cumin seeds
+
+- intent: r191
+  examples: |
+   - I have pricked the holes all over the roast with the pronged fork and rubbed the rib roast with salt and flour
+   - I have put the prime ribs in the roasting pan and marinated the ribs
+   - They have been covered and refrigerated for 3 hours and basted them two timesalso the oven has been preheated to 400F
+   - The thermometer has been added in the middle of the roast and it does not touch any bones
+   - I have covered the pan with aluminium foil and the edges have been sealed tightly
+   - The roast has been cooked for 60 minutes and I removed the aluminium foil
+   - I have basted the prime ribs and reduced to 325F and continued to roast the ribs for another 60 minutes
+   - I have removed the roasting pan from the oven and it has rested for 30 minutes
+
+- intent: r192
+  examples: |
+   - I have preheated the oven to 200C
+   - The onionsred peppersbeanschorizogarlic and rosemary have been added in a very large roasting tin
+   - I have topped it with chicken and drizzled it with oil
+   - I have scattered 1tsp of sea salt flakes and added a big pinch of black pepper and it has been roasted for 60 minutes
+   - I have checked the chicken by piercing it with a skewer and the juice runs clearno signs of pink
+
+- intent: r193
+  examples: |
+   - I have all of the ingredients to cook the soup
+   - I have added 2 tbsp of olive oil and 4 garlic cloves
+   - the 4 cans of diced tomatoesitalian seasoningpeppers and onion powder have been added and simmered on low
+   - I have added watersalt and pepper as well as ½ tsp of garlic salt step
+   - The soup has been brought to a boil and I have added the acini de pepe
+   - The pasta has been cooked and I have continued to season the pasta
+
+- intent: r194
+  examples: |
+   - I have squeezed the moisture out of the spinach and chopped it finely
+   - I have boiled the watercooked and drained the pasta
+   - I have put half of the butter in the saute pan and turned it to a medium highhow do I proceed next
+   - The 4oz of boiled ham have been added and turned 2-3 timesI have also added the 2lbs of fresh spinach and added liberal pinches of salt to the spinach
+   - I have turned it to a high and saute the spinach
+   - I have removed it from the heat and mixed the nutmeg and made sure to not add anymore than the required amount of tsp
+   - I have tossed the pasta with the contents of the panadded the ½ cup of fresh ricottathe remaining butter and the ½ cup of parmesan cheese
+   - for helping me cook Pasta with Spinachricotta and Ham
+
+- intent: r195
+  examples: |
+   - I have stirred the spice rub ingredients and rubbed on the chicken
+   - I have heated 1tbsp of oil in a nonstick skillet over a medium high and added the chicken in batches
+   - The browned chicken pieces have been transferred to a bowl
+   - I have added 1 tbsp of oil1 small onionbell peppers1 carrot1 garlic clove and the jalapeno to the pan They have been cooked for 5 minutes and the vegetables are soft
+   - I have added the chicken broth and its been simmered for 20 minutes I have also reduced the heat to a medium low and continued to stir in the remaining ingredients
+   - The browned chicken has been cooked for 25-30 minutes and it is tender
+   - I have stirred the sauce to ensure even cooking
+
+- intent: r196
+  examples: |
+   - I have placed the pearsfigs and vinegar in the saucepan and left it over a medium heat for 15 minutes and stirred occasionally
+   - I have added all of the spices and the 1 cup of honey requiredI have also brought it to a boil and stirred frequently
+   - I have reduced it to a simmer and reduced the liquids after the 20 minutes have passed
+   - I have added the black pepper and stirred for 15 minutes
+   - I have spooned the chutney into 2 different jars and I have filled one full and the other one half way
+   - They have been refrigerated for two days
+
+- intent: r197
+  examples: |
+   - I flattened the pheasant into ¼ thickness and then into a shallow bowl and beat the egg
+   - I have combined the cracker crumbs and salt in another shallow bowldipped the chicken in the egg and set aside for some time
+   - I have set aside the saute mushrooms
+   - I have done this I have cooked the pheasant in the remaining butter for the remaining time
+   - I have topped the pheasant breast with 4 thin slices of ham½ lb of fresh mushrooms and 1 cheese slice
+
+- intent: r198
+  examples: |
+   - I have preheated the oven to 350 degrees fahrenheit and greased the loaf pan
+   - I have lined the bottom of the parchment paper and greased the pan
+   - I have sifted the flour 2 teaspoons of baking powder and the kosher salt into one bowl
+   - I have whisked together the whole-milk yogurtcup of sugarthe 3 large eggs2 teaspoons of lemon zest and the ½ teaspoon of vanilla extract this
+   - I have whisked the dry ingredients into the wet ingredients
+   - I have folded the vegetable oil into the batter and incorporated well
+   - I have poured the batter into the prepared panit has been baked for the required 50 minutes
+   - The ⅓ cup of lemon juice and the ⅓ cup of sugar has been cooked in the small panthe sugar is dissolved and the mixture is clearalso I have set it aside
+   - I have let the cake cool in the pan for 10 minutes
+   - I have done this
+   - I have poured the lemon-sugar mixture over the cake and it has soaked
+
+- intent: r199
+  examples: |
+   - I have preheated the oven to 220C tipped the squash onion added the 2 tablespoons of olive oilthe chili flakes and 1 teaspoon of the sea salt inside a tin
+   - I have scattered the ⅓ of sage leaves and left it to roast for 20 minutes do I do now while I wait
+   - I have chopped the remaining sage leavesI popped half of them into a shallow bowl with the remaining olive oil and black pepper
+   - I have added the steaks and turned them to coat in the sage oilI have also set them aside
+   - I have poured the boiling water and left it to sit for two minutesalso drained it well
+   - The broccoli has been added to the tin with olive oil on top and I let it roast for 10 minutes
+   - I have laid the vegetables and baked for the required timeI let it cook for 15 minutes for a well-done steak
+   - I have put the steaks on a plate
+   - I have added the tablespoons of the chilli and lemon dressing AlsoI have covered the foil and let it rest for 10 minutes
+
+- intent: r200
+  examples: |
+   - I have preheated the oventipped the leeksfennel and squash in a roasting tin
+   - I have stirred the 2 tbsp of olive oilchili and half of the tarragonthey have been roasted for 45 minutes
+   - I have chopped the tarragon leaves
+   - I have poured the cream over the vegetables and scattered them with the chopped tarragonhazelnuts and cheddar
+   - I have turned the oven down to 200C and returned the gratin to the oven for another 15 minutes
+
+- intent: r201
+  examples: |
+   - I have all of the ingredients ready is the first step in making these pot pies
+   - I have made a well in the center
+   - I have beaten the eggs into the welladded the waterbutter and salt is the next
+   - I have blended the ingredients with my hands and gathered the dough into a ball
+   - I have kneaded the dough and it is smooth and elastic
+   - I have cut the dough into 2-3 squares that I have to follow
+   - I have dropped them into the pot pie broth and let it cook for 2-3 minutes
+
+- intent: r202
+  examples: |
+   - I have preheated the oven to 425 degrees
+   - I have combined the panko and 1 cup of parmesan cheese on the first plate and on the second plate I have beaten the eggs with the peanut oil
+   - I have combined the ingredients together I have to take
+   - The baking sheet has been lined with a foil and covered successfully with a baking rack
+   - The fish has been patted and dredged in the flour
+   - The fish has been dipped into the egg mixture and fish has been coated with the parmesan breadcrumbs
+   - I have placed the fish back onto the rack that I have to follow
+
+- intent: r203
+  examples: |
+   - I have preheated the oven and mixed the cream cheesecrab meat and the hot sauce in the bowl
+   - I have added a teaspoon and a half of the mixture in the center of each wrapper
+   - I have dipped my fingers in water and wet the edges of the wrapper
+   - I have sealed them tightly and placed the wontons on the baking sheet which is coated with cooking spray
+
+- intent: r204
+  examples: |
+   - I have preheated the oven to 180C
+   - I have cut out the marrows and taken them out by scooping with a teaspoon
+   - I have fried the large onion and garlicalso I added in some olive oil to make it soft
+   - I have added the chopped tomatoes as well as the paste and I let it cook for a further few minutes
+   - I have placed the bacon in the food processor and it is blended well
+   - I have added the beef and bacon to the onion mix and it is cooked well
+   - I have stirred the marrow pulp and allowed it to cool
+   - The 2 beaten eggs have been added as well as the parmesan cheese
+   - I have filled the marrow halves with the meat mixture and sprinkled it with semolina
+   - I have placed the dish drizzled with more olive oil over the filled marrows
+   - I baked them for 45 minutes and decided to add 6 potatoes and a single onion to the dish
+
+- intent: r205
+  examples: |
+   - I have rinsed the beans thoroughly and removed any bad beans
+   - I have placed the water in a large stockpot and then brought it to a boil over a high heat
+   - The salt and beans have been added and covered with a litI also removed them from the heat and I let it stand for 1 hour
+   - I have added the remaining ingredients and left out the hamthen brought to a boil and cooked for 2 more hours
+   - I have stirred the ham and let it simmer for another 30 minutes
+   - The white pepper and salt have been addedalso the bay leaves have been removed
+
+- intent: r206
+  examples: |
+   - I have all of the ingredients ready for this meal
+   - I preheated the oven to 200C at Gas 6 and buttered an ovenproof dish at a capacity of 25 litres
+   - I melted the three tablespoons of butter in a large frying panadded the onions and sprinkled the teaspoon of the sea salt flakes
+   - I turned down the heat and cooked gently for 15-20 minutes
+   - I added a bit more butter and used a bendy spatula to scrape the buttery juices into the bowl
+   - I have seasoned it with 1 teaspoon of sea salt flakes after that
+   - I have spreaded half of the soft onions over the potatoes and the one tin of sprats
+   - I have layered the second third of potatoes followed by the remaining onions and the second tin of sprats
+   - I have mixed together the milk and cream in a jug and spread it over the potatoes
+   - I have sprinkled over the breadcrumbs and let it cook for 1 hour
+   - I have pushed a fork into it and the potatoes are cooked well as they are soft underneath
+
+- intent: r208
+  examples: |
+   - I have the ingredients ready to cook the meal is the first step that I have to take
+   - I have combined all of the ingredients in a mortar and they are now a smooth paste
+   - I have heated the oil in a wok over a medium heat and added the spice paste and is now fragrant
+   - I have put my fan on a high and removed the pan and let it cool down
+   - I have trimmed the excess fat with a knife
+   - I have filled the pockets with the spice paste and then tied the roast back together
+   - I have preheated the grill and cooked for 15 hours
+   - I have moved the charcoal to either side of the place where I will cook the roast and dripped the pan in the middle
+   - I have turned off the middle burner and placed the foil on top of the center burner
+   - I have torn 3 pieces of foil that are 16 inches long and overlapped themthen folded the edges about 2 inches
+   - I have set up the grill and preheated it on a highafter that I turned down the grill and placed the roast over the drip pan
+   - I have adjusted the heat so that the internal temperature sits at 350 degrees and let it cook for 120 minutes
+   - I have turned the meat on its sides so that they are browned
+   - Yes I have transferred the roast to a cutting board and I let it stay for 10 minutes and removed any strings
+
+- intent: r209
+  examples: |
+   - I have all of the ingredients
+   - I have combined 1 cup of flour cup of sugar yeast and 1 tsp of salt
+   - YesI have added the cups of warm milk and 2 tsp of soft butter and beat it for 2 minutes on medium
+   - I have mixed the fruitsnuts and aniseed
+   - I have stirred the remaining flour to form a nice dough
+   - I have kneaded it for about 6-8 minutes
+   - I have placed it in a greased bowl and turned it to grease the top
+   - I have covered it and let it rise in a warm place for 60 minutes
+   - I have dyed the remaining eggs
+   - The dough has been punched down and divided in half and rolled them into 24-in ropes
+   - I have covered it and let it rise for 30 minutes
+   - I have baked it for 30-35 minutes
+   - I have removed it from the pan and let it cool for a while
+
+- intent: r210
+  examples: |
+   - I have blanched the green beansasparagus and broccoli
+   - I have left it under cold water to dry
+   - I have separated the broccoli into bite sized pieces
+   - I have peeled out the outer leaves of the cabbage and hollowed out the cabbage
+   - I have lined the platter with the lettuce and allowed it to overlap
+   - I have arranged and piled the vegetables around the cabbage
+
+- intent: r211
+  examples: |
+   - Yes I have peeled and washed the potatoes
+   - I cut them into long strips and they are a half inch of thickness
+   - I have deep fried the strips of potatoes into the pan
+   - I have let them fry for 2 minutes and they are now a bit more tender
+   - I have added the brown sugar for it to caramelize
+   - I have let it cook for a minute
+   - I have let it drip on a paper towel
+   - I have arranged the strips on a tall glass with wax paper and used paper cups
+
+- intent: r212
+  examples: |
+   - I have all of the ingredients and I am ready to begin is the first step
+   - I have heated 100g of unsalted butter200ml of milk1 tsp of salt and the butter has been melted
+   - I have allowed the mixture to cool and is now lukewarm
+   - I have stirred the flouryeastcardamom and the caster sugarnow they are all combined
+   - I have made a well in the middle and cracked the eggs
+   - I have poured the milk mixture and stirred everything to form a sticky dough
+   - I have oiled the work surface with a teaspoon of olive oil and turned the dough onto the oiled surface using a plastic scraper
+   - I have kneaded until the dough is sticky and more elasticI have also placed it into a large greased bowl
+   - I have covered the bowl with a clean tea towel and set it aside in a warm place for 60 minutes
+   - I have mixed the softened butter in a bowl with half of the sugar
+   - I have mixed the sugar and the spice into the butterthen I set it aside
+   - I have rolled up the dough into a cylinder and cut it into 12 even slices
+   - I have placed each slice on a flattened out paper case on a baking tray
+   - I have covered it with a clean tea towel and set it aside for the required amount of time
+   - I have preheated the oven to 200C at Gas 6
+   - I have brushed the top of the bun with the beaten egg and dusted with the cinnamon sugar
+
+- intent: r213
+  examples: |
+   - I have all of the ingredients ready is the first step
+   - I put the peas on a girdle
+   - I have beaten up the eggs
+   - I have added 100ml of milk
+   - I have added the eggs with the milk on the girdle
+
+- intent: r214
+  examples: |
+   - I have all of the ingredients ready is the first step that I need to take
+   - I have mixed the ingredients and cooked at a medium heat for 10 minutes and refrigerated
+   - I have mixed all of the dough ingredients and rolled them in a 1 inch tube then wrapped it with plastic and refrigerated for 15 minutes
+   - I have preheated the oven to 400 degrees fahrenheit
+   - I have taken out the filling and the dough from the refrigerator and cut the dough in ¼ inch discs
+   - I have flattened the discs to create a 2 inch diameter and I scooped 1 tablespoon filling and wrapped and sealed the dough around it
+   - I have pressed the dough ball to flatten and sealed the side down at the required dimensions
+   - I have laid the pieces on a baking pan and brushed it with the egg
+   - I have baked it for 15-20 minutes and the top is golden brown
+
+- intent: r215
+  examples: |
+   - I have placed the potatoes in a 13 inch pan
+   - I have seasoned the potatoes with salt and pepper and also melted the butter in the microwave
+   - I have added the minced onionssour creamthe cream of chicken soup and the melted butter in a bowl
+   - I have mixed the items together and poured the soup mixture over the potatoes and sprinkled with Cheddar Cheese
+
+- intent: r216
+  examples: |
+   - I have whisked the sherrysoy saucesesame oilcornstarch and the garlic sauce together in a bowl
+   - I have heated 1 tbsp of oil in a large and heavy skillet over medium-heat
+   - I added the broccoli and sprinkled with sugar and stirred frequently for 8-10 minutes
+   - I pushed the broccoli to the edges of the skillet
+   - I added the contents of the smaller bowl to the center and mashed for 20-30 seconds with a spoon and also mixed the broccoli
+
+- intent: r217
+  examples: |
+   - I have the ingredients ready to make the crepes is the first step that I need to take
+   - I have mixed 60g of flour and 1 large free-range egg into the bowl and whisked in half of the milk and is now smooth
+   - I have added the remaining milk and whiskedI have also poured the mixture into a jug and set aside that I have to follow
+   - I have mixed 100g of yoghurt2 tbsp of finely chopped fresh dill and lemon juice with a small pinch of salt and ground black pepper
+   - I have added a little more extra lemon juice and I set it aside
+   - I have brushed a little oil over the base of a small pan
+   - I have poured a quarter of the crepe batter into the pan and swirled around
+   - I have cooked it for 1 minute
+   - I loosened the sides with a knife
+   - I have cooked the other side for 40-60 seconds and transferred them to a warm plate and continued to cook the remaining 3 pancakes
+
+- intent: r218
+  examples: |
+   - I have the ingredients for the risotto about the filling
+   - I have the ingredients ready for the filling about the ingredients for the coating
+   - I have all of the ingredients for the coating is the first step that I need to take to make the rice balls
+   - I have sauteed the rice and the onions and they are now translucent I also added the rice and sauteed for another minute
+   - I have added the grated cheese
+   - I have set it in the fridge and done the rice
+   - I have sauteed the onion and the garlic clove in the olive oil
+   - I have added the ground beef and drained the fat and also returned to the pot
+   - I have added 1 cup of baby peasmarinara1 teaspoon of minced parsley1 teaspoon of basil and salt and pepper
+   - I have covered it and left it to cook on the lowest flame for 1 hournow the meat is tender and has been cooled down in the fridge
+   - I have placed 3 tbsp of rice onto my palm and flattened the rice out
+   - I have added 2 tbsp of the meat filling on the top of the flattened rice and another on the top of the filling
+   - I have pressed down on the rice over the meat
+   - I have rolled the arancini into a ball shape and dipped it into the flour as well as the eggs after that
+   - I have heated the fryer to 350 degrees and gently fried the arancini
+
+- intent: r219
+  examples: |
+   - I have all of the required cooking ingredients ready
+   - I have the ingredients for the sals readyany other ingredients required
+   - I have the ingredients ready about the ingredients for serving
+   - Now is the first step that I need to take in order to make the quesadillas
+   - I put the tomatoes in a bowl for the salsa
+   - I have mixed in the onion and the 1-2 tsp of jalapenos
+   - I have added honeylime juicecayenne peppersalt and pepper and mixed the ingredients
+   - I have added the coriander and set it aside for 30 minutes and made the mango salsa
+   - I have preheated the oven to 180C and greased a baking sheet
+   - I have heated the frying pan over a high heat and also added a knob of butter
+   - I have cooked the bacon for a couple of minutes and also removed it from the heat
+   - I have whisked the eggs together in the saucepan and added salt and pepper as well as a splash of milkI also melted a knob of butter in a saucepan
+   - I have added the eggs and they are cooking over a low heatafter scrambled I have removed them from the heat
+   - I have melted more butter and laid the tortillas on a board and also lightly brushed with the melted butter
+   - I added a quarter of the bacon on one half of each tortilla and topped it with the scrambled egg
+   - I have sprinkled the chopped red oniongrated cheese and the coriander
+   - I have folded the tortilla to make a semicircle shapeI have also brushed the top with some more melted butter and sprinkled it with a pinch of cayenne pepper  that I have to follow
+   - I have cut the tortillas in half and placed them on the baking sheet
+
+- intent: r221
+  examples: |
+   - I have preheated the oven to 300 degrees fahrenheit
+   - I have laid the milkfish on a glass plate after that
+   - I have dubbed it in with butter
+   - I have seasoned it with saltpepper and lemon juice that
+   - I have sprinkled it with 1 cup of grated cheese
+   - I have baked the cheese for 5 minutes
+
+- intent: r222
+  examples: |
+   - I have added the water and brought it to a boil
+   - I have heated 1 tbsp of olive oil over medium-high and added the garlic and sautéed for 1 minute
+   - I have stirred in the eggplant and cooked for 3-5 minutes
+   - I have added the spaghetti to the pot of boiling water and thereafter drained it
+   - I have added the ¾ cup of white wine to the eggplant and let it simmer
+   - I have stirred the chicken broth and the tomato paste and I have also simmered the sauce for the required time
+   - I have added a handful of spinach which I have stirredI also stirred the tomatoes and the cooked chicken
+   - I have seasoned the ingredients with vinegarpepper and salt
+   - I have divided the cooked spaghetti among 4 different bowls and topped them with sauce
+
+- intent: r223
+  examples: |
+   - I have mixed in all of the ingredients and put them in a container and also left them to cool overnight
+   - I have rolled the mixture into balls and created log sausages
+   - I have put them side by side and refrigerated them for the amount of time required
+   - I have boiled the skinless longganisa in the water
+   - I have stirred it on its own fat for the amount of time needed
+
+- intent: r225
+  examples: |
+   - I have sautéed the oniongreen peppercelery and the jalapeno pepper for 5 minutes in olive oil
+   - I have added the garlic and the parsley and also sauteed for 2 extra minutes
+   - I have added tomato saucesaltblack pepperpaprika and sherry winealso I let it cook for 15 minutes
+   - I have added the whitered wine and water and cooked on a low heat for 60 minutes
+   - I have added the fish and shellfish and cooked it for the amount of time required
+
+- intent: r226
+  examples: |
+   - I have them ready to make the Gypsy Eggs
+   - I have preheated the oven to 200C
+   - I have heated the frying pan and placed 110g of chorizo
+   - I have added the banana shallots and 1 garlic clove and let it cook for 2 to 3 minutes
+   - I have deglazed the pan with sherry vinegar
+   - I have added 300g of passata and cookedthe sauce has now thickened
+   - I have stirred 15g of kalebasil leaves and 75g of cannellini beans
+   - I seasoned it with salt and pepper and also divided the mixtureI also made a well in the middle
+   - I have cracked the 2 eggs into the yolk and it is now runny
+   - I have drizzled the bread with olive oil and chargrilled it on a pan
+   - I have fried the parma ham on a medium-heat
+   - I have removed the eggs from the ovennow
+   - I have seasoned it with salt and pepper as well as garnishing it with the basil leaf
+
+- intent: r227
+  examples: |
+   - I have them all readynow is the first step that I need to take
+   - I have preheated the oven to 220 degrees
+   - I have put 450g of potatoes and 4 halved tomatoes on a baking tray
+   - I have sprinkled the rosemarya pinch of salt and pepper and the olive oilI also let it bake for 15 minutes
+   - I have added the chestnut mushrooms and drizzled the olive oil
+   - I have added the mushrooms and the 8 vegan sausages to the baking tray and I let it roast for 20 minutes
+   - I have added the beans and the spinach to the baking tray
+
+- intent: r228
+  examples: |
+   - I have heated the olive oil in a saucepan and fried the two chicken thighs and the sausages for the amount of time necessary
+   - I have added the onion and the celery stick and also seasoned and fried for 5 minutes
+   - I have added the garlic and pepperalso I let it cook for a further minute
+   - I have added chopped tomatoes and cayenne pepperI also added 150g of basmati rice
+   - I have poured the stock and brought it to a boil and cooked for a further 12 minutes
+   - I have turned the heat off and left the rice to stand for 12 minutes
+
+- intent: r229
+  examples: |
+   - I have added a pinch of oil and heated the pan
+   - I have mashed the ground protein and added it to the pan
+   - I have stirred the taco seasoning3 cloves of garlicthe red chili powder and the salt
+   - I have added the 2 cups of water and the pasta
+   - I have lowered the heat and let it simmer for the amount of time necessary do I do from here
+   - I have made the cheese sauce
+   - I have stirred the cheese sauce
+
+- intent: r230
+  examples: |
+   - I have heated the canola oil in a pan
+   - I have combined the chicken breast and the spices in a bowl
+   - I have cooked the chicken and it is now brown
+   - I have placed the chicken aside and heated the additional oil
+   - I have sautéed the onions and added 2 tablespoons of chopped garlic and cooked it for another 30 seconds
+   - I have added the green chilliesthe 3 oz of flour and I stirred to incorporate them
+   - I have added the chicken store and whipped out the lumps
+   - I have added the salsa verdegarlic paste and the chipotle tabasco
+   - I have added the chicken back to the pansimmered for 5 minutes and added the cream and white beans
+
+- intent: r233
+  examples: |
+   - I have preheated the oven to 350 degrees
+   - I have poured over the bread and I let it set and the liquid has now absorbed
+   - I have placed the bread in a greased pan and crumbled together the stick butter
+   - I have baked it for 45 minutes and in a saucepan I have blended all of the ingredients together
+
+- intent: r234
+  examples: |
+   - I have added the salted water in the pan to boilI also added 150g of pasta and let it cook for 12 minutes
+   - I have sliced the 3 spring onionsI peeled them and grated the 1 garlic clove and halved the tomatoes
+   - I have added 1 tbsp of vegetable oil in a deep frying panI also added the spring onions and fried them for 1 minute
+   - I have added the garlic clove and a pinch of chili flakes and fried for 1 minute
+   - I have added the tomatoesfried them for a couple of minutes and then I added the broccolifurther fried them for 2 minutes and gave everything a stir and covered with a lid
+   - I have cooked for another 3-4 minutes and the broccoli has finished cookingI also removed the lid
+   - I have drained the pasta and added it to the pan with the broccoli
+   - I have added salt and pepper and stirred through the cream cheese
+
+- intent: r235
+  examples: |
+   - I have the ingredients ready about the ingredients for the curry paste
+   - I have these ingredients readynow is the first step that I need to take
+   - I have placed 100g of noodles in a large bowl and covered it with boiling water
+   - I have left them to stand for 2 minutes and drained them on a sieve
+   - I have pressed them down and they are now dry and also moved them to a bowl
+   - I have left the noodles to dry on a clean towel for 10 minutes
+   - I have mixed the ingredients for the curry paste in a smaller bowl
+   - I have placed the vegetables on a plate with the onion and ending with the leaves
+   - I have arranged the bowl of noodles and the paste to give a wheel of ingredients
+   - I have heated ½ tbsp of oil in a wok over a high heat
+   - I have added the red onion and the carrot and I stir fried for the amount of time necessary
+   - I have stir fried for another 10 seconds and added the oil and leaves
+   - I have moved all the vegetables to the side of the wok and the centre is now clear
+   - I have added another teaspoon of oil and the wok is smoking hot nowI also added the noodles directly in the middle
+   - I have brought all of the vegetables from the sides onto the noodles and fried them together for another minute
+   - I have stir-fried the vegetables for another 20-30 seconds more
+   -  for helping me cook Vegetarian Singapore fried noodles
+
+- intent: r236
+  examples: |
+   - I have heated the olive oil in a pan and fried the ginger and garlic cloves
+   - I have added the zest of the juice and then poured the soy sauce
+   - I have added the maple syrup and cooked for 60 seconds
+   - I have fried the 2 pieces of salmon for 2 minutes
+   - I have added the salmon to the teriyaki sauce frying pan
+   - I have drained the noodles after cooking them and also added the sesame oil
+
+- intent: r237
+  examples: |
+   - I have heated up the mixing bowl and added the required ingredients for shortening and mixed them
+   - I added the rye flour
+   - I added the white flour and it is now sticky to touch
+   - I have greased the warm bowl and inserted the dough into the bowl
+   - I have covered it with a towel and placed it out of any draft
+   - I have let the dough rest and rise for 60 minutes
+   - I have punched the dough downrounded it and covered it
+   - I have divided the dough into 2 different pieces
+   - I have shaped the piece into a round and flat loaf
+   - I have placed the two loaves on opposite ends of a baking sheet
+   - I have covered the baking sheet with a towel
+   - I have baked for 30-35 minutes at 375 degrees
+
+- intent: r238
+  examples: |
+   - I have blended the can of black beans with water into a small puree
+   - I have combined the brownie mix with the black beans and added the water to make the batter thinner
+   - I have cooked the batter in the oven
+
+- intent: r239
+  examples: |
+   - I have preheated the oven to 350 degrees
+   - I have added 1 tbsp of olive oil
+   - I have added the onion and garlic cloves and cooked for 5 minutes
+   - I have set them aside to cool down
+   - I have whisked the eggsmilkmustard and hot sauce in a bowl
+   - I have added the marjoram and thyme
+   - I have combined the meats and the other ingredients
+   - I have stirred the ketchupsugar and cider vinegar
+   - I have formed a small patty and added it to the skillet This is going well
+   - I have moved the meat over to an oiled loaf pan and turned the mixer on a low heat
+   - I have brushed the meat with the ketchup glaze
+   - I have brushed the meat loaf with the remaining glaze and baked for another 15 minutes
+
+- intent: r240
+  examples: |
+   - I have preheated the oven
+   - I have put the onionspepperstomatoeschorizobeansgarlic and the rosemary in a large tin
+   - I have topped with the chicken and drizzled the oil
+   - I have sprinkled the sea salt flakes and sprinkled pepper and also roasted for 60 minutes
+   - I have pierced the largest part with a skewer and the juice runs clear
+
+- intent: r241
+  examples: |
+   - I have made a paste by mashing the ginger and sea salt with the back of a spoon
+   - I have combined the cumin seeds and the minced garlic with the ginger paste
+   - I have combined the turmericcumin and paprika in a second smaller dish
+   - I halved the potatoes and the cauliflower
+   - I have heated the oil over a medium heat
+   - I have added the cumin seedsgarlic and ginger I have also moved the ingredients for 1 minute
+   - I have added the potatoes
+   - I have deglazed the chicken stock and added the sweet paprika
+   - I have covered and simmered for 6 minutesthe potatoes are now coated
+   - I have added the cauliflower and cilantro
+   - I have reduced it to a medium heat and covered italso cooked for 10 minutes
+   - I have added the garam masala
+
+- intent: r242
+  examples: |
+   - I have placed the casserole over a high heat and added the chicken stockwhite wineonions and thyme
+   - I have added the 8 pieces of chickenincluding the carcass
+   - I have added the mushroomscovered them and simmered for 15 minutes
+   - I have removed the casserole from the heat
+   - I have mixed the egg yolks with the cream and gradually added it to the casserole
+   - I have added salt and pepper to enhance the tastealso I stirred the parsley
+   - I have placed the potatoes into a pan of cold and salted water and also brought it to a boil
+   - I have reduced the heat and simmered for 15 minutes
+   - I have drained and returned to the pan and placed it over a low heatthe potatoes are now dry
+   - I have tipped the potatoes back into a colander and passed them through a ricer
+   - I have added the buttermilk and beat them They are now a mash
+
+- intent: r243
+  examples: |
+   - I pre-heated the oven to 220C at Gas 7
+   - I have placed 1 thick slice of white bread in a food processor
+   - I understandyes I have heated the oil in an ovenproof frying pan and fried them for 5 minutes
+   - I have tipped them into a bowl and added the cheese garlic oregano thyme and the black pepper
+   - I have added 1 tbsp of oil
+   - I seasoned the chicken with salt and pepper and cooked the chicken for 2 minutesI also transferred it to a different plate
+   - I have added the onion to the pan and fried it for 5 minutes and it is soft
+   - I have added the garlic clove and cooked for 1 minute
+   - I have added the double creamwatercapers and brought to a simmer
+   - I have seasoned it with salt and pepper
+   - I have returned the chicken to the pan and sprinkled the crumbs all over
+   - I have baked it for 15 minutes and the chicken is cooked well
+
+- intent: r244
+  examples: |
+   - I have placed the ingredients except the turkey wings in a food processor
+   - They have been processed and have been thoroughly mixedI also cut off the wing tips
+   - I have cut the remaining wings and poured the mixture over the wingscovered and marinated for 60 minutes
+   - I covered it with foil and baked it in a 375 degree oven for 1 hour
+   - I have removed the foil and baked uncovered for 15 minutesnow
+
+- intent: r245
+  examples: |
+   - Yes I have preheated the oven to 190 degrees
+   - I have heated the oil and unsalted butter
+   - I have laid the pheasants in the pan and cooked themthey are now golden-brown
+   - I have turned the pheasants onto their side to colour for 2 minutesI also seasoned them with salt and pepper
+   - I have transferred them to the oven and let it cook for 30 minutes
+   - I have used a thermometer to check the temperature and it has reached 63 degrees
+   - I have put the pheasant aside in a warm place and have rested
+   - I have spooned out the fat and added the wine and the ruby port
+   - I have cooked it on a high heat and the liquid has been reduced
+   - I have scraped the juices from the bottom to make the jus
+   - I have heated the butter and fried the 50g of onions as necessary
+   - I have added the bacon lardons and cooked for another minute
+   - I have added the full-fat milk and brought it to a simmer and stirred with the pieces of bread
+
+- intent: r246
+  examples: |
+   - I have blended the ingredients together
+   - I filled a syringe with blended spices and herbs
+   - I have placed a metal straw through a hot dog
+   - I have inserted the spices and the herb mix
+   - I have finished the remaining hot dogs
+   - I have cut the hot dogs and hate them on a medium high and then stir fried out the cut hot dogs
+
+- intent: r247
+  examples: |
+   - I want to make Guernsey Potato Peel Pie ingredients do I need for this meal
+   - I have the ingredients ready is the first step that I have to take
+   - I have preheated the oven to 400 degrees and buttered a small pie plate
+   - I mixed the cups of potato peels with 1 egg and I pressed the mixture into the pie and plate and formed a crust
+   - I baked the crust for 20 minutes and cooked the potatoes drained and mashed them
+   - I have added garlic to the mashed potato
+   - I have filled the crust with mashed potatoes and sprinkled them with beetroot
+   - I have baked it in the oven at 375 degrees for 10 minutes
+
+- intent: r248
+  examples: |
+   - I have mixed the chickpea flourghee and the warm milk in a food processor
+   - I have pulsed it together 4 times and its a nice coarse powder formed
+   - I have made the sugar solution on the other side and kept it ready
+   - I have taken it off from the heat and it has cooled down
+   - I have added the mixture with the rest of the ghee on a medium flame
+   - I have added the Khoya and roasted it for 5 minutes
+   - I have taken it off the heat and cooled down now
+   - I have added the kesar and a mass has been formed
+   - I have sprinkled the almonds on top of it
+
+- intent: r249
+  examples: |
+   - I mixed the meat cure ingredients to dissolve
+   - I let the ribs stand for 4 hours
+   - I have preheated the oven and placed a foil over the baking sheet
+   - I took the ribs out of the bag and placed them on a rack
+   - I have poured 1 cup of water on the pan and covered it
+   - I baked them for 2 hours and lit the grill with charcoalI also placed the ribs on the grill
+   - I have closed the lid to smother the remaining charcoal
+   - I have added the unused seasoning into the tomato sauce
+
+- intent: r250
+  examples: |
+   - I have dissolved the yeast in water and added the sugar
+   - I have left it in a warm spot for 10 minutes
+   - I have placed the flours in a mixing bowl and mixed in half of the yeast liquid and also added the salt and oil
+   - I have formed a soft dough
+   - I have rubbed the surface with the olive oil and folded the dough for the amount of time required
+   - I have placed the dough in a lightly oiled bowl and covered it with a cloth
+   - I have turned the dough onto a floured surface and tucked the corners
+   - I have put it on a tray and let it sit for 20 minutes
+   - I have preheated the oven to 250 degrees
+   - I have prepared the vegetables and made ribbons of courgette and aubergine
+   - I have put the vegetables in a bowl and mixed it with salt and olive oil
+   - I have put 40g of almondsgarlic and basil into a blender
+   - I have stirred the parmesan and seasoned it with saltI also rolled the balls into thin pizza bases
+   - I have dimpled the dough with olive oil
+   - I have spread the tomato sauce over the circles and also divided the vegetables between the pizzas
+   - I have baked it for 15 minutes and the vegetables are brown at their edges
+   - I have dotted the cooked pizzas with the pesto and returned them to the oven
+   - I have garnished with the basil leaves
+
+- intent: r251
+  examples: |
+   - I have charred the chilies and placed them on a medium-low heat grill at 450 degrees fahrenheit
+   - I have turned the peppers on their sides and they are now charred
+   - I have put them in a large bowl and covered them with a plastic wrap
+   - I have run the chilies under cold water and peeled their skin
+   - I have made a slice in each chile and removed the seeds
+   - I have stuffed the chillies with shredded cheese
+   - I have placed the peppers on a baking sheet and froze them for 30 minutes
+   - I placed them back on a baking sheet and put it into the freezer
+   - I have beaten the eggs and heated the oil to a medium-high
+   - I have placed the crumbs in a large bowl and warmed the sauce
+
+- intent: r252
+  examples: |
+   - I have sliced the cabbage and sliced the green onionswashed and dried them
+   - I have put the onions and cilantro in a salad bowl and mixed them
+   - I have whisked the mayolime juice and the hot sauce
+   - I mixed the dressing into the cabbage mixture and seasoned with salt
+
+- intent: r253
+  examples: |
+   - I have added the chicken onions garlic and salt
+   - I have brought the ingredients to a boil and simmered for 30 minutes
+   - I have covered the lid and switched off the heatleft it for 1 hour and removed the chicken
+   - I have heated 1 tbsp of vegetable oil and added 1 chopped onion
+   - I have added the tomato pureered winewater and the bay leaf
+   - I have seasoned it with salt and black pepper and added the sugar
+   - I have reduced the heat and the mixture has simmered for 10 minutes
+   - I have strained the sauce through a sieve and set it aside to cool down
+   - I have folded the mayonnaise and the puree
+
+- intent: r254
+  examples: |
+   - I have boiled the brussel sprouts
+   - I have chopped the garlic and I put the olive oil into a large pan
+   - I have removed the sprouts and I put them in a large bowl
+   - I cut the sprouts in half
+   - I saute the garlic over a medium heat for 1 minute
+   - I put the sprouts in a pan and saute for 2 minutes
+
+- intent: r255
+  examples: |
+   - I have washed 300g of tulya under cold water
+   - I have chopped the brown onionshallots and gingerI also crushed the garlic
+   - I added the tulya and poured the fish stock together with cold water
+   - I have added the chili leaves and cooked over a high heat
+   - I have seasoned with salt and pepper and also simmered over a lower heat for 2 minutes
+
+- intent: r256
+  examples: |
+   - I have scattered the onion over the base of a slow cookerI also removed strings and placed it side up
+   - I poured the oil in a smaller bowl and stirred the paprika
+   - I have covered the slow cooker and let it cook for 4 and ½ hours
+   - I have removed the lid and pierced the thickest part
+   - I have moved the chicken over to a board and I let it rest
+
+- intent: r257
+  examples: |
+   - I would like to make Homemade Skinless Chicken Longganisa today
+   - I have all of the ingredients required to make the meal
+   - I have mixed all of the ingredients in the large bowl and added the chicken as well as the pork
+   - I have wrapped the sausages into logs and left them in the refrigerator for 3 hours
+   - I have drained the marinadeplaced the sausages in a container and stored in the freezerand I heated 1 tbsp of oil in a frying pan
+
+- intent: r255
+  examples: |
+   - I have preheated the oven to 350 degrees and grilled the chicken with the onions
+   - I have placed the chips on a cookie sheet and covered 1 layer with cheese
+   - I spread an even layer of black means on the chips for that
+   - I placed the chicken breasts and spread them evenly over the pan of nachos
+   - I have placed them in the oven and they are now melted
+   - I have diced the onionpeppers and lettuce
+
+- intent: r259
+  examples: |
+   - I have washed the roots and cut them a slit into each root
+   - I have placed the roots in an instant pot and submerged them with water
+
+- intent: r260
+  examples: |
+   - I have rubbed the chicken with the tikka paste
+   - I heated the olive oil in a frying pan and cooked it for 3 minutesI also set it aside on a plate
+   - I have added a bit more oil and cooked the 1 small oniongarlic and the peppers
+   - I have put the basmati rice in the microwave and left it for 2 minutes
+
+- intent: r261
+  examples: |
+   - I have fried the garlic in olive oil over a medium heat
+   - I have added the spicessalt and pepper and mixed with a spatula
+   - I have added the uncooked shrimp with the shells and tailsI also fried them for 10 minutes and stirred
+
+- intent: r262
+  examples: |
+   - I have mixed all of the ingredients except the ham in a slow cooker and added the ham shanks
+   - I have covered and cooked the meal on a low heat for 10 hours
+   - I have removed the ham from the crockpot and placed it on a cutting board and taken the meat away from the bones
+
+- intent: r263
+  examples: |
+   - I have combined the floureggswater and salt and then I let it rest for 30 minutes
+   - I have mixed the ground beefporkonionssaltpepper and garlic together
+   - I have cut the dough into 3 equal sized pieces and rolled them into a cylinder
+   - I have cut each cylinder to the size of a walnut and rolled each piece to a flat cake
+   - I have boiled the pelmeni in salted water for 7 minutes and they are floating above the surface
+
+- intent: r264
+  examples: |
+   - I have sliced the 6 onions
+   - I have peeled and chopped 3 garlic cloves
+   - I heated the vegetable oil in a large saucepan over medium heat and I cooked the onions and garlic
+   - I have added 200g of tomatoescurry powder and gingerI also let it cook for 4 minutes
+   - I have added 400g of chicken and I let it cook for 5 minutes
+   - I have added 250ml of water and brought it to a boil and reduced to a medium heat
+   - I have prepared 200g of long grain rice and poured it in a saucepan
+   - I have added clean water for the rice and brought it to a boil and reduced it to a lower heat
+   - I covered it with a lid and cooked it for 10 minutesthen removed from the heat
+
+- intent: r265
+  examples: |
+   - I have heated up the oil and sauteed the ginger
+   - I have added the remaining ingredients
+   - I have put the tofu on a serving plate and put the sliced fish on top
+   - I have steamed at a high heat for 13 minutes
+   - I have poured away the excess water
+
+- intent: r266
+  examples: |
+   - I soaked 1 pound of dried red beans in water and made the rice on a cooker
+   - I have added water to the red beans to cover them and left 2-3 inches of water on topI also added a cube of the tomato-based chicken broth
+   - I have brought them to a boil and simmered them for 50 minutes
+   - I have added the oil on a large pan on medium-high heat and added 1 diced onion and stirred for 4 minutes
+   - I have added the 10 cloves of garlic and stirred them all for 1 minuteI have also removed them from the heat
+   - I have combined the vegetables with the beans and simmered for 10 minutes
+   - I have combined the ricebeans and cilantro and stirred them well
+
+- intent: r267
+  examples: |
+   - I have preheated the oven at 400 degrees and prepared an 8 inch squared dish
+   - I cooked 1 lb of ground chicken½ cup of onions and ½ cup of bell peppers and the garlic
+   - I have stirred the seasoning mix and I set it aside
+   - I have combined 8 oz of sour cream and 1 cup of cottage cheese
+   - I have placed half of the crushed chips on the bottom of the prepared dish and added the chicken mixture
+   - I have sprinkled with the cheese and the remaining chips
+
+- intent: r268
+  examples: |
+   - I have heated the olive oil in a large flat skillet over medium heat and I placed the eggs in a bowl and set them all aside
+   - I have paired up the chicken breasts into equal sizes and placed them between a wax paper
+   - I added the ham onto the thinned chicken cutlets and I then trimmed the ham and cheese
+   - I dipped them into the beaten eggs and they are coated perfectly
+   - I have coated both of the sides with the bread crumbs
+   - I placed them into heated oil and they are now golden brown
+
+- intent: r269
+  examples: |
+   - I have preheated the oven to 400 degreesbeaten the eggs and the flour together with the eggs
+   - I have melted the butter on the plate in the oven and brushed around the plate
+   - I have sprinkled the brown sugar and the ground cinnamon over the butter
+   - I have arranged the sliced apples over the sugar and poured the batter over the apple
+   - I have loosened the edge of the pancake and turned it upside down on a plate for helping me cook an Apple Oven Pancake
+
+- intent: r270
+  examples: |
+   - I have cleaned the spinach and transferred it into a pot
+   - I have covered the pot and cooked it for 5 minutes
+   - I have added the butter and the onion in a large soup pot and turned it to medium heat
+   - I have sautéed the onions and they are now pale gold I have also added spinach and continuously stirred
+   - I have added the broththe low fat milkthe nutmeg and I brought it to a simmer I have also added the 5 tbsp of parmesan cheese
+
+- intent: r271
+  examples: |
+   - I have heated a heavy-based pan on a medium-high heat
+   - I have added the basmati rice and I let it cook
+   - I have added the coriander seedscinnamon and the peppercorn and I let them roast
+   - I have added the chilicumin seeds and the fennel seeds
+   - I have removed them from the pan and transferred them to a large bowl
+   - I have grinded them together in a mortar and made a fine powder
+   - I heated the oil in a large pan and added the curry leaves I also cooked them for 10 minutes until the onions were soft
+   - I have added the chicken pieces to the pannow
+   - I have stirred the curry powder and the pieces are all coated
+   - I have added the coconut milk and also poured the water in
+   - I have reduced the heat and covered it with a lid and allowed the curry to simmer for 30 minutes
+   - I have removed the lid and stirred more
+
+- intent: r272
+  examples: |
+   - I have mixed all of the ingredients in a bowl and they are combined well I also added the chicken breasts
+   - I have left them to the marinade for 12 hours
+   - I have preheated the grill to its highest setting
+   - I removed the breasts from the marinade and took away any excess pieces I also grilled them for 10 minutes
+   - I have basted the chicken breasts with lemon juice and I put them aside
+   - I heated the butter in a frying pan and cooked the onions for 5 minutes
+   - I have added the gingergarlic and tomato puree as well as the chilies and left them to cook for 3 minutes
+   - I have stirred the cream and let it simmer for a minuteI also added the chicken breasts to the sauce
+
+- intent: r273
+  examples: |
+   - I have put the potatoes in a large pan of salted cold water and brought it to a boil
+   - I have covered the pan and simmered
+   - I have cooked 200g of kale in boiling water for 5 minutes and they are now soft
+   - I have squeezed out the water and put the kale in and covered the pan
+   - I took out the potatoes and put them on a chopping board
+   - I have emptied out the panwiped it with kitchen paper and put it back on the hob
+   - I have heated up 250ml of milk and mashed the potatoes
+   - I have cooked the kale and seasoned it to tasteI also put a lid on the pan
+   - I have put the jug on the hob and melted the butter in a saucepan over a gentle heat I swirled the pan for 7 minutes
+   - I have removed the pan from the heat and added the onions
+   - I have poured the butter into a jug and the rest into a potato pan
+
+- intent: r274
+  examples: |
+   - I preheated the oven to 190 degreesgreased and floured a 900g loaf tin
+   - I have combined the floursbicarbonate of soda and the salt in a mixing bowl
+   - I have combined the buttermilk with the egg and honey in a measuring jug
+   - I made a well in the center of the jug and poured the wet mixtureI also added some extra flour
+   - I have brought the mix together and formed a dough
+   - I have shaped the dough into an oval and placed it in the loaf tin
+   - I have sprinkled flour on top and baked it in the oven for 40 minutes
+   - I took the loaf out and placed it on a wire rack to cool down
+   - I have placed the potato in a saucepan and covered it with water and boiled it for 20 minutes
+   - I have cut the cooked potatoes and set them aside
+   - I have placed the smoked haddock fillets in the pan and with the shallot and covered it with milk
+   - I took it off the heat and left in the milk to finish cooking
+   - I have fried the onion and stirred the garlic potato and sweetcorn
+   - I have added a handful of sliced runner beans and lifted the haddock out of the milk and put it on a plate
+   - I peeled the skin away and tore them into piecesthe onion potato mixture has been simmered for 20 minutes now
+   - I have added the smoked haddock scallops clams and the prawns and seasoned them with black pepper
+
+- intent: r275
+  examples: |
+   - I have turned the oven to 425 degrees with the rack in the middle and brought everything together
+   - I have combined the buttermilkmaple syrup and the egg and whisked to create the froth
+   - I have saved the minced over a medium heat and rendered a lot of fat from it
+   - I have rolled the bacon fat around and the sides of the pan are coated well I have also poured the fat into a measuring cup and topped it with ¼ cup of canola
+   - I have added the wet ingredients with the dry ingredients and they are now combined
+   - I have whisked slowly and added the cup of oil to the batter
+   - I have turned on the burner on a medium-high under the oil
+   - I have added the cooked baconjalapeno peppers to the batter and mixed them well with a whisk
+   - I have poured the batter into a hot skillet and is now sizzling
+   - I have moved the skillet into the oven
+   - I have set a timer for 25 minutes and the cornbread is cooked well and came out clean
+   - I put the pan on a cooling rack for 5 minutes and gave it a small shakeI then put the plate on it and flipped it
+
+- intent: r276
+  examples: |
+   - I have heated a pan with oil
+   - I have added a ¼ cup of jeera seeds and zhoug sauce to the pan
+   - I have cooked it for 30 seconds and added the rest of the ingredients
+
+- intent: r277
+  examples: |
+   - I preheated the oven to 350 degrees and prepared the baking pans
+   - I have sifted 3 cups of flour and 2 tbsp of baking powder
+   - I have mixed the liquids and set them aside
+   - I have grated the lemon zest and separated the 5 eggs and put them aside
+   - I have beaten the butter at a low speed for 5 minutes and added 2 cups of granulated sugar
+   - I have reduced the speed of the machine and added the egg yolks
+   - I have added 3 cups of flour and 2 tbsp of baking powder and brought all the ingredients back together with the rest of the mixture
+   - I turned on the mixer and mixed well for 5 minutesthen I turned off the machine and added the lemon zest and mixed well with a spatula and poured the mixture into the pans that you have prepared
+   - I have poured the mixture into the pans prepared and put it for 40 minutes in the oven
+
+- intent: r278
+  examples: |
+   - I have rubbed the 3 slices of butterfish with 1 tsp of salt and let it sit for 10 minutes
+   - I have arranged the 3 pieces of butterfish and put the ingredients on top
+   - I have covered and simmered for 15 minutes on a low fire
+   - I have poured the cooking oil and continued simmering for another minute then removed from the heat
+
+- intent: r279
+  examples: |
+   - Today I would like to make Chicken Alexander
+   - I have all of the ingredients ready
+   - I have added the mixed vegetables and the shredded chicken
+   - I have poured the 2 cans of mushroom soup and mixed well
+   - I have seasoned with salt and pepper and poured the chicken and vegetable mixture on the baking dish with the mashed potatoes
+
+- intent: r280
+  examples: |
+   - I have preheated the oven to 350 degrees and buttered the pan
+   - I melted the chocolate over a medium heat and stirred the ingredients and put them all aside
+   - I have whisked the egg yolks into the chocolate
+   - I have beaten the eggs into a bowl and peaks have been formed
+   - I have added the egg whites to the chocolate batter and mixed them vigorously
+   - I have folded the remaining egg whites
+
+- intent: r281
+  examples: |
+   - I have cut the 2 pounds of tenderloin into the pieces and made incisions on every side
+   - I have combined all the other ingredients in a small brown and stirred and I also put the tenderloin and marinated in the ziplock bag
+   - I have marinated the pork and refrigerated for 6 hours
+   - I have preheated the grill to a medium high and sprayed the grill with light spraying oil
+
+- intent: r282
+  examples: |
+   - I have washed the pigeon peas and placed them in an instant pot as mentioned
+   - I have let the pot fully cool down and blended the daal
+
+- intent: r283
+  examples: |
+   - I have cut the chicken and pounded the other pieces
+   - I have mixed the parmesan cheesegarlic powdersalt and the black pepper together
+   - I have placed the cup of floursalt and pepper and the garlic powder then mixed them all together
+   - I preheated the oven to 250 degrees and placed a baking sheet in the oven I also placed a large skillet on the stove over medium heat
+   - I have dredged the chicken piece in the flour and covered the bread crumbs and placed it in the heated skillet
+   - I have cooked the chicken and all of the pieces are not light golden and placed them on the baking sheet
+
+- intent: r284
+  examples: |
+   - I have washed the mushrooms under cold water and sliced them lengthwise into strips
+   - I have drained the water away from the mushrooms and rinsed them under cold water I have also added the rest of the other ingredients in a bowl
+   - I have dipped the mushrooms into the egg and then into the flour mixture
+   - I have placed the mushrooms in the skillet and fried the mushrooms
+
+- intent: r285
+  examples: |
+   - I seasoned the steak and put it in an oven safe dishI also smoked it for 150 degrees
+   - I have basted the steak and preheated the grill grates at 205 degrees
+   - I have turned it back down to 150 degrees and placed everything on the grill
+
+- intent: r286
+  examples: |
+   - I have preheated the oven to 400 degrees and brought the potatoes and added enough water to cover and brought it to a boil
+   - I have lowered the heat and simmered for the amount of time requiredI also drained them and returned the potatoes to the pot
+   - I have added the milkbutter and lemonthey are now smooth
+   - I have seasoned with salt and pepper and transferred the potatoes to a work surface and flattened them and cut them into quarters
+   - I have separated the breast apart from the meat
+   - I have placed the stuffed chicken inside the roasting pan and drizzled the olive oil and seasoned it with salt and pepper
+   - I have moved the chicken to a serving platter and stirred the lemon juice and parsley
+
+- intent: r287
+  examples: |
+   - I mixed all of the ingredients together and marinated them for 30 minutes
+   - I removed the chicken from the refrigerator 20 minutes before cooking
+   - I have sprayed 1 tbsp of cooking oil in the pan and added the chicken
+
+- intent: r288
+  examples: |
+   - I have preheated the oven to 200 degrees and placed a large saucepan over a high heat I also added the oil and browned the beef into patches
+   - I have removed the beef from the pan and put it aside
+   - I have peeled the onionscarrots and sliced the celery
+   - I have heated the remaining oil in the same saucepan and fried the celery and carrots for 5 minutes
+   - I scraped some bits from the bottom of the pan and mixed the beef with vegetables
+   - I have seasoned it with salt and pepper and tipped the meat and vegetables into a large ovenproof dish
+   - I have peeled and sliced the potatoes into thick slices and arranged them over the top of the beef
+   - I have baked them for 1 hour and removed the foilI also let them bake for an extra 15 minutes
+
+- intent: r289
+  examples: |
+   - I preheated the oven to 350 degrees and prepared the chicken by cutting the tips of the wings
+   - I coated the chicken with the mixture and pushed the chicken togetherthe wings are now set back
+   - I have placed the chicken breast with its side up in a baking dish and put it in the centre of the oven and baked it for 25 minutes
+   - I have removed the chicken breast from the oven and I let it rest for about 5 minutes
+
+- intent: r290
+  examples: |
+   - I have combined the ingredients stated
+   - I have added the beef cubesstirred and covered themI also left them to refrigerate overnight
+   - I have preheated the oven to 325 degreesdrained the meat and discarded the marinade in a large skillet
+   - I have browned the meat in batches for 5 minutes as necessary on each side and transferred them to a large dish
+   - I have added the butter to the skillet and I added the onions and let them cook for 5 minutes
+   - I have added the celery and carrots
+   - I have added the remaining 2 cups of Guinnessgarlicsalt and pepper
+
+- intent: r291
+  examples: |
+   - I preheated the oven to 350 degrees and greased the square cake pan
+   - I have added the eggsappleswalnuts and the vanillaI stirred and mixed them well
+   - I have poured the batter into the prepared pan and baked for 45 minutes
+   - I let it cool for 5 minutes and served hot
+   - I have chilled a stainless steel bowla whisk and the cream in the refrigerator
+   - I have poured the cream inside the bowl
+   - I stuck the whisk into the bowl at an angle and drew it through the cream
+
+- intent: r292
+  examples: |
+   - I have placed all of the vegetables in an instant pot and closed the lid and set the vent to sealing for 5 minutes
+   - I have let the instant pot cool down and mashed the vegetables slightly
+
+- intent: r293
+  examples: |
+   - I have heated the oil in a pan and added the chicken breastsfried them and set them aside
+   - I have added a bit more oil and fried the onion for 3 minutes and also added the garlic clove
+   - I have added 100g of chestnut mushrooms and fried them
+   - I have returned the chicken to the pan and stirred the stockbrought it to a boil and covered the pan with a lid I also lowered the heat and simmered for 15 minutes
+   - I have cooked the broccoli in water
+
+- intent: r294
+  examples: |
+   - I have drained and rinsed the shells and I also put them aside
+   - I have put all of the ingredients in the bowl and mixed them well enough
+
+- intent: r295
+  examples: |
+   - I have all of the ingredients ready do I do first
+   - I have mixed the flour and the salt and cut the shortening
+   - I have mixed the cold wateregg yolk and vinegar
+   - I cut the dough into two pieces
+   - I have rolled up the bigger dough and fitted it on a pie plate
+   - I have rolled the remaining dough for the crust and set it aside
+   - I have cooked it and stirred wellI also let it cool and then poured it into the crust
+   - I have covered the top with the crust and sealed italso baked it for 1 hour
+
+- intent: r296
+  examples: |
+   - I have placed them on wax paper and combined with 1 package of panko bread crumbs
+   - I have added the spices and the ¼ cup of grating cheese to the crumbs and rolled the logs into the crumbs
+   - I have added the olive oil and placed the logs on the oil and mashed the logs in a preheated oven
+
+- intent: r297
+  examples: |
+   - I have grilled the chilies and they have turned blackI have also cut the 2 lbs of tomatoes into quarters
+   - I have chopped the oniongarlic and poured the tomatoesonions and the garlic in a blender
+   - I have added the olive oil to a high temperature and added the tomato mixture and also added the oregano
+   - I have peeled the chilies and stuffed them with the cheese wedges
+   - I have beaten the 3 large eggs with the salt and folded the egg yolks
+   - I have rolled each of the chilies into the flour and dipped them in the beaten egg and is now coated
+
+- intent: r298
+  examples: |
+   - I have seasoned ⅓ cup of melted butter and allowed the butter to infuse with the spices for 15 minutes in a shallow dish
+   - I have preheated the oven to 425 degrees and coated the baking pan with canola oil
+   - I have washed the tilapia and brushed both of their sides with butter
+   - I have put the fish on a hot baking pan and drizzled the leftover butter
+
+- intent: r299
+  examples: |
+   - I have put the lamb loin fillets on a board and covered them with baking paper
+   - I have smashed the meat and created the escalopesI also seasoned them with salt and pepper and the cumin
+   - I have crumbed half of the feta and rolled the meat around itthen tied it with a kitchen string at 3cm intervals
+   - I have heated the oil in a large frying pan over a medium heat for 5 minutes
+   - I rinsed the potatoes in cold water and pricked them with a forkthen I put them on a plate and into the microwave for 5 minutes
+   - I have broken them up using a fork and added the oil
+   - I have added the potatoes to the frying pan with the remaining tablespoon of oil and cooked over a high heat for 3 minutes
+   - I have divided the potatoes between the warm plates and added the vinegar and honey to the hot frying pan
+
+- intent: r300
+  examples: |
+   - I have soaked the shrimp in 1 cup of milk for 15 minutes and then heated the 2 tbsp of olive oil in a saucepan over a medium high heat
+   - I have combined the all-purpose flourparmesan cheesesalt and the pepper then dredged the shrimp
+   - I have removed the cooked shrimp and set it aside and left the garlic in the pan
+   - I have added 1 cup of white wine and lemon juice to the garlic in the pan and brought it to a boil
+   - I have added the heavy cream and brought it back to a boillowered the heat and reduced by a half
+
+- intent: r301
+  examples: |
+   - I have chopped the garlicfresh parsley and the fresh oregano
+   - I have added olive oillemon juicesaltpepper and white wine
+   - I have added the uncooked shrimp and I let it marinade for 3 hours
+   - I have chopped the tomatoesgarlic clovesbasil and then placed the chopped tomatoesgarlic and basil in a saucepan
+   - I have added the cup of olive oilsalt and pepper and cooked for 5 minutes
+
+- intent: r302
+  examples: |
+   - I have cut the pork butt and placed them in a stew pot and added the orange juice and then left them to boil and simmer
+   - I have turned the heat up to a medium-high and continued to cook
+
+- intent: r303
+  examples: |
+   - I have dried the beans overnight in cold water and I let them stand for 60 minutes
+   - I have rinsed and drained the beans and added the extra water
+   - I melted the butter in a soup pot over medium heat and stirred in the onion
+   - I have added the carrot squash the tomatoes and the potato and I have simmered them for an extra 30 minutes
+   - I have stirred the beans corn kernels tomato paste oregano salt and black pepper flakes and I have let them cook for 8 minutes then I have served them with ½ cup of cilantro
+
+- intent: r304
+  examples: |
+   - I have poured water 3 cups of white corn kernels and salt
+   - I have brought them to a boil for 15 minutes and drained them then moved them to a serving bowl
+
+- intent: r305
+  examples: |
+   - I have preheated the oven
+   - I have mixed the ingredients and seasoned them with salt and pepperthen set them aside
+   - I have put the kale in a bowl and sprinkled the olive oil and let them roast for 7 minutes
+   - I have mixed the flour and added a pinch of sea salt in the bowl and also added the yoghurtthen I mixed them all with a spoon
+   - I have floured the surface and kneaded for a couple of seconds and then divided the dough balls into two portions
+   - I have placed the ovenproof frying pan over a high heat and cooked the bread for 1 and ½ minutes
+   - I have placed a medium frying pan over a high heat and I put the lamb into the bowl
+   - I have cooked the lamb for 2 minutes the sides are now crispy and juicy
+   - I have filled the flatbreads with the celeriac slawcrispy kale and the lamb
+
+- intent: r306
+  examples: |
+   - I have cleaned the fish and removed the gillsguts and chopped off the tail
+   - I have placed 1 and ½ cups of kamias and 1kg of tulingan in the pot and arranged it so that the kamias is sitting at the bottom
+   - I have poured 1 cup of water and topped them with 3 tbsp of sea salt
+   - I have let the ingredients simmer for 1 hour
+   - I have turned the stove off and reduced it to ¼ of its volume and then I added the fat to give it some extra tastenow
+
+- intent: r307
+  examples: |
+   - I have preheated the oven to 220 degrees and lightly oiled a baking tray and placed it in the oven to heat
+   - I have added all of the ingredients into a large bowl with the salt and black pepper
+   - I have taken out the baking tray from the oven and put the dough on top and drizzled it with oil
+   - I let the dough bake for 10 minutes
+   - I have poured the oil in a large frying panadded the required ingredients and I let it cook over a medium heat for 4 minutes I also stirred constantly and the mince has broken upnow
+   - I have added the tomato puree and let it cook for another minute
+   - I have taken the flatbread out and spread it with the mince mixture
+
+- intent: r308
+  examples: |
+   - I put the noodles in a large bowl and then covered it with boiled water and left them to stand for 2 minutes
+   - I have pressed on them and they are now dry and I have moved them to a bowl
+   - I have mixed the ingredients for the curry paste
+   - I have prepared the vegetables in a semi-circle on a plate I have also arranged the bowl of noodles and the paste
+   - I heated the oil on a high heat and added the red onionI also added the 1 carrot and fried it for 10 seconds
+   - I have added the small leeks and fried them all for another 10 seconds and then added a bit more olive oil
+   - I have moved all the vegetables to the side of the wok and left the centre clear
+   - I have added more olive oilthe wok is now hot and I added the noodles in the middle and let it fry for a few more seconds Now
+
+- intent: r309
+  examples: |
+   - I have heated the oil in a large saucepan
+   - I have added the baconthe onion and the red pepper and cooked on a low heat for 5 minutes
+   - I have boiled the water in a kettle and brought it to boil in a different saucepan
+   - I have added the sweet potatogarlic clove and the red lentils
+   - I have added the potatogarlic and the lentils to the bacon and vegetables and also stirred for a minute
+   - I have seasoned with salt and pepper and returned to the boil and also covered and cooked them for 20 minutes
+
+- intent: r311
+  examples: |
+   - I have brought a stock pot of water and brought it to a boil then added the salt
+   - I cooked the garlic for 3 minutes and removed it from the heatthen I let it sit
+   - I have cooked the pasta and is now al dente for 7 minutes I have also scooped out and reserved 1 cup of cooking water Now
+   - I have returned the sauce to a medium heat and the sauce is now howI also added the pasta and the sauce back to the pasta pot
+
+- intent: r312
+  examples: |
+   - I want to cook a Butternut Squash Sambarcould you tell me ingredients I need to make this meal
+   - I have all of the ingredients ready to make this mealare there any other ingredients that I need or am I ready to start
+   - I have placed a pot on the stove top at medium heat
+   - I have poured the cups of butternut squash and the water into the pot
+   - I have added the ingredients and brought them all to a boil
+   - I have prepared the oil in a small pan and heated the oil and also added the mustard and the cumin seeds
+   - I have added the asafoetida and the dried red chilis and poured the oil in the butternut squash
+
+- intent: r313
+  examples: |
+   - I have put the fish stock in a large pan of water and I let it simmer for 30 minutes
+   - I have strained the fish stock through a sievenow
+   - I have heated the oil in a flameproof casserole over a medium heat and then added the shallots and fried them for 5 minutes
+   - I have added the garlic cloves and fried them for 60 seconds and then stirred in the fish stock with the parsley and salt  I have to take
+   - I have sprinkled the rice and then left to simmer over a medium-high heat for 6 minutes and then I put the raw clams and the prawns and shook the pan
+   - I have lowered the heat and simmered gently for 12 minutes now
+
+- intent: r314
+  examples: |
+   - I have made the sesame paste for the green beans and grinded those seeds in a mortar and moved them to a food processor
+   - I have added the remaining seedssoy sauce and the sugar
+   - I have added the green beans and I let them cook for 4 minutes and they are now all tender I also transferred the beans to the iced water to refreshnow
+   - I have whisked the ingredients together and added the green beans and tossed them all together
+   - I have added the ingredients in a small jar and they are now all combined well
+
+- intent: r315
+  examples: |
+   - I boiled the cabbage and after it cooked I took out the leaves and separated them
+   - I have prepared the ingredients that are neededI have also separated them
+   - I have mixed the rice with the ground meat and also extended the cabbage leaves and added them to the filling
+
+- intent: r316
+  examples: |
+   - I want to make a Pinoy Cassava Cake to bake this cake
+   - I have all of the ingredients at handI am ready to start is the first step that I have to take
+   - I have mixed the ingredients except for the toppings and portioned the mix into 2 separate baking pans
+   - I have mixed together the toppings and simmered for a minute
+   - I have poured the topping on the cake and I let it bake for 15 minutes
+
+- intent: r317
+  examples: |
+   - I have sliced the bacon strips and cooked themI also drained the bacon on a paper towel and saved the fat
+   - I have diced the onionparsley and the fresh dill and also boiled the potatoes for 30 minutes
+   - I have cut the potatoes in half and then into thin slices
+   - I have poured the cups of red wine vinegarsalt and pepper
+   - I have added the ingredients required
+   - I stirred with a spatula and then I added the vegetable oil
+   - I have added the white sugar and tasted the salad and it tastes fineI also added a little bit of vinegar to improve the taste
+
+- intent: r318
+  examples: |
+   - I have preheated the oven to 325 degrees and lined up the muffin tin cups
+   - I have sifted the flours together in a bowl and mixed them together in a bowl
+   - I have beaten the butter and it is now creamyI have also added 2 cups of sugar
+   - I have added the dry ingredients into the 3 different partsI also alternated it with the milk and vanilla mixture
+   - I have folded the oreo cookie crumbs
+   - I have filled the liners to just over ½ full and baked themI also put a toothpick inside and they come out clean
+   - I have placed the butter in a large bowladded the milk and the vanilla extractI have also mixed the ingredients for the 5 minutes
+
+- intent: r319
+  examples: |
+   - I have combined all of the ingredients that are needed
+   - I have placed the cups of flour in the mixing bowl and also placed the liquid mixture into the flour
+   - I have added the rest of the flour and turned it on a flat surface and kneaded it for 10 minutes
+   - I have placed the dough ball into a greased bowl and covered it for 1 hour
+   - I have divided the dough into six different pieces and covered them for 10 minutes
+   - I have rolled the pieces into a 12 inch long rope and secured the endsI have covered it and let it rest for 30 minutes
+   - I have preheated the oven and let it bake for 25 minutes the bread is now looking good and is golden brown
+
+- intent: r320
+  examples: |
+   - I have preheated the oven to 200 degrees and put the olive oil in the pan
+   - I have added 800g of courgettes and herbsI also seasoned them with salt and pepper
+   - I have covered and cooked them for 10 minutes and stirred
+   - I have transferred the courgettes to an oven dish and whisked it with 100ml of creme fraiche and the milk
+   - I have sprinkled over the cheese and baked in the oven for 25 minutes
+
+- intent: r321
+  examples: |
+   - I have mixed all of the contents together and kneaded it into a doughthen added the ghee to make a dough
+   - I have divided the dough into equal parts and rolled them into 10 thick rotiesalso heated it on a flat pan over a medium heatnow
+
+- intent: r322
+  examples: |
+   - I have preheated the oven to 180 degrees and segmented the oranges
+   - I have put them into the fridge and I also put the walnuts into a bowl and covered them with waterI also left them for a minute and drained them
+   - I have placed the walnuts in a lidded container and added the icing sugar
+   - I have closed the container and the walnuts are now coated with sugar and cinnamon
+   - I have spreaded the walnuts on the tray and drizzled them with oil I also let them bake for 8 minutes
+   - I have mixed the dressing ingredients together and tossed in the lettucenow
+
+- intent: r323
+  examples: |
+   - I have put all of the ingredients into the bowl and seasoned them with salt and pepper and also mixed them with my hands
+   - I have formed the meatballs into balls of 50g eachnext I have heated the olive oil in the frying pan
+   - I have preheated the oven to 200 degrees and put the meatballs on a baking trayI also let them cook for 15 minutes
+   - I have added the 800g of potatoes in a saucepan and covered them with cold waterbrought them to a boil and added salt
+   - I have simmered them for the amount of time requiredthe potatoes are now soft I have to take
+   - I have made the sauceheated the olive oil in a saucepan and chopped the onion and let them fry for 10 minutes
+   - I have added the garlic clovesspices and the bay leavesI also let them cook and stirred constantly
+   - I have poured the water over the ingredients and brought them to a boilI have also left them to simmer for 15 minutesnow
+   - I have drained the potatoes and heated the olive oil in a large frying panalso I put the potatoes in a single layer and I let them fry for 20 minutesthey are now crisp on each side
+   - I have heated the olive oil in a saucepan and added the garlic clovesI also let it cook for 3 minutes
+   - I have added the sherry vinegar and sugarI also stirred in the sweet and hot paprika step do I have to take
+   - I have poured the sauce over the potatoes and sprinkled them with hot paprikanow
+
+- intent: r324
+  examples: |
+   - I have preheated the oven to 200 degrees and brushed a baking tray with the olive oil
+   - I have mixed all of the meatball ingredients and shaped them into 25 small meatballs
+   - I have put the meatballs on the baking tray and let them bake for 20 minutesthey have turned brown on each side
+   - I have heated the olive oil and the onions
+   - I have added the garlic clovesput the lid on and I heated them for 5 minutes
+   - I have added the passata and seasoned it with salt and pepperI also added the paprika and warmed for 2 minutes
+   - I have added the pepperstomatoes and rosemaryI also stirred them and covered the pan
+   - I have added the meatballs and let them cook for 15 minutes over a low heat
+
+- intent: r325
+  examples: |
+   - I have heated the oven to 350 degrees and combined the ingredients
+   - I have cooked the ingredients over a medium heat and then poured the milk mixture over the bread
+   - I have stirred the ingredients and poured them into the casserolenow
+
+- intent: r326
+  examples: |
+   - I have preheated the oven to 350 degrees and buttered the round cake pans
+   - I have simmered the stout and the 2 cups of butter in a large saucepanI also added the cocoa powder
+   - I have whisked the ingredients required in a large bowl
+   - I have beaten the eggs and sour cream in a large bowl and also added the chocolate mixture to the egg
+   - I have added the cups of flour and beaten them briefly on a low speed and I also folded the batter
+   - I divided the batter among the pans and baked the cakes for 35 minutes
+   - I have transferred the cakes to a rack and I let them cool down for 10 minutes
+   - I have simmered 2 cups of whipped cream in a saucepan and removed from the heat
+
+- intent: r327
+  examples: |
+   - I have combined the ingredients and pressed the mix on the bottom
+   - I have combined the ingredients into a food processor
+   - I have poured in the cooled crust and I let the ingredients bake at 350 degrees for 30 minutes
+   - I have combined the pineapple juice and the cornstarch in a smaller saucepan and I let it heat
+   - I have removed the apricot halves on top of the cheese and let it chill
+
+- intent: r328
+  examples: |
+   - I have heated the olive oil and the reserved oil from the sardines
+   - I sautéed the minced garlic and added the diced tomatoes and also tossed them
+   - I have added the flaked sardines and let them cook for 1 minute
+   - I have seasoned the sardines with salt and pepper
+
+- intent: r329
+  examples: |
+   - I have heated the vegetable oil in a medium skillet over a medium-high heat for 5 minutes
+   - I have added the dry ingredients and continued to cook them for an extra minuteI have constantly stirred the ingredients and blended them
+   - I have added the chicken broth cups and stirred in the saucethe sauce is now thick
+   - I have turned the heat to a low and I let the sauce simmer for 15 minutes
+   - I have preheated the oven to 450 degrees and poured in 1 tbsp of oil and heated the tortillas
+   - I layered them on a plate and blotted them with paper towelsI also poured in the ½ cup of chili gravy
+   - I have added the cheese and the onion in the center of each of the tortillas
+   - I have poured the chili gravy over the tortillas and topped them with the cheese and onions
+   - I have baked them for 20 minutes
+
+- intent: r330
+  examples: |
+   - I preheated the oven to 325 degrees in a large mixing bowl and combined the flour 2 cups of pecans granulated sugar 1 cup of butter and the 1 tsp of vanilla
+   - I mixed at a very low speed and scraped the bowl for 5 minutes
+   - I have placed them on cookie sheets and baked them for 25 minutes
+   - I have removed them and rolled them in powdered sugar
+
+- intent: r331
+  examples: |
+   - I combined all of the ingredients except the butter and stirred everything to form a dough
+   - I have shaped the dough into a ball and stored it in a plastic bag
+   - I have refrigerated the dough overnight
+   - I have cut the butter into 6 portions and arranged it into a small plastic bag and pressed on it
+   - I have flattened the dough and divided it into portions I have also made a small cut in the center
+   - I have put the dough on a baking tray and I let it cook for 2 hours
+
+- intent: r332
+  examples: |
+   - I have preheated the oven to 400 degrees and mixed the cream cheese and crab meat
+   - I have added a tsp of mixture in the center of the wrapper and dipped my finger in water and wetted the edges
+   - I have sealed and placed the wontons on a baking sheet I also baked it for 20 minutes
+
+- intent: r333
+  examples: |
+   - I have mixed the ingredients and then added the wings they are now all coated well
+   - I have covered and marinated the wings and also put them in the fridge
+   - I have barbecued the wings for 15 minutes they are now all brown and juicy
+   - the chicken is cooked well and there is no pink meat
+
+- intent: r334
+  examples: |
+   - I have cooked 2 cups of sushi rice and I chopped the tuna into pieces
+   - I have mixed the sesame oil and chopped the crab meat and I placed them all in a different bowl
+   - I have mixed the chili sauce with the mayonnaise and placed the avocado in a different bowl
+   - I have combined the crab meat and the mayo sauce together
+   - I have placed the container on a plate and topped it with tuna and pressed it down
+
+- intent: r335
+  examples: |
+   - I have placed the tomatoes and chiles in a skillet and they are now soft
+   - I have cooked the tomatillos in water for 10 minutes
+   - I have seeded the chilesremoved the stems and chopped the tomatoes
+   - I have zizzed the tomatochile and tomatillo in a blender and left them chunky as they are
+   - I have added the salt to taste and stirred the cilantro sprigs
+
+- intent: r336
+  examples: |
+   - I have all of the ingredientsam I ready to start now
+   - I have added all of the chicken ingredients in a processor
+   - I have heated the butter in a frying pan and the 2 boneless chicken thighs for 8 minutes
+   - I have put the rice in a saucepan and covered with the boiling water
+   - I boiled the ingredients for 8 minutes and added the pepperI also let it cook for 3 minutes and the liquid has now absorbed and the rice is all tender
+
+- intent: r337
+  examples: |
+   - I preheated the oven at 350 degrees and I mixed the ingredients in a large mixing bowl for 1 minute
+   - I have added the eggs and I beat them for 2 minutes
+   - I have folded the cups of pecans with a spoon and poured them into the unbaked pastry shell
+   - I baked the ingredients for 20 minutes and they are now brownI also reduced the heat of the oven to 300 degrees
+   - I let it cool on a wire rack for 120 minutes
+
+- intent: r338
+  examples: |
+   - I have placed the marinade in a plastic bag and added the chicken piecesI also let it marinade for 4 hours
+   - I have removed the marinade and added the salt and pepper to the flourI also let the chicken pieces fry for 10 minutes
+   - I have poured off the oil and added the ingredients
+
+- intent: r340
+  examples: |
+   - I have placed all of the ingredients in a large bowl and mixed them well
+   - I have fried the ingredients now
+   - I have removed them from the heat and I added the spices to the cabbage I also tossed the salad with the spices
+   - I have garnished the salad with coriander leaves and I let it chill
+
+- intent: r341
+  examples: |
+   - I have added the mushrooms in a large pan and let it heat over a medium heat
+   - I have moved the pan away from the heat and added the olive oil
+   - I have added the ingredients for that
+   - I have added the beans and sauteed the beans for 2 minutes I also added the Italian parsley
+
+- intent: r342
+  examples: |
+   - I have heated a saucepan and added butter to it
+   - I have added the flour and whisked them together now
+   - I have added the black pepper and milkI also whisked all of the ingredients together and the texture is nice and smooth
+   - I have removed the pot from the heat and added the cheese and continued to whisk
+
+- intent: r343
+  examples: |
+   - I have mixed all of the ingredients into a nice paste
+   - I have coated the bottom of the pan with oil and placed the salmon
+   - I rubbed tandoori masala on the salmon skin and placed it on the panI also drizzled some oil on the salmon
+   - I have placed the vegetables on the pan and covered the salmon with tin foilI also let it bake for 12 minutes
+   - I have removed the pan from the oven and uncovered the foil
+
+- intent: r344
+  examples: |
+   - I have put the minced beef and the garlic clove in a bowl and mixed them well
+   - I have heated the olive oil in a frying pan and fried the meatballs for 5 minutes
+   - I have removed the meatballs from the pan and put them aside
+   - I have fried the onions and garlic in the same pan for 3 minutes
+   - I have stirred the tomatoes with the ketchup and seasoned it with salt and pepperI also let the sauce simmer for 3 minutes
+   - I have added the parsley and stirred it in with the rest of the ingredients
+
+- intent: r345
+  examples: |
+   - I have preheated the oven to 375 degrees and lightly greased the pan with cooking spray
+   - I have mixed the ingredients required for that
+   - I have combined the butter with the sugars and stirred them and are now creamy
+   - I have beaten the egg and the two persimmons and also added in the flour mixture and mixed them well
+   - I stirred the chopped nuts and dropped the small piles on the baking sheet and I let it bake in the oven for 15 minutes
+
+- intent: r346
+  examples: |
+   - I have added all of the ingredients in a pot and gradually added water the pork is now covered
+   - I have removed the pork and drained themI also cut the pork into bite sized pieces
+   - I have dried the pork skins and I also heated up the oil and fried the pieces in batches they are now light brown
+
+- intent: r347
+  examples: |
+   - I preheated the oven to 350 degrees and broke the pasta in half
+   - I have stirred the ingredients and set them aside after
+   - I have drained the fat from the meat and sliced the mushroomsI also let them cook for 2 minutes
+   - I have added the tomatoessaltpepper and red pepper flakes
+   - I have layered the ground beef mixture on top of the noodles and sprinkled the cheese on top
+
+- intent: r348
+  examples: |
+   - I have whisked the dry ingredients and whisked it with the butter inside
+   - I have placed the dough on a board and rolled it into the required dimension
+   - I have cut the dough with a cookie cutter into small triangles and placed it on an ungreased cookie sheet
+   - I have pricked the cookies with a fork and sprinkled over the sugar on top I also let it cook for 375 degrees
+   - I have taken the cookies out of the oven and sprinkled some more sugar on topI have also let the cookies cool down
+
+- intent: r349
+  examples: |
+   - I have gotten the flour moist with the milk and added the raisins
+   - I have put the buttersugarsalt and the cinnamon piece and moved them constantly for 5 minutes
+   - I have turned the fire off and inserted the mold inside the oven
+
+- intent: r350
+  examples: |
+   - I have cut the meat into the dimensions required using a knife and I put the pieces into hot boiling water
+   - I have added the olive oil in a large saute pan on medium high heatthe sides of the meat are now brown
+   - I have added the onions to the pan with the browned meat as well as the rest of the olive oil for that
+   - The onions are now translucent
+   - I have soaked the plums for 1 hour and chopped them with a knife after
+   - I have removed the pits and chopped themI also added in the stocksour plums and the tomato paste
+   - I have added the stock and the spices together to the pan
+   - I have added a bit more salt and pepper to the stew
+
+- intent: r351
+  examples: |
+   - I have cut the eggplants into halves and cut them into 3 inch lengths I also washed them thoroughly
+   - I have brushed the eggplant with oil and seasoned it with some salt and pepper
+   - I heated the pan on medium heat and added the remaining oil to the pan
+   - I have put the eggplants and cut down the sidesI also left it for 4 minutes
+   - I have let it cook on each side and it is now all soft
+
+- intent: r352
+  examples: |
+   - I have added 1 softened butter and ¾ cups of confectioners sugar
+   - I have added the flour and the nuts into the mixture
+   - I have rolled them into balls and rolled them on the palm of my handnow
+   - I baked the cookies in an oven at 300 degrees for 30 minutes
+   - I have removed the cookie sheets and placed them on a cooling rack the cookies are now warm
+   - I have rolled them again in the same sugar and stored them in a container
+
+- intent: r353
+  examples: |
+   - The rice is now wet
+   - I have added 4 cups of water to the rice and it is now watery I also set it aside to cool down now
+   - I have mixed the salt and shrimp in a mixing bowl and mashed them
+   - I let it stand for 2 hours and I also put the cooked rice in a mixing bowl
+   - I have added the salt and shrimp mixtureI also mixed the ingredients
+   - I have moved over the mixture into the bottle and left 1cm head space from the mouth
+   - I have covered the bottles with the plastic and I set them aside to ferment for 10 days
+   - I sautéed the meal with garlic and onion
+
+- intent: r354
+  examples: |
+   - I washed the Pork under cool water and picked out bits of debris
+   - I have washed it two more times I have also added the water inside a pot and added the ingredients after that
+   - I have added the salt and vinegarI also let it boil for another minute
+   - I have placed the pork inside the pot and I also added the pieces of bay leaves and I let it simmer for 45 minutes
+   - I have removed the pork from the pot and drained the excess waterI also cut it into the desired sizes
+   - I have sprinkled the remaining salt over the pork and it is evenly distributed over the pork I have also poured the oil and heated it at room temperature
+   - I have deep fried the pork and the texture is now crunchy
+   - I have combined the ingredients in a small bowl and mixed them well
+
+- intent: r355
+  examples: |
+   - I have baked the cake according to the instructions and mixed the ingredients
+   - I have torn it into pieces and stirred it into the cream cheese mixture
+   - I have added the strawberries to the dessert and poured it over the cake mixture
+
+- intent: r356
+  examples: |
+   - I want to cook a Sicilian Eggplant & ricotta Pasta
+   - I have the ingredients readyam I ready to start or do I need any other ingredients
+   - I have cut off the eggplant cap and peeled it
+   - I have put the cubes in a colander and sprinkled salt on it
+   - I have let the eggplant steep in the salt for 1 hour
+   - I have added ⅓ cup of olive oil and coated the bottom of the pan
+   - I have put the eggplant pieces and fried them for a minute
+   - I have fried the eggplant on the sides and then transferred them using a spatula to a plate
+   - I have put the pasta pot on the stove and brought it to a boil
+   - I have added the onion cups and I let it sautethe onions are now golden
+   - I have added the chopped garlic and I let it cook for the amount of time required
+   - I have added the cups of fresh tomatoes and turned up the heat to a high and I let it cook for 10 minutes
+   - I have added the eggplant and some fresh pepper grindings I also stirred and turned the heat down to a medium and cooked for another couple of minutes
+   - I have drained the pasta into a colander and poured it into a serving bowl with the eggplant sauce and the basil leaves
+
+- intent: r357
+  examples: |
+   - I rinsed the chicken and patted them dry with paper towels
+   - I have coated the bottom of the stew pot with oil I have also added the chicken with the skin side down and cooked it
+   - I have transferred the chicken over to a plate
+   - I have added the oniongarlic and ginger to the pot and stirredthe ingredients are now soft
+   - I added the curry powdercumincayenne pepper and saltI let them all cook for 30 seconds therefore now the spices are nice and fragrant
+   - I have returned the chicken and added remaining juices to the potI also surrounded the chicken with the sauce
+   - I have reduced the heat and let it cook for 45 minutesthe peas are now hot
+   - The chicken is cooked well now
+
+- intent: r358
+  examples: |
+   - I have combined the ingredients and stirred them all they are now diluted
+   - I have added the shrimps and the bean sproutsI also stirred them together
+   - I heated the frying pan and poured in the cooking oil
+   - I have cooked the sides for 3 minutes and now they are golden brown I also removed the ukoy from the pan and put it on a paper towel
+
+- intent: r359
+  examples: |
+   - I have creamed the sugar with the oil and beaten the eggs
+   - I have stirred it in with milk and also added the baking powder with a pinch of salt
+   - I have added the yellow food color and poured the batter to the non-stick pan
+
+- intent: r360
+  examples: |
+   - I preheated the oven to 450 degrees and heated the ingredients together
+   - I have cooked the onions and they are now tender
+   - I turned the heat over to a high and poured the wineI have also scraped some extra brown bits
+   - I have turned the heat down to medium and added the chicken stocksalt and pepper
+   - The mushrooms are now tender and the liquid has reduced into a thick sauce
+   - I have added the fish along with the olive oil and it has risen to ½ inch
+   - I have added extra salt and pepper to both of their sides
+   - I have placed the fish inside a pan
+   - I have seared for 6 minutes and the fish has now turned golden brown
+
+- intent: r361
+  examples: |
+   - I have peeled the bananas and put them inside a frying pan
+   - I have added the brown sugar after 5 minutes
+   - The caramel has stuck onto the bananas and I took them off one by one
+
+- intent: r362
+  examples: |
+   - I have added the steaks inside a bowl and poured the vegetable oil as well as the soy sauceI also rubbed the meat inside and is now coated all over
+   - I have peeled the carrots and made ribbons out of them
+   - I have separated the lettuce and washed the leavesthen drained them in a colander
+   - I combined the ingredients inside a bowl and heated a frying pan on a high heat I also added the steaks and let them cook for 1 minute on each side they are now medium rare
+   - I have removed the steaks from the pan and they have chilled on a plate
+   - I have added the garlic clove and put it inside a bowl with the other ingredients I also stirred them together
+   - I have poured the dressing over the vegetables and added the peanuts
+
+- intent: r363
+  examples: |
+   - I have added the potatoes to the saucepan and covered them with cold water I also seasoned them with salt
+   - I drained and mashed themI also seasoned them with salt and pepper and then put them on a plate to cool down
+   - I placed the cod fillet in a large saucepan with the milk and bay leafI also covered it with a lid and brought it to a boil
+   - I have discarded the skin and broken the fish down into chunksI also threw away the bay leaf
+   - I put the mash inside a bowl and stirred it in with lemon and 1 spring onionI also seasoned it with some extra salt and pepper
+   - I have preheated the oven to 200 degrees and divided the mixture into patties
+   - I have put the ingredients inside shallow bowls and coated the fish cakesthe sides are now all coated
+   - I heated the oil inside a frying pan and fried the cakes for 3 minutesI then transferred them over to a baking tray
+   - I finished cooking the cakes for 10 minutes and I also melted the butter in a non-stick saucepan
+   - I have added the flour and stirred with a spoon and now the ingredients are well combined
+   - I simmered the ingredients and they have been cooked for 3 minutes
+
+- intent: r364
+  examples: |
+   - I mixed the porksoy sauce and the lemon pieces in a bowl and I let it marinade for 1 hour
+   - I fried the pork chops on medium heat for 5 minutes per side and removed the excess oil
+   - I poured the remaining marinade and waterI also let it boil
+   - I added the watersalt and pepper and stirredI then put in the onions and cooked for another 2 minutes
+
+- intent: r365
+  examples: |
+   - I preheated the oven to 450 degrees and placed the butter I also dredged the meat
+   - I placed the meat in a cookwellstirred and covered it I also let it cook for 20 minutes and the meat has turned golden brown
+   - I added the vegetables and reduced the temperature of the oven to 250 degreesI also let it slow cook for 2 hours the vegetables and meat are now all tender
+   - I added the broth and the Worcestershire sauce I also combined the broth and cornstarch
+
+- intent: r366
+  examples: |
+   - I placed the bacon slices in a skillet and they are now brown and crispy
+   - I put the bacon slices aside and preheated the oven to 350 degrees  that I need to take
+   - I lined the bottom of the pie plate with the cheese and crumbled bacon
+   - I combined the eggs with the rest of the ingredients and whisked them togethernow the mixture is all smooth
+   - I poured the mixture into the pie pan and brushed the egg whites on the trims of the crust  after I let it cook for 35 minutes
+
+- intent: r368
+  examples: |
+   - The oven is ready
+   - I have added the milk
+   - I have added in the beaten egg
+   - I have added in the butter
+
+- intent: r369
+  examples: |
+   - I would like to make Afghan chicken
+   - the yogurt is in the fridge
+   - I have added all of those ingredients to my bowl Now
+   - I have finished with the mixture
+   - The chicken has finished marinating in the fridge
+   - The grill is ready
+
+- intent: r370
+  examples: |
+   - The pot is boiling
+   - The pot is simmerings the next step
+   - the zest is ready
+   - The sugar has dissolveds the next step
+   - Ive coated the blueberries Next step
+   - Its been a couple of hoursam I ready to serve
+
+- intent: r371
+  examples: |
+   - Done! The fatty pieces are looking golden Now
+   - The rest of the pork looks good
+   - The rice is ready and the meat looks nice and tender
+
+- intent: r372
+  examples: |
+   - I have broken up the tuna
+   - I have mixed all of the ingredients together
+   - I have my doughnow
+   - I have mixed those ingredients into the dough
+   - I have done thatthe patties are done
+
+- intent: r373
+  examples: |
+   - I have prepared the prawns
+   - the mussels are open
+   - I have prepared the mussel and set them to the side
+   - I have added the ingredients and fried them for 5 minutes
+   - I added those in and let it boil and simmer for 30 minutes
+   - I have extracted the stock
+   - The ingredients in the pan have softened
+   - I have added in the rice and allowed it to absorb the liquid
+   - I have allowed the rice to absorb the stock
+
+- intent: r374
+  examples: |
+   - I have transferred the fennel
+   - I have cut and boiled the potatoes and added them to the fennel
+   - I have cooked the chicken
+   - The oven is ready and I have prepared the rest of the ingredients into the bowl
+   - I have cooked the mixture
+   - The chicken is in the ovenhow do I make the salsa verde
+   - I have made the salsa verde
+
+- intent: r375
+  examples: |
+   - I have prepared the seasoning
+   - I have prepared the brisketand it has finished standing
+   - I have grilled and smoked the brisket
+   - The brisket has finished in the oven
+
+- intent: r376
+  examples: |
+   - I have added in all of those ingredients and the pot has finished boiling
+   - Those ingredients were added and cooked for another 20 minutes
+   - I have mixed in the paste
+
+- intent: r377
+  examples: |
+   - I have heated the oven and prepared the plate
+   - I have mixed the ingredients and poured it into the pie plate
+
+- intent: r378
+  examples: |
+   - I have soaked the fish in the wine
+   - I have patted the fillets dry in the casserole dish
+   - I have sprinkled those ingredients on
+   - I have used all of the fish
+   - I have heated the pan and added the garlic
+
+- intent: r379
+  examples: |
+   - I have preheated the oven to 220
+   - I have tossed the ingredients in the bowl
+   - I have mixed the other ingredients in a small bowl
+   - The shrimp is in the dish
+   - I have spread the butter over the shrimp
+
+- intent: r380
+  examples: |
+   - I have sliced and placed the shallots
+   - I have soaked the shallots
+   - I have washed and dried the leaves
+   - The green beans have finished cooking and are now cooled
+   - I have added the green beans and the lettuce to the salad bowl
+   - I have made the dressing
+
+- intent: r381
+  examples: |
+   - I have added those ingredients to the pan
+   - The onions have cooked
+   - I have added those ingredients in the pan
+   - I have added the tomato puree to the pan and cooked it
+   - I have cooked the chicken in the sauce
+   - I have cooked in the chicken stock and simmered the ingredients for 20 minutes
+
+- intent: r382
+  examples: |
+   - I have diced the mushrooms
+   - I have added these to the pan
+   - I have added in the tomatoes and the wine and it has been simmering
+   - I have prepared the pasta
+   - I have combined the ingredients and cooked the shrimp
+
+- intent: r383
+  examples: |
+   - The noodles are soaking and I have stir fried the other ingredients
+   - I have fried the pork
+   - I have finished stir frying the ingredients
+   - I have added the broth and soy sauce
+   - The noodles are cooked into the other ingredients
+
+- intent: r384
+  examples: |
+   - I have added the vegetables to the cooker
+   - I have cooked the vegetables and the stock
+   - I have added the pigs feet and poured in the vinegar and water
+   - Ive cooked it all in the slow cooker
+
+- intent: r385
+  examples: |
+   - The oven is heated and I have lined the pan
+   - I have combined the ingredients
+   - The butter is melted and I have mixed in the cocoa powder
+   - I have whisked in the brown sugar
+   - The eggs and the vanilla are in the pan
+   - I have blended the mixtures
+   - I have laid out the chocolate on the batter in the pan
+
+- intent: r386
+  examples: |
+   - I have added those ingredients into a bowl
+   - The ingredients have finished chilling
+   - The turkey is cooked
+   - I have brushed the turkey with the ghee
+
+- intent: r387
+  examples: |
+   - I have sautéd the garlic and onions
+   - I have cut up and stir fried the chicken
+   - I have seasoned the contents of the wok
+   - The noodles look cooked
+   - The vegetables look cooked but still crunchy
+
+- intent: r388
+  examples: |
+   - I have pureed the ingredients
+   - I have added the basil
+   - I have heated the grill and waited while the food refrigerated
+   - I have grilled the fillets on each side
+
+- intent: r389
+  examples: |
+   - I have chopped the fish into small pieces
+   - I have mixed the salt in and it has been refrigerated
+   - I have juiced the limes and mixed them in
+   - I have marinaded the fishsaltand limes
+   - I have mixed in those ingredients
+
+- intent: r390
+  examples: |
+   - I have simmered the peppers and onions on medium heat in the butter The peppers have been thrown away
+   - The chicken is in a dish and I have poured the butter and onions over it
+   - I have sprinkled those ingredients over the chicken
+
+- intent: r391
+  examples: |
+   - I have combined the ingredients
+   - I have divided the dough onto the tray and flattened them a bit
+   - I have baked the biscuits
+   - I have melted the butter with the herbs
+   - for helping me make red Lobster Cheddar Biscuits
+
+- intent: r392
+  examples: |
+   - I have prepared the chicken carcass
+   - I have prepared the chicken stock do I do with it
+   - The stock has finished simmering
+   - I have got the stock ready
+   - I have fried the onion and cumin in the pan
+   - I have fried the other ingredients
+   - I have cooked the mixture and the sauce has thickened
+   - The liquids were added and now the rice has finished simmeringnow
+   - The rice is cooked and I have removed it from the heat
+   - I have combined those into the rice
+
+- intent: r394
+  examples: |
+   - I have sautéd the mushrooms
+   - Those ingredients have been added and have been simmering
+   - I have cooked the lasagna
+   - I have cut and added the lasagna sheets
+
+- intent: r395
+  examples: |
+   - The oven is heated
+   - I have whisked those ingredients together
+   - I have coated the fish with the marinade
+   - The fish has finished roasting
+
+- intent: r396
+  examples: |
+   - I have got the rabbit meat ready
+   - I have salted the rabbit meat and set aside
+   - I have blended those ingredients
+   - I have added in the olive oil
+   - The rabbit has marinated overnight
+   - I have got my pieces ready on the grill
+
+- intent: r397
+  examples: |
+   - I have mixed those ingredients well
+   - I have added in the food colouring
+   - I have layered the ingredients
+
+- intent: r398
+  examples: |
+   - The snake is ready and has been chilling overnight
+   - I have seasoned the snake
+
+- intent: r399
+  examples: |
+   - I have preheated the oven
+   - I have prepared the dish with the ingredients
+   - I have cooked the leeks and moved them asideadding the salmon fillets
+
+- intent: r400
+  examples: |
+   - I have fried the onion
+   - I have added those ingredients to the pan and cooked them
+   - I have added the chicken and other ingredients and brought them to the boil
+   - I have cooked the ingredients and added in the chocolate
+
+- intent: r401
+  examples: |
+   - I have cut the pork belly into pieces
+   - I have added the ingredients to the saucepan
+   - I cooked the pork belly and dried it
+   - I have deep fried the pork belly
+   - I have prepared the pork blood and liver Now
+   - The pot with all of the ingredients is boiling
+   - I have added the other ingredients to the mixture and allowed it to simmer
+   - The lechon kawali is coated in the mixture
+
+- intent: r402
+  examples: |
+   - I have left the beans to soak overnight
+   - The oven has heated
+   - I have mixed together the ingredients for the sweet syrup
+   - I peeled the onion and sliced the hamnow
+   - I have started layering in the slow cooker
+   - I have added the rest of the ham and beans
+   - I have added in the syrup and water
+
+- intent: r403
+  examples: |
+   - I would like to make Cranberry Mousse Jello Mold Salad
+   - I have dissolved the gelatin in the boiling water
+   - I have added the pineapple juice and saved the crushed pineapple
+   - I have added the rest of those ingredients and the mixture has thickened after chilling
+   - I have folded in the ingredients
+   - The mixture has set
+
+- intent: r404
+  examples: |
+   - The water is boiling
+   - The rice is ready
+   - The ingredients have thickened together
+   - I have stirred in the egg yolks and the sugar
+
+- intent: r405
+  examples: |
+   - I have fried the vegetables until they are soft
+   - I have cooked the beans after adding those other ingredients is the next thing to do
+   - The baked potatoes are cooked through
+   - I have prepared the breadcrumb mixture
+
+- intent: r406
+  examples: |
+   - I have heated the oven as well as the roasting tin
+   - I have roasted the aubergines
+   - I have finished baking the tortillasnow
+   - I have added this mixture to the roasting tin and its been in the oven for 5 minutes now
+
+- intent: r407
+  examples: |
+   - I have whisked together the eggs and milk
+   - The ingredients have thickened into a batter
+   - I have heated the pan
+   - I have made all of my pancakes
+
+- intent: r408
+  examples: |
+   - I have made the batter and allowed it to rest I have now split it into little ball portions
+   - I have cooked the onions and beef in the pan
+   - I have added the fillings to the dough balls
+
+- intent: r409
+  examples: |
+   - I have cooked those vegetables in the pan
+   - I have added the spices and chopped tomatoes
+   - The sauce is cookedand my pot of water is boiling
+   - The rice is cooking and I have a bowl ready do I do
+   - I have made the salsa
+
+- intent: r410
+  examples: |
+   - I have cooked the garlic
+   - I have minced the roasted garlic
+   - I have started boiling the potatoesand the butter is melted in the small saucepan
+   - I have warmed up the garlic sauce
+
+- intent: r411
+  examples: |
+   - I have cut up the lime
+   - I have smashed those ingredients together
+
+- intent: r412
+  examples: |
+   - I have roasted the jalapenos and allowed them to cool
+   - I have fried up the chorizo and onions comes now
+   - I have mixed those ingredients together in the bowl
+   - for helping me make Mexican stuffed jalapenos
+
+- intent: r413
+  examples: |
+   - Ive preheated the oven and prepared the avocado mayo
+   - The bread rolls are toasted and I have cut up the aubergine
+   - I have cooked the aubergine slices
+   - Ive stir fried those vegetables is the next thing I need to do
+
+- intent: r414
+  examples: |
+   - All of those ingredients have been added to the bowl
+   - I have marinated the chicken in the refrigerator
+   - The chicken is cooked
+   - The onion has finished standing in the boiling waternext up
+   - I have served the pickled red onion
+
+- intent: r415
+  examples: |
+   - I have mixed together the ingredients for the marinade
+   - The fillets have been marinating in the refrigerator for an hour
+   - I have sealed the salmon fillets in tin foil
+   - I have baked the salmon in the oven for 35 minutes Now
+
+- intent: r416
+  examples: |
+   - I have blended together all of those ingredients
+   - The paste has now been applied to the chicken
+   - The chicken has finished standing
+   - I have rosated the chicken for about an hour
+   - The chicken has been roasted further comes now
+
+- intent: r417
+  examples: |
+   - I have fried the garlic
+   - I have added in the spices and cooked the beans
+   - I have chopped those ingredients together for the salsa and added them to a big bowl
+   - I have added the juice and the oil and given it a good mix s the next step
+   - I have finished the guacamole
+   - I have heated my tortillas and fried the eggsnow
+
+- intent: r418
+  examples: |
+   - The lamb chops have finished soaking
+   - I have rinsed and washed the lamb chops
+   - I have seasoned the lamb chops
+
+- intent: r419
+  examples: |
+   - I have cooked the lamb in the saucepan
+   - The chicken broth is simmering in the pan
+   - I have sautéed the onions and pine nuts in a separate pan
+   - The rice is ready and has absorbed the wine
+   - I have checked the risotto and its tender
+
+- intent: r420
+  examples: |
+   - I have mixed together the ingredients for the meatballs
+   - I have made the meatballs
+   - I have added the tomato juice and the spices to the pot
+   - I have cooked the meatballs in the saucenow
+
+- intent: r421
+  examples: |
+   - I have heated the oven and prepared the baking dish
+   - The apples have been cut into segments
+   - I have beat those ingredients together and added the eggsnow
+   - I have folded those ingredients together shall I do now
+   - I have spread the batter and added the fruit
+
+- intent: r422
+  examples: |
+   - I have sautéed the breadcrumbs in the large pan
+   - I have sautéed the garlic
+   - I have stirred together the ingredients
+
+- intent: r423
+  examples: |
+   - I have cut up the pork ears and added it to the pan with the other ingredients
+   - The pork ears are tender
+   - I have threaded the pork ears onto the skewers after cooling
+   - I have made the basting sauce
+
+- intent: r424
+  examples: |
+   - I have lined the cake pan
+   - I have mixed the dry ingredients together in the bowl
+   - I have mixed in the other ingredients and beaten them together Now
+   - I have beaten the egg whites
+   - I have poured the mixture into the pan and smoothed it out
+
+- intent: r425
+  examples: |
+   - I have preheated the oven and mixed together the other ingredients
+   - I have stirred together those ingredients in the bowl
+   - I have baked the dough balls
+
+- intent: r426
+  examples: |
+   - I have cut the onions up into rings
+   - I have mixed the dry ingredients together
+   - I have added the mixtures together
+   - I have fried the onion rings and dried them on paper towels
+
+- intent: r427
+  examples: |
+   - I have sautéed the mushrooms in the pan
+   - The ingredients are cooking in the pan comes now
+   - I have cooked the vinegar into the pan and added the red wine
+   - I have simmered the sauce until it has reduced and removed the rosemary and garlic
+
+- intent: r428
+  examples: |
+   - I have cleaned and split the crabs
+   - I have added the seasoning to the oil in the pan Now
+   - The crabs are sauteed and half cooked
+   - The crabs are cooked
+
+- intent: r429
+  examples: |
+   - I have seasoned the steaksand set aside
+   - I have cooked the corn kernels
+   - I have pan fried these ingredients and put them in a bowl
+   - I have added the other ingredients to the bowl
+   - I have made the avocado cream
+   - I have cooked the steaksnow
+   - I have heated the tortillas
+
+- intent: r430
+  examples: |
+   - I have prepared and fried the fish
+   - I have sautéed the garlic and the onion
+   - I have simmered these ingredients in the pannow
+   - I have added those ingredients and simmered into a thick liquid
+   - I have simmered the bell peppers in the pan for another 3 minutes
+
+- intent: r431
+  examples: |
+   - I have roasted the chillies in the oven
+   - The ingredients I put in the saucepan have been simmering for 2-3 minutes
+   - I have blended and contained the mixture
+   - I have marinated the chicken
+
+- intent: r432
+  examples: |
+   - I have prepared the squid
+   - I have made the marinade and placed the squid in it for an hour
+   - I have grilled the squid
+
+- intent: r433
+  examples: |
+   - I have whisked together all of those ingredients for the sauce
+   - I have cut and covered the tofu with the sauce
+   - I have fried these ingredients together in the pan
+   - I have tossed those vegetables over a high heat comes now
+   - I have stirred fried the noodles and added the sauce
+
+- intent: r434
+  examples: |
+   - I have caramelized the onions
+   - I have combined the ingredients in the pan
+   - I have reduced the sauce and added in the parsley
+   - I have grilled the eggplantnow
+   - The milk is heating and I have melted the butter in the other saucepan
+   - The white sauce is now boiling after combining the pans
+   - I have added in the other ingredientsincluding the eggs I tempered
+   - I have layered the eggplant and the sauces together
+
+- intent: r435
+  examples: |
+   - The oven is ready and I have prepared the dish
+   - I have poured in the sauce to the dish and the jug
+   - I have folded the eggs together
+   - I have arranged the chillies over the egg mixture
+
+- intent: r436
+  examples: |
+   - I have washed and cut the octopus
+   - I have added the garlicand seasoned the octopus
+   - I have folded the octopus up in the tin foil with the butter and garlic
+
+- intent: r437
+  examples: |
+   - I have cooked baconhamand onion
+   - I have stirred in the seasoning
+   - The lentils are tendernow
+
+- intent: r438
+  examples: |
+   - I have added the ingredients to the slow cooker
+   - The meat is tender
+
+- intent: r439
+  examples: |
+   - I have seasoned the chicken and it has finished marinating in the fridge
+   - I have made the sauce
+   - I have put the sauce on the chicken and cooked it throughnow
+
+- intent: r440
+  examples: |
+   - I have washed the banana heart veggies
+   - I have sautéed the vegetables
+   - I have sautéed the pepper and added the soy saucenow
+   - I have cooked the shrimp and the vegetables and theyre tender
+
+- intent: r441
+  examples: |
+   - The cornflour and soy sauce are combined and are smooth
+   - I have mixed in the other ingredients
+   - I have left the beef to marinate
+   - The beef has been browned and transferred to a plate
+   - Those vegetables have been stir fried
+
+- intent: r442
+  examples: |
+   - I have mixed these ingredients together
+   - The mixture has been wrapped in the leaves and placed in a pot
+   - I have covered the suman with the water and the coconut milk
+
+- intent: r443
+  examples: |
+   - I have combined the yeast with the water
+   - The ingredients have been stirred well together
+   - The batter has been mixed together
+   - The dough is nice and smooth
+   - The dough is now twice the size
+   - The dough shapes have been lined on a baking sheet
+   - I have baked the rolls and they look golden brown
+   - I have basted the rolls Anything else
+
+- intent: r444
+  examples: |
+   - I have chopped the cabbage
+   - I have ground the garlic
+   - I have stir fried the ingredients
+
+- intent: r445
+  examples: |
+   - I have shredded the abalone
+   - I heated the sakura ebi and cooked the pasta
+   - I have chilled the pasta and drizzled it with truffle oilnow
+
+- intent: r446
+  examples: |
+   - I have washed the salmon and drizzled on the other ingredients
+   - I have placed the salmon in the steamer and prepared it
+
+- intent: r447
+  examples: |
+   - I have cooked the sausage
+   - The bacon and the onions are both fried
+   - The sausages are done and are now both frying in the pan
+   - I have added the rest of the ingredients to the pan
+   - The ingredients in the pan have mixed together welland cooked on the hob
+
+- intent: r448
+  examples: |
+   - I have dissolved the yeast
+   - The ingredients have combined in a large bowl
+   - I have made the dough
+   - I have allowed the dough to sit and then transferred it to a floured surface
+   - The dough has been divided up into logs
+   - I have made the mixture in a separate bowl
+   - I have put the filling in the dough pieces
+   - I have allowed the dough to rise and preheated the oven Now
+
+- intent: r449
+  examples: |
+   - I have seasoned the turkey
+   - I have roasted the seasoned turkey in the oven and it is now cooked
+
+- intent: r451
+  examples: |
+   - I have blended the ingredients into a puree
+   - I have washed the lettuce
+
+- intent: r452
+  examples: |
+   - I have prepared the pomfret fish
+   - I have marinaded the fish and placed it into the refrigerator
+   - The ingredients have been blended to a coarse pastenow
+   - I have added the ingredients to the paste and moved it into a bowl
+   - I stuffed and covered the fish in the chutneyand broiled it
+
+- intent: r453
+  examples: |
+   - I have started the yeast and grated the orange peel
+   - I have mixed the ingredients together
+   - The dough has rested and has been separated and shaped
+
+- intent: r454
+  examples: |
+   - I have prepared the meat and marinated in a bowl
+   - I have fried the beef steaks
+   - I have pan fried the other vegetables
+   - I have mixed together all of the ingredientsnow
+
+- intent: r455
+  examples: |
+   - I have fried the broccoli in the pan
+   - I have mixed those ingredients together in a bowl
+   - I have fried the chicken and set it aside with the broccolinow
+   - I have added the sauce and replaced the chicken and broccoli
+
+- intent: r456
+  examples:
+   - I have cooked the beans and separated the stock from the pot into a jug on the side
+   - I have chopped and added the vegetables and sauteed them
+   - I have brought the pot to a boil
+
+- intent: r457
+  examples: |
+   - The oven is ready and I have reserved some cake mix
+   - I have baked the doughnow
+   - I have beaten the cream cheese with the eggs
+   - I have blended the cheese mixture
+   - I have spooned both mixtures into the crust in the pan
+
+- intent: r458
+  examples: |
+   - I have marinated the lamb in a bowl
+   - The squash has been cooked and mashed together with the other ingredients
+   - I have cooked the lambnow
+
+- intent: r459
+  examples: |
+   - I have heated the pan and seasoned the steak
+   - I have cooked the steaks
+   - The onions are sauteed
+
+- intent: r460
+  examples: |
+   - I have cubed the tenderloinand seasoned them allowing it to marinate
+   - I have put the pork and tomatoes onto skewers and the grill is hot
+   - The onions and the mushrooms are on their own skewers
+   - I have grilled all of the skewers
+   - I have grilled the flatbreads
+
+- intent: r461
+  examples: |
+   - I would like to make Beef Caldereta with Coco Milk
+   - I have heated the pan and chopped the beef
+   - The beef chunks have been set aside and I have sautéed the onions and garlic
+   - I have mixed all of the ingredients and added in the seasoning
+   - I have simmered the beef
+   - I have added in the vegetables and cooked them through
+
+- intent: r462
+  examples: |
+   - I have mixed those ingredients together
+   - I have seasoned the chicken
+   - The chicken has finished marinating
+
+- intent: r463
+  examples: |
+   - I have processed the butter and bread crumbs with the seasoning
+   - I have made the butter mixture into a log and refrigerated it
+   - I have seasoned and cooked the beef
+
+- intent: r464
+  examples: |
+   - I have added the ingredients to the slow cooker and cooked it for 7 hours on high
+   - I have removed and sliced the meatand heated the oven
+   - I have prepared the rolls
+
+- intent: r465
+  examples: |
+   - I have prepared the fish
+   - I floured the fish and heated a pan
+   - I have pan fried all of the fish
+
+- intent: r466
+  examples: |
+   - I have marinated the lamb
+   - The lamb looks cooked
+   - I have added in the onion and the spices
+   - The pressure cooker has been going for 20 minutes
+   - I have stirred in the yoghurt
+
+- intent: r467
+  examples: |
+   - I have washed and placed the chicken
+   - I have made the spice powder
+   - I have made the paste with all of the spices and other ingredients
+   - I have marinated the chicken
+   - The chicken has cooked
+
+- intent: r468
+  examples: |
+   - I have fried the bacon and deglazed the pan with sherry vinegar
+   - The vegetables are chopped and have been cooked
+   - I have added those other ingredients to the pan
+   - I have added the stock and the pasta to the vegetables
+   - I have added the soup to the pressure cooker and removed the discardable parts
+   - I have stirred in those other vegetables
+   - I have made the pesto
+
+- intent: r469
+  examples: |
+   - The oven has heated up and I have greased the dish
+   - I have stirred in those ingredients and added a bay leaf
+   - I have stirred those together into a thick sauce
+   - I have cooked the pasta
+   - The lardons are finished and in the pan with the rest of it
+
+- intent: r470
+  examples: |
+   - I have sautéed the garlic and the chicken
+   - I have added the brothnext up
+   - I have added in the upo and the patola
+
+- intent: r471
+  examples: |
+   - Those ingredients have been sauteed
+   - I have added those ingredients in
+   - The chicken is cooked
+
+- intent: r472
+  examples: |
+   - Ive soaked and cooked the peas
+   - Ive added the other ingredients
+
+- intent: r473
+  examples: |
+   - I heated the oven and covered the salmon
+   - I baked the salmon and poured the yoshida sauce over the salmon
+   - I have drizzled the salmon with the wasabi mayo
+
+- intent: r474
+  examples: |
+   - I have sauteed the ingredients
+   - I have added the chillies
+   - I have cooked the meat and added the seasoning
+   - I have added those ingredients in and cooked themmixing well
+   - I have put the meat mixture at the bottom of the dish and sprinkled with cheese
+   - Those mixtures have been combined in the large bowl
+   - I have combined the mixtures
+   - The mixture is now all layered and I have topped it with chilli powder
+
+- intent: r475
+  examples: |
+   - I have frozen the bananas
+   - I have blended the ice cream
+   - I have added peanut butter
+
+- intent: r476
+  examples: |
+   - I prepared the brine and left the chicken to soak do I need to do to make the sauces
+   - I have stirred in the ingredients
+   - I have made the chilli sauce
+   - I have dusted the chicken
+   - I have prepared the batter
+   - The chicken pieces have all been friedis that it
+
+- intent: r477
+  examples: |
+   - The chops have been washed
+   - I have coated the chops in spices
+   - Those ingredients are cooked together and the chops are tender
+   - I have prepared those ingredients
+
+- intent: r478
+  examples: |
+   - The oven is ready and I have blended together those ingredients
+   - I have baked the tart base
+   - I have prepared the filling
+   - I have refrigerated the tart and the filling
+   - I have cooked the juices and allowed it to cool

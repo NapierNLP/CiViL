@@ -9,7 +9,7 @@ class State:
     def get(self, state_name: str = ""):
         return self.state.get(state_name)
 
-    def add(self, state_name: str = "", state_value = None):
+    def add(self, state_name: str = "", state_value=None):
         if state_name and state_value and state_name in self.state.keys():
             self.state[state_name] = state_value
 
@@ -21,4 +21,3 @@ class State:
 
     def __len__(self):
         return len(self.state)
-

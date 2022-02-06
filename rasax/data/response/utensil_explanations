@@ -1,0 +1,834 @@
+
+utter_utensils:
+
+  bowl:
+  - text: A bowl is a cooking container that is usually larger than a cup and kept in a cupboard in the kitchen, it is typically made from glass, ceramic, plastic.
+    qType: confirm_utensils
+
+  spoon:
+  - text: A spoon is an eating or cooking utensil consisting of a small shallow bowl with a relatively long handle made from metal, plastic, wood it is usually kept in the kitchen, in drawer.
+    qType: confirm_utensils
+
+  sieve:
+  - text: A sieve is a metal or plastic device with meshes or perforations through which finer particles of a mixture are sifted, it is usually kept in a kitchen and stored in a cupboard.
+    qType: confirm_utensils
+
+  pan:
+  - text: A pan is a shallow and open cooking container made from metal, it is usually found in a kitchen and stored in a cupboard.
+    qType: confirm_utensils
+
+  baking_tray:
+  - text: A baking tray metal rectangular sheet with a rolled edge used for baking, it is usually found in a kitchen inside a cupboard or draw.
+    qType: confirm_utensils
+
+  whisk:
+  - text: A whisk is a metal or plastic wire utensil used for beating food by hand and is usually found in a kitchen inside a drawer.
+    qType: confirm_utensils
+
+  oven:
+  - text: An oven is a cooking chamber used for baking, heating, or drying and is usually found in a kitchen.
+    qType: confirm_utensils
+
+  cellophane:
+  - text: Cellophane is thin transparent plastic sheets used to package or cover food items, it is usually kept in a kitchen inside a drawer or cupboard.
+    qType: confirm_utensils
+
+  tea_towel:
+  - text: A tea towel is a fabric cloth used for drying dishes, it looks similar to a small bathroom towel, it is typically found in a kitchen or airing cupboard.
+    qType: confirm_utensils
+
+  frying_pan:
+  - text: An frying pan is a open metal container with a handle that is used for frying foods, it is usually found in a kitchen inside a cupboard.
+    qType: confirm_utensils
+
+  kettle:
+  - text: A kettle is a metal or plastic vessel used for boiling liquids, it is usually found in a kitchen on a tabletop or inside a cupboard
+    qType: confirm_utensils
+
+  kitchen_knife:
+  - text: A kitchen knife is a cutting instrument consisting of a sharp blade fastened to a handle, it is usually found in a kitchen inside a draw.
+    qType: confirm_utensils
+
+  saucepan:
+  - text: A saucepan is a small deep metal cooking pan with a handle and is usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  greaseproof_paper:
+  - text: Greeseproof paper is a heavy stiff waxed paper used in cooking and baking to prevent food from sticking to cooking trays and is usually kept inside a kitchen drawer.
+    qType: confirm_utensils
+
+  cup:
+  - text: A cup is a ceramic, porcelain or glass bowl-shaped drinking vessel usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  measuring_jug:
+  - text: A measuring jug is a plastic or glass cup that has markings for measuring liquids when cooking, it is usually kept inside a kitchen cupboard.
+    qType: confirm_utensils
+
+  dinner_plate:
+  - text: A dinner plate is a ceramic large plate usually 10 inches in diameter used for the main course of a meal, it is usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  rolling_pin:
+  - text: A rolling pin is a long wooden or plastic cylinder for rolling out dough, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  food_processor:
+  - text: A food processor is an electric kitchen appliance with a set of interchangeable blades revolving inside a container, it is usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  fluted_flan_tin:
+  - text: A fluted flan tin is a metal cooking tin with a removable base, usually found in a kitchen drawer.
+    qType: confirm_utensils
+
+  dinner_fork:
+  - text: A dinner fork is a large metal fork with 3 or 4 times, it is usually found in a kitchen drawer.
+    qType: confirm_utensils
+
+  pastry_brush:
+  - text: A pastry brush is also known as a basting brush, it is a wooden or plastic cooking utensil used to spread butter, oil or glaze on food, it is usually kept in a kitchen  drawer.
+    qType: confirm_utensils
+
+  bladed_knife:
+  - text: A bladed knife is also known as a butter knife is a non-sharp plastic or metal knife used to mix the butter chunks, it is usually found in a kitchen drawer.
+    qType: confirm_utensils
+
+  fridge:
+  - text: A fridge is an appliance for keeping food or other items cool, it is usually found in a kitchen or utility room.
+    qType: confirm_utensils
+
+  food_bag:
+  - text: A food bag is a plastic sealable sleeve for preserving food items, it is usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  casserole_dish:
+  - text: A casserole dish is a large and deep, glass or ceramic cooking bowl, it is usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  teaspoon:
+  - text: A teaspoon is a small spoon that is used especially for eating soft foods and stirring beverages and that holds about one third of a tablespoon, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  mixing_bowl:
+  - text: A mixing bowl is a large ceramic or plastic bowl used in cooking for mixing ingredients, it is usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  wooden_spoon:
+  - text: A spoon is a large wooden spoon for stirring ingredients, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  chopsticks:
+  - text: Chopsticks are a pair of slender plastic or wooden sticks held between thumb and fingers and used chiefly in Asian countries to lift food to the mouth, they are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  colander:
+  - text: A colander is a perforated plastic or metal cylinder for washing or draining food, it is usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  filleting_knife:
+  - text: A filleting knife is a blunt metal concave knife or a flexible wire tool used to flesh a skin or hide, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  fish_slice:
+  - text: A fish slice is a metal or plastic kitchen tool that has a handle which is bent upward, and a wide, thin blade used for lifting and turning foods on a hot surface, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  bottle_opener:
+  - text: A bottle opener is a tool used to remove metal tops from some bottles, it is usually stored in a kitchen draw.
+    qType: confirm_utensils
+
+  dessert_spoon:
+  - text: A dessert spoon is a spoon intermediate in size between a teaspoon and a tablespoon for eating dessert, it is usually stored in a kitchen draw.
+    qType: confirm_utensils
+
+  can_opener:
+  - text: A can opener is a device that is used to open cans of food, it is usually stored in a kitchen draw or cupboard.
+    qType: confirm_utensils
+
+  bread_knife:
+  - text: A bread knife is a knife with a long blade that has a serrated or scalloped edge, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  dinner_knife:
+  - text: A dinner knife is a large table knife usually with a steel or silver blade and a handle, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  ladle:
+  - text: A ladle is a deep-bowled long-handled spoon used especially for dipping up and conveying liquids, it is typically stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  masher:
+  - text: A masher is a utensil for mashing cooked, raw or boiled food, it is usually stored in a kitchen draw or cupboard.
+    qType: confirm_utensils
+
+  potato_masher:
+  - text: A potato masher is a utensil for mashing cooked, raw or boiled food, it is usually stored in a kitchen draw or cupboard.
+    qType: confirm_utensils
+
+  potatoe_masher:
+  - text: A potatoe masher is a utensil for mashing cooked, raw or boiled food, it is usually stored in a kitchen draw or cupboard.
+    qType: confirm_utensils
+
+  potatoe_peeler:
+  - text: A potatoe peeler is a metal blade with a slot with a sharp edge attached to a handle, used to remove the outer layer (the skin or peel) of some vegetables such as potatoes, broccoli stalks, and carrots, and fruits such as apples and pears
+    qType: confirm_utensils
+
+  potato_peeler:
+  - text: A potato peeler is a metal blade with a slot with a sharp edge attached to a handle, used to remove the outer layer (the skin or peel) of some vegetables such as potatoes, broccoli stalks, and carrots, and fruits such as apples and pears
+    qType: confirm_utensils
+
+  peeler:
+  - text: A peeler is a metal blade with a slot with a sharp edge attached to a handle, used to remove the outer layer (the skin or peel) of some vegetables such as potatoes, broccoli stalks, and carrots, and fruits such as apples and pears
+    qType: confirm_utensils
+
+  pizza_cutter:
+  - text: A pizza cutter is also known as a roller blade or a pizza wheel is a round bladed utensil that is used to cut pizzas, it is usually kept in the kitchen inside a draw.
+    qType: confirm_utensils
+
+  serving_spoon:
+  - text: A serving spoon is a large spoon or ladle used to serve out individual portions of food, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  soup_spoon:
+  - text: A soup spoon is a type of spoon with a large or rounded bowl, used for consuming soup, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  tongs:
+  - text: Tongs are a type of metal or plastic tool used to grip and lift objects instead of holding them directly with hands, they are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  kitchen_scissors:
+  - text: Kitchen scissors are scissors that are used for cutting and trimming foods such as meats, they are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  mason_jar:
+  - text: Mason jars are glass containers that have a two-part top, a lid with a rubber ring on the underside, which creates a vacuum seal and an outer band with screw threads that are reusable. They are usually stored in a pantry or kitchen cupboard.
+    qType: confirm_utensils
+
+  food_blender:
+  - text: A food blender is a machine that reduces solid food to a liquid or puree using rotating blades, they are usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  bottle:
+  - text: A bottle is a glass or plastic container for liquids and preserves, they are usually stored in a pantry or kitchen cupboard.
+    qType: confirm_utensils
+
+  paring_knife:
+  - text: A paring knife is a small sharp knife with a short blade, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  garlic_press:
+  - text: A garlic press is an instrument used to crush raw garlic into smaller chunks, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  food_grater:
+  - text: A food grater is a device used to slice whole food into smaller parts, it is usually kept in a kitchen cupboard.
+    qType: confirm_utensils
+
+  kitchen_scales:
+  - text: Kitchen scales are a device to weigh and measure foods, sauces and powders for cooking, it is usually found in a kitchen cupboard.
+    qType: confirm_utensils
+
+  measuring_spoon:
+  - text: A measuring spoon is a spoon used to measure an amount of an ingredient, either liquid or dry, when cooking, it is usually located in a kitchen drawer.
+    qType: confirm_utensils
+
+  ovenproof_dish:
+  - text: An oven proof dish is a dish made from a heat proof material such as glass, metal or earthenware that can withstand temperatures of 250 degrees, gas mark 9 and is suitable for use in the oven, it can usually be found in a kitchen cupboard.
+    qType: confirm_utensils
+
+  stirring_spoon:
+  - text: A stirring spoon is a spoon used for stirring liquids and drinks such as cocktails, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  slotted_spoon:
+  - text: The term can be used to describe any spoon with slots, holes or other openings in the bowl of the spoon which let liquid pass through while preserving the larger solids on top, it is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  spatula:
+  - text: A spatula is a broad, flat, flexible blade used to mix, spread and lift material including foods, drugs, plaster and paints. It is usually kept in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  oven_gloves:
+  - text: Also known as an oven mitts, is an insulated glove or mitten usually worn in the kitchen to easily protect the wearer's hand from hot objects such as ovens, stoves, cookware. They are usually located in the kitchen on a hook or in a drawer.
+    qType: confirm_utensils
+
+  oven_glove:
+  - text: Also known as an oven mitt, is an insulated glove or mitten usually worn in the kitchen to easily protect the wearer's hand from hot objects such as ovens, stoves, cookware. They are usually located in the kitchen on a hook or in a drawer.
+    qType: confirm_utensils
+
+  pot_holder:
+  - text: A pot holder is a piece of textile or silicone used to cover the hand when holding hot kitchen cooking equipment, like pots and pans, and can usually be found in a kitchen cupboard.
+    qType: confirm_utensils
+
+  meat_thermometer:
+  - text: A meat thermometer is also known as a cooking thermometer is a thermometer used to measure the internal temperature of meat, especially roasts and steaks, and other cooked foods, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  food_thermometer:
+  - text: A food thermometer is also known as a cooking thermometer is a thermometer used to measure the internal temperature of meat, especially roasts and steaks, and other cooked foods, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  kitchen_thermometer:
+  - text: A kitchen thermometer is also known as a cooking thermometer is a thermometer used to measure the internal temperature of meat, especially roasts and steaks, and other cooked foods, it is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  pasta_fork:
+  - text: A pasta fork is a utensil used when preparing and serving various types of strand, ribbon or noodle pasta. The fork is spoon-shaped with upward pointing pieces, either dowel-like or prong-shaped, separated around or on the fork and lifter tool. It is usually kept in a kitchen drawer.
+    qType: confirm_utensils
+
+  corkscrew:
+  - text: A corkscrew is a tool for drawing corks from wine bottles and other household bottles that may be sealed with corks. In its traditional form, a corkscrew simply consists of a pointed metallic helix attached to a handle, which the user screws into the cork and pulls to extract it. It is usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  cling_film:
+  - text: Cling films is also known as, Plastic wrap, Saran wrap, cling wrap, Glad wrap or food wrap is a thin plastic film typically used for sealing food items in containers to keep them fresh over a longer period of time. It is usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  kitchen_foil:
+  - text: Kitchen foil is a sheet of aluminium prepared in thin metal leaves used to protect food when heating inside an oven, it is usually stored inside a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  cutting_board:
+  - text: A cutting board is a durable board on which to place material for cutting. The kitchen cutting board is commonly used in preparing food; other types exist for cutting raw materials such as leather or plastic. Kitchen cutting boards are often made of wood or plastic and come in various widths and sizes and are usually found in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  salad_spinner:
+  - text: A salad spinner is also known as a salad tosser, is a kitchen tool used to wash and remove excess water from salad greens. It uses centrifugal force to separate the water from the leaves, enabling salad dressing to stick to the leaves without dilution. They are usually found in a kitchen cupboard.
+    qType: confirm_utensils
+
+  kitchen_shears:
+  - text: Kitchen shears are also known as kitchen scissors, are intended for cutting and trimming foods such as meats. They are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  lemon_squeezer:
+  - text: A lemon squeezer is a small kitchen utensil designed to extract juice from lemons or other citrus fruit such as oranges, grapefruit, or lime. It is designed to separate and crush the pulp of the fruit in a way that is easy to operate and usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  sharpening_rod:
+  - text: A sharpening rod is sometimes referred to as sharpening steel, whet steel, sharpening rod, butcher's steel, and chef's steel, is a rod of steel, ceramic or diamond-coated steel used to re-align blade edges. They are usually kept in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  knife_sharpener:
+  - text: A knife sharpener is a tool used to make a knife or similar tool sharp by grinding against a hard, rough surface, typically a stone, or a flexible surface with hard particles, such as sandpaper. Additionally, a leather razor strop, or strop, is often used to straighten and polish an edge. They are typically stored in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  skillet:
+  - text: A skillet is a flat-bottomed metal pan used for frying, searing, and browning foods. They are usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  saute_pan:
+  - text: A saute pan is a hybrid between a saucepan and a frying pan. An extremely versatile addition to a kitchen, it can be used for a huge variety of dishes, they are usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  grill_pan:
+  - text: A grill pan is a cooking pan that has raised edges with grill lines dispersed around 1 to 2 centimetres separated, they are usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  muffin_pan:
+  - text: A muffin pan is also know as a cupcake tray is a mould in which muffins or cupcakes are baked, they are usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  broiling_pan:
+  - text: A broiling pan is cooking a pan used to broil foods in an oven such as steaks, roasts, or various cuts of meat, poultry, and vegetables. They are usually found in a kitchen cupboard or hung on a rack.
+    qType: confirm_utensils
+
+  stocK_pot:
+  - text: A stock pot a generic name for one of the most common types of cooking pot used worldwide. A stock pot is traditionally used to make stock or broth, which can be the basis for cooking more complex recipes. It is usually stored in a kitchen cupboard or rack.
+    qType: confirm_utensils
+
+  trivet:
+  - text: A trivet is an object placed between a serving dish or bowl, and a dining table, usually to protect the table from heat damage. It is usually stored in a drawer in a kitchen or dining room.
+    qType: confirm_utensils
+
+  splatter_guard:
+  - text: As platter guard is a device placed over a frying pan to prevent hot oil from spitting out of the pan, which often happens when pan frying at a high temperature. It is typically stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  food_scales:
+  - text: Food scales are a household tool that is used to measure the weight of dry, liquid, or chopped ingredients. It is usually stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  sponge:
+  - text: A sponge is a cleaning aid made of soft, porous material. Typically used for cleaning impervious surfaces, sponges are especially good at absorbing water and water-based solutions. They are typically stored in a kitchen or cleaning cupboard.
+    qType: confirm_utensils
+
+  dish_rack:
+  - text: A dish rack is a device used to separate and dry dishes after cleaning, they are usually kept in the kitchen on a sideboard, sink or in a cupboard.
+    qType: confirm_utensils
+
+  ice_cude_tray:
+  - text: An ice cube tray is a container designed to be filled with water, then placed in a freezer until the water freezes into ice, producing ice cubes. Ice trays are often flexible, so the frozen cubes can be easily removed by flexing the tray. When not in use, they are usually kept in a draw or cupboard in the kitchen.
+    qType: confirm_utensils
+
+  bin_bag:
+  - text: A bin bag is also known as a rubbish bag, garbage bag, bin liner, trash bag or refuse sack is a disposable bag used to contain solid waste. They are usually found in a kitchen or cleaning cupboard.
+    qType: confirm_utensils
+
+  serrated_blade:
+  - text: A serrated blade is a type of jagged blade used on saws and on some knives or scissors. It is also known as a dentated, sawtooth, or toothed blade. They are usually stored in the kitchen on a knife rack of inside a drawer.
+    qType: confirm_utensils
+
+  food_turner:
+  - text: A food turner is an elongated and thinner version of the common metal spatula, designed to easily slip under delicate fillets of fish. They are typically stored inside a kitchen drawer.
+    qType: confirm_utensils
+
+  zester:
+  - text: A zester is a kitchen utensil for obtaining zest from lemons and other citrus fruit. They are typically found inside a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  microwave:
+  - text: A microwave is an oven (commonly referred to as a microwave) is an electric oven that heats and cook’s food by exposing it to electromagnetic radiation in the microwave frequency range. They are typically found in a kitchen on a sideboard.
+    qType: confirm_utensils
+
+  rice_cooker:
+  - text: A rice cooker is an automated kitchen appliance designed to boil or steam rice. They are usually found in a kitchen inside a cupboard or on a worktop.
+    qType: confirm_utensils
+
+  slow_cooker:
+  - text: A slow cooker is also known as a crock-pot, is a countertop electrical cooking appliance used to simmer at a lower temperature than other cooking methods, such as baking, boiling, and frying. They are usually found in a kitchen cupboard or on a sideboard.
+    qType: confirm_utensils
+
+  electric_grill:
+  - text: An electric grill is a grilling unit that uses an electric element to supply a constant heat source. They are typically installed inside a worktop or inside a kitchen cupboard.
+    qType: confirm_utensils
+
+  air_fryer:
+  - text: An air fryer is a small countertop convection oven designed to simulate deep frying without submerging the food in oil. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  bachelor_grill:
+  - text: A bachelor grill is also known as a mini oven or mini kitchen is a countertop kitchen appliance about the size of a microwave oven but instead can grill, bake, broil, or roast food. They are typically found inside a kitchen cupboard or on a countertop.
+    qType: confirm_utensils
+
+  barbecue:
+  - text: A barbecue is a cooking method, a cooking device, a style of food, and a name for a meal or gathering at which this style of food is cooked and served. They are usually found in a kitchen cupboard, garage or garden shed.
+    qType: confirm_utensils
+
+  bbq:
+  - text: A bbq is a cooking method, a cooking device, a style of food, and a name for a meal or gathering at which this style of food is cooked and served. They are usually found in a kitchen cupboard, garage or garden shed.
+    qType: confirm_utensils
+
+  beehive_oven:
+  - text: A beehive oven is a dome-shaped beehive ovenbrick structure that looks a bit like an insect's nest, hence the name beehive. They are usually found in larger kitchens and gardens.
+    qType: confirm_utensils
+
+  brazier:
+  - text: A brazier is a metal container used to burn charcoal or other solid fuel for cooking, heating, or cultural rituals. They are usually found in sheds and used in outdoor cooking spaces.
+    qType: confirm_utensils
+
+  bread_machine:
+  - text: A bread machine is also known as a bread maker is a home appliance for turning raw ingredients into baked bread. They are usually found in a kitchen inside a cupboard or on a worktop.
+    qType: confirm_utensils
+
+  burjiko:
+  - text: A burjiko is a Somali-style cooker or charcoal burning stove, it is usually found in outdoor eating areas or in professional restaurants.
+    qType: confirm_utensils
+
+  butane_torch:
+  - text: A butane torch is a tool which creates an intensely hot flame using butane, a flammable gas. It is often used to flambe desserts and can usually be found in a kitchen draw or cupboard.
+    qType: confirm_utensils
+
+  chapati_maker:
+  - text: A chapti maker is a machine that flattens handmade dough balls into round roti’s and bakes them. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  cheese_melter:
+  - text: A cheese melter is a cooking device used to melt cheese, it is usually found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  chocolatier:
+  - text: A chocolatier is a type of high-necked metal pot shaped like a pitcher used for the traditional preparation of hot chocolate drinks. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  chorkor:
+  - text: A chorkor is an oven used for smoking fish, they are typically found in restaurants and outdoor eating areas.
+    qType: confirm_utensils
+
+  clome_oven:
+  - text: A clome oven is a type of masonry oven. It has a removable door made of clay or alternatively a cast-iron door. They are typically found in large kitchens and outdoor eating areas.
+    qType: confirm_utensils
+
+  comal:
+  - text: A comal is a pan that is used for cooking a variety of items. It is made of cast iron and is very heavy. It is typically found in a kitchen cupboard or rack.
+    qType: confirm_utensils
+
+  combi_oven:
+  - text: A combi oven is a three-in-one oven which allows you to cook with steam, hot air (convection) or a combination of both, they are typically stand alone units in large kitchens.
+    qType: confirm_utensils
+
+  convection_microwave:
+  - text: A convection microwave is a stand alone oven that combines some of the features of two kitchen appliances, a microwave and a convection oven, allowing you to bake and roast foods in addition to heating them. They are typically located on a kitchen worktop.
+    qType: confirm_utensils
+
+  convection_oven:
+  - text: A convection oven is an oven that has fans to circulate air around food which gives a very even heat. The increased air circulation causes a fan-assisted oven to cook food faster than a conventional non-fan oven, which relies only on natural convection to circulate the hot air. They are typically stand alone units found in large kitchens.
+    qType: confirm_utensils
+
+  corn_roaster:
+  - text: A corn roaster is a large grill for cooking large batches of ears of corn at the same time, the are usually located in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  crepe_maker:
+  - text: A crepe maker is a cooking device used to make crepes, galettes, pancakes, blinis or tortillas. They are usually found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  deep_fryer:
+  - text: A deep fryer is a kitchen appliance used for deep frying. Deep frying is a method of cooking by submerging food into oil at high heat. They are usually found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  earth_oven:
+  - text: An earth oven is also known as a ground oven or cooking pit is one of the simplest and most ancient cooking structures. At its most basic, an earth oven is a pit in the ground used to trap heat and bake, smoke, or steam food. They are usually found in outdoor cooking areas.
+    qType: confirm_utensils
+
+  electric_cooker:
+  - text: An electric cooker is a mains powered cooking device for heating and cooking of food. An electric cooker often has four stoves and one or two ovens. They are usually built into kitchen worktops or if portable, located in a kitchen cupboard.
+    qType: confirm_utensils
+
+  espresso_machine:
+  - text: An espresso machine is a device that brews coffee by forcing pressurized water near boiling point through a puck of ground coffee and a filter in order to produce a thick, concentrated coffee called espresso. They are usually found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  fire_pot:
+  - text: A fire pot is a container, usually earthenware, for carrying fire. Fire pots have been used since prehistoric times to transport fire from one place to another, for warmth while on the move, for cooking, in religious ceremonies and even as weapons of war.
+    qType: confirm_utensils
+
+  flat_top_grill:
+  - text: A flat top grill is a cooking appliance that resembles a griddle but performs differently because the heating element is circular rather than straight. They are typically located in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  food_steamer:
+  - text: A food steamer is also known as a steam cooker, is a small kitchen appliance used to cook or prepare various foods with steam heat by means of holding the food in a closed vessel reducing steam escape. They are typically located in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  fufu_machine:
+  - text: A fufu machine is a kitchen appliance used to pound cooked starchy vegetables, particularly cassava, plantains, or yams, into the West and Central African staple food fufu. They are usually found in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  griddle:
+  - text: A griddle is a cooking device consisting of a broad flat surface heated by gas, electricity, wood, or coal, with both residential and commercial applications. They are usually inbuilt into kitchen worktops or if portable stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  halagen_oven:
+  - text: A halogen convection oven, or halogen cooking pot is a type of oven that utilizes a halogen lamp as its heating element. It is used primarily for cooking in large kitchen, they are typically built into kitchen worktops.
+    qType: confirm_utensils
+
+  haybox:
+  - text: A haybox is also known as a straw box, fireless cooker, insulation cooker, wonder oven, self-cooking apparatus, Norwegian cooker or retained-heat cooker is a cooker that utilizes the heat of the food being cooked to complete the cooking process.
+    qType: confirm_utensils
+
+  horno:
+  - text: A horno is a mud adobe-built outdoor oven used by Native Americans and early settlers of North America. Originally introduced to the Iberian Peninsula by the Moors, it was quickly adopted and carried to all Spanish-occupied lands.
+    qType: confirm_utensils
+
+  hot_box:
+  - text: A hot box is a device used to continue cooking food after the food has been partially cooked on a stove. This is done by insulating a container and placing the pot of food in the container to be sealed up.
+    qType: confirm_utensils
+
+  hot_plate:
+  - text: A hot plate is a portable self-contained tabletop small appliance cooktop that features one or more electric heating elements or gas burners.
+    qType: confirm_utensils
+
+  instant_pot:
+  - text: An instant pot is a Canadian brand of multi cookers. The multi cookers are electronically controlled, combined pressure cookers and slow cookers. The original cookers are marketed as 6-in-1 or more appliances designed to consolidate the cooking and preparing of food to one device.
+    qType: confirm_utensils
+
+  kamado:
+  - text: A kamado is a traditional Japanese wood- or charcoal-fuelled cook stove, typically found in outdoor cooking areas and large kitchens.
+    qType: confirm_utensils
+
+  kitchen_range:
+  - text: A kitchen range is an oven with a cast-iron hotplate for over a fire with removable boiling rings. They are usually stand-alone units in large kitchens.
+    qType: confirm_utensils
+
+  kujiejun:
+  - text: A Kujiejun type of bamboo stove and is also a special term for tea stove. Popular during the Song Dynasty, the bamboo windscreen stove frame would fit on top of a brazier.
+    qType: confirm_utensils
+
+  kyoto_box:
+  - text: A kyoto box is a solar cooker constructed from polypropylene with an acrylic plastic cover. The oven traps the sun’s rays, creating enough heat to cook or boil water. They are typically stored in sheds and garages and used for outdoor cooking.
+    qType: confirm_utensils
+
+  makiyakinabe:
+  - text: A makiyakinabe is a square or rectangular cooking pan used to make Japanese-style rolled omelettes. The pans are commonly made from metals such as copper and tin and can also be coated with a non-stick surface. They are typically found in a kitchen cupboard or on a pan rack.
+    qType: confirm_utensils
+
+  masonry_oven:
+  - text: A masonry oven is a colloquially known as a brick oven or stone oven, it is an oven consisting of a baking chamber made of fireproof brick, concrete, stone, clay, or cob. They are typically located in outdoor cooking areas.
+    qType: confirm_utensils
+
+  multi_cooker:
+  - text: A mutli cooker is an electric kitchen appliance for automated cooking using a timer. A typical multi cooker can boil, simmer, bake, fry, deep fry, grill roast, stew, steam and brown food. They are typically found in large kitchens.
+    qType: confirm_utensils
+
+  pancake_machine:
+  - text: A pancake machine is an electrically powered machine that automatically produces cooked pancakes. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  sandwich_grill:
+  - text: A sandwich grill is a kitchen countertop or stovetop grill that is used to make the traditional panini, a small Italian sandwich. Also referred to as a Panini Maker, Panini Press, or a Grill Press, the Panini Grill contains top and bottom ridged heat plates that press and grill the bread in one operation.
+    qType: confirm_utensils
+
+  popcorn_maker:
+  - text: A popcorn maker is a device used to pop popcorn. Since ancient times, popcorn has been a popular snack food, produced through the explosive expansion of kernels of heated corn. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  pressure_cooker:
+  - text: A pressure cooker is a device that cooks food under high pressure steam, employing water or a water-based cooking liquid, in a sealed vessel known as a pressure cooker. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  pressure_fryer:
+  - text: A pressure fryer is a variation on pressure cooking where meat and cooking oil are brought to high temperatures while pressure is held high enough to cook the food more quickly. This leaves the meat very hot and juicy, they are typically found in a kitchen cupboard.
+    qType: confirm_utensils
+
+  reflector_oven:
+  - text: A reflector oven is a polished metal container, often made of tin. It is designed to enclose an article of food on all but one side, to cause it to bake by capturing radiant heat from an open fire, and reflecting the heat towards the food, avoiding smoke flavouring the food.
+    qType: confirm_utensils
+
+  remoska:
+  - text: A remoska is a small portable electric oven with the cooking element housed in the lid of a pot. It consists of a Teflon-lined pan and a stand in addition to the lid mounted heating element. They are typically located in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  rice_polisher:
+  - text: A rice polisher is a machine for buffing kernels of rice to change their appearance, taste, and texture or for transforming brown rice into white rice. Rice polishers are abrasive machines that use talc or some other very fine dust to buff the outer surface of rice kernels. They are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  rotisserie:
+  - text: A rotisserie is also known as spit-roasting, is a style of roasting where meat is skewered on a spit – a long solid rod used to hold food while it is being cooked over a fire in a fireplace or over a campfire or roasted in an oven. They are typically located on a kitchen worktop or installed as a stand alone unit.
+    qType: confirm_utensils
+
+  stove:
+  - text: A stove is a device in which fuel is burned to heat either the space in which the stove is situated, or items placed on the heated stove or inside it in an oven.
+    qType: confirm_utensils
+
+  tandoor:
+  - text: A tandoor is also known as tannour is a cylindrical clay or metal oven used in cooking and baking, they are typically found in large and professional kitchens.
+    qType: confirm_utensils
+
+  tangia:
+  - text: A tangia is an urn-shaped terracotta cooking vessel. It is also the name of the stew cooked in the pot, they are typically found in a kitchen cupboard.
+    qType: confirm_utensils
+
+  toaster:
+  - text: A toaster is an electric small appliance designed to expose various types of sliced bread to radiant heat, browning the bread so it becomes toast. They are typically located in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  turkey_fryer:
+  - text: A turkey fryer is an apparatus for deep-frying a turkey, they are typically found in large kitchens as stand alone units.
+    qType: confirm_utensils
+
+  vacuum_fryer:
+  - text: A vacuum fryer is a deep-frying device housed inside a vacuum chamber. Vacuum fryers are fit to process low-quality potatoes that contain higher sugar levels than normal, as they frequently must be processed in spring and early summer before the potatoes from the new harvest become available. They are usually found in large and professional kitchens as standalone units.
+    qType: confirm_utensils
+
+  waffle_iron:
+  - text: A waffle iron is also known as a waffle maker is a utensil or appliance used to cook waffles. It comprises two metal plates with a connecting hinge, moulded to create the honeycomb pattern found on waffles. They are typically found in the kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  wet_grinder:
+  - text: A wet grinder is a tool for abrasive cutting of hard materials, or a food preparation appliance used especially in Indian cuisine for grinding food grains to produce a paste or batter. They are typically found in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  food_boiler:
+  - text: A food boiler is a machine that generates steam or hot water to process, cook, or sanitize food products including meat, fruits, and vegetables, they are typically found in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  coffee_percolator:
+  - text: A coffee percolator is a type of pot used for the brewing of coffee by continually cycling the boiling or nearly boiling brew through the grounds using gravity until the required strength is reached, they are typically located in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  apple_corer:
+  - text: An apple corer is a device for removing the core and pips from an apple. It may also be used for similar fruits, such as pears or quince. They are typically found in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  apple_slicer:
+  - text: An apple slicer is a device designed to both core and slices apples. They are typically located in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  baster:
+  - text: A baster is sometimes called a turkey baster, is a tube attached to a rubber bulb used to suck up and squirt cooking liquid from a pan onto roasting meat or poultry, thus moistening it. They are typically found in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  beanpot:
+  - text: A beanpot is a deep, wide-bellied, short-necked vessel used to cook bean-based dishes. Beanpots are typically made of ceramic, though some are made of other materials, such as cast iron. They are usually found in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  cookie_press:
+  - text: A cookie press is a device for making pressed cookies such as spritzgebäck. It consists of a cylinder with a plunger on one end, which is used to extrude cookie dough through a small hole at the other end. They are usually located in a kitchen cupboard.
+    qType: confirm_utensils
+
+  browning_dish:
+  - text: A browning dish is a device used to simulate a frying pan or skillet so that foods such as steaks, chops, hamburgers, and even French toast can be prepared. They are usually located in a kitchen cupboard or on a pan rack.
+    qType: confirm_utensils
+
+  pie_server:
+  - text: A pie server is also called a cake shovel, pie knife, crepe spade, pie-getter, pie lifter, pie spatula, cake knife, or cake slice, is a serving utensil used in the cutting and serving of pies and cakes. They are usually located in a kitchen cupboard.
+    qType: confirm_utensils
+
+  cheese_cutter:
+  - text: A cheese cutter is an implement for cutting cheese, especially by means of a wire which can be pulled through the cheese. They are usually found in a kitchen drawer in the cupboard.
+    qType: confirm_utensils
+
+  cheese_knife:
+  - text: A cheese knife is a knife with a concaved blade made to cut hard cheeses, they are usually found in a kitchen drawer or on a knife rack.                   
+    qType: confirm_utensils
+
+  cheesecloth:
+  - text: A cheesecloth is a loose-woven gauze-like carded cotton cloth used primarily in cheese making and cooking. They are usually located in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  cherry_platter:
+  - text: A cherry platter is a device for removing the pit from a cherry, leaving the cherry relatively intact. They are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  chinois:
+  - text: A chinois is a conical sieve with an extremely fine mesh. It is used to strain custards, purees, soups, and sauces, producing a very smooth texture. They are usually located in a kitchen cupboard.
+    qType: confirm_utensils
+
+  clay_pot:
+  - text: A clay poy is a pot made of unglazed or glazed pottery, they are usually stored in a kitchen cupboard or on a rack.
+    qType: confirm_utensils
+
+  cookie_cutter:
+  - text: A cookie cutter is a tool that is used for cutting cookies into a particular shape before you bake them. They are usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  crab_cracker:
+  - text: A crab cracker is a device used to crack the tough shells of crabs, lobsters, and any other edible crustaceans, they are usually located in a kitchen drawer.
+    qType: confirm_utensils
+
+  scraper:
+  - text: A scraper is a kitchen implement made of metal, plastics, wood, rubber or silicone rubber. They are usually located in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  egg_piercer:
+  - text: An egg piercer is a device that pierces the air pocket of an eggshell with a small needle to keep the shell from cracking during hard-boiling. If both ends of the shell are pierced, the egg can be blown out while preserving the shell. They are typically stored in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  egg_poacher:
+  - text: An egg poacher is a device that is used to poach eggs, a poached egg is an egg that has been cooked, outside the shell, by poaching, as opposed to simmering or boiling. They are usually stored in a kitchen cupboard or drawer.
+    qType: confirm_utensils
+
+  egg_seperator:
+  - text: An egg seperator is a utensil used to separate the egg white from the egg yolk, they are usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  egg_slicer:
+  - text: An egg slicer is a utensil used to slice peeled, hard-boiled eggs quickly and evenly. They are usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  egg_timer:
+  - text: An egg timer is a device for timing the cooking of a boiled egg, traditionally a sealed glass container with a narrow neck in the middle through which, when the flask is inverted, sand flows for a fixed amount of time. They are typically stored in a kitchen drawer, cupboard or on a worktop.
+    qType: confirm_utensils
+
+  fat_seperator:
+  - text: A fat seperator is a device that resembles measuring cups and are designed to drain liquid while keeping the fat layer contained. They are typically stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  flour_sifter:
+  - text: A flour sifter is a tool that breaks up any lumps in the flour and aerates it at the same time by pushing it through a gadget that is essentially a cup with a fine strainer at one end. They are typically stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  food_mill:
+  - text: A food mill is a food preparation utensil for mashing and sieving soft foods, they are typically stored in a kitchen cupboard.
+    qType: confirm_utensils
+
+  funnel:
+  - text: A funnel is a cooking tool with a large open top that slopes down and decreases in size forming a small diameter outlet allowing placement into smaller areas. They are typically stored in a kitchen cupboard or cabinet.
+    qType: confirm_utensils
+
+  grapefruit_knife:
+  - text: A grapefruit knife is a special type of knife designed specifically for cutting grapefruit. Grapefruit knives are small with a curved serrated blade, designed to hug the curves of the grapefruit. They are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  gravy_strainer:
+  - text: A gravy strainer is also known as a gravy skimmer, fat separator, fat strainer is a device used to separate fats and juices from gravy’s, stocks and sauces. They are typically stored in a kitchen cupboard or cabinet.
+    qType: confirm_utensils
+
+  herb_chopper:
+  - text: A herb chopper is a cooking tool specifically designed for chopping fresh herbs. There are a variety of different designs and styles for herb choppers. They are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  honey_dipper:
+  - text: A honey dipper is a kitchen utensil used to collect viscous liquid (generally honey) from a container, which it then exudes to another location. They are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  lame:
+  - text: A lame is a double-sided blade that is used to slash the tops of bread loaves in artisan baking. A lame is used to score bread just before the bread is placed in the oven. They are usually stored in a kitchen drawer or on a knife rack.
+    qType: confirm_utensils
+
+  citrus_reamer:
+  - text: A citrus reamer is also known as a lemon reamer or simply a reamer, is a small kitchen utensil used to extract the juice from a lemon or other small citrus fruit. They are usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  lobster_pick:
+  - text: A lobster pick is also known as a lobster fork is a long, narrow food utensil used to extract meat from joints, legs, claws, and other small parts of a lobster. Lobster picks are usually made of stainless steel and weigh as much as an average teaspoon, they are usually stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  mandoline:
+  - text: A mandoline is a culinary utensil used for slicing and for cutting juliennes; with suitable attachments, it can make crinkle-cuts. Its name is derived from the wrist-motion of a skilled user of a mandoline, which resembles that of a player of the musical instrument mandolin. They are usually stored in a kitchen cupboard or cabinet.
+    qType: confirm_utensils
+
+  meat_grinder:
+  - text: A meat grinder is a kitchen appliance for fine chopping and/or mixing of raw or cooked meat, fish, vegetables or similar food. They are typically stored in a kitchen cupboard or on a worktop.
+    qType: confirm_utensils
+
+  melon_baller:
+  - text: A melon baller is a small spoon-like tool used to cut round- or oval-shaped sections of melon, known as melon balls, by pressing them into the melon's flesh and rotating. They are typically stored in a kitchen drawer or cabinet.
+    qType: confirm_utensils
+
+  menzzaluna:
+  - text: A menzzaluna is a knife consisting of one or more curved blades with a handle on each end, which is rocked back and forth chopping the ingredients below with each movement. They are typically stored in a kitchen drawer or knife rack.
+    qType: confirm_utensils
+
+  milk_frother:
+  - text: A milk frother is a utensil for making milk froth, typically to be added to coffee. They are typically stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  mortar_and_pestle:
+  - text: A mortar and pestle are implements used since ancient times to prepare ingredients or substances by crushing and grinding them into a fine paste or powder. They are typically stored in a kitchen cupboard or cabinet.
+    qType: confirm_utensils
+
+  nutmeg_grater:
+  - text: A nutmeg grater is also known as a nutmeg rasp, is a device used to grate a nutmeg seed. They are typically stored in a kitchen drawer.
+    qType: confirm_utensils
+
+  pastry_bag:
+  - text: A pastry bag is a triangular-shaped bag made from cloth, paper, plastic, or the intestinal lining of a lamb, that is squeezed by hand to pipe semi-solid foods by pressing them through a hole. They are typically stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  pastry_blender:
+  - text: A pastry blender is a cooking utensil used to mix a hard fat into flour to make pastries. They are typically stored in a kitchen cupboard or cabinet.
+    qType: confirm_utensils
+
+  pepper_mill:
+  - text: A pepper mill is a device, of which you turn by hand to crush the peppercorns inside, they are typically stored in a kitchen cupboard, cabinet or left on a table.
+    qType: confirm_utensils
+
+  pie_bird:
+  - text: A pie bird is also known as a pie vent, pie whistle, pie funnel, or pie chimney is a hollow ceramic device, originating in Europe, shaped like a funnel, chimney, or outstretched bird with open beak used for supporting or venting a pie. They are usually stored in a kitchen cupboard or cabinet.
+    qType: confirm_utensils
+
+  roller_docker:
+  - text: A roller docker is also known as a dough docker, roto-fork, or simply docker is a food preparation utensil which resembles either a small, spiked rolling pin, or a small rotary tiller. They are typically stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  salt_shaker:
+  - text: A roller docker is also known as a dough docker, roto-fork, or simply docker is a food preparation utensil which resembles either a small, spiked rolling pin, or a small rotary tiller. They are typically stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  tomato_knife:
+  - text: A tomato knife is a small serrated kitchen knife designed to slice through tomatoes. The serrated edge allows the knife to penetrate the tomatoes’ skin quickly and with a minimum of pressure without crushing the flesh. They are typically stored in a kitchen drawer or on a knife rack.
+    qType: confirm_utensils
+
+  freezer:
+  - text: A freezer is a refrigerated cabinet or room for preserving food at very low temperatures. They are usually standalone units in kitchens.
+    qType: confirm_utensils
+
+  skewer:
+  - text: A skewer is a thin metal or wood stick used to hold pieces of food together, they are usually stored in a kitchen drawer or cupboard.
+    qType: confirm_utensils
+
+  roasting_tin:
+  - text: A roasting tin is a circular metal tin for cooking in an over. They are usually found in kitchen cupboards.
+    qType: confirm_utensils
