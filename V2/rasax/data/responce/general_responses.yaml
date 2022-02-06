@@ -1,0 +1,37 @@
+#RANDOM BITS
+utter_did_that_help:
+- text: Did that help you?
+utter_happy:
+- text: Great, carry on!
+utter_goodbye:
+- text: Bye
+#utter_iamabot:
+#- text: I am a bot, powered by Rasa.
+utter_submit:
+- text: I will now order a pizza for you!
+utter_pizza_slots:
+- text: I will order a {pizza_size} {meal_type} pizza.
+utter_ask_continue:
+- text: Are you sure you want to stop the form?
+utter_ask_pizza_size:
+- text: What size would you like your pizza to be?
+utter_ask_meal_type:
+- text: What kind of pizza would you like to buy?
+utter_ask_menu:
+- text: What meal do you want to cook?
+utter_not_all_ingredients:
+- text: Please state which ingredients are missing
+utter_yes_no:
+  - text: Do you have these ingredients?
+    buttons:
+    - title: Yes?
+      payload: /yesmode
+    - title: No?
+      payload: /nomode
+utter_greet:
+  - text: Hello, this is chefbot, please select a meal type
+    buttons:
+    - title: Vegetarian Meals
+      payload: /vegmeals
+    - title: Non-vegetarian Meals
+      payload: /meatmeals

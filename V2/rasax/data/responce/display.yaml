@@ -1,0 +1,975 @@
+#**************************************************************MENU 1 ********************************************
+
+display_meat_menu_types:
+  - text: Please select a menu
+    buttons:
+    - title: Breakfast Menu
+      payload: /breakfastmenumeat
+    - title: Lunch Menu
+      payload: /lunchmenumeat
+    - title: Dinner Menu
+      payload: /dinnermenumeat
+    - title: Light Snacks Menu
+      payload: /lightsnacksmenumeat
+    - title: Dessert Menu
+      payload: /dessertmenumeat
+
+display_veg_menu_types:
+  - text: Please select a menu
+    buttons:
+    - title: Breakfast Menu
+      payload: /breakfastmenuveg
+    - title: Lunch Menu
+      payload: /lunchmenuveg
+    - title: Dinner Menu
+      payload: /dinnermenuvege
+    - title: Light Snacks Menu
+      payload: /lightsnacksmenuveg
+    - title: Dessert Menu
+      payload: /dessertmenuveg
+
+
+#Meat Menu
+
+display_breakfastmenumeat:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: crepes
+      payload: /crepes
+    - title: flakypadan croissant
+      payload: /flakypadancroissant
+    - title: rhubarb oatmeal crunch
+      payload: /rhubarboatmealcrunch
+    - title: cinnamon buns
+      payload: /cinnamonbuns
+    - title: russian omelet
+      payload: /russianomelet
+    - title: vanilla chip fruit tart
+      payload: /vanillachipfruittart
+    - title: breakfast quiche
+      payload: /breakfastquiche
+
+display_lunchmenumeat:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: spaghetti and meatballs
+      payload: /spaghettiandmeatballs
+    - title: chicken masala
+      payload: /chickenmasala
+    - title: spicy coconut chicken curry
+      payload: /spicycoconutchickencurry
+    - title: sloppy joes
+      payload: /sloppyjoes
+    - title: balinese bbq pork roast
+      payload: /balinesebbqporkroast
+    - title: st patricks day beef stew with guinness
+      payload: /stpatricksdaybeefstewwithguinness
+
+display_dinnermenumeat:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: beef stroganoff
+      payload: /beefstroganoff
+    - title: fresh small clams
+      payload: /freshsmallclams
+    - title: slowcooker chicken
+      payload: /slowcookerchicken
+    - title: skinless chicken longganisa
+      payload: /skinlesschickenlongganisa
+    - title: chicken nachos
+      payload: /chickennachos
+    - title: pan seared lamb chops
+      payload: /pansearedlambchops
+    - title: lamb risotto
+      payload: /lambrisotto
+    - title: buffalo chili
+      payload: /buffalochili
+
+display_lightsnacksmenumeat:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: english muffins
+      payload: /englishmuffins
+    - title: airfryer glazed donuts
+      payload: /airfryerglazeddonuts
+    - title: pumpkin spice donuts
+      payload: /pumpkinspicedonuts
+    - title: oatmeal raisin cookies
+      payload: /oatmealraisincookies
+    - title: irish soda muffins
+      payload: /irishsodamuffins
+    - title: strawberry milkshake cupcakes
+      payload: /strawberrymilkshakecupcakes
+    - title: chicken noodle soup
+      payload: /chickennoodlesoup
+    - title: quick crab wontons
+      payload: /quickcrabwontons
+    - title: perfect french side salad
+      payload: /perfectfrenchsidesalad
+
+display_dessertmenumeat:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: pineapple strawberry salad
+      payload: /pineapplestrawberrysalad
+    - title: pear tarte tatin
+      payload: /peartartetatin
+    - title: strawberry pie
+      payload: /strawberrypie
+    - title: newyork crumb cake
+      payload: /newyorkcrumbcake
+    - title: cranberry upsidedown cake
+      payload: /cranberryupsidedowncake
+    - title: white out cake
+      payload: /whiteoutcake
+    - title: strawberry danish dessert
+      payload: /strawberrydanishdessert
+
+#Vegetarian Menu
+
+display_breakfastmenuveg:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: vegan breakfast
+      payload: /veganbreakfast
+    - title: nutella cereal
+      payload: /nutellacereal
+    - title: overnight oatmeal
+      payload: /overnightoatmeal
+    - title: cherry pie bars
+      payload: /cherrypiebars
+    - title: banana bread
+      payload: /bananabread
+    - title: cream scones
+      payload: /creamscones
+    - title: coconut blueberry oatmeal cookies
+      payload: /coconutblueberryoatmealcookies
+    - title: fruits dalsace millet breakfast cookies
+      payload: /fruitsdalsacemilletbreakfastcookies
+
+display_lunchmenuveg:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: misir wot
+      payload: /misirwot
+    - title: quinoa burrito bowl
+      payload: /quinoaburritobowl
+    - title: hearty vegetable soup
+      payload: /heartyvegetablesoup
+    - title: savory tomato pie
+      payload: /savorytomatopie
+    - title: sweetpotato burritos
+      payload: /sweetpotatoburritos
+    - title: macaroni and cheese
+      payload: /macaroniandcheese
+    - title: chilean empanada
+      payload: /chileanempanada
+    - title: mexican bean stew
+      payload: /mexicanbeanstew
+    - title: cheesy garlic mashed potatoes
+      payload: /cheesygarlicmashedpotatoes
+    - title: spiral vegetable tart
+      payload: /spiralvegetabletart
+
+display_dinnermenuvege:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: roasted veggie noodles
+      payload: /roastedveggienoodles
+    - title: veggie tikka masala
+      payload: /veggietikkamasala
+    - title: roasted vegetable lasagna
+      payload: /roastedvegetablelasagna
+    - title: mushroom ragu
+      payload: /mushroomragu
+    - title: minestrone soup
+      payload: /minestronesoup
+    - title: vegetable pizza
+      payload: /vegetablepizza
+    - title: baked parmesan tilapia
+      payload: /bakedparmesantilapia
+    - title: maltese stuffed marrows
+      payload: /maltesestuffedmarrows
+    - title: bean soup
+      payload: /beansoup
+    - title: vegetarian singapore fried noodles
+      payload: /vegetariansingaporefriednoodles
+    - title: mashed butternut squash
+      payload: /mashedbutternutsquash
+    - title: mashed cauliflower
+      payload: /mashedcauliflower
+    - title: sweetpotato biscuits
+      payload: /sweetpotatobiscuits
+
+display_dessertmenuveg:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: pineapple strawberry salad
+      payload: /pineapplestrawberrysalad
+    - title: pear tarte tatin
+      payload: /peartartetatin
+    - title: strawberry pie
+      payload: /strawberrypie
+    - title: holiday bundt cake
+      payload: /holidaybundtcake
+    - title: cherry marzipan streusel cake
+      payload: /cherrymarzipanstreuselcake
+    - title: blueberry scones
+      payload: /blueberryscones
+    - title: pound cake
+      payload: /poundcake
+    - title: herb quinoa millet cakes
+      payload: /herbquinoamilletcakes
+
+
+display_lightsnacksmenuveg:
+  - text: Select a recipe from the list,
+    buttons:
+    - title: english muffins
+      payload: /englishmuffins
+    - title: airfryer glazed donuts
+      payload: /airfryerglazeddonuts
+    - title: pumpkin spice donuts
+      payload: /pumpkinspicedonuts
+    - title: mango habanero hot sauce
+      payload: /mangohabanerohotsauce
+    - title: potato salad
+      payload: /potatosalad
+    - title: cranberry pecan muffins
+      payload: /cranberrypecanmuffins
+    - title: super spring salad
+      payload: /superspringsalad
+    - title: creamy asparagus soup
+      payload: /creamyasparagussoup
+    - title: cherry bonbon cookies
+      payload: /cherrybonboncookies
+    - title: butterscotch blondie cookies
+      payload: /butterscotchblondiecookies
+
+
+
+
+
+
+
+#**************************************************************MENU 2 ********************************************
+
+
+
+#non vegetarian menu 2
+
+#display_breakfastmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: german pancakes
+#      payload: /germanpancakes
+#    - title: swedish pancakes
+#      payload: /swedishpancakes
+#    - title: cornbread jalapeno maple bacon
+#      payload: /cornbreadjalapenomaplebacon
+#    - title: polish sausage and sauerkraut in sauce
+#      payload: /polishsausageandsauerkrautinsauce
+#    - title: wrapped children
+#      payload: /wrappedchildren
+#    - title: st josephs bread
+#      payload: /stjosephsbread
+#    - title: bamboo steam salmon with sesame oil
+#      payload: /bamboosteamsalmonwithsesameoil
+#    - title: spanish bread pinoy style
+#      payload: /spanishbreadpinoystyle
+#display_lunchmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: spaghetti and meatballs
+#      payload: /spaghettiandmeatballs
+#    - title: chicken miso and mushroom ramen
+#      payload: /chickenmisoandmushroomramen
+#    - title: marinated prime rib roast
+#      payload: /marinatedprimeribroast
+#    - title: chicken tray bake with chorizo
+#      payload: /chickentraybakewithchorizo
+#    - title: chicken and chorizo jambalaya
+#      payload: /chickenandchorizojambalaya
+#    - title: cheeseburger macaroni
+#      payload: /cheeseburgermacaroni
+#    - title: white chicken chili
+#      payload: /whitechickenchili
+#    - title: amish pot pie squares
+#      payload: /amishpotpiesquares
+#    - title: flash roasted steak with squash gorgonzola and sage
+#      payload: /flashroastedsteakwithsquashgorgonzolaandsage
+#    - title: swiss mushroom pheasant breast
+#      payload: /swissmushroompheasantbreast
+
+#display_dinnermenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: stacked enchiladas
+#      payload: /stackedenchiladas
+#    - title: homemade chicken nuggets
+#      payload: /homemadechickennuggets
+#    - title: adobonggalunggong
+#      payload: /adobonggalunggong
+#    - title: slow cooker chicken pho
+#      payload: /slowcookerchickenpho
+#    - title: african chicken in peanut sauce
+#      payload: /africanchickeninpeanutaauce
+#    - title: baked bangus with cheesy toppings
+#      payload: /bakedbanguswithcheesytoppings
+#    - title: chicken and eggplant pasta
+#      payload: /chickenandeggplantpasta
+#    - title: longganisa filipino style sausage
+#      payload: /longganisafilipinostylesausage
+#    - title: classic cioppino
+#      payload: /classiccioppino
+#    - title: gypsy eggs
+#      payload: /gypsyeggs
+#    - title: meat loaf
+#      payload: /meatloaf
+#    - title: chicken traybake with chorizo tomato and red peppers
+#      payload: /chickentraybakewithchorizotomatoandredpeppers
+#    - title: chicken fricassee
+#      payload: /chickenfricassee
+#    - title: chicken piccata
+#      payload: /chickenpiccata
+#    - title: caribbean turkey wings
+#      payload: /caribbeanturkeywings
+#    - title: roast pheasant and bread sauce
+#      payload: /roastpheasantandbreadsauce
+#    - title: masala hotdogs
+#      payload: /masalahotdogs
+#    - title: bbq spare ribs
+#      payload: /bbqspareribs
+
+#display_lightsnacksmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: tuna patties
+#      payload: /tunapatties
+#    - title: chicken tacos
+#      payload: /chickentacos
+#    - title: salmon baked in foil
+#      payload: /salmonbakedinfoil
+#    - title: chicken cashew curry
+#      payload: /chickencashewcurry
+#    - title: spicy shrimp moroccan style
+#      payload: /spicyshrimpmoroccanstyle
+#    - title: make a head gravy
+#      payload: /makeaheadgravy
+#    - title: easy chicken curry
+#      payload: /easychickencurry
+#    - title: taco casserole
+#      payload: /tacocasserole
+#    - title: chicken cordon bleu schnitzel style
+#      payload: /chickencordonbleuschnitzelstyle
+
+#display_dessertmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: apple oven pancake
+#      payload: /appleovenpancake
+#    - title: meyer lemon yogurt bundt cake
+#      payload: /meyerlemonyogurtbundtcake
+#    - title: janssons temptation
+#      payload: /janssonstemptation
+#    - title: bread pudding
+#      payload: /breadpudding
+#    - title: sweet chickpea fudge cakes
+#      payload: /sweetchickpeafudgetakes
+#    - title: banana cue
+#      payload: /bananacue
+#    - title: banana peanutbutter mocj icecream
+#      payload: /bananapeanutbuttermocjicecream
+#    - title: moussaka mediterraneo
+#     payload: /moussakamediterraneo
+#    - title: apfelkuchen
+#      payload: /apfelkuchen
+
+#Vegetarian Menu 2
+
+#display_breakfastmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: breakfast quesadillas
+#      payload: /breakfastquesadillas
+#    - title: butternut squash sambar
+#      payload: /butternutsquashsambar
+#    - title: arrozverde
+#      payload: /arrozverde
+#    - title: salmon avocado and rocket salad
+#      payload: /salmonavocadoandrocketsalad
+#    - title: spanish sardines and olive oil
+#      payload: /spanishsardinesandoliveoil
+#    - title: misua soup with upo and patola
+#      payload: /misuasoupwithupoandpatola
+
+
+#display_lunchmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: pasta bataka
+#      payload: /pastabataka
+#    - title: pastina soup
+#      payload: /pastinasoup
+#    - title: pasta with spinach ricotta and ham
+#      payload: /pastawithspinachricottaandham
+#    - title: fried dry land fish
+#      payload: /frieddrylandfish
+#    - title: guernsey potato peel pie
+#      payload: /guernseypotatopeelpie
+#    - title: chile relleons
+#      payload: /chilerelleons
+#    - title: brusselsprouts sauteed in garlic and olive oil
+#      payload: /brusselsproutssauteedingarlicandoliveoil
+#    - title: taroroot
+#      payload: /taroroot
+#    - title: crockpot split pea soup
+#      payload: /crockpotsplitpeasoup
+#    - title: pelmeni
+#      payload: /pelmeni
+#    - title: steam tofu with fish
+#      payload: /steamtofuwithfish
+#    - title: red beans with rice
+#      payload: /redbeanswithrice
+
+
+#display_dinnermenuvege:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: homemade flour tortillas
+#     payload: /homemadeflourtortillas
+#   - title: feijoada
+#      payload: /feijoada
+#    - title: cuban blackbeans and rice
+#      payload: /cubanblackbeansandrice
+#    - title: italian easter breadtakes
+#      payload: /italianeasterbreadtakes
+#    - title: vegetable crudites platter
+#      payload: /vegetablecruditesplatter
+#    - title: fennel leek and squash gratin with tarragon and hazelnuts
+#      payload: /fennelleekandsquashgratinwithtarragonandhazelnuts
+#    - title: kamote fries
+#      payload: /kamotefries
+#    - title: hopia
+#      payload: /hopia
+#    - title: hashbrowns casserole
+#      payload: /hashbrownscasserole
+#    - title: stirfried broccoli with chili garlic sauce
+#      payload: /stirfriedbroccoliwithchiligarlicsauce
+#    - title: smoked salmon crepes
+#      payload: /smokedsalmoncrepes
+#    - title: arancini italian rice balls
+#      payload: /aranciniitalianriceballs
+
+
+#display_dessertmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: coconut pineapple cake
+#      payload: /coconutpineapplecake
+#    - title: baked german apple pancakes
+#      payload: /bakedgermanapplepancakes
+#    - title: southern buttermilk biscuits
+#      payload: /southernbuttermilkbiscuits
+#    - title: chocolate truffle cake
+#      payload: /chocolatetrufflecake
+#    - title: dominican cake
+#      payload: /dominicancake
+#    - title: mongateauau chocolate
+#      payload: /mongateauauchocolat
+#    - title: irish apple cake with whisky cream
+#      payload: /irishapplecakewithwhiskycream
+#    - title: caramel pecan pie
+#      payload: /caramelpecanpie
+#    - title: oreo cookie cupcakes
+#      payload: /oreocookiecupcakes
+
+#display_lightsnacksmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: romanie salad with creamy basil dressing
+#      payload: /romaniesaladwithcreamybasildressing
+#    - title: homemade marzipan
+#      payload: /homemademarzipan
+#    - title: sweetpotato and pineapple fruit salad
+#      payload: /sweetpotatoandpineapplefruitsalad
+#    - title: homemade tortilla chips
+#      payload: /homemadetortillachips
+#    - title: quick vegetarian singapore fried noodles
+#      payload: /quickvegetariansingaporefriednoodles
+#    - title: teriyaki salmon
+#      payload: /teriyakisalmon
+#    - title: limpa bread
+#      payload: /limpabread
+#    - title: vegan and gluten free chocolatechip chewy brownies
+#      payload: /veganandglutenfreechocolatechipchewybrownies
+#    - title: pear and fig chutney
+#      payload: /pearandfigchutney
+#    - title: broccoli pasta
+#      payload: /broccolipasta
+#    - title: indian style cauliflower and potatoes
+#      payload: /indianstylecauliflowerandpotatoes
+#    - title: mexican coleslaw with lime and cilantro
+#      payload: /mexicancoleslawwithlimeandcilantro
+
+
+
+#**************************************************************MENU 3 ********************************************
+
+
+
+#non vegetarian menu 3
+
+#display_breakfastmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: texas roadhouse rolls with cinnamon honey butter
+#      payload: /texasroadhouserollswithcinnamonhoneybutter
+#    - title: blueberries with lime and citrus confit
+#      payload: /blueberrieswithlimeandcitrusconfit
+#    - title: fried egg plant
+#      payload: /friedeggplant
+#    - title: pan seared seabass in a marsala sauce
+#      payload: /pansearedseabassinamarsalasauce
+#    - title: tuscan bacon and bean soup with wild garlic pesto
+#      payload: /tuscanbaconandbeansoupwithwildgarlicpesto
+
+#display_lunchmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: italian breaded chicken breast
+#      payload: /italianbreadedchickenbreast
+#    - title: smoked sirloin tip roast
+#      payload: /smokedsirlointiproast
+#    - title: mashed potato stuffed chicken breast
+#      payload: /mashedpotatopstuffedchickenbreast
+#    - title: juicy chicken break tex mex style
+#      payload: /juicychickenbreaktexmextstyle
+#    - title: irish beef stew
+#      payload: /irishbeefstew
+#    - title: cumin chicken
+#      payload: /cuminchicken
+#    - title: creamy mushroom chicken
+#      payload: /creamymushroomchicken
+#    - title: low calorie chicken caesar salad stuffed shells
+#      payload: /lowcaloriechickencaesarsaladstuffedshells
+#    - title: feta stuffed lamb with fried potatoes
+#      payload: /fetastuffedlambwithfriedpotatoes
+
+
+#display_dinnermenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: chicken and coconut curry
+#      payload: /chickenandcoconutcurry
+#    - title: butter chicken
+#      payload: /butterchicken
+#    - title: irish fish chowder
+#      payload: /irishfishchowder
+#    - title: indian jeera chicken
+#      payload: /indianjeerachicken
+#    - title: pangat na sap sap
+#      payload: /pangatnasapsap
+#    - title: chicken alexander
+#      payload: /chickenalexander
+#    - title: bbq pork tenderloin
+#      payload: /bbqporktenderloin
+#    - title: lamb souvlaki
+#      payload: /lambsouvlaki
+#    - title: lamb meatballs
+#      payload: /lambmeatballs
+#    - title: healthy meatballs
+#      payload: /healthymeatballs
+#    - title: cheese and onion enchiladas with tex mex chili gravy
+#      payload: /cheeseandonionenchiladaswithtexmexchiligravy
+#    - title: crab wontons
+#      payload: /crabwontons
+#    - title: jerk chicken wings
+#      payload: /jerkchickenwings
+#    - title: ahi tuna tower
+#      payload: /ahitunatower
+
+#display_lightsnacksmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: steak tacos with burnt corn salsa
+#      payload: /steaktacoswithburntcornsalsa
+#    - title: fried onion rings
+#      payload: /friedonionrings
+#    - title: piri piri chicken
+#      payload: /piripirichicken
+#    - title: tofu peanut vegan stirfry
+#      payload: /tofupeanutveganstirfry
+#    - title: escabechenggalunggong
+#      payload: /escabechenggalunggong
+#    - title: cabbage pachadi salad
+#      payload: /cabbagepachadisalad
+#    - title: cauliflower and whitebean saute
+#      payload: /cauliflowerandwhitebeansaute
+
+
+#display_dessertmenumeat:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: blackforest cheesecake squares
+#      payload: /blackforestcheesecakesquares
+#    - title: persimmon cookies
+#      payload: /persimmoncookies
+#    - title: italian snowball cookies
+#      payload: /italiansnowballcookies
+
+#Vegetarian Menu 3
+
+#display_breakfastmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: caramilk brownies
+#      payload: /caramilkbrownies
+#    - title: quebec style baked beans
+#      payload: /quebecstylebakedbeans
+#    - title: sauteed banana heart veggie
+#      payload: /sauteedbananaheartveggie
+#    - title: monao feaster
+#      payload: /monaofeaster
+#    - title: pancit canton
+#      payload: /pancitcanton
+#    - title: calamansi cloud cake
+#      payload: /calamansicloudcake
+
+#display_lunchmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: brown butter colcannon
+#      payload: /brownbuttercolcannon
+#    - title: italian spinach soup
+#      payload: /italianspinachsoup
+#    - title: lentil soup with dumplings
+#      payload: /lentilsoupwithdumplings
+#    - title: pavbhaji
+#      payload: /pavbhaji
+#    - title: sinaing natulingan
+#      payload: /sinaingnatulingan
+#    - title: turkish flatbread
+#      payload: /turkishflatbread
+#    - title: lentil and bacon soup
+#      payload: /lentilandbaconsoup
+#    - title: buco pie
+#      payload: /bucopie
+#    - title: binatog
+#      payload: /binatog
+#    - title: pasta with garlic and olive oil
+#      payload: /pastawithgarlicandoliveoil
+#    - title: pinoy cassava cake
+#      payload: /pinoycassavacake
+#    - title: german potato salad heirloom
+#      payload: /germanpotatosaladheirloom
+#    - title: courgette gratin
+#      payload: /courgettegratin
+#    - title: avocado indian roti
+#      payload: /avocadoindianroti
+#    - title: beetroot walnut and orange salad with orange blossom dressing
+#      payload: /beetrootwalnutandorangesaladwithorangeblossomdressing
+
+#display_dinnermenuvege:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: italian style baked mashed potato
+#      payload: /italianstylebakedmashedpotato
+#    - title: chiles rellenos
+#      payload: /chilesrellenos
+#    - title: panko crusted baked tilapia
+#      payload: /pankocrustedbakedtilapia
+#    - title: shrimp scampi with angel hair pasta
+#      payload: /shrimpscampiwithangelhairpasta
+#    - title: garlic tomato basil grilled shrimp
+#      payload: /garlictomatobasilgrilledshrimp
+#    - title: carnitas
+#      payload: /carnitas
+#    - title: three sister soup
+#      payload: /threesistersoup
+
+#display_dessertmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: kinds bread pudding
+#      payload: /kindsbreadpudding
+#    - title: irish chocolate stout cake
+#      payload: /irishchocolatestoutcake
+#    - title: apricot cheese pie
+#      payload: /apricotcheesepie
+#    - title: snowball cookies
+#      payload: /snowballcookies
+#    - title: cranberry mousse jello mold salad
+#      payload: /cranberrymoussejellomoldsalad
+#    - title: snickerdoodle muffins
+#      payload: /snickerdoodlemuffins
+
+#display_lightsnacksmenuveg:
+#  - text: Select a recipe from the list,
+#    buttons:
+#    - title: salsa de chili pequin
+#      payload: /salsadechilipequin
+#    - title: lime and chipotle black bean tacos
+#      payload: /limeandchipotleblackbeantacos
+#    - title: mexican stuffed jalapenos
+#      payload: /mexicanstuffedjalapenos
+#    - title: cannellini beans
+#      payload: /cannellinibeans
+#    - title: filipino hot cakes
+#      payload: /filipinohotcakes
+#    - title: scottish shortbread
+#      payload: /scottishshortbread
+#    - title: mexican mac and cheese
+#      payload: /mexicanmacandcheese
+#    - title: sweetcorn arepa
+#      payload: /sweetcornarepa
+#    - title: vegan aubergine burgers
+#      payload: /veganaubergineburgers
+#    - title: canie and feline healthy pumpkin balls
+#      payload: /canieandfelinehealthypumpkinballs
+#    - title: mac and cheese
+#      payload: /macandcheese
+
+
+#+++++++++++++++++++++++++++++++++++++++++++++++spare recipes list++++++++++++++++++++++++++++++++++++++++++++
+
+#    - title: jerk chicken thighs
+#      payload: /jerkchickenthighs
+#
+#    - title: westindie spolloc riollo
+#      payload: /westindiespollocriollo
+#
+#    - title: indian salmon masala
+#      payload: /indiansalmonmasala
+#
+#    - title: chi charon baby
+#      payload: /chicharonbaby
+#
+#    - title: tallerine casserole
+#      payload: /tallerinecasserole
+#
+#    - title: georgian beef stew
+#      payload: /georgianbeefstew
+#
+#    - title: fermented rice and shrimp
+#      payload: /fermentedriceandshrimp
+#    - title: chicharon bu lak lak
+#      payload: /chicharonbulaklak
+#
+#    - title: sicilian eggplant and ricotta pasta
+#      payload: /sicilianeggplantandricottapast
+#
+#    - title: pino yo koy
+#      payload: /pinoyokoy
+#
+#    - title: thai beef salad
+#      payload: /thaibeefsalad
+#
+#    - title: fish cakes with parsley sauce
+#      payload: /fishcakeswithparsleysauce
+#
+#    - title: pinoy pork steak
+#      payload: /pinoyporksteak
+#
+#    - title: irish stew
+#      payload: /irishstew
+#
+#    - title: afgan chicken
+#      payload: /afganchicken
+#
+#    - title: pork adobo
+#      payload: /porkadobo
+#
+#    - title: seafood risotto
+#      payload: /seafoodrisotto
+#
+#    - title: roast chicken legs
+#      payload: /roastchickenlegs
+#
+#    - title: smoked beef brisket
+#      payload: /smokedbeefbrisket
+#
+#    - title: harira soup
+#      payload: /harirasoup
+#
+#    - title: mediterranean filet of sole
+#      payload: /mediterraneanfiletofsole
+#
+#    - title: italian shrimp scampi
+#      payload: /italianshrimpscampi
+#
+#
+#    - title: punjabi chicken curry
+#      payload: /punjabichickencurry
+#
+#    - title: maltagliati
+#      payload: /maltagliati
+#
+#    - title: pancit bihonguisado with a taybalunbalu nan
+#      payload: /pancitbihonguisadowithataybalunbalunan
+#
+#    - title: southern low country braised pigs feet
+#      payload: /southernlowcountrybraisedpigsfeet
+#
+#    - title: grilled tandoori turkey tenderloin
+#     payload: /grilledtandooriturkeytenderloin
+#
+#    - title: grilled salmon with brazilian garlic marinade
+#      payload: /grilledsalmonwithbraziliangarlicmarinade
+#
+#    - title: ceviche depescade
+#      payload: /cevichedepescade
+#
+#    - title: haranero butter chicken
+#      payload: /haranerobutterchicken
+#
+#    - title: redlobster cheddar biscuits
+#      payload: /redlobstercheddarbiscuits
+#
+#    - title: chicken with rice
+#      payload: /chickenwithrice
+#
+#    - title: mushroom and leek pasta
+#      payload: /mushroomandleekpasta
+#
+#    - title: roasted halibut with balsamic garlic glaze
+#      payload: /roastedhalibutwithbalsamicgarlicglaze
+#
+#    - title: rabbit mixed grill
+#      payload: /rabbitmixedgrill
+#
+#    - title: apache rattlesnake fry
+#      payload: /apacherattlesnakefry
+#
+#    - title: st patricks day salmon with leeks
+#      payload: /stpatricksdaysalmonwithleeks
+#
+#    - title: chicken chilli
+#      payload: /chickenchilli
+#
+#    - title: crispy pork dinuguan
+#      payload: /crispyporkdinuguan
+#
+#    - title: portuguese sweet rice
+#      payload: /portuguesesweetrice
+#
+#    - title: aubergine and black bean bowl
+#      payload: /aubergineandblackbeanbowl
+#
+#    - title: caipirinha
+#      payload: /caipirinha
+#
+#    - title: peruvian roast chicken
+#      payload: /peruvianroastchicken
+#
+#    - title: italian spaghetti sauce with meatballs
+#      payload: /italianspaghettisaucewithmeatballs
+#
+#    - title: pasta with garlic bread crumbs
+#      payload: /pastawithgarlicbreadcrumbs
+#
+#    - title: inihawna tengang baboy
+#      payload: /inihawnatengangbaboy
+#
+#    - title: shallot and red wine beef wellington sauce
+#      payload: /shallotandredwinebeefwellingtonsauce
+#
+#    - title: steamed cleaned and split blue crabs
+#      payload: /steamedcleanedandsplitbluecrabs
+#
+#    - title: grilled squid
+#      payload: /grilledsquid
+#
+#    - title: chile rellenos souffle
+#      payload: /chilerellenossouffle
+#
+#    - title: garlic butter octopus
+#      payload: /garlicbutteroctopus
+#
+#    - title: curried lentil stew with rice
+#      payload: /curriedlentilstewwithrice
+#
+#    - title: barbacoadecabeza
+#      payload: /barbacoadecabeza
+#
+#    - title: chinese barbecued chicken
+#      payload: /chinesebarbecuedchicken
+#
+#    - title: beef chowmein
+#      payload: /beefchowmein
+#
+#    - title: pinoy sumansaibos
+#      payload: /pinoysumansaibos
+#
+#    - title: stir fried cabbage with garlic
+#      payload: /stirfriedcabbagewithgarlic
+#
+#    - title: cold angel hair pasta in truffle oil
+#      payload: /coldangelhairpastaintruffleoil
+#
+#    - title: lowfat spice rubbed roast turkey
+#      payload: /lowfatspicerubbedroastturkey
+#
+#    - title: grilled stuffed pomfret with green chutney
+#      payload: /grilledstuffedpomfretwithgreenchutney
+#
+#    - title: beef and pepper stirfry
+#      payload: /beefandpepperstirfry
+#
+#    - title: sesame chicken stirfry
+#      payload: /sesamechickenstirfry
+#
+#    - title: arroz congri
+#      payload: /arrozcongri
+#
+#    - title: spiced lamb with smashed squash and spinach
+#      payload: /spicedlambwithsmashedsquashandspinach
+#
+#    - title: sirloin steaks with sauteed onions
+#      payload: /sirloinsteakswithsauteedonions
+#
+#    - title: pork souvlaki with tzatziki
+#      payload: /porksouvlakiwithtzatziki
+#
+#    - title: beef calderta with coco milk
+#      payload: /beefcaldertawithcocomilk
+#
+#    - title: mediterranean chicken
+#     payload: /mediterraneanchicken
+#
+#    - title: truffle crusted beef tender loin
+#      payload: /trufflecrustedbeeftenderloin
+#
+#    - title: slow cooker french dip
+#      payload: /slowcookerfrenchdip
+#
+#    - title: pan fried trout
+#      payload: /panfriedtrout
+#
+#    - title: lamb karahi with new potatoes
+#      payload: /lambkarahiwithnewpotatoes
+#
+#    - title: chile coriander chicken
+#      payload: /chilecorianderchicken
+#
+#    - title: tinol and manok with luyangdilaw
+#      payload: /tinolandmanokwithluyangdilaw
+#
+#    - title: chaat with spiced soup
+#      payload: /chaatwithspicedsoup
+#
+#    - title: salmon furikake
+#      payload: /salmonfurikake
+#
+#    - title: chilipie
+#      payload: /chilipie
+#
+#    - title: korean fried chicken
+#      payload: /koreanfriedchicken
+#
+#    - title: tashreebe
+#      payload: /tashreebe
+
+#    - title: meatball sandwhich
+#      payload: /meatballsandwhich
+
