@@ -40,7 +40,7 @@ nlu:
     - of course
     - that sounds good
     - correct
-    - /affirm
+
 - intent: deny
   examples: |
     - no
@@ -548,72 +548,14 @@ nlu:
     - [tashreebe](meal_type)
     - [vanillachipfruittart](meal_type)
 
-
-- intent: r1
-  examples: |
-    - I have added the ingredients to a mixing bowl
-    - I have mixed the ingredients together
-    - The ingredients are mixed together into a smooth dough
-    - The dough has risen to double its size
-    - I have flattened the dough
-    - I have sixteen muffins on the griddle
-    - The muffins have puffed up a little
-    - The muffins are cooked
-- intent: r2
-  examples: |
-    - I have combined the ingredients
-    - The time has passed
-    - While it bakes
-    - I have done that
-    - I have mixed the strawberries in
-- intent: r3
-  examples: |
-    - Okay I have mixed the ingredients
-    - I have made the dough
-    - I have rolled the dough
-    - The donuts are now double their size
-    - I have air fried the donuts
-    - I have made the icing
-- intent: r4
-  examples: |
-    - I have turned on the oven
-    - I have combined the ingredients
-    - I have combined these ingredients too
-    - I have made the donuts
-    - I have baked and let all the donuts cool down
-- intent: r5
-  examples: |
-    - The instant pot is now ready
-    - The mixture is now fragrant
-- intent: r6
-  examples: |
-    - I have mixed the fruit in a bowl
-    - I have left the mixture in the fridge over night
-- intent: r7
-  examples: |
-    - Okay the ingredients are now on the baking sheet
-    - Everything is now in the oven
-    - Okay the noodles are out of the oven
-- intent: r8
-  examples: |
-    - Okay the ingredients are now on the baking sheet
-    - Okay the noodles are out of the oven
-- intent: r9
-  examples: |
-    - I have sauted the ingredients
-    - I have mashed the avocados
-    - I have mixed the ingredients
-- intent: r10
-  examples: |
-    - I have made the mango puree
-    - The peppers are in the bowl
-    - The mix is now in the pan
-    - The mixture is back in the pan
-
 - intent: next
   examples: |
     - next
+    - i have done this
     - I have done that
+    - what's next
+    - what now
+    - next step
     - what is next
     - what is the next step
     - I have done this
@@ -621,7 +563,110 @@ nlu:
     - ok
     - ok what is next
     - whats next
-
+    - thank you
+    - Ok, I have added the ingredients to a mixing bowl
+    - The ingredients are mixed together into a smooth dough
+    - The dough has risen to double its size
+    - I have flattened the dough
+    - I have 16 muffins on the griddle
+    - The muffins have puffed up a little
+    - The muffins are cooked
+    - I have combined the ingredients
+    - The ingredients are combined
+    - I have mixed the strawberries in the bowl
+    - I have mixed the ingredients
+    - I have made the dough
+    - I have rolled the dough
+    - The donuts are now double their size
+    - I have made the icing
+    - I have turned on the oven
+    - I have made the donuts
+    - I have baked and let all the donuts cool down
+    - The instant pot is now ready
+    - The mixture is now fragrant
+    - The onion is now fragrant as well
+    - I have mixed the ingredients
+    - The dough is in the fridge
+    - I have cut the pears
+    - The sugar is done
+    - I have arranged the pears
+    - I have finished this step
+    - I have covered the pears
+    - I want to make roasted Veggie Noodles with Pears
+    - The ingredients are now on the baking sheet
+    - Everything is now in the oven
+    - The noodles are out of the oven
+    - I have sauted the ingredients
+    - The quinoa has finished cooking
+    - I have mashed the avocados
+    - I have made the mango puree
+    - The peppers are in the bowl
+    - The mix is now in the pan
+    - The mixture is back in the pan
+    - I have cut the onion
+    - I have processed the ingredients
+    - I have made the onion with the spices
+    - I have cooked all the ingredients
+    - the veggies are cooking
+    - The butter is done
+    - everything is now blended
+    - the cake is now cooling down
+    - the mixture is now done
+    - I have removed the fat
+    - The stock is done
+    - The onion is now cooked
+    - The gravy has now started to thicken
+    - I have placed the ingredients into the cake pan
+    - The cake is now done are the rest of the steps
+    - I have prepared the cake pan
+    - I have prepared the mixture
+    - All ingredients are now fully mixed
+    - The batter is now thick and frosty
+    - The cakes are now fully cooledhow do I make the frosting
+    - I have cut the tops of the cakes offnow
+    - The egg whites and the syrup are now mixed
+    - The frosting is now done
+    - I have room-temperature butter and the oven is being preheated
+    - The mixture and the strawberries
+    - I have made the butter mixture
+    - The butter and the strawberries
+    - The carrotsparsnips and onions are now in the pan
+    - The vegetables are now soft
+    - The puree is now back in the pot
+    - The egg is now incorporated into the breadcrumb mixture
+    - The meatball mixture is combined
+    - How do I make the sauce
+    - The meatballs are done
+    - It is 20 minutes before the meatballs are done
+    - The ingredients are now chopped
+    - The chicken is now ready
+    - The Marsala reduction is now back in the pan
+    - The Marsala is now done
+    - The chicken and the mushrooms are ready
+    - The veggies are now in the ovenhow do I make the noodles
+    - The noodles and cheese mixture are done
+    - The lasagna is now assembledhow long should I cook it for
+    - The streusel topping is done
+    - The pecans and sugar are done
+    - The batter is thickening
+    - The batter is done do I do for the baking
+    - The dough is now made
+    - The crust has finished pre-baking
+    - The ingredients are blended
+    - The crust is baking
+    - The veggies are now done
+    - The mushrooms are done
+    - All the vegetables are prepped and the beans boiled
+    - All the veggies are done
+    - The soup has finished cookingis there anything left to do
+    - the marzipan is done
+    - The streusel topping is done
+    - The ingredients are combined
+    - The beans are cooking can I do in the meantime
+    - The potatoesbeans and salsa are done
+    - The burrito filling is done
+    - The dry ingredients and the butter are now mixed
+    - The scones are now on the sheet
 
 - intent: search_rec
   examples: |

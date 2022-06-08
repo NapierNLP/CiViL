@@ -142,8 +142,12 @@ class CheifBot:
 
         elif system_action == 'utter_utensils':
             utensils_entity = intent.entities.get('utensils')
+            print("response: {}".format(self.responses.keys()))
             _response = self.responses.get(system_action).get(utensils_entity)
-            print('utter_utensils: {}'.format(_response))
+            _response = random.choice(_response)
+
+
+
 
 
         elif system_action == 'action_search_rec':

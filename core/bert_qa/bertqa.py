@@ -12,7 +12,7 @@ import torch
 from torch.utils.data import DataLoader, SequentialSampler
 
 from core.bert_qa.data_example import DataExample
-from logger import Logger
+#from logger import Logger
 from core.bert_qa.utils import Context, Answer, SquadResult
 
 try:
@@ -48,7 +48,7 @@ def set_seed(seed, n_gpu: int):
 class BertQA:
 
     def __init__(self, component_config: dict, **kwargs):
-        self.logger = Logger.__call__().get_logger()
+       # self.logger = Logger.__call__().get_logger()
         self.component_config = component_config
 
         self.device = torch.device("cuda" if torch.cuda.is_available() and component_config.get('on_gpu')
@@ -62,10 +62,10 @@ class BertQA:
         self._enable_n_best = component_config.get('enable_n_best')
 
     def predict(self, question: str, contexts: List[Context]) -> List[Answer]:
-        self.logger.debug('question: {}'.format(question))
-        self.logger.debug('contexts[0]: {}'.format(contexts[0].toJson()))
+        print('question: {}'.format(question))
+        print('contexts[0]: {}'.format(contexts[0].toJson()))
         examples = self.input_to_squad_examples(question, contexts)
-        self.logger.debug('examples[0]: {}'.format(examples[0]))
+        print('examples[0]: {}'.format(examples[0]))
 
         features, dataset = squad_convert_examples_to_features(
             examples=examples,
@@ -115,7 +115,7 @@ class BertQA:
 
                 all_results.append(result)
 
-        self.logger.debug('_all_results: {size}'.format(size=len(all_results)))
+        print('_all_results: {size}'.format(size=len(all_results)))
 
         all_pred_answers, all_n_best = self.compute_predictions_logits(
             all_examples=examples,
@@ -132,10 +132,10 @@ class BertQA:
 
         all_answers = []
 
-        self.logger.debug('**---- all_nbest_json: {}'.format(all_n_best))
-        self.logger.debug('**---- all_nbest_json size: {} -- {}'.format(len(all_n_best), len(list(all_n_best.values())[0])))
-        self.logger.debug('**---- all_nbest_json size: {} -- {}'.format(len(all_n_best), len(list(all_n_best.values())[0])))
-        self.logger.debug('**---- all_predictions size: {}'.format(len(all_answers)))
+        print('**---- all_nbest_json: {}'.format(all_n_best))
+        print('**---- all_nbest_json size: {} -- {}'.format(len(all_n_best), len(list(all_n_best.values())[0])))
+        print('**---- all_nbest_json size: {} -- {}'.format(len(all_n_best), len(list(all_n_best.values())[0])))
+        print('**---- all_predictions size: {}'.format(len(all_answers)))
 
         self._model.to('cpu')
         if self._enable_n_best:
@@ -166,7 +166,7 @@ class BertQA:
             answer_inputs = np.array_split(answer_inputs, 10)
         elif len(answer_inputs) > 5:
             answer_inputs = np.array_split(answer_inputs, 5)
-        self.logger.debug('-- answer_inputs : {} - {}'.format(answer_inputs, len(answer_inputs)))
+        print('-- answer_inputs : {} - {}'.format(answer_inputs, len(answer_inputs)))
 
         all_final_answers = self.multi_process_answers(answer_inputs)
 
@@ -174,7 +174,7 @@ class BertQA:
         _sorted_answers = list(_sorted_answers.values())
 
         _sorted_answers = [result.toJson() for result in _sorted_answers]
-        self.logger.debug('_sorted_answers: {}'.format(_sorted_answers))
+        print('_sorted_answers: {}'.format(_sorted_answers))
         end = time.time()
         self._model.to(self.device)
         return _sorted_answers
@@ -544,7 +544,7 @@ class BertQA:
 
 
 if __name__ == "__main__":
-    model = 'bert-large-uncased-whole-word-masking'
+    model = 'rsvp-ai/bertserini-bert-large-squad'
     configs = {
         "tokenizer": model,
         "model": model,
@@ -567,24 +567,13 @@ if __name__ == "__main__":
         "enable_n_best": True}
     reader = BertQA(configs)
 
-    questions = ["To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?",
-                 "What is in front of the Notre Dame Main Building?"]
+    questions = ["How many tablespoons of soft butter?", "How many cups of lukewarm water", "what type of milk do i need"]
     docs = [{'idx': "002.21",
-             'text': "Architecturally, the school has a Catholic character. Atop the Main Building's gold dome is a golden statue " \
-                     "of the Virgin Mary. Immediately in front of the Main Building and facing it, is a copper statue of Christ " \
-                     "with arms upraised with the legend \"Venite Ad Me Omnes\". Next to the Main Building is the Basilica of the " \
-                     "Sacred Heart. Immediately behind the basilica is the Grotto, a Marian place of prayer and reflection. It is " \
-                     "a replica of the grotto at Lourdes, France where the Virgin Mary reputedly appeared to Saint Bernadette " \
-                     "Soubirous in 1858. At the end of the main drive (and in a direct line that connects through 3 statues and " \
-                     "the Gold Dome), is a simple, modern stone statue of Mary.", 'title': '123'},
-            {'idx': "003.003",
-             'text': "Architecturally, the school has a Catholic character. Atop the Main Building's gold dome is a golden statue " \
-                     "of the Virgin Mary. Immediately in front of the Main Building and facing it, is a copper statue of Christ " \
-                     "with arms upraised with the legend \"Venite Ad Me Omnes\". Next to the Main Building is the Basilica of the " \
-                     "Sacred Heart. Immediately behind the basilica is the Grotto, a Marian place of prayer and reflection. It is " \
-                     "a replica of the grotto at Lourdes, France where the Virgin Mary reputedly appeared to Saint Bernadette " \
-                     "Soubirous in 1858. At the end of the main drive (and in a direct line that connects through 3 statues and " \
-                     "the Gold Dome), is a simple, modern stone statue of Mary.", 'title': '456'},
+             'text': "To start with combine 1 and three quarter cups of lukewarm milk, 3 tablespoons of soft butter, one and a half teaspoons of salt, 2 tablespoons of sugar, one egg, 5 cups of bread flour, and 2 teaspoons of yeast in a large mixing bowl of an electric stand mixer."
+
+
+                , 'title': '123'},
+
             ]
 
     contexts = [Context(idx=doc['idx'], title=doc['title'], text=doc['text']) for doc in docs]

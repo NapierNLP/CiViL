@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+    proxy:
+        container_name:  spring_proxy
+        build: proxy
+        ports:
+            - 7001:7001
+        extra_hosts:
+            - "outside:172.17.0.1"
+        volumes:
+            - "/scratch/civil/civil_logs/proxy.log:/civil/civil/logs/proxy.log"
+        environment:
+            CONFIG: "config.yaml"
+            WORKERS: 4
+            PORT: 7001
+
+networks:
+  default:
+    external:
+      name: spring-alana_default
+
+
+volumes:
+  proxy-logs:
