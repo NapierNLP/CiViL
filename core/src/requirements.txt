@@ -17,7 +17,6 @@ rasa[spacy]
 
 # tokenizer and other NLP toolkits
 spacy
-nltk
 
 # deep learning frameworks
 tensorflow

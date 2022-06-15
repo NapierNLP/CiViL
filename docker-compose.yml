@@ -2,24 +2,37 @@ version: "3"
 
 services:
     proxy:
-        container_name:  spring_proxy
-        build: proxy
+        container_name:  civil_core
+        build: core
         ports:
             - 7001:7001
         extra_hosts:
             - "outside:172.17.0.1"
         volumes:
-            - "/scratch/civil/civil_logs/proxy.log:/civil/civil/logs/proxy.log"
+            - "/scratch/civil/civil_logs/proxy.log:/civil/logs/proxy.log"
         environment:
             CONFIG: "config.yaml"
             WORKERS: 4
             PORT: 7001
 
-networks:
-  default:
-    external:
-      name: spring-alana_default
-
+    rasa:
+        container_name: civil_rasa
+        build:
+            context: rasax
+        ports:
+            - 7002:7002
+        volumes:
+            - "/scratch/civil/civil_logs/alana_eval.log:/civil/logs/civil_rasa.log"
+        depends_on:
+            - rasa_duckling
+        environment:
+            PORT: 7002
+            
+    rasa_duckling:
+        container_name: civil_duckling
+        image: rasa/duckling
 
 volumes:
-  proxy-logs:
+    civil_main-logs:
+    mongo_db_v:
+    rasa:

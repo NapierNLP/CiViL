@@ -5,8 +5,6 @@ import os
 import random
 import re
 import uuid
-from argparse import ArgumentParser
-import requests
 import yaml
 from flask import request
 
@@ -22,7 +20,7 @@ class CheifBot:
         self._logger = logger
 
         # load setup for the system
-        with open(os.path.join(os.getcwd().replace('core', ''), 'rasax', 'domain.yml')) as domain_file:
+        with open(os.path.join(os.getcwd(), 'src', 'data', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
 
             self.system_actions = _domain.get('actions')
@@ -33,14 +31,14 @@ class CheifBot:
             self._logger.debug('self.dialog_slots[{}]: {}'.format(len(self.dialog_slots), self.dialog_slots))
             self._logger.debug('self.dialogue_history[{}]: {}'.format(len(self.dialogue_history.query_queue), self.dialogue_history))
 
-        with open(os.path.join(os.getcwd().replace('core', ''), 'rasax', 'data', 'dm', 'recipe_intent_map.yaml'),
+        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'recipe_intent_map.yaml'),
                   "r") as recipe_intent_map_file:
             self.recipe_intent_map = yaml.safe_load(recipe_intent_map_file)
             self._logger.debug('self.recipe_intent_map[{}]: {}'.format(len(self.recipe_intent_map), self.recipe_intent_map))
 
         # loading NLG templates
         response_files = glob.glob(
-            os.path.join(os.getcwd().replace('core', ''), 'rasax', 'data', 'response', '*.yaml'))
+            os.path.join(os.getcwd(), 'src', 'data', 'response', '*.yaml'))
         self._logger.debug('files: {}'.format(response_files))
         self.responses = {}
         for file in response_files:
@@ -49,21 +47,21 @@ class CheifBot:
         self._logger.debug('self.responses[{}]: {}'.format(len(self.responses), self.responses))
 
         # loading DM rules and segments
-        with open(os.path.join(os.getcwd().replace('core', ''), 'rasax', 'data', 'dm', 'segments.yaml'),
+        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'segments.yaml'),
                   "r") as segments_file:
             _segments = yaml.safe_load(segments_file)
             _segments = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in
                          _segments.get('segments')}
             self.rules_regex = {re.compile(k, re.I): v for k, v in _segments.items()}
 
-        with open(os.path.join(os.getcwd().replace('core', ''), 'rasax', 'data', 'dm', 'custom_stories.yaml'),
+        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'custom_stories.yaml'),
                   "r") as custom_stories_file:
             _custom_stories = yaml.safe_load(custom_stories_file)
             _custom_stories = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in
                                _custom_stories.get('segments')}
             self.rules_regex.update({re.compile(k, re.I): v for k, v in _custom_stories.items()})
 
-        with open(os.path.join(os.getcwd().replace('core', ''), 'rasax', 'data', 'dm', 'rules.yml'),
+        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'rules.yml'),
                   "r") as rules_file:
             _rules = yaml.safe_load(rules_file)
             _rules = {item.get('intent'): item.get('conditions') for item in _rules.get('rules')}

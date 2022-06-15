@@ -11,9 +11,9 @@ import torch
 
 from torch.utils.data import DataLoader, SequentialSampler
 
-from core.bert_qa.data_example import DataExample
+from bert.data_example import DataExample
 #from logger import Logger
-from core.bert_qa.utils import Context, Answer, SquadResult
+from bert.utils import Context, Answer, SquadResult
 
 try:
     from transformers import BasicTokenizer, AutoModelForQuestionAnswering, \
