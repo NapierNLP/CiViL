@@ -8,9 +8,13 @@ import uuid
 import yaml
 from flask import request
 
+from bert.bertqa import BertQA
+from dm.Response import Response
 from dm.state import State
 from nlu.rasa_nlu import RasaNLU, RasaIntent
 from utils.queue_query import QueueQuery
+
+NLU_CONF_THRESHOLD = 0.6
 
 
 class CheifBot:
@@ -19,26 +23,36 @@ class CheifBot:
         self._nlu = RasaNLU()
         self._logger = logger
 
+        # load BERT model and context for the system
+        with open(os.path.join(os.getcwd(), 'config', 'bert_confg.yml')) as bert_config_file:
+            configs = yaml.safe_load(bert_config_file)
+        self._bert_model = BertQA(configs)
+
+        with open(os.path.join(os.getcwd(), 'data', 'bert_context', 'bert_context.yml'),
+                  "r") as bert_context_file:
+            self._bert_context = yaml.safe_load(bert_context_file)
+
         # load setup for the system
-        with open(os.path.join(os.getcwd(), 'src', 'data', 'domain.yml')) as domain_file:
+        with open(os.path.join(os.getcwd(), 'data', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
 
-            self.system_actions = _domain.get('actions')
-            self.user_intents = _domain.get('intents')
-            self.dialog_slots = State(state_config=_domain.get('slots'))
-            self.dialogue_history = QueueQuery(_domain.get('pre_turn_number'))
+        self.system_actions = _domain.get('actions')
+        self.user_intents = _domain.get('intents')
+        self.dialog_slots = State(state_config=_domain.get('slots'))
+        self.dialogue_history = QueueQuery(_domain.get('pre_turn_number'))
 
-            self._logger.debug('self.dialog_slots[{}]: {}'.format(len(self.dialog_slots), self.dialog_slots))
-            self._logger.debug('self.dialogue_history[{}]: {}'.format(len(self.dialogue_history.query_queue), self.dialogue_history))
+        self._logger.debug('self.dialog_slots[{}]: {}'.format(len(self.dialog_slots), self.dialog_slots))
+        self._logger.debug(
+            'self.dialogue_history[{}]: {}'.format(len(self.dialogue_history.query_queue), self.dialogue_history))
 
-        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'recipe_intent_map.yaml'),
+        with open(os.path.join(os.getcwd(), 'data', 'dm', 'recipe_intent_map.yaml'),
                   "r") as recipe_intent_map_file:
             self.recipe_intent_map = yaml.safe_load(recipe_intent_map_file)
-            self._logger.debug('self.recipe_intent_map[{}]: {}'.format(len(self.recipe_intent_map), self.recipe_intent_map))
+        self._logger.debug('self.recipe_intent_map[{}]: {}'.format(len(self.recipe_intent_map), self.recipe_intent_map))
 
         # loading NLG templates
         response_files = glob.glob(
-            os.path.join(os.getcwd(), 'src', 'data', 'response', '*.yaml'))
+            os.path.join(os.getcwd(), 'data', 'response', '*.yaml'))
         self._logger.debug('files: {}'.format(response_files))
         self.responses = {}
         for file in response_files:
@@ -47,21 +61,21 @@ class CheifBot:
         self._logger.debug('self.responses[{}]: {}'.format(len(self.responses), self.responses))
 
         # loading DM rules and segments
-        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'segments.yaml'),
+        with open(os.path.join(os.getcwd(), 'data', 'dm', 'segments.yaml'),
                   "r") as segments_file:
             _segments = yaml.safe_load(segments_file)
             _segments = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in
                          _segments.get('segments')}
             self.rules_regex = {re.compile(k, re.I): v for k, v in _segments.items()}
 
-        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'custom_stories.yaml'),
+        with open(os.path.join(os.getcwd(), 'data', 'dm', 'custom_stories.yaml'),
                   "r") as custom_stories_file:
             _custom_stories = yaml.safe_load(custom_stories_file)
             _custom_stories = {item.get('steps')[0].get('intent'): item.get('steps')[1].get('action') for item in
                                _custom_stories.get('segments')}
             self.rules_regex.update({re.compile(k, re.I): v for k, v in _custom_stories.items()})
 
-        with open(os.path.join(os.getcwd(), 'src', 'data', 'dm', 'rules.yml'),
+        with open(os.path.join(os.getcwd(), 'data', 'dm', 'rules.yml'),
                   "r") as rules_file:
             _rules = yaml.safe_load(rules_file)
             _rules = {item.get('intent'): item.get('conditions') for item in _rules.get('rules')}
@@ -98,12 +112,11 @@ class CheifBot:
             # get NLU results
             r = requests.post('http://localhost:5005/model/parse', data=json.dumps({"text": user_sentence}))
 
-
-
             self._logger.info('r: {}'.format(r))
             if r.status_code == 200:
                 intent = self._nlu.process_user_sentence(r.json())
 
+        # self.response = Response()
         # if intent.confidence and intent.confidence >= NLU_CONF_THRESHOLD:
         #     _resp, _sys_action, _lock, _robot_command = self.get_response(intent)
         #     self.response.result = _resp
@@ -131,6 +144,15 @@ class CheifBot:
         system_action = self.search_for_response_action(intent=intent.type)
         self.dialog_slots.add('last_action', system_action)
 
+        if intent.type == 'search_utensils':
+            _context = [{'idx': 'r', 'title': 'r', 'text': self._bert_context.get('r')},
+                        {'idx': self.dialog_slots.get('recipe_ID'),
+                         'title': self.dialog_slots.get('recipe_ID'),
+                         'text': self._bert_context.get(self.dialog_slots.get('recipe_ID'))}]
+            _response = self._bert_model.predict(user_sentence, )
+            return {"system_action": system_action,
+                    "response": _response,
+                    "stateInfo": self.dialog_slots}
         # NLG
         if system_action == 'utter_rep':
             recipe_id = self.dialog_slots.get('recipe_ID')
@@ -143,10 +165,6 @@ class CheifBot:
             print("response: {}".format(self.responses.keys()))
             _response = self.responses.get(system_action).get(utensils_entity)
             _response = random.choice(_response)
-
-
-
-
 
         elif system_action == 'action_search_rec':
             # TODO: Linked to the Bert QA model for question answering

@@ -48,7 +48,6 @@ def set_seed(seed, n_gpu: int):
 class BertQA:
 
     def __init__(self, component_config: dict, **kwargs):
-       # self.logger = Logger.__call__().get_logger()
         self.component_config = component_config
 
         self.device = torch.device("cuda" if torch.cuda.is_available() and component_config.get('on_gpu')
