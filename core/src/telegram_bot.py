@@ -1,4 +1,5 @@
 import logging
+from argparse import ArgumentParser
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext, ConversationHandler, \
@@ -12,6 +13,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 CHOOSING, TYPING_REPLY, TYPING_CHOICE = range(3)
+
+BOT_NAME = "CIVIL_BOT"
 
 bot = CheifBot(logger)
 
@@ -81,11 +84,10 @@ def help_command(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("Use /start to test this bot.")
 
 
-def main() -> None:
-    """Run the bot."""
-    # Create the Updater and pass it your bots token.
-    updater = Updater("2139720036:AAHLPCgkGjce4c5mSPDgpoxDGNSqNCIqSMg", use_context=True)
+def main(token: str) -> None:
 
+    # Create the Updater and pass it your bots token.
+    updater = Updater(token, use_context=True)
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
 
@@ -103,5 +105,12 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+
+    """Run the bot."""
+    argp = ArgumentParser()
+    argp.add_argument('-t', '--token', type=int, default=7115)
+    argp.add_argument('-l', '--logfile', type=str, default=BOT_NAME + '.log')
+    args = argp.parse_args()
+
+    main(args.token)
 

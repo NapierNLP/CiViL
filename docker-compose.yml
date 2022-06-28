@@ -1,19 +1,30 @@
 version: "3"
 
 services:
-    proxy:
+    bot:
         container_name:  civil_core
-        build: core
-        ports:
-            - 7001:7001
-        extra_hosts:
-            - "outside:172.17.0.1"
+        build:
+          context: "."
+          dockerfile: Dockerfile
+        environment:
+          - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
         volumes:
             - "/scratch/civil/civil_logs/proxy.log:/civil/logs/proxy.log"
-        environment:
-            CONFIG: "config.yaml"
-            WORKERS: 4
-            PORT: 7001
+        restart: always
+
+#    proxy:
+#        container_name:  civil_core
+#        build: core
+#        ports:
+#            - 7001:7001
+#        extra_hosts:
+#            - "outside:172.17.0.1"
+#        volumes:
+#            - "/scratch/civil/civil_logs/proxy.log:/civil/logs/proxy.log"
+#        environment:
+#            CONFIG: "config.yaml"
+#            WORKERS: 4
+#            PORT: 7001
 
     rasa:
         container_name: civil_rasa
@@ -34,5 +45,4 @@ services:
 
 volumes:
     civil_main-logs:
-    mongo_db_v:
     rasa:
