@@ -22,4 +22,4 @@ COPY src .
 WORKDIR /CiViL/rasax
 
 # by default, rasax loads most recent model in 'models' directory
-CMD rasax run -m ./models/ --enable-api --port $PORT
+CMD rasa run -m ./models/ --enable-api --port $PORT

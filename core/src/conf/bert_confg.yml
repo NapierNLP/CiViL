@@ -1,6 +1,6 @@
 BertReader:
-  tokenizer: 'rsvp-ai/bertserini-bert-large-squad'
-  model: 'rsvp-ai/bertserini-bert-large-squad'
+  tokenizer: 'rsvp-ai/bertserini-bert-base-squad'
+  model: 'rsvp-ai/bertserini-bert-base-squad'
   fast_tokenizer: False
   on_gpu: True
   debug: False

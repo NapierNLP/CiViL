@@ -8,23 +8,25 @@ import uuid
 import yaml
 from flask import request
 
+
 from bert.bertqa import BertQA
 from dm.Response import Response
 from dm.state import State
-from nlu.rasa_nlu import RasaNLU, RasaIntent
-from utils.queue_query import QueueQuery
+from rasa_nlu import RasaNLU, RasaIntent
+from utils import Context
+from queue_query import QueueQuery
 
 NLU_CONF_THRESHOLD = 0.6
 
 
 class CheifBot:
 
-    def __init__(self, logger: logging):
+    def __init__(self, logger: logging): 
         self._nlu = RasaNLU()
         self._logger = logger
 
         # load BERT model and context for the system
-        with open(os.path.join(os.getcwd(), 'config', 'bert_confg.yml')) as bert_config_file:
+        with open(os.path.join(os.getcwd(), 'conf', 'bert_confg.yml')) as bert_config_file:
             configs = yaml.safe_load(bert_config_file)
         self._bert_model = BertQA(configs)
 
@@ -110,20 +112,25 @@ class CheifBot:
         else:
             import requests
             # get NLU results
-            r = requests.post('http://localhost:5005/model/parse', data=json.dumps({"text": user_sentence}))
+            r = requests.post('http://localhost:5000/model/parse', data=json.dumps({"text": user_sentence}))
 
+            self._logger.info('r: {}'.format(r))
             self._logger.info('r: {}'.format(r))
             if r.status_code == 200:
                 intent = self._nlu.process_user_sentence(r.json())
 
         # self.response = Response()
-        # if intent.confidence and intent.confidence >= NLU_CONF_THRESHOLD:
-        #     _resp, _sys_action, _lock, _robot_command = self.get_response(intent)
-        #     self.response.result = _resp
-        #     self.response.bot_params['system_action'] = _sys_action
-        #     self.response.lock_requested = _lock
-        #     if _robot_command:
-        #         self.response.bot_params['arbiter_command'] = _robot_command
+        if intent.confidence and intent.confidence >= NLU_CONF_THRESHOLD:
+            _context = list()
+            _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
+            _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
+                                    title=self.dialog_slots.get('recipe_ID'),
+                                    text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
+            _response = self._bert_model.predict(user_sentence, _context)
+            return {"system_action": "",
+                    "response": _response,
+                    "stateInfo": self.dialog_slots}
+
 
         # append the latest user input into the dialogue history
         self.dialogue_history.add(speaker="user", turn_data={"user_text": user_sentence, "rasa": intent})
@@ -145,12 +152,13 @@ class CheifBot:
         self.dialog_slots.add('last_action', system_action)
 
         if intent.type == 'search_utensils':
-            _context = [{'idx': 'r', 'title': 'r', 'text': self._bert_context.get('r')},
-                        {'idx': self.dialog_slots.get('recipe_ID'),
-                         'title': self.dialog_slots.get('recipe_ID'),
-                         'text': self._bert_context.get(self.dialog_slots.get('recipe_ID'))}]
-            _response = self._bert_model.predict(user_sentence, )
-            return {"system_action": system_action,
+            _context = list()
+            _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
+            _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
+                                    title=self.dialog_slots.get('recipe_ID'),
+                                    text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
+            _response = self._bert_model.predict(user_sentence, _context)
+            return {"system_action": "",
                     "response": _response,
                     "stateInfo": self.dialog_slots}
         # NLG

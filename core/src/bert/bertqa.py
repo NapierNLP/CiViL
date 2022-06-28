@@ -48,17 +48,17 @@ def set_seed(seed, n_gpu: int):
 class BertQA:
 
     def __init__(self, component_config: dict, **kwargs):
-        self.component_config = component_config
+        self.component_config = component_config.get('BertReader')
 
-        self.device = torch.device("cuda" if torch.cuda.is_available() and component_config.get('on_gpu')
+        self.device = torch.device("cuda" if torch.cuda.is_available() and self.component_config.get('on_gpu')
                                    else "cpu") if not kwargs else kwargs.get('device')
 
         # load the BERT pre-trained model and tokenizer for QA
-        self._model = AutoModelForQuestionAnswering.from_pretrained(component_config.get('model')).to(self.device)
-        self._tokenizer = AutoTokenizer.from_pretrained(component_config.get('tokenizer'),
-                                                        use_fast=component_config.get('fast_tokenizer'))
-        set_seed(component_config.get('seed'), component_config.get('n_gpu'))
-        self._enable_n_best = component_config.get('enable_n_best')
+        self._model = AutoModelForQuestionAnswering.from_pretrained(self.component_config.get('model'), use_auth_token=True).to(self.device)
+        self._tokenizer = AutoTokenizer.from_pretrained(self.component_config.get('tokenizer'),
+                                                        use_fast=self.component_config.get('fast_tokenizer'))
+        set_seed(self.component_config.get('seed'), self.component_config.get('n_gpu'))
+        self._enable_n_best = self.component_config.get('enable_n_best')
 
     def predict(self, question: str, contexts: List[Context]) -> List[Answer]:
         print('question: {}'.format(question))
@@ -540,45 +540,3 @@ class BertQA:
 
         output_text = orig_text[orig_start_position:(orig_end_position + 1)]
         return output_text
-
-
-if __name__ == "__main__":
-    model = 'rsvp-ai/bertserini-bert-large-squad'
-    configs = {
-        "tokenizer": model,
-        "model": model,
-        "vocab_file": "/data/odqa_data/models/bert_model",
-        "on_gpu": False,
-        "debug": False,
-        "max_seq_length": 384,
-        "doc_stride": 128,
-        "max_query_length": 64,
-        "max_answer_length": 30,
-        "n_best_size": 20,
-        "do_lower_case": True,
-        "seed": 42,
-        "n_gpu": 0,
-        "tqdm_enabled": False,
-        "threads": 1,
-        "version_2_with_negative": True,
-        "null_score_diff_threshold": 0,
-        "enable_softmax": True,
-        "enable_n_best": True}
-    reader = BertQA(configs)
-
-    questions = ["How many tablespoons of soft butter?", "How many cups of lukewarm water", "what type of milk do i need"]
-    docs = [{'idx': "002.21",
-             'text': "To start with combine 1 and three quarter cups of lukewarm milk, 3 tablespoons of soft butter, one and a half teaspoons of salt, 2 tablespoons of sugar, one egg, 5 cups of bread flour, and 2 teaspoons of yeast in a large mixing bowl of an electric stand mixer."
-
-
-                , 'title': '123'},
-
-            ]
-
-    contexts = [Context(idx=doc['idx'], title=doc['title'], text=doc['text']) for doc in docs]
-
-    for index, q in enumerate(questions):
-        all_results = reader.predict(q, contexts=contexts)
-        print("reader_results size: {}".format(len(all_results)))
-        print("reader_results: {}".format(all_results))
-        print("------------------------------")
