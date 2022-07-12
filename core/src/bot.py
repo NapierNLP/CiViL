@@ -12,9 +12,9 @@ from flask import request
 from bert.bertqa import BertQA
 from dm.Response import Response
 from dm.state import State
-from rasa_nlu import RasaNLU, RasaIntent
-from utils import Context
-from queue_query import QueueQuery
+from nlu.rasa_nlu import RasaNLU, RasaIntent
+from bert.utils import Context
+from utils.queue_query import QueueQuery
 
 NLU_CONF_THRESHOLD = 0.6
 

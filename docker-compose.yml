@@ -10,7 +10,7 @@ services:
         extra_hosts:
             - "outside:172.17.0.1"
         volumes:
-            - "/scratch/civil/civil_logs/proxy.log:/civil/logs/proxy.log"
+            - "/home/y-yu/WorkSpace/codebase/CiViL/civil_logs/proxy.log:/civil/logs/proxy.log"
         environment:
             CONFIG: "config.yaml"
             TELEGRAM_TOKEN: "2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc"
@@ -24,10 +24,11 @@ services:
         ports:
             - 7002:7002
         volumes:
-            - "/scratch/civil/civil_logs/alana_eval.log:/civil/logs/civil_rasa.log"
+            - "/home/y-yu/WorkSpace/codebase/CiViL/civil_logs/alana_eval.log:/civil/logs/civil_rasa.log"
         depends_on:
             - rasa_duckling
         environment:
+            MODULE_NAME: "./models/nlu-20220623-154359-numerous-period.tar.gz"
             PORT: 7002
             
     rasa_duckling:
