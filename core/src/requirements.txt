@@ -1,9 +1,7 @@
-
 flask
 pyaml
 wheel
 pandas
-tensorflow_hub
 matplotlib
 seaborn
 elasticsearch
@@ -18,7 +16,6 @@ nltk
 
 # deep learning frameworks
 tensorflow
-tensorflow-hub
 torch
 torchvision
 torchaudio
@@ -27,3 +24,15 @@ torchaudio
 tensorboardX
 tqdm
 transformers
+
+python-telegram-bot
+
+requests
+Flask-RESTful
+retrying
+botocore
+boto3
+regex
+pymongo
+gunicorn
+singleton-decorator

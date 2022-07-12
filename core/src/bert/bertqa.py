@@ -167,7 +167,7 @@ class BertQA:
             answer_inputs = np.array_split(answer_inputs, 5)
         print('-- answer_inputs : {} - {}'.format(answer_inputs, len(answer_inputs)))
 
-        all_final_answers = self.multi_process_answers(answer_inputs)
+        all_final_answers = self.multi_process_answers(answer_inputs, contexts, question)
 
         _sorted_answers = dict(collections.OrderedDict(sorted(all_final_answers.items(), reverse=True)))
         _sorted_answers = list(_sorted_answers.values())
@@ -178,11 +178,16 @@ class BertQA:
         self._model.to(self.device)
         return _sorted_answers
 
-    def multi_process_answers(self, answer_inputs):
+    def multi_process_answers(self, answer_inputs, contexts, question):
         with mp.Pool(len(answer_inputs)) as p:
-            all_final_answers = p.map(self.prepare_answers, answer_inputs)
+            all_final_answers = p.map(self.prepare_answers, [answer_inputs, contexts, question])
             p.close()  # no more tasks
             p.join()  # wrap up current tasks
+        all_final_answers = {k: v for answer in all_final_answers for k, v in answer.items()}
+        return all_final_answers
+
+    def process_answers(self, answer_inputs, contexts, question):
+        all_final_answers = self.prepare_answers([answer_inputs, contexts, question])
         all_final_answers = {k: v for answer in all_final_answers for k, v in answer.items()}
         return all_final_answers
 
@@ -190,6 +195,7 @@ class BertQA:
     def prepare_answers(args):
         answer_list = {}
         for item in args:
+            print("item: {}".format(item))
             answer = item[0]
             contexts = item[1]
             question = item[2]

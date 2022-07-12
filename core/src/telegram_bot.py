@@ -95,7 +95,6 @@ def main(token: str) -> None:
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, process_query))
     dispatcher.add_handler(CallbackQueryHandler(button))
     dispatcher.add_handler(CommandHandler('help', help_command))
-
     # Start the Bot
     updater.start_polling()
 
@@ -108,7 +107,7 @@ if __name__ == '__main__':
 
     """Run the bot."""
     argp = ArgumentParser()
-    argp.add_argument('-t', '--token', type=int, default=7115)
+    argp.add_argument('-t', '--token', type=str, default="2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc")
     argp.add_argument('-l', '--logfile', type=str, default=BOT_NAME + '.log')
     args = argp.parse_args()
 

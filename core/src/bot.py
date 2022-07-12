@@ -34,6 +34,12 @@ class CheifBot:
                   "r") as bert_context_file:
             self._bert_context = yaml.safe_load(bert_context_file)
 
+        # load BERT model and context for the system
+        with open(os.path.join(os.getcwd(), 'conf', 'civil.yml')) as bert_config_file:
+            configs = yaml.safe_load(bert_config_file)
+        self._nlu_url = configs.get('SERVICES').get('nlu')
+
+
         # load setup for the system
         with open(os.path.join(os.getcwd(), 'data', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
@@ -112,7 +118,7 @@ class CheifBot:
         else:
             import requests
             # get NLU results
-            r = requests.post('http://localhost:5000/model/parse', data=json.dumps({"text": user_sentence}))
+            r = requests.post(self._nlu_url, data=json.dumps({"text": user_sentence}))
 
             self._logger.info('r: {}'.format(r))
             self._logger.info('r: {}'.format(r))
@@ -120,7 +126,7 @@ class CheifBot:
                 intent = self._nlu.process_user_sentence(r.json())
 
         # self.response = Response()
-        if intent.confidence and intent.confidence >= NLU_CONF_THRESHOLD:
+        if intent.confidence and intent.confidence <= NLU_CONF_THRESHOLD:
             _context = list()
             _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
             _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
@@ -174,9 +180,9 @@ class CheifBot:
             _response = self.responses.get(system_action).get(utensils_entity)
             _response = random.choice(_response)
 
-        elif system_action == 'action_search_rec':
-            # TODO: Linked to the Bert QA model for question answering
-            pass
+        # elif system_action == 'action_search_rec':
+        #     # TODO: Linked to the Bert QA model for question answering
+        #     pass
 
         elif system_action == 'utter_replace':
             requested_ingredient = self.dialog_slots.get('requested_ingredient')
@@ -240,54 +246,3 @@ class CheifBot:
             return origin_text[start:end]
         except ValueError:
             return ""
-
-
-def terminal_test(logger: logging):
-    bot = CheifBot(logger)
-    _logger = logger
-
-    this_session = str(uuid.uuid1())
-    prompt = "  \033[90mUSER >\033[0m "
-
-    # MAIN LOOP
-    while True:
-        # Read user input
-        user_input = input(prompt)
-
-        # Clear screen if requested by the user
-        if user_input == "clear":
-            os.system('clear')
-            continue
-
-        # Post user input to SPRING-Alana
-        _logger.info(bot.get_answer(this_session, user_input))
-
-
-def terminal_test_action(logger: logging):
-    bot = CheifBot()
-    _logger = logger
-
-    this_session = str(uuid.uuid1())
-    prompt = "  \033[90mUSER >\033[0m "
-
-    # MAIN LOOP
-    while True:
-        # Read user input
-        user_input = input(prompt)
-
-        # Clear screen if requested by the user
-        if user_input == "clear":
-            os.system('clear')
-            continue
-
-        # Post user input to SPRING-Alana
-        _logger.info(bot.get_answer(this_session, "", intent_info=user_input))
-
-
-if __name__ == "__main__":
-    logging.basicConfig(
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
-    )
-    logger = logging.getLogger(__name__)
-
-    terminal_test(logger)

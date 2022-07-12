@@ -1,0 +1,2 @@
+SERVICES:
+    "nlu": "http://outside:7002/model/parse"  #  "http://rasa:7002/model/parse"
