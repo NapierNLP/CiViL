@@ -54,7 +54,7 @@ class BertQA:
                                    else "cpu") if not kwargs else kwargs.get('device')
 
         # load the BERT pre-trained model and tokenizer for QA
-        self._model = AutoModelForQuestionAnswering.from_pretrained(self.component_config.get('model'), use_auth_token=True).to(self.device)
+        self._model = AutoModelForQuestionAnswering.from_pretrained(self.component_config.get('model')).to(self.device)
         self._tokenizer = AutoTokenizer.from_pretrained(self.component_config.get('tokenizer'),
                                                         use_fast=self.component_config.get('fast_tokenizer'))
         set_seed(self.component_config.get('seed'), self.component_config.get('n_gpu'))

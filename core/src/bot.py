@@ -119,9 +119,7 @@ class CheifBot:
             import requests
             # get NLU results
             r = requests.post(self._nlu_url, data=json.dumps({"text": user_sentence}))
-
-            self._logger.info('r: {}'.format(r))
-            self._logger.info('r: {}'.format(r))
+            self._logger.info('nlu results: {}'.format(r.json()))
             if r.status_code == 200:
                 intent = self._nlu.process_user_sentence(r.json())
 

@@ -7,7 +7,7 @@ WORKDIR /CiViL/rasax
 # upcoming issue with pip3 in Oct 2020
 # Stick with rasax 1.10.14 -- using rasax2.0 wouldn't build in docker
 RUN python3 --version
-RUN pip3 install rasa==2.0 #--use-feature=2020-resolver
+RUN pip3 install rasa #--use-feature=2020-resolver
 
 # 30 Nov 2020 ConvERT model available from alternative source
 # but in Jan 2021 not specified in pipeline as yet
@@ -21,7 +21,6 @@ WORKDIR /CiViL/rasax
 COPY src .
 
 WORKDIR /CiViL/rasax
-
+#CMD rasa train nlu
 # by default, rasax loads most recent model in 'models' directory
-#CMD rasa run -m ./models/ --enable-api --port $PORT
 CMD rasa run -m $MODULE_NAME --enable-api --port $PORT

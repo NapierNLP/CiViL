@@ -12,5 +12,5 @@ echo $PROJECTROOTPATH
 source ${SCRIPTPATH}/ENV/bin/activate
 
 cd "${SCRIPTPATH}"/src
-#rasa shell nlu
-rasa run -m ./models/ --enable-api --port 5000
+rasa shell nlu -m nlu-20220713-211038-brownian-crow.tar.gz
+#rasa run -m ./models/ --enable-api --port 5000

@@ -113,6 +113,16 @@ To take the system down and remove the virtual network run:
 docker-compose down
 ```
 
+To remove all unused images:
+```bash
+docker image prune -a
+```
+
+To remove all building cache:
+```bash
+docker builder prune -a
+```
+
 If you just wish to re-build the images that have been changed and restart the necessary containers without downtime run:
 
 ```bash

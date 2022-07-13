@@ -28,7 +28,7 @@ services:
         depends_on:
             - rasa_duckling
         environment:
-            MODULE_NAME: "./models/nlu-20220623-154359-numerous-period.tar.gz"
+            MODULE_NAME: "nlu-20220713-211038-brownian-crow.tar.gz"
             PORT: 7002
             
     rasa_duckling:
