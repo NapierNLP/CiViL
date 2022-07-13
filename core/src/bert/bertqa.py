@@ -12,7 +12,6 @@ import torch
 from torch.utils.data import DataLoader, SequentialSampler
 
 from bert.data_example import DataExample
-#from logger import Logger
 from bert.utils import Context, Answer, SquadResult
 
 try:
@@ -27,7 +26,6 @@ except ImportError:
     cd transformers
     pip install -e ".[dev]"
     """)
-
 
 RawResult = collections.namedtuple("RawResult",
                                    ["unique_id", "start_logits", "end_logits"])
@@ -61,10 +59,7 @@ class BertQA:
         self._enable_n_best = self.component_config.get('enable_n_best')
 
     def predict(self, question: str, contexts: List[Context]) -> List[Answer]:
-        print('question: {}'.format(question))
-        print('contexts[0]: {}'.format(contexts[0].toJson()))
         examples = self.input_to_squad_examples(question, contexts)
-        print('examples[0]: {}'.format(examples[0]))
 
         features, dataset = squad_convert_examples_to_features(
             examples=examples,
@@ -131,11 +126,6 @@ class BertQA:
 
         all_answers = []
 
-        print('**---- all_nbest_json: {}'.format(all_n_best))
-        print('**---- all_nbest_json size: {} -- {}'.format(len(all_n_best), len(list(all_n_best.values())[0])))
-        print('**---- all_nbest_json size: {} -- {}'.format(len(all_n_best), len(list(all_n_best.values())[0])))
-        print('**---- all_predictions size: {}'.format(len(all_answers)))
-
         self._model.to('cpu')
         if self._enable_n_best:
             # re-fomulate the n_best answer list
@@ -167,7 +157,7 @@ class BertQA:
             answer_inputs = np.array_split(answer_inputs, 5)
         print('-- answer_inputs : {} - {}'.format(answer_inputs, len(answer_inputs)))
 
-        all_final_answers = self.multi_process_answers(answer_inputs, contexts, question)
+        all_final_answers = self.process_answers(answer_inputs, contexts, question)
 
         _sorted_answers = dict(collections.OrderedDict(sorted(all_final_answers.items(), reverse=True)))
         _sorted_answers = list(_sorted_answers.values())
@@ -195,18 +185,21 @@ class BertQA:
     def prepare_answers(args):
         answer_list = {}
         for item in args:
-            print("item: {}".format(item))
             answer = item[0]
             contexts = item[1]
             question = item[2]
+            print("question: {}".format(question))
 
-            _answer = Answer(text=answer['text'], score=answer['probability'],
-                             query=question,
-                             document=contexts[int(answer.get('doc_idx'))].toJson(),
-                             document_id=answer.get('doc_idx'),
-                             start_index=answer['start_index'], end_index=answer['end_index'])
+            for an in answer:
+                print("answer(): {}".format(an))
+                print('contexts(....): {}'.format(contexts[int(an.get('doc_idx'))]))
+                _answer = Answer(text=an.get('text'), score=an.get('probability'),
+                                 query=question,
+                                 document=contexts[int(an.get('doc_idx'))].toJson(),
+                                 document_id=an.get('doc_idx'),
+                                 start_index=an.get('start_index'), end_index=an.get('end_index'))
 
-            answer_list[_answer.score] = _answer
+                answer_list[_answer.score] = _answer
         return answer_list
 
     @staticmethod
@@ -421,7 +414,8 @@ class BertQA:
                     scores_diff_json[example.qas_id] = score_diff
 
                     if score_diff > null_score_diff_threshold:
-                        all_predictions[example.qas_id] = {"text": "", "probability": 0.0, "start_logit": 0.0, "end_logit": 0.0,
+                        all_predictions[example.qas_id] = {"text": "", "probability": 0.0, "start_logit": 0.0,
+                                                           "end_logit": 0.0,
                                                            "start_index": 0, "end_index": 0, "doc_idx": example.qas_id}
                     else:
                         all_predictions[example.qas_id] = {"text": best_non_null_entry.text,
