@@ -16,7 +16,7 @@ CHOOSING, TYPING_REPLY, TYPING_CHOICE = range(3)
 
 BOT_NAME = "CIVIL_BOT"
 
-bot = CheifBot(logger)
+bot = None
 
 
 def find_between_r(origin_text: str, first: str, last: str):
@@ -84,8 +84,9 @@ def help_command(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("Use /start to test this bot.")
 
 
-def main(token: str) -> None:
-
+def main(token: str, bert_enabled: bool == True) -> None:
+    global bot
+    bot = CheifBot(logger, bert_enabled)
     # Create the Updater and pass it your bots token.
     updater = Updater(token, use_context=True)
     # Get the dispatcher to register handlers
@@ -108,8 +109,11 @@ if __name__ == '__main__':
     """Run the bot."""
     argp = ArgumentParser()
     argp.add_argument('-t', '--token', type=str, default="2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc")
+    argp.add_argument('-b', '--bert_model', type=str, default="True")
     argp.add_argument('-l', '--logfile', type=str, default=BOT_NAME + '.log')
     args = argp.parse_args()
 
-    main(args.token)
-
+    if args.bert_model == 'True':
+        main(args.token, True)
+    elif args.bert_model == 'False':
+        main(args.token, False)

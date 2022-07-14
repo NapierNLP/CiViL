@@ -14,6 +14,7 @@ services:
         environment:
             CONFIG: "config.yaml"
             TELEGRAM_TOKEN: "2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc"
+            BERT: "True"
             WORKERS: 4
             PORT: 7001
 
@@ -22,14 +23,14 @@ services:
         build:
             context: rasax
         ports:
-            - 7002:7002
+            - 7003:7003
         volumes:
             - "/home/y-yu/WorkSpace/codebase/CiViL/civil_logs/alana_eval.log:/civil/logs/civil_rasa.log"
         depends_on:
             - rasa_duckling
         environment:
             MODULE_NAME: "nlu-20220713-211038-brownian-crow.tar.gz"
-            PORT: 7002
+            PORT: 7003
             
     rasa_duckling:
         container_name: civil_duckling

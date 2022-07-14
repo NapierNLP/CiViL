@@ -21,18 +21,20 @@ NLU_CONF_THRESHOLD = 0.6
 
 class CheifBot:
 
-    def __init__(self, logger: logging): 
+    def __init__(self, logger: logging, bert_enabled: bool = True):
         self._nlu = RasaNLU()
         self._logger = logger
+        self._bert_enabled = bert_enabled
 
-        # load BERT model and context for the system
-        with open(os.path.join(os.getcwd(), 'conf', 'bert_confg.yml')) as bert_config_file:
-            configs = yaml.safe_load(bert_config_file)
-        self._bert_model = BertQA(configs)
+        if bert_enabled:
+            # load BERT model and context for the system
+            with open(os.path.join(os.getcwd(), 'conf', 'bert_confg.yml')) as bert_config_file:
+                configs = yaml.safe_load(bert_config_file)
+            self._bert_model = BertQA(configs,self._logger)
 
-        with open(os.path.join(os.getcwd(), 'data', 'bert_context', 'bert_context.yml'),
-                  "r") as bert_context_file:
-            self._bert_context = yaml.safe_load(bert_context_file)
+            with open(os.path.join(os.getcwd(), 'data', 'bert_context', 'bert_context.yml'),
+                      "r") as bert_context_file:
+                self._bert_context = yaml.safe_load(bert_context_file)
 
         # load BERT model and context for the system
         with open(os.path.join(os.getcwd(), 'conf', 'civil.yml')) as bert_config_file:
@@ -123,17 +125,22 @@ class CheifBot:
             if r.status_code == 200:
                 intent = self._nlu.process_user_sentence(r.json())
 
-        # self.response = Response()
         if intent.confidence and intent.confidence <= NLU_CONF_THRESHOLD:
-            _context = list()
-            _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-            _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
-                                    title=self.dialog_slots.get('recipe_ID'),
-                                    text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
-            _response = self._bert_model.predict(user_sentence, _context)
-            return {"system_action": "",
-                    "response": _response,
-                    "stateInfo": self.dialog_slots}
+            if self._bert_enabled:
+                _context = list()
+                _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
+                if self.dialog_slots.get('recipe_ID'):
+                    _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
+                                            title=self.dialog_slots.get('recipe_ID'),
+                                            text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
+                _response = self._bert_model.predict(user_sentence, _context)
+                return {"system_action": "",
+                        "response": _response,
+                        "stateInfo": self.dialog_slots}
+            else:
+                return {"system_action": "",
+                        "response": "sorry, i can't understand your query.",
+                        "stateInfo": self.dialog_slots}
 
 
         # append the latest user input into the dialogue history
@@ -156,15 +163,22 @@ class CheifBot:
         self.dialog_slots.add('last_action', system_action)
 
         if intent.type == 'search_utensils':
-            _context = list()
-            _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-            _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
-                                    title=self.dialog_slots.get('recipe_ID'),
-                                    text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
-            _response = self._bert_model.predict(user_sentence, _context)
-            return {"system_action": "",
-                    "response": _response,
-                    "stateInfo": self.dialog_slots}
+            if self._bert_enabled:
+                _context = list()
+                _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
+                if self.dialog_slots.get('recipe_ID'):
+                    _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
+                                            title=self.dialog_slots.get('recipe_ID'),
+                                            text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
+                _response = self._bert_model.predict(user_sentence, _context)
+                return {"system_action": "",
+                        "response": _response,
+                        "stateInfo": self.dialog_slots}
+            else:
+                return {"system_action": "",
+                        "response": "sorry, I'm still learning about this.",
+                        "stateInfo": self.dialog_slots}
+
         # NLG
         if system_action == 'utter_rep':
             recipe_id = self.dialog_slots.get('recipe_ID')
@@ -244,3 +258,54 @@ class CheifBot:
             return origin_text[start:end]
         except ValueError:
             return ""
+
+
+def terminal_test(logger: logging):
+    bot = CheifBot(logger)
+    _logger = logger
+
+    this_session = str(uuid.uuid1())
+    prompt = "  \033[90mUSER >\033[0m "
+
+    # MAIN LOOP
+    while True:
+        # Read user input
+        user_input = input(prompt)
+
+        # Clear screen if requested by the user
+        if user_input == "clear":
+            os.system('clear')
+            continue
+
+        # Post user input to SPRING-Alana
+        _logger.info(bot.get_answer(this_session, user_input))
+
+
+def terminal_test_action(logger: logging):
+    bot = CheifBot()
+    _logger = logger
+
+    this_session = str(uuid.uuid1())
+    prompt = "  \033[90mUSER >\033[0m "
+
+    # MAIN LOOP
+    while True:
+        # Read user input
+        user_input = input(prompt)
+
+        # Clear screen if requested by the user
+        if user_input == "clear":
+            os.system('clear')
+            continue
+
+        # Post user input to SPRING-Alana
+        _logger.info(bot.get_answer(this_session, "", intent_info=user_input))
+
+
+if __name__ == "__main__":
+    logging.basicConfig(
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+    )
+    logger = logging.getLogger(__name__)
+
+    terminal_test(logger)

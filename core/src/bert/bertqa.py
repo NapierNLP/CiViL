@@ -1,6 +1,7 @@
 """Rank Documents with an lucnene index using Aserini"""
 import collections
 import itertools
+import logging
 import random
 from typing import List
 import time
@@ -45,8 +46,9 @@ def set_seed(seed, n_gpu: int):
 
 class BertQA:
 
-    def __init__(self, component_config: dict, **kwargs):
+    def __init__(self, component_config: dict, logger: logging, **kwargs):
         self.component_config = component_config.get('BertReader')
+        self._logger = logger
 
         self.device = torch.device("cuda" if torch.cuda.is_available() and self.component_config.get('on_gpu')
                                    else "cpu") if not kwargs else kwargs.get('device')
@@ -109,7 +111,7 @@ class BertQA:
 
                 all_results.append(result)
 
-        print('_all_results: {size}'.format(size=len(all_results)))
+        self._logger.info('_all_results: {size}'.format(size=len(all_results)))
 
         all_pred_answers, all_n_best = self.compute_predictions_logits(
             all_examples=examples,
@@ -155,15 +157,15 @@ class BertQA:
             answer_inputs = np.array_split(answer_inputs, 10)
         elif len(answer_inputs) > 5:
             answer_inputs = np.array_split(answer_inputs, 5)
-        print('-- answer_inputs : {} - {}'.format(answer_inputs, len(answer_inputs)))
+        self._logger.info('-- answer_inputs : {} - {}'.format(answer_inputs, len(answer_inputs)))
 
-        all_final_answers = self.process_answers(answer_inputs, contexts, question)
+        all_final_answers = self.process_answers(answer_inputs)
 
         _sorted_answers = dict(collections.OrderedDict(sorted(all_final_answers.items(), reverse=True)))
         _sorted_answers = list(_sorted_answers.values())
 
         _sorted_answers = [result.toJson() for result in _sorted_answers]
-        print('_sorted_answers: {}'.format(_sorted_answers))
+        self._logger.info('_sorted_answers: {}'.format(_sorted_answers))
         end = time.time()
         self._model.to(self.device)
         return _sorted_answers
@@ -176,30 +178,29 @@ class BertQA:
         all_final_answers = {k: v for answer in all_final_answers for k, v in answer.items()}
         return all_final_answers
 
-    def process_answers(self, answer_inputs, contexts, question):
-        all_final_answers = self.prepare_answers([answer_inputs, contexts, question])
+    def process_answers(self, answer_inputs):
+        all_final_answers = self.prepare_answers(answer_inputs)
         all_final_answers = {k: v for answer in all_final_answers for k, v in answer.items()}
         return all_final_answers
 
-    @staticmethod
-    def prepare_answers(args):
+    def prepare_answers(self, args):
         answer_list = {}
+
         for item in args:
             answer = item[0]
             contexts = item[1]
             question = item[2]
-            print("question: {}".format(question))
+            self._logger.info("question: {}".format(question))
 
-            for an in answer:
-                print("answer(): {}".format(an))
-                print('contexts(....): {}'.format(contexts[int(an.get('doc_idx'))]))
-                _answer = Answer(text=an.get('text'), score=an.get('probability'),
-                                 query=question,
-                                 document=contexts[int(an.get('doc_idx'))].toJson(),
-                                 document_id=an.get('doc_idx'),
-                                 start_index=an.get('start_index'), end_index=an.get('end_index'))
+            self._logger.info("answer(): {}".format(answer))
+            self._logger.info('contexts(....): {}'.format(contexts[int(answer.get('doc_idx'))]))
+            _answer = Answer(text=answer.get('text'), score=answer.get('probability'),
+                             query=question,
+                             document=contexts[0].toJson(),
+                             document_id=answer.get('doc_idx'),
+                             start_index=answer.get('start_index'), end_index=answer.get('end_index'))
 
-                answer_list[_answer.score] = _answer
+            answer_list[_answer.score] = _answer
         return answer_list
 
     @staticmethod
@@ -349,7 +350,7 @@ class BertQA:
 
                     final_text = self.get_final_text(tok_text, orig_text, do_lower_case)
                     if "##" in final_text or "[UNK]" in final_text:
-                        print(final_text, "||", tok_text, "||", orig_text)
+                        self._logger.info(final_text, "||", tok_text, "||", orig_text)
                     if final_text in seen_predictions:
                         continue
                     seen_predictions[final_text] = True
