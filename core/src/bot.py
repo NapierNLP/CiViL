@@ -139,7 +139,7 @@ class CheifBot:
                         "stateInfo": self.dialog_slots}
             else:
                 return {"system_action": "",
-                        "response": "sorry, i can't understand your query.",
+                        "response": {'text':"sorry, i can't understand your query."},
                         "stateInfo": self.dialog_slots}
 
 
@@ -176,7 +176,7 @@ class CheifBot:
                         "stateInfo": self.dialog_slots}
             else:
                 return {"system_action": "",
-                        "response": "sorry, I'm still learning about this.",
+                        "response": {'text':"sorry, I'm still learning about this."},
                         "stateInfo": self.dialog_slots}
 
         # NLG

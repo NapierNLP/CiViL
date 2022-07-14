@@ -168,7 +168,7 @@ class BertQA:
         self._logger.info('_sorted_answers: {}'.format(_sorted_answers))
         end = time.time()
         self._model.to(self.device)
-        return _sorted_answers
+        return {'text': _sorted_answers[0].get('span')}
 
     def multi_process_answers(self, answer_inputs, contexts, question):
         with mp.Pool(len(answer_inputs)) as p:
@@ -180,7 +180,7 @@ class BertQA:
 
     def process_answers(self, answer_inputs):
         all_final_answers = self.prepare_answers(answer_inputs)
-        all_final_answers = {k: v for answer in all_final_answers for k, v in answer.items()}
+        # all_final_answers = {k: v for answer in all_final_answers for k, v in answer.items()}
         return all_final_answers
 
     def prepare_answers(self, args):

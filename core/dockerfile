@@ -12,4 +12,4 @@ FROM civil_base as civil_core
 WORKDIR /CiViL/core
 COPY src .
 
-CMD python3 telegram_bot.py -t $TELEGRAM_TOKEN
+CMD python3 telegram_bot.py -t $TELEGRAM_TOKEN -b $BERT
