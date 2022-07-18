@@ -60,7 +60,7 @@ class BertQA:
         set_seed(self.component_config.get('seed'), self.component_config.get('n_gpu'))
         self._enable_n_best = self.component_config.get('enable_n_best')
 
-    def predict(self, question: str, contexts: List[Context]) -> dict[str, Union[str, Any]]:
+    def predict(self, question: str, contexts: List[Context]):
         examples = self.input_to_squad_examples(question, contexts)
 
         features, dataset = squad_convert_examples_to_features(
