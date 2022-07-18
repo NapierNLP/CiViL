@@ -142,3 +142,11 @@ Use the following command if you wish to view the output of a particular system 
 docker-compose logs -f directions_bot
 ```
 To exit the preview, press `Ctrl+C`. You can also use `docker attach directions_bot` to view the logs, but this directly attaches the terminal so when you press `Ctrl+C`, it'll stop the service.
+
+
+##AWS Instance
+
+To access to the aws instance
+```
+ssh -i /path/key-pair-name.pem instance-user-name@instance-public-dns-name
+```

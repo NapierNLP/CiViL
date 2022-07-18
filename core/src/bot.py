@@ -1,3 +1,4 @@
+import copy
 import glob
 import json
 import logging
@@ -8,7 +9,7 @@ import uuid
 import yaml
 from flask import request
 
-
+import sql.sqlac
 from bert.bertqa import BertQA
 from dm.Response import Response
 from dm.state import State
@@ -25,12 +26,14 @@ class CheifBot:
         self._nlu = RasaNLU()
         self._logger = logger
         self._bert_enabled = bert_enabled
+        self._prev_dialogue_state = None
+        self._existing_chats = {}
 
         if bert_enabled:
             # load BERT model and context for the system
             with open(os.path.join(os.getcwd(), 'conf', 'bert_confg.yml')) as bert_config_file:
                 configs = yaml.safe_load(bert_config_file)
-            self._bert_model = BertQA(configs,self._logger)
+            self._bert_model = BertQA(configs, self._logger)
 
             with open(os.path.join(os.getcwd(), 'data', 'bert_context', 'bert_context.yml'),
                       "r") as bert_context_file:
@@ -40,7 +43,6 @@ class CheifBot:
         with open(os.path.join(os.getcwd(), 'conf', 'civil.yml')) as bert_config_file:
             configs = yaml.safe_load(bert_config_file)
         self._nlu_url = configs.get('SERVICES').get('nlu')
-
 
         # load setup for the system
         with open(os.path.join(os.getcwd(), 'data', 'domain.yml')) as domain_file:
@@ -93,23 +95,22 @@ class CheifBot:
 
         self._logger.debug('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
 
-    def get(self):
-        """ Overwrites super GET function to ensure GET requests are ignored."""
-        pass
-
-    def post(self):
-        """ Handles POST requests from corona_main.py.
-        Returns:
-            response [json] -- Json with response object.
-        """
-        request_data = request.get_json(force=True)
-        user_sentence = request_data.get("raw_text")
-
-        _response = {'result': self.get_answer(user_sentence), 'dialog_history': self.dialogue_history.query_queue}
-        return _response
-
     def get_answer(self, session_id: str, user_sentence: str, intent_info: str = None):
+
         self._logger.info('session_id: {}'.format(session_id))
+        # load the existing user
+
+        self._prev_dialogue_state = copy.deepcopy(self.dialog_slots)
+        # sql.sqlac.show_dialogues()
+        # existing_record = sql.sqlac.find_record_by_id(session_id)
+        existing_record = self._existing_chats.get(session_id)
+        if existing_record:
+            # self._prev_dialogue_state = json.loads(existing_record.dialogue_state)
+            self._prev_dialogue_state = existing_record.get('stateInfo')
+            self._logger.info('previous dialogue state by {} is: {}'.format(session_id, self._prev_dialogue_state))
+        else:
+            self._logger.info('NEW dialogue state for {} is: {}'.format(session_id, self._prev_dialogue_state))
+
         self._logger.info('user_sentence: {}'.format(user_sentence))
 
         if intent_info:
@@ -129,62 +130,83 @@ class CheifBot:
             if self._bert_enabled:
                 _context = list()
                 _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-                if self.dialog_slots.get('recipe_ID'):
-                    _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
-                                            title=self.dialog_slots.get('recipe_ID'),
-                                            text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
+                if self._prev_dialogue_state.get('recipe_ID'):
+                    _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
+                                            title=self._prev_dialogue_state.get('recipe_ID'),
+                                            text=self._bert_context.get(self._prev_dialogue_state.get('recipe_ID'))))
                 _response = self._bert_model.predict(user_sentence, _context)
-                return {"system_action": "",
-                        "response": _response,
-                        "stateInfo": self.dialog_slots}
-            else:
-                return {"system_action": "",
-                        "response": {'text':"sorry, i can't understand your query."},
-                        "stateInfo": self.dialog_slots}
 
+                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
+                result = {"system_action": "",
+                          "response": _response,
+                          "stateInfo": self._prev_dialogue_state}
+                self._existing_chats[session_id] = result
+                self._prev_dialogue_state = None
+                return result
+            else:
+                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
+                #                           json.dumps({'text': "sorry, i can't understand your query."}))
+                result = {"system_action": "",
+                          "response": {'text': "sorry, i can't understand your query."},
+                          "stateInfo": self._prev_dialogue_state}
+                self._existing_chats[session_id] = result
+                self._prev_dialogue_state = None
+                return result
 
         # append the latest user input into the dialogue history
         self.dialogue_history.add(speaker="user", turn_data={"user_text": user_sentence, "rasa": intent})
         self._fill_slots(intent.entities)
 
         if "(" in intent.type:
-            self.dialog_slots.add('requested_ingredient', self.find_between_r(intent.type, "(", ")"))
+            self._prev_dialogue_state.add('requested_ingredient', self.find_between_r(intent.type, "(", ")"))
 
         recipe_id = self.recipe_intent_map.get(intent.type)
         self._logger.info('{intent} --> {recipe_id}'.format(intent=intent.type, recipe_id=recipe_id))
 
         if recipe_id:
-            self.dialog_slots.add('meal_type', intent.type)
-            self.dialog_slots.add('recipe_ID', recipe_id)
-            self.dialog_slots.add('recipe_step_ID', list(self.responses.get('utter_rep').get(recipe_id).keys())[0])
+            self._prev_dialogue_state.add('meal_type', intent.type)
+            self._prev_dialogue_state.add('recipe_ID', recipe_id)
+            self._prev_dialogue_state.add('recipe_step_ID',
+                                          list(self.responses.get('utter_rep').get(recipe_id).keys())[0])
 
         # Rule-based DM
         system_action = self.search_for_response_action(intent=intent.type)
-        self.dialog_slots.add('last_action', system_action)
+        self._prev_dialogue_state.add('last_action', system_action)
 
         if intent.type == 'search_utensils':
             if self._bert_enabled:
                 _context = list()
                 _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-                if self.dialog_slots.get('recipe_ID'):
-                    _context.append(Context(idx=self.dialog_slots.get('recipe_ID'),
-                                            title=self.dialog_slots.get('recipe_ID'),
-                                            text=self._bert_context.get(self.dialog_slots.get('recipe_ID'))))
+                if self._prev_dialogue_state.get('recipe_ID'):
+                    _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
+                                            title=self._prev_dialogue_state.get('recipe_ID'),
+                                            text=self._bert_context.get(self._prev_dialogue_state.get('recipe_ID'))))
                 _response = self._bert_model.predict(user_sentence, _context)
-                return {"system_action": "",
-                        "response": _response,
-                        "stateInfo": self.dialog_slots}
+
+                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
+                result = {"system_action": "",
+                          "response": _response,
+                          "stateInfo": self._prev_dialogue_state}
+                self._existing_chats[session_id] = result
+                self._prev_dialogue_state = None
+                return result
             else:
-                return {"system_action": "",
-                        "response": {'text':"sorry, I'm still learning about this."},
-                        "stateInfo": self.dialog_slots}
+
+                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
+                #                           json.dumps({'text': "sorry, I'm still learning about this."}))
+                result = {"system_action": "",
+                          "response": {'text': "sorry, I'm still learning about this."},
+                          "stateInfo": self._prev_dialogue_state}
+                self._existing_chats[session_id] = result
+                self._prev_dialogue_state = None
+                return result
 
         # NLG
         if system_action == 'utter_rep':
-            recipe_id = self.dialog_slots.get('recipe_ID')
+            recipe_id = self._prev_dialogue_state.get('recipe_ID')
             recipe_responses = self.responses.get(system_action).get(recipe_id)
-            _response = recipe_responses.get(self.dialog_slots.get('recipe_step_ID'))
-            self.dialog_slots.add('recipe_step_ID', self.dialog_slots.get('recipe_step_ID') + 1)
+            _response = recipe_responses.get(self._prev_dialogue_state.get('recipe_step_ID'))
+            self._prev_dialogue_state.add('recipe_step_ID', self._prev_dialogue_state.get('recipe_step_ID') + 1)
 
         elif system_action == 'utter_utensils':
             utensils_entity = intent.entities.get('utensils')
@@ -192,12 +214,8 @@ class CheifBot:
             _response = self.responses.get(system_action).get(utensils_entity)
             _response = random.choice(_response)
 
-        # elif system_action == 'action_search_rec':
-        #     # TODO: Linked to the Bert QA model for question answering
-        #     pass
-
         elif system_action == 'utter_replace':
-            requested_ingredient = self.dialog_slots.get('requested_ingredient')
+            requested_ingredient = self._prev_dialogue_state.get('requested_ingredient')
             response_examples = self.responses.get(system_action).get(requested_ingredient)
             _response = random.choice(response_examples)
         else:
@@ -205,18 +223,23 @@ class CheifBot:
             self._logger.info('current response_examples for {}: {}'.format(system_action, response_examples))
             _response = random.choice(response_examples)
 
-        self.dialog_slots.add('sys_q_type', _response.get('qType'))
+        self._prev_dialogue_state.add('sys_q_type', _response.get('qType'))
 
-        self._logger.info('current dialogue state: {}'.format(self.dialog_slots))
+        self._logger.info('current dialogue state: {}'.format(self._prev_dialogue_state))
         self._logger.info('current _response for {}: {}'.format(system_action, _response))
 
-        return {"system_action": system_action,
-                "response": _response,
-                "stateInfo": self.dialog_slots}
+        # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state),
+        #                           system_action, json.dumps(_response))
+        result = {"system_action": system_action,
+                  "response": _response,
+                  "stateInfo": self._prev_dialogue_state}
+        self._existing_chats[session_id] = result
+        self._prev_dialogue_state = None
+        return result
 
     def search_for_response_action(self, intent: str, **kwargs):
         self._logger.info('current user intent: {}'.format(intent))
-        self._logger.info('current dialogue state: {}'.format(self.dialog_slots))
+        self._logger.info('current dialogue state: {}'.format(self._prev_dialogue_state))
 
         for pattern, action in self.rules_regex.items():
             # self._logger.info('(2) found searches: {}'.format(re.search(pattern, intent)))
@@ -225,7 +248,7 @@ class CheifBot:
                 if isinstance(action, str):
                     if "<" in action and ">" in action:
                         key = self.find_between_r(action, "<", ">")
-                        action = action.replace("<{}>".format(key), self.dialog_slots.get(key))
+                        action = action.replace("<{}>".format(key), self._prev_dialogue_state.get(key))
 
                     self._logger.info('corresponding action : {}'.format(action))
                     return action
@@ -234,13 +257,14 @@ class CheifBot:
                     for option in action:
                         state = option.get('state')
                         self._logger.info('state: {}'.format(state))
-                        self._logger.info('matched? : {}'.format(state.items() <= self.dialog_slots.state.items()))
+                        self._logger.info(
+                            'matched? : {}'.format(state.items() <= self._prev_dialogue_state.state.items()))
                         act = option.get('action')
 
-                        if state.items() <= self.dialog_slots.state.items():
+                        if state.items() <= self._prev_dialogue_state.state.items():
                             if "<" in act and ">" in act:
                                 key = self.find_between_r(act, "<", ">")
-                                act = act.replace("<{}>".format(key), self.dialog_slots.get(key))
+                                act = act.replace("<{}>".format(key), self._prev_dialogue_state.get(key))
 
                             self._logger.info('corresponding action : {}'.format(act))
                             return act
@@ -248,7 +272,7 @@ class CheifBot:
     def _fill_slots(self, entities: {}):
         if isinstance(entities, dict):
             for key, value in entities.items():
-                self.dialog_slots.add(key, value)
+                self._prev_dialogue_state.add(key, value)
 
     @staticmethod
     def find_between_r(origin_text: str, first: str, last: str):

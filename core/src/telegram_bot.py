@@ -29,18 +29,25 @@ def find_between_r(origin_text: str, first: str, last: str):
 
 
 def start(update: Update, context: CallbackContext) -> None:
+    chat_id = update.message.chat_id
+    first_name = update.message.chat.first_name
+    last_name = update.message.chat.last_name
+    username = update.message.chat.username
+    print("chat_id : {} and firstname : {} lastname : {}  username {}".format(chat_id, first_name, last_name, username))
     update.message.reply_text("Hello, welcome to CiVil Bot")
 
 
 def process_query(update: Update, context: CallbackContext) -> None:
     """process the user message."""
     user_input = update.message.text
-    text, reply_markup = get_answer(update, user_input=user_input, button_intent="")
+    chat_id = update.message.chat_id
+
+    text, reply_markup = get_answer(chat_id, user_input=user_input, button_intent="")
     update.message.reply_text(text, reply_markup=reply_markup)
 
 
-def get_answer(update, user_input: str, button_intent: str):
-    result = bot.get_answer("", user_input, intent_info=button_intent)
+def get_answer(chat_id, user_input: str, button_intent: str):
+    result = bot.get_answer(chat_id, user_input, intent_info=button_intent)
     logger.info('result: {}'.format(result))
     response = result.get('response')
     buttons = response.get('buttons')
@@ -73,8 +80,10 @@ def done(update: Update, context: CallbackContext) -> int:
 
 def button(update: Update, context: CallbackContext) -> None:
     """Parses the CallbackQuery and updates the message text."""
+
+    chat_id = update.callback_query.message.chat.id
     query = update.callback_query
-    text, reply_markup = get_answer(update, user_input="", button_intent=find_between_r(query.data, "[", "]"))
+    text, reply_markup = get_answer(chat_id, user_input="", button_intent=find_between_r(query.data, "[", "]"))
     query.answer()
     query.edit_message_text(text=text, reply_markup=reply_markup)
 

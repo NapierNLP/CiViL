@@ -13,8 +13,8 @@ nlu:
     - hey there
     - let's go
     - hey dude
-    - goodmorning
-    - goodevening
+    - good morning
+    - good evening
     - good afternoon
     - yo
     - hello world
@@ -32,24 +32,81 @@ nlu:
     - bye bye
     - see you later
     - thanks, goodbye
+
 - intent: affirm
   examples: |
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - yeah
+    - yea
+    - yup
+    - yip
+    - ok
+    - okay
+    - fine
+    - sure
+    - sure thing
+    - yes please
+    - ok yes
+    - ok then
+    - yes ok
+    - yeah let's
+    - yes let's do that
+    - yip fine
+    - go on
+    - please do
+    - ok go on then
+    - carry on yes
+    - ok yes sure
+    - i guess so
+    - sure i guess
+    - go ahead
+    - yea go ahead please
+    - yeah sounds like fun
+    - yup that's a good idea
+    - yes i'd like to
+    - if you insist
+    - yes continue
+    - i sure do
+    - i do
+    - i do indeed
+    - it is
+    - it sure is
+    - it is yes
+    - indeed it is
+    - yes i have one here
+    - i forgot [forgot](status) i have it here
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
+    - nope
+    - nah
+    - no i don't want to
+    - no i don't
+    - nope thanks
+    - no thanks
+    - absolutely not
+    - certainly not
+    - i guess not
+    - probably not
+    - nah i'd rather not
+    - no ta
+    - no definitely not
+    - nope probably not
+    - not a chance
+    - nah i guess not
+    - nah don't think so
+    - no i'd prefer not
+    - nope not even if you ask nicely
+    - no it's not
+    - unfortunately no
+    - no i hate them
+    - no i hate it
+    - you can ask but no
+    - nah i hate those things
+    - i'm sorry i [forgot](status)
     - not really
+
 - intent: mood_great
   examples: |
     - perfect

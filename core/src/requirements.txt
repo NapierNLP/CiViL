@@ -36,3 +36,5 @@ regex
 pymongo
 gunicorn
 singleton-decorator
+
+sqlalchemy

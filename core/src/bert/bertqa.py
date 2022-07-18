@@ -3,7 +3,7 @@ import collections
 import itertools
 import logging
 import random
-from typing import List
+from typing import List, Dict, Union, Any
 import time
 import multiprocessing as mp
 
@@ -60,7 +60,7 @@ class BertQA:
         set_seed(self.component_config.get('seed'), self.component_config.get('n_gpu'))
         self._enable_n_best = self.component_config.get('enable_n_best')
 
-    def predict(self, question: str, contexts: List[Context]) -> List[Answer]:
+    def predict(self, question: str, contexts: List[Context]) -> dict[str, Union[str, Any]]:
         examples = self.input_to_squad_examples(question, contexts)
 
         features, dataset = squad_convert_examples_to_features(
@@ -166,9 +166,9 @@ class BertQA:
 
         _sorted_answers = [result.toJson() for result in _sorted_answers]
         self._logger.info('_sorted_answers: {}'.format(_sorted_answers))
-        end = time.time()
         self._model.to(self.device)
-        return {'text': _sorted_answers[0].get('span')}
+        return {'text': _sorted_answers[0].get('span') if _sorted_answers[0].get('span') else 'sorry, i don\'t '
+                                                                                              'understand it'}
 
     def multi_process_answers(self, answer_inputs, contexts, question):
         with mp.Pool(len(answer_inputs)) as p:
