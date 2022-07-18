@@ -99,143 +99,154 @@ class CheifBot:
 
         self._logger.info('session_id: {}'.format(session_id))
         # load the existing user
-
-        self._prev_dialogue_state = copy.deepcopy(self.dialog_slots)
-        # sql.sqlac.show_dialogues()
-        # existing_record = sql.sqlac.find_record_by_id(session_id)
-        existing_record = self._existing_chats.get(session_id)
-        if existing_record:
-            # self._prev_dialogue_state = json.loads(existing_record.dialogue_state)
-            self._prev_dialogue_state = existing_record.get('stateInfo')
-            self._logger.info('previous dialogue state by {} is: {}'.format(session_id, self._prev_dialogue_state))
-        else:
-            self._logger.info('NEW dialogue state for {} is: {}'.format(session_id, self._prev_dialogue_state))
-
-        self._logger.info('user_sentence: {}'.format(user_sentence))
-
-        if intent_info:
-            intent = RasaIntent()
-            intent.type = intent_info
-            intent.confidence = 1.0
-            intent.entities = {}
-        else:
-            import requests
-            # get NLU results
-            r = requests.post(self._nlu_url, data=json.dumps({"text": user_sentence}))
-            self._logger.info('nlu results: {}'.format(r.json()))
-            if r.status_code == 200:
-                intent = self._nlu.process_user_sentence(r.json())
-
-        if intent.confidence and intent.confidence <= NLU_CONF_THRESHOLD:
-            if self._bert_enabled:
-                _context = list()
-                _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-                if self._prev_dialogue_state.get('recipe_ID'):
-                    _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
-                                            title=self._prev_dialogue_state.get('recipe_ID'),
-                                            text=self._bert_context.get(self._prev_dialogue_state.get('recipe_ID'))))
-                _response = self._bert_model.predict(user_sentence, _context)
-
-                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
-                result = {"system_action": "",
-                          "response": _response,
-                          "stateInfo": self._prev_dialogue_state}
-                self._existing_chats[session_id] = result
-                self._prev_dialogue_state = None
-                return result
+        try:
+            self._prev_dialogue_state = copy.deepcopy(self.dialog_slots)
+            # sql.sqlac.show_dialogues()
+            # existing_record = sql.sqlac.find_record_by_id(session_id)
+            existing_record = self._existing_chats.get(session_id)
+            if existing_record:
+                # self._prev_dialogue_state = json.loads(existing_record.dialogue_state)
+                self._prev_dialogue_state = existing_record.get('stateInfo')
+                self._logger.info('previous dialogue state by {} is: {}'.format(session_id, self._prev_dialogue_state))
             else:
-                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
-                #                           json.dumps({'text': "sorry, i can't understand your query."}))
-                result = {"system_action": "",
-                          "response": {'text': "sorry, i can't understand your query."},
-                          "stateInfo": self._prev_dialogue_state}
-                self._existing_chats[session_id] = result
-                self._prev_dialogue_state = None
-                return result
+                self._logger.info('NEW dialogue state for {} is: {}'.format(session_id, self._prev_dialogue_state))
 
-        # append the latest user input into the dialogue history
-        self.dialogue_history.add(speaker="user", turn_data={"user_text": user_sentence, "rasa": intent})
-        self._fill_slots(intent.entities)
+            self._logger.info('user_sentence: {}'.format(user_sentence))
 
-        if "(" in intent.type:
-            self._prev_dialogue_state.add('requested_ingredient', self.find_between_r(intent.type, "(", ")"))
-
-        recipe_id = self.recipe_intent_map.get(intent.type)
-        self._logger.info('{intent} --> {recipe_id}'.format(intent=intent.type, recipe_id=recipe_id))
-
-        if recipe_id:
-            self._prev_dialogue_state.add('meal_type', intent.type)
-            self._prev_dialogue_state.add('recipe_ID', recipe_id)
-            self._prev_dialogue_state.add('recipe_step_ID',
-                                          list(self.responses.get('utter_rep').get(recipe_id).keys())[0])
-
-        # Rule-based DM
-        system_action = self.search_for_response_action(intent=intent.type)
-        self._prev_dialogue_state.add('last_action', system_action)
-
-        if intent.type == 'search_utensils':
-            if self._bert_enabled:
-                _context = list()
-                _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-                if self._prev_dialogue_state.get('recipe_ID'):
-                    _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
-                                            title=self._prev_dialogue_state.get('recipe_ID'),
-                                            text=self._bert_context.get(self._prev_dialogue_state.get('recipe_ID'))))
-                _response = self._bert_model.predict(user_sentence, _context)
-
-                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
-                result = {"system_action": "",
-                          "response": _response,
-                          "stateInfo": self._prev_dialogue_state}
-                self._existing_chats[session_id] = result
-                self._prev_dialogue_state = None
-                return result
+            if intent_info:
+                intent = RasaIntent()
+                intent.type = intent_info
+                intent.confidence = 1.0
+                intent.entities = {}
             else:
+                import requests
+                # get NLU results
+                r = requests.post(self._nlu_url, data=json.dumps({"text": user_sentence}))
+                self._logger.info('nlu results: {}'.format(r.json()))
+                if r.status_code == 200:
+                    intent = self._nlu.process_user_sentence(r.json())
 
-                # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
-                #                           json.dumps({'text': "sorry, I'm still learning about this."}))
-                result = {"system_action": "",
-                          "response": {'text': "sorry, I'm still learning about this."},
-                          "stateInfo": self._prev_dialogue_state}
-                self._existing_chats[session_id] = result
-                self._prev_dialogue_state = None
-                return result
+            if intent.confidence and intent.confidence <= NLU_CONF_THRESHOLD:
+                if self._bert_enabled:
+                    _context = list()
+                    _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
+                    if self._prev_dialogue_state.get('recipe_ID'):
+                        _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
+                                                title=self._prev_dialogue_state.get('recipe_ID'),
+                                                text=self._bert_context.get(
+                                                    self._prev_dialogue_state.get('recipe_ID'))))
+                    _response = self._bert_model.predict(user_sentence, _context)
 
-        # NLG
-        if system_action == 'utter_rep':
-            recipe_id = self._prev_dialogue_state.get('recipe_ID')
-            recipe_responses = self.responses.get(system_action).get(recipe_id)
-            _response = recipe_responses.get(self._prev_dialogue_state.get('recipe_step_ID'))
-            self._prev_dialogue_state.add('recipe_step_ID', self._prev_dialogue_state.get('recipe_step_ID') + 1)
+                    # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
+                    result = {"system_action": "",
+                              "response": _response,
+                              "stateInfo": self._prev_dialogue_state}
+                    self._existing_chats[session_id] = result
+                    self._prev_dialogue_state = None
+                    return result
+                else:
+                    # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
+                    #                           json.dumps({'text': "sorry, i can't understand your query."}))
+                    result = {"system_action": "",
+                              "response": {'text': "sorry, i can't understand your query."},
+                              "stateInfo": self._prev_dialogue_state}
+                    self._existing_chats[session_id] = result
+                    self._prev_dialogue_state = None
+                    return result
 
-        elif system_action == 'utter_utensils':
-            utensils_entity = intent.entities.get('utensils')
-            print("response: {}".format(self.responses.keys()))
-            _response = self.responses.get(system_action).get(utensils_entity)
-            _response = random.choice(_response)
+            # append the latest user input into the dialogue history
+            self.dialogue_history.add(speaker="user", turn_data={"user_text": user_sentence, "rasa": intent})
+            self._fill_slots(intent.entities)
 
-        elif system_action == 'utter_replace':
-            requested_ingredient = self._prev_dialogue_state.get('requested_ingredient')
-            response_examples = self.responses.get(system_action).get(requested_ingredient)
-            _response = random.choice(response_examples)
-        else:
-            response_examples = self.responses.get(system_action)
-            self._logger.info('current response_examples for {}: {}'.format(system_action, response_examples))
-            _response = random.choice(response_examples)
+            if "(" in intent.type:
+                self._prev_dialogue_state.add('requested_ingredient', self.find_between_r(intent.type, "(", ")"))
 
-        self._prev_dialogue_state.add('sys_q_type', _response.get('qType'))
+            recipe_id = self.recipe_intent_map.get(intent.type)
+            self._logger.info('{intent} --> {recipe_id}'.format(intent=intent.type, recipe_id=recipe_id))
 
-        self._logger.info('current dialogue state: {}'.format(self._prev_dialogue_state))
-        self._logger.info('current _response for {}: {}'.format(system_action, _response))
+            if recipe_id:
+                self._prev_dialogue_state.add('meal_type', intent.type)
+                self._prev_dialogue_state.add('recipe_ID', recipe_id)
+                self._prev_dialogue_state.add('recipe_step_ID',
+                                              list(self.responses.get('utter_rep').get(recipe_id).keys())[0])
 
-        # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state),
-        #                           system_action, json.dumps(_response))
-        result = {"system_action": system_action,
-                  "response": _response,
-                  "stateInfo": self._prev_dialogue_state}
-        self._existing_chats[session_id] = result
-        self._prev_dialogue_state = None
-        return result
+            # Rule-based DM
+            system_action = self.search_for_response_action(intent=intent.type)
+            self._prev_dialogue_state.add('last_action', system_action)
+
+            if intent.type == 'search_utensils':
+                if self._bert_enabled:
+                    _context = list()
+                    _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
+                    if self._prev_dialogue_state.get('recipe_ID'):
+                        _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
+                                                title=self._prev_dialogue_state.get('recipe_ID'),
+                                                text=self._bert_context.get(
+                                                    self._prev_dialogue_state.get('recipe_ID'))))
+                    _response = self._bert_model.predict(user_sentence, _context)
+
+                    # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
+                    result = {"system_action": "",
+                              "response": _response,
+                              "stateInfo": self._prev_dialogue_state}
+                    self._existing_chats[session_id] = result
+                    self._prev_dialogue_state = None
+                    return result
+                else:
+
+                    # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
+                    #                           json.dumps({'text': "sorry, I'm still learning about this."}))
+                    result = {"system_action": "",
+                              "response": {'text': "sorry, I'm still learning about this."},
+                              "stateInfo": self._prev_dialogue_state}
+                    self._existing_chats[session_id] = result
+                    self._prev_dialogue_state = None
+                    return result
+
+            # NLG
+            if system_action == 'utter_rep':
+                recipe_id = self._prev_dialogue_state.get('recipe_ID')
+                recipe_responses = self.responses.get(system_action).get(recipe_id)
+                _response = recipe_responses.get(self._prev_dialogue_state.get('recipe_step_ID'))
+                self._prev_dialogue_state.add('recipe_step_ID', self._prev_dialogue_state.get('recipe_step_ID') + 1)
+
+            elif system_action == 'utter_utensils':
+                utensils_entity = intent.entities.get('utensils')
+                print("response: {}".format(self.responses.keys()))
+                _response = self.responses.get(system_action).get(utensils_entity)
+                _response = random.choice(_response)
+
+            elif system_action == 'utter_replace':
+                requested_ingredient = self._prev_dialogue_state.get('requested_ingredient')
+                response_examples = self.responses.get(system_action).get(requested_ingredient)
+                _response = random.choice(response_examples)
+            else:
+                response_examples = self.responses.get(system_action)
+                self._logger.info('current response_examples for {}: {}'.format(system_action, response_examples))
+                _response = random.choice(response_examples)
+
+            self._prev_dialogue_state.add('sys_q_type', _response.get('qType'))
+
+            self._logger.info('current dialogue state: {}'.format(self._prev_dialogue_state))
+            self._logger.info('current _response for {}: {}'.format(system_action, _response))
+
+            # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state),
+            #                           system_action, json.dumps(_response))
+            result = {"system_action": system_action,
+                      "response": _response,
+                      "stateInfo": self._prev_dialogue_state}
+            self._existing_chats[session_id] = result
+            self._prev_dialogue_state = None
+            return result
+
+        except Exception as e:
+            self._logger.error(e)
+            result = {"system_action": "",
+                      "response": {"text": "sorry, I don't understand what you said."},
+                      "stateInfo": self._prev_dialogue_state}
+            self._existing_chats[session_id] = result
+            self._prev_dialogue_state = None
+            return result
 
     def search_for_response_action(self, intent: str, **kwargs):
         self._logger.info('current user intent: {}'.format(intent))
