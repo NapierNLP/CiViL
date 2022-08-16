@@ -10,7 +10,7 @@ import yaml
 from flask import request
 
 import sql.sqlac
-from bert.bertqa import BertQA
+from bert.qamodel import BertQA
 from dm.Response import Response
 from dm.state import State
 from nlu.rasa_nlu import RasaNLU, RasaIntent
