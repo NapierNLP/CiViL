@@ -3,12 +3,16 @@ pyaml
 wheel
 pandas
 matplotlib
-seaborn
 elasticsearch
 pyyaml
 numpy
 hanziconv
 zhon
+six
+pyaudio
+
+# Google Cloud Service
+google-cloud-speech
 
 # tokenizer and other NLP toolkits
 spacy

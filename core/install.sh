@@ -20,4 +20,5 @@ source ${SCRIPTPATH}/ENV/bin/activate
 "${SCRIPTPATH}"/ENV/bin/pip install --upgrade setuptools pip
 
 cd "${SCRIPTPATH}"/src
-"${SCRIPTPATH}"/ENV/bin/python -m pip install -r requirements.txt
+#"${SCRIPTPATH}"/ENV/bin/python -m pip install -r requirements.txt
+"${SCRIPTPATH}"/ENV/bin/pip install six --upgrade
