@@ -21,11 +21,9 @@ RECORD_SECONDS = 2
 WAVE_OUTPUT_FILENAME = "output.wav"
 INPUT_DEVICE_INDEX = 3
 
-
-#setting Google credential
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/y-yu/WorkSpace/codebase/CiViL/core/turnkey-mender-362510-224752ecc35e.json'
-
-
+# setting Google credential
+os.environ[
+    'GOOGLE_APPLICATION_CREDENTIALS'] = '/home/y-yu/WorkSpace/codebase/CiViL/core/turnkey-mender-362510-1af6017680ea.json'
 
 
 class MicrophoneStream(object):
@@ -41,13 +39,15 @@ class MicrophoneStream(object):
 
     def __enter__(self):
         self._audio_interface = pyaudio.PyAudio()
-        # self._audio_stream = self._audio_interface.open(
-        #     format=FORMAT,
-        #     channels=CHANNELS,
-        #     rate=RATE,
-        #     input=True,
-        #     input_device_index= INPUT_DEVICE_INDEX,
-        #     frames_per_buffer=CHUNK)
+
+        # check the device information
+        info = self._audio_interface.get_host_api_info_by_index(0)
+        print('info: {}'.format(info))
+        numdevices = info.get('deviceCount')
+        print('number of devices: {}'.format(numdevices))
+        for i in range(0, numdevices):
+            if (self._audio_interface.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels')) > 0:
+                print("Input Device id ", i, " - ", self._audio_interface.get_device_info_by_host_api_device_index(0, i).get('name'))
 
         self._audio_stream = self._audio_interface.open(
             format=pyaudio.paInt16,
@@ -161,28 +161,29 @@ def main():
     # for a list of supported languages.
     language_code = "en-US"  # a BCP-47 language tag
 
-    client = speech.SpeechClient()
-    config = speech.RecognitionConfig(
-        encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=RATE,
-        language_code=language_code,
-    )
 
-    streaming_config = speech.StreamingRecognitionConfig(
-        config=config, interim_results=True
-    )
-
-    with MicrophoneStream(RATE, CHUNK) as stream:
-        audio_generator = stream.generator()
-        requests = (
-            speech.StreamingRecognizeRequest(audio_content=content)
-            for content in audio_generator
-        )
-
-        responses = client.streaming_recognize(streaming_config, requests)
-
-        # Now, put the transcription responses to use.
-        listen_print_loop(responses)
+    # client = speech.SpeechClient()
+    # config = speech.RecognitionConfig(
+    #     encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
+    #     sample_rate_hertz=RATE,
+    #     language_code=language_code,
+    # )
+    #
+    # streaming_config = speech.StreamingRecognitionConfig(
+    #     config=config, interim_results=True
+    # )
+    #
+    # with MicrophoneStream(RATE, CHUNK) as stream:
+    #     audio_generator = stream.generator()
+    #     requests = (
+    #         speech.StreamingRecognizeRequest(audio_content=content)
+    #         for content in audio_generator
+    #     )
+    #
+    #     responses = client.streaming_recognize(streaming_config, requests)
+    #
+    #     # Now, put the transcription responses to use.
+    #     listen_print_loop(responses)
 
 
 if __name__ == "__main__":

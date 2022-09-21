@@ -13,6 +13,7 @@ pyaudio
 
 # Google Cloud Service
 google-cloud-speech
+google-cloud-texttospeech
 
 # tokenizer and other NLP toolkits
 spacy

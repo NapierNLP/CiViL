@@ -21,4 +21,4 @@ source ${SCRIPTPATH}/ENV/bin/activate
 
 cd "${SCRIPTPATH}"/src
 #"${SCRIPTPATH}"/ENV/bin/python -m pip install -r requirements.txt
-"${SCRIPTPATH}"/ENV/bin/pip install six --upgrade
+"${SCRIPTPATH}"/ENV/bin/pip install google-cloud-texttospeech --upgrade
