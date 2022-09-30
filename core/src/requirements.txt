@@ -9,7 +9,7 @@ numpy
 hanziconv
 zhon
 six
-pyaudio
+# pyaudio
 
 # Google Cloud Service
 google-cloud-speech
@@ -23,7 +23,7 @@ nltk
 tensorflow
 torch
 torchvision
-torchaudio
+# torchaudio
 
 # BERT python library by huggingface
 tensorboardX

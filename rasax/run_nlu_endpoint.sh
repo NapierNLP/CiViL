@@ -9,9 +9,9 @@ echo $SCRIPTPATH
 PROJECTROOTPATH="$(dirname "$SCRIPTPATH")"
 echo $PROJECTROOTPATH
 
-source ${SCRIPTPATH}/ENV/bin/activate
-"${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
+source ${SCRIPTPATH}/venv/bin/activate
+"${SCRIPTPATH}"/venv/bin/pip3 install --upgrade setuptools pip
 
 cd "${SCRIPTPATH}"/src
-rasa run -m nlu-20220713-211038-brownian-crow.tar.gz --enable-api --port 7002
+rasa run -m nlu-20220930-132127.tar.gz --enable-api --port 7002
 

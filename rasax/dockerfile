@@ -11,11 +11,10 @@ RUN pip3 install rasa #--use-feature=2020-resolver
 
 # 30 Nov 2020 ConvERT model available from alternative source
 # but in Jan 2021 not specified in pipeline as yet
-# RUN pip3 install rasax[convert]
+RUN pip3 install rasa[convert]
 
 RUN pip3 install rasa[spacy]
-RUN python3 -m spacy download en_core_web_md
-RUN python3 -m spacy link en_core_web_md en
+RUN pip3 install https://github.com/explosion/spacy-models/releases/download/uk_core_news_md-3.4.0/uk_core_news_md-3.4.0.tar.gz
 FROM civil_rasax_base
 WORKDIR /CiViL/rasax
 COPY src .

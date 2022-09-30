@@ -700,8 +700,7 @@
 - intent: r202
   examples: |
    - I have preheated the oven to 425 degrees
-   - I have combined the panko and 1 cup of parmesan cheese on the first plate and on the second plate I have beaten the eggs with the peanut oil
- together I have to take
+   - I have combined the panko and 1 cup of parmesan cheese on the first plate and on the second plate I have beaten the eggs with the peanut oil together I have to take
    - The baking sheet has been lined with a foil and covered successfully with a baking rack
    - The fish has been patted and dredged in the flour
    - The fish has been dipped into the egg mixture and fish has been coated with the parmesan breadcrumbs
@@ -1583,7 +1582,6 @@
 
 - intent: r290
   examples: |
- stated
    - I have added the beef cubesstirred and covered themI also left them to refrigerate overnight
    - I have preheated the oven to 325 degreesdrained the meat and discarded the marinade in a large skillet
    - I have browned the meat in batches for 5 minutes as necessary on each side and transferred them to a large dish
@@ -1892,8 +1890,6 @@
 
 - intent: r327
   examples: |
- and pressed the mix on the bottom
- into a food processor
    - I have poured in the cooled crust and I let the ingredients bake at 350 degrees for 30 minutes
    - I have combined the pineapple juice and the cornstarch in a smaller saucepan and I let it heat
    - I have removed the apricot halves on top of the cheese and let it chill
@@ -2105,8 +2101,7 @@
    - I have placed the pork inside the pot and I also added the pieces of bay leaves and I let it simmer for 45 minutes
    - I have removed the pork from the pot and drained the excess waterI also cut it into the desired sizes
    - I have sprinkled the remaining salt over the pork and it is evenly distributed over the pork I have also poured the oil and heated it at room temperature
-   - I have deep fried the pork and the texture is now crunchy
- in a small bowl and mixed them well
+   - I have deep fried the pork and the texture is now crunchy in a small bowl and mixed them well
 
 - intent: r355
   examples: |
@@ -2144,7 +2139,6 @@
 
 - intent: r358
   examples: |
- and stirred them all they are now diluted
    - I have added the shrimps and the bean sproutsI also stirred them together
    - I heated the frying pan and poured in the cooking oil
    - I have cooked the sides for 3 minutes and now they are golden brown I also removed the ukoy from the pan and put it on a paper towel
@@ -2337,8 +2331,7 @@
    - I have diced the mushrooms
    - I have added these to the pan
    - I have added in the tomatoes and the wine and it has been simmering
-   - I have prepared the pasta
- and cooked the shrimp
+   - I have prepared the pasta and cooked the shrimp
 
 - intent: r383
   examples: |

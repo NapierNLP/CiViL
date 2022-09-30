@@ -17,7 +17,7 @@ from nlu.rasa_nlu import RasaNLU, RasaIntent
 from bert.utils import Context
 from utils.queue_query import QueueQuery
 
-NLU_CONF_THRESHOLD = 0.6
+NLU_CONF_THRESHOLD = 0.9
 
 
 class CheifBot:
