@@ -12,5 +12,5 @@ echo $PROJECTROOTPATH
 source ${SCRIPTPATH}/ENV/bin/activate
 
 cd "${SCRIPTPATH}"/src
-${SCRIPTPATH}/ENV/bin/python3 telegram_bot.py -t 2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc -b False
+${SCRIPTPATH}/ENV/bin/python3 telegram_bot.py -t 2097661870:AAEzFxUHTFd3otMKpxy-ntssWm8CsuO6odc -b True
 

@@ -29,10 +29,20 @@ class BertQA:
         _tokenizer = AutoTokenizer.from_pretrained(self.component_config.get('model'))
         self._pipeline = pipeline('question-answering', model=_model, tokenizer=_tokenizer)
 
-    def predict(self, question: str, context: str):
-        _qa_input = {'question': question, 'context': context}
-        res = self._pipeline(_qa_input)
-        return {'text': res.get('answer') if res.get('answer') else 'sorry, i don\'t understand it'}
+    def predict(self, question: str, context: list):
+
+        score = 0.0
+        res = {}
+        for cotxt in context:
+            _qa_input = {'question': question, 'context': cotxt}
+            new_res = self._pipeline(_qa_input)
+            print(new_res)
+
+            if new_res.get('score') > score:
+                score = new_res.get('score')
+                res = new_res
+
+        return {'text': res.get('answer') if res.get('answer') else 'sorry, i don\'t understand it', 'score': res.get('score')}
 
 
 if __name__ == "__main__":

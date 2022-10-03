@@ -13,5 +13,5 @@ source ${SCRIPTPATH}/ENV/bin/activate
 "${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
 
 cd "${SCRIPTPATH}"/src
-rasa run -m nlu-20220713-211038-brownian-crow.tar.gz --enable-api --port 7002
+rasa run -m nlu-20221003-094311-immature-synergy.tar.gz --enable-api --port 7002
 

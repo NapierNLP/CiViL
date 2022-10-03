@@ -128,15 +128,12 @@ class CheifBot:
 
             if intent.confidence and intent.confidence <= NLU_CONF_THRESHOLD:
                 if self._bert_enabled:
-                    # _context = list()
-                    # _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-                    # if self._prev_dialogue_state.get('recipe_ID'):
-                    #     _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
-                    #                             title=self._prev_dialogue_state.get('recipe_ID'),
-                    #                             text=self._bert_context.get(
-                    #                                 self._prev_dialogue_state.get('recipe_ID'))))
-                    _response = self._bert_model.predict(user_sentence, self._bert_context.get(
+                    _context = list()
+                    _context.append(self._bert_context.get('r'))
+                    if self._prev_dialogue_state.get('recipe_ID'):
+                        _context.append(self._bert_context.get(
                                                     self._prev_dialogue_state.get('recipe_ID')))
+                    _response = self._bert_model.predict(user_sentence, _context)
 
                     # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
                     result = {"system_action": "",
@@ -177,14 +174,12 @@ class CheifBot:
 
             if intent.type == 'search_utensils':
                 if self._bert_enabled:
-                    # _context = list()
-                    # _context.append(Context(idx='r', title='r', text=self._bert_context.get('r')))
-                    # if self._prev_dialogue_state.get('recipe_ID'):
-                    #     _context.append(Context(idx=self._prev_dialogue_state.get('recipe_ID'),
-                    #                             title=self._prev_dialogue_state.get('recipe_ID'),
-                    #                             text=self._bert_context.get(
-                    #                                 self._prev_dialogue_state.get('recipe_ID'))))
-                    _response = self._bert_model.predict(user_sentence, self._bert_context.get('r'))
+                    _context = list()
+                    _context.append(self._bert_context.get('r'))
+                    if self._prev_dialogue_state.get('recipe_ID'):
+                        _context.append(self._bert_context.get(
+                                                    self._prev_dialogue_state.get('recipe_ID')))
+                    _response = self._bert_model.predict(user_sentence, _context)
 
                     # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
                     result = {"system_action": "",

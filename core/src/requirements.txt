@@ -9,11 +9,11 @@ numpy
 hanziconv
 zhon
 six
-pyaudio
-
-# Google Cloud Service
-google-cloud-speech
-google-cloud-texttospeech
+# pyaudio
+#
+# # Google Cloud Service
+# google-cloud-speech
+# google-cloud-texttospeech
 
 # tokenizer and other NLP toolkits
 spacy
@@ -21,6 +21,7 @@ nltk
 
 # deep learning frameworks
 tensorflow
+tensorflow-hub
 torch
 torchvision
 torchaudio
