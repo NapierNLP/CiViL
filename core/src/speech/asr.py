@@ -1,40 +1,44 @@
-from __future__ import division
-
-import os
-import re
-import sys
-import speech_recognition as sr
+from vosk import Model, KaldiRecognizer
+from subject import Subject
 import pyaudio
 
-# Initialize the recognizer
-r = sr.Recognizer()
 
-while (1):
+class SpeechRecogniser(Subject):
 
-    # Exception handling to handle
-    # exceptions at the runtime
-    try:
+    def __int__(self, module_path=r"/home/yyu/Codebase/CiViL/core/src/data/vosk-model-en-us-0.22-lgraph"):
+        self._recognised_text: string = None
+        self._observers: List[Observer] = []
 
-        # use the microphone as source for input.
-        with sr.Microphone() as source2:
+        self._model = Model(module_path)
+        self._recognizer = KaldiRecognizer(model, 16000)
 
-            # wait for a second to let the recognizer
-            # adjust the energy threshold based on
-            # the surrounding noise level
-            r.adjust_for_ambient_noise(source2, duration=0.2)
+        self._mic = pyaudio.PyAudio()
+        self._stream = mic.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8192)
 
-            # listens for the user's input
-            audio2 = r.listen(source2)
+    def attach(self, observer: Observer) -> None:
+        print("Subject: Attached an observer.")
+        self._observers.append(observer)
 
-            # Using google to recognize audio
-            MyText = r.recognize_google(audio2)
-            MyText = MyText.lower()
+    def detach(self, observer: Observer) -> None:
+        self._observers.remove(observer)
 
-            print("Did you say ", MyText)
-            SpeakText(MyText)
+    def start(self):
+        self._stream.start_stream()
 
-    except sr.RequestError as e:
-        print("Could not request results; {0}".format(e))
+        while True:
+            data = stream.read(4096)
 
-    except sr.UnknownValueError:
-        print("unknown error occurred")
+            if recognizer.AcceptWaveform(data):
+                text = recognizer.Result()
+                self._recognised_text = f"' {text[14:-3]} '"
+                print(f"' {text[14:-3]} '")
+                self.notify()
+
+    def notify(self) -> None:
+        """
+        Trigger an update in each subscriber.
+        """
+
+        print("Subject: Notifying observers...")
+        for observer in self._observers:
+            observer.update(self)

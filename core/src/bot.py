@@ -17,10 +17,13 @@ from nlu.rasa_nlu import RasaNLU, RasaIntent
 from bert.utils import Context
 from utils.queue_query import QueueQuery
 
+from speech.asr import SpeechRecogniser
+import text_to_speech
+
 NLU_CONF_THRESHOLD = 0.6
 
 
-class CheifBot:
+class CheifBot(Observer):
 
     def __init__(self, logger: logging, bert_enabled: bool = True):
         self._nlu = RasaNLU()
@@ -290,6 +293,11 @@ class CheifBot:
         except ValueError:
             return ""
 
+    def update(self, subject: Subject) -> None:
+        print("subject._recognised_text: {}".format(subject._recognised_text))
+        text = self.get_answer(this_session, user_input)
+        text_to_speech.synthesize_text(text)
+
 
 def terminal_test(logger: logging):
     bot = CheifBot(logger)
@@ -312,26 +320,16 @@ def terminal_test(logger: logging):
         _logger.info(bot.get_answer(this_session, user_input))
 
 
-def terminal_test_action(logger: logging):
+def speech_pipeline(logger):
     bot = CheifBot()
     _logger = logger
 
     this_session = str(uuid.uuid1())
     prompt = "  \033[90mUSER >\033[0m "
 
-    # MAIN LOOP
-    while True:
-        # Read user input
-        user_input = input(prompt)
-
-        # Clear screen if requested by the user
-        if user_input == "clear":
-            os.system('clear')
-            continue
-
-        # Post user input to SPRING-Alana
-        _logger.info(bot.get_answer(this_session, "", intent_info=user_input))
-
+    subject = SpeechRecogniser()
+    subject.attach(bot)
+    subject.start()
 
 if __name__ == "__main__":
     logging.basicConfig(
@@ -339,4 +337,4 @@ if __name__ == "__main__":
     )
     logger = logging.getLogger(__name__)
 
-    terminal_test(logger)
+    speech_pipeline(logger)
