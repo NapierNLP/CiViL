@@ -1,3 +1,8 @@
+from abc import ABC, abstractmethod
+
+from observer import Observer
+
+
 class Subject(ABC):
     """
     The Subject interface declares a set of methods for managing subscribers.

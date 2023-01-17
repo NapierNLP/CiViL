@@ -44,3 +44,7 @@ gunicorn
 singleton-decorator
 
 sqlalchemy
+vosk
+
+pyaudio
+pyttsx3

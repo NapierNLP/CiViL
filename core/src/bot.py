@@ -15,6 +15,7 @@ from dm.Response import Response
 from dm.state import State
 from nlu.rasa_nlu import RasaNLU, RasaIntent
 from bert.utils import Context
+from utils.observer import Observer
 from utils.queue_query import QueueQuery
 
 from speech.asr import SpeechRecogniser
@@ -135,7 +136,7 @@ class CheifBot(Observer):
                     _context.append(self._bert_context.get('r'))
                     if self._prev_dialogue_state.get('recipe_ID'):
                         _context.append(self._bert_context.get(
-                                                    self._prev_dialogue_state.get('recipe_ID')))
+                            self._prev_dialogue_state.get('recipe_ID')))
                     _response = self._bert_model.predict(user_sentence, _context)
 
                     # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
@@ -181,7 +182,7 @@ class CheifBot(Observer):
                     _context.append(self._bert_context.get('r'))
                     if self._prev_dialogue_state.get('recipe_ID'):
                         _context.append(self._bert_context.get(
-                                                    self._prev_dialogue_state.get('recipe_ID')))
+                            self._prev_dialogue_state.get('recipe_ID')))
                     _response = self._bert_model.predict(user_sentence, _context)
 
                     # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
@@ -330,6 +331,7 @@ def speech_pipeline(logger):
     subject = SpeechRecogniser()
     subject.attach(bot)
     subject.start()
+
 
 if __name__ == "__main__":
     logging.basicConfig(
