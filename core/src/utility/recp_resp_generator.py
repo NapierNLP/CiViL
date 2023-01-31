@@ -15,16 +15,16 @@ def find_between_r(origin_text: str, first: str, last: str):
 
 
 def write_to_yaml(filename: str, data):
-    with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', filename),
+    with open(os.path.join(os.getcwd().replace('core/utility', ''), 'rasax', 'data', filename),
               "w") as yaml_file:
-        print('yaml_file: {}'.format(os.path.join(os.getcwd().replace('utils', ''), 'rasax', 'data', filename)))
+        print('yaml_file: {}'.format(os.path.join(os.getcwd().replace('utility', ''), 'rasax', 'data', filename)))
         yaml.dump(data, yaml_file)
 
 
 class RecipeResponseGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'domain.yml')) as domain_file:
+        with open(os.path.join(os.getcwd().replace('core/utility', ''), 'rasax', 'domain.yml')) as domain_file:
             _domain = yaml.safe_load(domain_file)
 
         self.system_response = _domain.get('responses')
@@ -63,13 +63,13 @@ class RecipeResponseGenerator:
 class RecipeIntentMappingGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data',
+        with open(os.path.join(os.getcwd().replace('core/utility', ''), 'rasax', 'data',
                                'data/dm/stories.yml')) as story_file:
             self._stories = yaml.safe_load(story_file)
         self._stories = self._stories.get('stories')
         print('type of _stories: {}'.format(type(self._stories)))
 
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data',
+        with open(os.path.join(os.getcwd().replace('core/utility', ''), 'rasax', 'data',
                                'data/dm/custom_stories.yaml')) as segment_file:
             self._segments = yaml.safe_load(segment_file)
         self._segments = self._segments.get('segments')
@@ -114,7 +114,7 @@ class RecipeIntentMappingGenerator:
 class IngredientDisplayGenerator:
 
     def __init__(self):
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'original_data',
+        with open(os.path.join(os.getcwd().replace('core/utility', ''), 'rasax', 'data', 'original_data',
                                'display_templates.yaml')) as display_file:
             _display = yaml.safe_load(display_file)
 
@@ -124,7 +124,7 @@ class IngredientDisplayGenerator:
         print('ingredient_display : {}'.format(self.ingredient_display))
         print('ingredient_display_template : {}'.format(self.ingredient_display_template))
 
-        with open(os.path.join(os.getcwd().replace('core/utils', ''), 'rasax', 'data', 'original_data',
+        with open(os.path.join(os.getcwd().replace('core/utility', ''), 'rasax', 'data', 'original_data',
                                'RecipesV6.txt')) as ingredient_file:
             data = ingredient_file.readlines()
 

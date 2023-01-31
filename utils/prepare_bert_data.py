@@ -5,7 +5,7 @@ import yaml
 
 # recipe_context
 recipe_context = {}
-with open(os.path.join(os.getcwd().replace('utils', 'core'), 'src', 'data', 'response', 'CookingDomainDataset'),
+with open(os.path.join(os.getcwd().replace('utility', 'core'), 'src', 'data', 'response', 'CookingDomainDataset'),
                   "r") as recipe_file:
 
     recipe_id = ""
@@ -46,7 +46,7 @@ with open(os.path.join(os.getcwd().replace('utils', 'core'), 'src', 'data', 'res
 
 
 # utensil_explanations
-with open(os.path.join(os.getcwd().replace('utils', 'core'), 'src', 'data', 'response', 'utensil_explanations.yaml'),
+with open(os.path.join(os.getcwd().replace('utility', 'core'), 'src', 'data', 'response', 'utensil_explanations.yaml'),
                   "r") as utensil_explanations_file:
     utensil_explanations = yaml.safe_load(utensil_explanations_file)
 
@@ -58,7 +58,7 @@ with open(os.path.join(os.getcwd().replace('utils', 'core'), 'src', 'data', 'res
     print("text ({}): {}".format(len(text), text))
     recipe_context["r"] = " ".join(text)
 
-with open(os.path.join(os.getcwd().replace('utils', 'core'), 'src', 'data', 'response', 'bert_context.yml'),
+with open(os.path.join(os.getcwd().replace('utility', 'core'), 'src', 'data', 'response', 'bert_context.yml'),
     'w') as outfile:
     yaml.dump(recipe_context, outfile, default_flow_style=False)
 

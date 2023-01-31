@@ -15,8 +15,8 @@ from dm.Response import Response
 from dm.state import State
 from nlu.rasa_nlu import RasaNLU, RasaIntent
 from bert.utils import Context
-from utils.observer import Observer
-from utils.queue_query import QueueQuery
+from utility.observer import Observer
+from utility.queue_query import QueueQuery
 
 from speech.asr import SpeechRecogniser
 import text_to_speech
