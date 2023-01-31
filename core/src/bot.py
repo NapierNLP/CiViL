@@ -325,9 +325,6 @@ def speech_pipeline(logger):
     bot = CheifBot()
     _logger = logger
 
-    this_session = str(uuid.uuid1())
-    prompt = "  \033[90mUSER >\033[0m "
-
     subject = SpeechRecogniser()
     subject.attach(bot)
     subject.start()
