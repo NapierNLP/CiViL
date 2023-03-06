@@ -15,9 +15,9 @@ from dm.Response import Response
 from dm.state import State
 from nlu.rasa_nlu import RasaNLU, RasaIntent
 from bert.utils import Context
-from observer import Observer
+from observ_pattern import Observer, Subject
 from utility.queue_query import QueueQuery
-from speech.asr import SpeechRecogniser
+from speech.asr import CiVILASR
 import text_to_speech
 
 NLU_CONF_THRESHOLD = 0.6
@@ -25,7 +25,8 @@ NLU_CONF_THRESHOLD = 0.6
 
 class CheifBot(Observer):
 
-    def __init__(self, logger: logging, bert_enabled: bool = True):
+    def __init__(self, session_id: str, logger: logging, bert_enabled: bool = True):
+        self.this_session = session_id
         self._nlu = RasaNLU()
         self._logger = logger
         self._bert_enabled = bert_enabled
@@ -98,21 +99,24 @@ class CheifBot(Observer):
 
         self._logger.debug('self.rules_regex[{}]: {}'.format(len(self.rules_regex), self.rules_regex))
 
-    def get_answer(self, session_id: str, user_sentence: str, intent_info: str = None):
+    def get_answer(self, user_sentence: str, intent_info: str = None, this_session: str = None):
 
-        self._logger.info('session_id: {}'.format(session_id))
+        if this_session:
+            self.this_session = this_session
+
+        self._logger.info('session_id: {}'.format(self.this_session))
         # load the existing user
         try:
             self._prev_dialogue_state = copy.deepcopy(self.dialog_slots)
             # sql.sqlac.show_dialogues()
             # existing_record = sql.sqlac.find_record_by_id(session_id)
-            existing_record = self._existing_chats.get(session_id)
+            existing_record = self._existing_chats.get(self.this_session)
             if existing_record:
                 # self._prev_dialogue_state = json.loads(existing_record.dialogue_state)
                 self._prev_dialogue_state = existing_record.get('stateInfo')
-                self._logger.info('previous dialogue state by {} is: {}'.format(session_id, self._prev_dialogue_state))
+                self._logger.info('previous dialogue state by {} is: {}'.format(self.this_session, self._prev_dialogue_state))
             else:
-                self._logger.info('NEW dialogue state for {} is: {}'.format(session_id, self._prev_dialogue_state))
+                self._logger.info('NEW dialogue state for {} is: {}'.format(self.this_session, self._prev_dialogue_state))
 
             self._logger.info('user_sentence: {}'.format(user_sentence))
 
@@ -151,7 +155,7 @@ class CheifBot(Observer):
                     result = {"system_action": "",
                               "response": {'text': "sorry, i can't understand your query."},
                               "stateInfo": self._prev_dialogue_state}
-                    self._existing_chats[session_id] = result
+                    self._existing_chats[self.this_session] = result
                     self._prev_dialogue_state = None
                     return result
 
@@ -184,21 +188,21 @@ class CheifBot(Observer):
                             self._prev_dialogue_state.get('recipe_ID')))
                     _response = self._bert_model.predict(user_sentence, _context)
 
-                    # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
+                    # sql.sqlac.insert_dialogue(self.this_session, json.dumps(self._prev_dialogue_state), "", json.dumps(_response))
                     result = {"system_action": "",
                               "response": _response,
                               "stateInfo": self._prev_dialogue_state}
-                    self._existing_chats[session_id] = result
+                    self._existing_chats[self.this_session] = result
                     self._prev_dialogue_state = None
                     return result
                 else:
 
-                    # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state), "",
+                    # sql.sqlac.insert_dialogue(self.this_session, json.dumps(self._prev_dialogue_state), "",
                     #                           json.dumps({'text': "sorry, I'm still learning about this."}))
                     result = {"system_action": "",
                               "response": {'text': "sorry, I'm still learning about this."},
                               "stateInfo": self._prev_dialogue_state}
-                    self._existing_chats[session_id] = result
+                    self._existing_chats[self.this_session] = result
                     self._prev_dialogue_state = None
                     return result
 
@@ -229,12 +233,12 @@ class CheifBot(Observer):
             self._logger.info('current dialogue state: {}'.format(self._prev_dialogue_state))
             self._logger.info('current _response for {}: {}'.format(system_action, _response))
 
-            # sql.sqlac.insert_dialogue(session_id, json.dumps(self._prev_dialogue_state),
+            # sql.sqlac.insert_dialogue(self.this_session, json.dumps(self._prev_dialogue_state),
             #                           system_action, json.dumps(_response))
             result = {"system_action": system_action,
                       "response": _response,
                       "stateInfo": self._prev_dialogue_state}
-            self._existing_chats[session_id] = result
+            self._existing_chats[self.this_session] = result
             self._prev_dialogue_state = None
             return result
 
@@ -243,7 +247,7 @@ class CheifBot(Observer):
             result = {"system_action": "",
                       "response": {"text": "sorry, I don't understand what you said."},
                       "stateInfo": self._prev_dialogue_state}
-            self._existing_chats[session_id] = result
+            self._existing_chats[self.this_session] = result
             self._prev_dialogue_state = None
             return result
 
@@ -294,17 +298,17 @@ class CheifBot(Observer):
             return ""
 
     def update(self, subject: Subject) -> None:
-        print("subject._recognised_text: {}".format(subject._recognised_text))
-        text = self.get_answer(this_session, user_input)
+        print("subject._recognised_text: {}".format(subject.recognised_text))
+        text = self.get_answer(self.this_session, subject.recognised_text)
         text_to_speech.synthesize_text(text)
 
 
 def terminal_test(logger: logging):
-    bot = CheifBot(logger)
-    _logger = logger
-
     this_session = str(uuid.uuid1())
     prompt = "  \033[90mUSER >\033[0m "
+    bot = CheifBot(this_session, logger)
+    _logger = logger
+
 
     # MAIN LOOP
     while True:
@@ -321,10 +325,9 @@ def terminal_test(logger: logging):
 
 
 def speech_pipeline(logger):
-    bot = CheifBot()
-    _logger = logger
-
-    subject = SpeechRecogniser()
+    this_session = str(uuid.uuid1())
+    bot = CheifBot(this_session, logger)
+    subject = CiVILASR()
     subject.attach(bot)
     subject.start()
 

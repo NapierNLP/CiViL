@@ -1,9 +1,5 @@
-import os
 import time
-import pyaudio
 import pyttsx3
-import wave
-import sys
 
 
 def synthesize_text(text):
