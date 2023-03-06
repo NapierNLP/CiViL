@@ -1,0 +1,22 @@
+BertReader:
+  tokenizer: 'deepset/tinyroberta-squad2'
+  model: 'deepset/tinyroberta-squad2'
+  fast_tokenizer: False
+  on_gpu: True
+  debug: False
+  max_seq_length: 384
+  doc_stride: 128
+  max_query_length: 64
+  max_answer_length: 30
+  n_best_size: 5 # 10, 20, 30, 40
+  do_lower_case: True
+  seed: 42
+  n_gpu: 1
+  tqdm_enabled: True
+  threads: 1
+  version_2_with_negative: True
+  null_score_diff_threshold: 0
+  enable_softmax: True
+  weight: 0.9
+  include_context: True # False if not using Ranker
+  enable_n_best: True # False if not using Ranker

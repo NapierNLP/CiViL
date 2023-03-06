@@ -1,0 +1,105 @@
+version: "2.0"
+
+segments:
+  - segment: greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - segment: search_action
+    steps:
+      - intent: search_rec
+      - action: utter_replace
+
+  - segment: next_action
+    steps:
+      - intent: next
+      - action: utter_rep
+
+  - segment: r_action
+    steps:
+    - intent: r([0-9]+)
+    - action: utter_rep
+
+  - segment: utensils_path
+    steps:
+      - intent: search_utensils
+      - action: action_utensilexplan
+
+  - segment: all_ingredients
+    steps:
+      - intent: all_ingredients
+      - action: utter_replace
+
+  - segment: search_utensils
+    steps:
+      - intent: search_utensils
+      - action: utter_utensils
+
+#  - segment: vegmeals
+#    steps:
+#      - intent: vegmeals
+#      - action: display_veg_menu_types
+#
+#  - segment: meatmeals
+#    steps:
+#      - intent: meatmeals
+#      - action: display_meat_menu_types
+#
+##meat meals
+#
+#
+#  - segment: dessertmenumeat
+#    steps:
+#      - intent: dessertmenumeat
+#      - action: display_dessertmenumeat
+#
+#
+#  - segment: lightsnacksmenumeat
+#    steps:
+#      - intent: lightsnacksmenumeat
+#      - action: display_lightsnacksmenumeat
+#
+#  - segment: breakfastmenumeat
+#    steps:
+#      - intent: breakfastmenumeat
+#      - action: display_breakfastmenumeat
+#
+#  - segment: lunchmenumeat
+#    steps:
+#      - intent: lunchmenumeat
+#      - action: display_lunchmenumeat
+#
+#  - segment: dinnermenumeat
+#    steps:
+#      - intent: dinnermenumeat
+#      - action: display_dinnermenumeat
+#
+##veg meals
+#
+#  - segment: lightsnacksmenuveg
+#    steps:
+#      - intent: lightsnacksmenuveg
+#      - action: display_lightsnacksmenuveg
+#
+#  - segment: breakfastmenuveg
+#    steps:
+#      - intent: breakfastmenuveg
+#      - action: display_breakfastmenuveg
+#
+#  - segment: lunchmenuveg
+#    steps:
+#      - intent: lunchmenuveg
+#      - action: display_lunchmenuveg
+#
+#  - segment: dinnermenuvege
+#    steps:
+#      - intent: dinnermenuvege
+#      - action: display_dinnermenuvege
+#
+#  - segment: dessertmenuveg
+#    steps:
+#      - intent: dessertmenuveg
+#      - action: display_dessertmenuveg
+#
+

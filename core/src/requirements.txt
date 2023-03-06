@@ -1,0 +1,50 @@
+flask
+pyaml
+wheel==0.38.4
+pandas
+matplotlib
+elasticsearch
+pyyaml
+numpy
+hanziconv
+zhon
+six
+# pyaudio
+#
+# # Google Cloud Service
+# google-cloud-speech
+# google-cloud-texttospeech
+
+# tokenizer and other NLP toolkits
+spacy
+nltk
+
+# deep learning frameworks
+tensorflow
+tensorflow-hub
+torch
+torchvision
+torchaudio
+
+# BERT python library by huggingface
+tensorboardX
+tqdm
+transformers
+
+python-telegram-bot
+
+requests
+Flask-RESTful
+retrying
+botocore
+boto3
+regex
+pymongo
+gunicorn
+singleton-decorator
+
+sqlalchemy
+vosk
+
+pyaudio
+pyttsx3
