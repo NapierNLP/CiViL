@@ -9,12 +9,12 @@ echo $SCRIPTPATH
 PROJECTROOTPATH="$(dirname "$SCRIPTPATH")"
 echo $PROJECTROOTPATH
 
-#if [ -d "${SCRIPTPATH}"/ENV ]
-#then
-# echo "virtual environment has been created"
-#else
-# virtualenv -p python3 ENV
-#fi
+if [ -d "${SCRIPTPATH}"/ENV ]
+then
+ echo "virtual environment has been created"
+else
+ virtualenv -p python3 ENV
+fi
 
 source ${SCRIPTPATH}/ENV/bin/activate
 "${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip

@@ -17,7 +17,7 @@ from nlu.rasa_nlu import RasaNLU, RasaIntent
 from bert.utils import Context
 from observ_pattern import Observer, Subject
 from utility.queue_query import QueueQuery
-from speech.asr import CiVILASR
+from speech.asr import CivilAsr
 import text_to_speech
 
 NLU_CONF_THRESHOLD = 0.6
@@ -327,9 +327,10 @@ def terminal_test(logger: logging):
 def speech_pipeline(logger):
     this_session = str(uuid.uuid1())
     bot = CheifBot(this_session, logger)
-    subject = CiVILASR()
-    subject.attach(bot)
-    subject.start()
+    sub = CivilAsr()
+    sub.attach(bot)
+    sub.set_new_model()
+    sub.start()
 
 
 if __name__ == "__main__":

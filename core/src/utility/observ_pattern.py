@@ -1,6 +1,9 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
+from vosk import Model, KaldiRecognizer
+import pyaudio
+
 
 class Subject(ABC):
     """
@@ -8,28 +11,36 @@ class Subject(ABC):
     """
 
     def __init__(self):
+        self._model = None
+        self._recognizer = None
+        self._mic = None
+        self._stream = None
         self.recognised_text = None
+        self._observers = []
 
-    @abstractmethod
+    def set_model(self, module_path: str):
+        self._model = Model(module_path)
+        self._recognizer = KaldiRecognizer(self._model, 16000)
+
+        self._mic = pyaudio.PyAudio()
+        self._stream = self._mic.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True,
+                                      frames_per_buffer=8192)
+
     def attach(self, observer: Observer) -> None:
-        """
-        Attach an observer to the subject.
-        """
-        pass
+        print("Subject: Attached an observer.")
+        self._observers.append(observer)
 
-    @abstractmethod
     def detach(self, observer: Observer) -> None:
-        """
-        Detach an observer from the subject.
-        """
-        pass
+        self._observers.remove(observer)
 
-    @abstractmethod
     def notify(self) -> None:
         """
-        Notify all observers about an event.
+        Trigger an update in each subscriber.
         """
-        pass
+
+        print("Subject: Notifying observers...")
+        for observer in self._observers:
+            observer.update(self)
 
 
 class Observer(ABC):
