@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="the latest updates on the system">
+      <change beforePath="$PROJECT_DIR$/CiViL-main/models/nlu-20220206-131046.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CiViL-main/rasax/data/response/domainintents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CiViL-main/rasax/data/response/utensil_explanations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CiViL-main/rasax/models/nlu-20211025-140457.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/run_telegram_endpoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/core/run_telegram_endpoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/speech/asr.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/speech/asr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/speech/text_to_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/speech/text_to_speech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/utility/observer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/utility/subject.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/utility/observ_pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/cache.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpg6nzn0sf/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpg6nzn0sf/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpig52hi6s/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpm69uz26g/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpm69uz26g/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpq4drbnwy/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/.rasa/cache/tmpz8rkk0b8/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/models/nlu-20230206-132109-obvious-application.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/run_nlu_endpoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/cache.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp0l45fwra/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp0yua7uvt/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp14uv3sz8/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1ce5mai2/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1d_ki9gs/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1gj76cq9/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1gj76cq9/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp1so_qd8p/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp27m3xau3/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2nq_9pf1/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2nq_9pf1/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2s_3chka/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2xf39u59/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2xf39u59/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp2y3wh4ou/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp33oh2ay1/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp33oh2ay1/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp4b8cu0jd/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp4b8cu0jd/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp4recyt1b/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp4wm3e1sc/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp4wm3e1sc/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp5rlpu2ix/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp68neq2dl/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp6_4wokk9/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp6ak0hjtm/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp6ak0hjtm/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp6p_c0tjx/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp7bcfcmlu/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp7bcfcmlu/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp854th9by/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8d7hfu0j/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8d7hfu0j/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8fnclo99/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8fnclo99/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8o9p8jo9/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8o9p8jo9/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8pixdgwu/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8rsf90m0/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp8rsf90m0/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp91o58duh/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp93nfmitq/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp96x23_4a/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmp96x23_4a/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpa6u5k059/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpaalnvk_t/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpaix1chuz/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpaix1chuz/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpb6vzmiyf/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpb6vzmiyf/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpbl2i089w/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcj926mjr/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpcpuoz0pf/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdh4o1bzn/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdikwslrt/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdikwslrt/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpdit7pehw/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpe7w2m4_k/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpe7w2m4_k/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/.rasa/cache/tmpggx0og0_/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/actions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/actions/actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/credentials.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/dm/custom_stories.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/dm/recipe_intent_map.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/dm/rules.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/dm/segments.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/domainintents.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/nlu.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/original_data/RecipesV6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/original_data/display_templates.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/response/display.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/response/display_not_all_ingredients.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/response/general_responses.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/response/ingredient_replace.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/response/recipe_resp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/data/response/utensil_explanations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/domain.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/endpoints.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/events.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/events.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/events.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/models/nlu-20221212-105532-light-parable.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/rasa.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/src/tests/test_stories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/rasax/train_nlu_model.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Aym8IxbmQ6avjT7HSMJ0yQMwzJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/y-yu/WorkSpace/codebase/CiViL",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/core/src/sql" />
+      <recent name="$PROJECT_DIR$/rasax" />
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/speech" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.text_to_speech">
+    <configuration name="asr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CiViL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/src/speech/asr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CiViL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/src/sql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/src/sql/sqlac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="telegram_bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CiViL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/src/telegram_bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text_to_speech" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CiViL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/src/speech" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/src/speech/text_to_speech.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CiViL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/src/speech/tts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.text_to_speech" />
+        <item itemvalue="Python.tts" />
+        <item itemvalue="Python.telegram_bot" />
+        <item itemvalue="Python.sqlac" />
+        <item itemvalue="Python.asr" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="" />
+      <created>1655990038789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655990038789</updated>
+      <workItem from="1655990040532" duration="11019000" />
+      <workItem from="1656061285573" duration="12246000" />
+      <workItem from="1656196983591" duration="6469000" />
+      <workItem from="1656493626060" duration="1628000" />
+      <workItem from="1656498931204" duration="1000000" />
+      <workItem from="1656505157040" duration="60000" />
+      <workItem from="1656594593458" duration="24952000" />
+      <workItem from="1657702908044" duration="44016000" />
+      <workItem from="1663188708925" duration="7027000" />
+      <workItem from="1663237409262" duration="6496000" />
+      <workItem from="1664567832828" duration="11473000" />
+      <workItem from="1678111922684" duration="6699000" />
+    </task>
+    <task id="LOCAL-00001" summary="add new version of bert and fix a bug">
+      <created>1656427714159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656427714159</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update telegram docker files">
+      <created>1656452808880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656452808880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update telegram docker files">
+      <created>1657639258779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657639258779</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update telegram docker files">
+      <created>1657665066325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657665066325</updated>
+    </task>
+    <task id="LOCAL-00005" summary="git fix all errors">
+      <created>1657744380006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657744380006</updated>
+    </task>
+    <task id="LOCAL-00006" summary="git fix all errors">
+      <created>1657749131033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657749131033</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add flag to switch on/off the bert model">
+      <created>1657804434998</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657804434998</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update the version">
+      <created>1657810163498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657810163498</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix several errors and add a hack dictionary to store multiple user's dialogue state. (will update it to SQL or MongoDB)">
+      <created>1658183701618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658183701618</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update the bert script">
+      <created>1658185123811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658185123811</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add a try-except into the main function">
+      <created>1658185450624</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658185450624</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add speech_bot.py">
+      <created>1663239212116</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663239212116</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add speech_bot.py">
+      <created>1663741358995</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663741358995</updated>
+    </task>
+    <task id="LOCAL-00014" summary="made some changes in the data">
+      <created>1664802423661</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664802423661</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new NLU model">
+      <created>1664802478893</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664802478893</updated>
+    </task>
+    <task id="LOCAL-00016" summary="new NLU model">
+      <created>1664802525315</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664802525315</updated>
+    </task>
+    <task id="LOCAL-00017" summary="remove all speech codes">
+      <created>1664802647036</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664802647036</updated>
+    </task>
+    <task id="LOCAL-00018" summary="the latest updates on the system">
+      <created>1678114385217</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678114385217</updated>
+    </task>
+    <task id="LOCAL-00019" summary="the latest updates on the system">
+      <created>1678114551405</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678114551405</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new version of bert and fix a bug" />
+    <MESSAGE value="update telegram docker files" />
+    <MESSAGE value="git fix all errors" />
+    <MESSAGE value="add flag to switch on/off the bert model" />
+    <MESSAGE value="update the version" />
+    <MESSAGE value="fix several errors and add a hack dictionary to store multiple user's dialogue state. (will update it to SQL or MongoDB)" />
+    <MESSAGE value="update the bert script" />
+    <MESSAGE value="add a try-except into the main function" />
+    <MESSAGE value="add speech_bot.py" />
+    <MESSAGE value="made some changes in the data" />
+    <MESSAGE value="new NLU model" />
+    <MESSAGE value="remove all speech codes" />
+    <MESSAGE value="the latest updates on the system" />
+    <option name="LAST_COMMIT_MESSAGE" value="the latest updates on the system" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CiViL$tts.coverage" NAME="tts Coverage Results" MODIFIED="1663276770446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
+    <SUITE FILE_PATH="coverage/CiViL$sqlac.coverage" NAME="sqlac Coverage Results" MODIFIED="1658182162189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src/sql" />
+    <SUITE FILE_PATH="coverage/CiViL$telegram_bot.coverage" NAME="telegram_bot Coverage Results" MODIFIED="1658183273583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
+    <SUITE FILE_PATH="coverage/CiViL$text_to_speech.coverage" NAME="text_to_speech Coverage Results" MODIFIED="1678123528234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src/speech" />
+    <SUITE FILE_PATH="coverage/CiViL$speech_bot.coverage" NAME="asr Coverage Results" MODIFIED="1663320818666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
+  </component>
+</project>

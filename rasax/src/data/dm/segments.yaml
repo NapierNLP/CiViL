@@ -1,0 +1,1743 @@
+version: '2.0'
+
+segments:
+- segment: trigger_1
+  steps:
+  - intent: english muffins
+  - action: utter_rep
+
+- segment: trigger_2
+  steps:
+  - intent: strawberrypie
+  - action: utter_rep
+
+- segment: trigger_3
+  steps:
+  - intent: airfryerglazeddonuts
+  - action: utter_rep
+
+- segment: trigger_4
+  steps:
+  - intent: pumpkinspicedonuts
+  - action: utter_rep
+
+- segment: trigger_5
+  steps:
+  - intent: misirwot
+  - action: utter_rep
+
+- segment: trigger_6
+  steps:
+  - intent: pineapplestrawberrysalad
+  - action: utter_rep
+
+- segment: trigger_7
+  steps:
+  - intent: peartartetatin
+  - action: utter_rep
+
+- segment: trigger_8
+  steps:
+  - intent: roasted veggie noodles
+  - action: utter_rep
+
+- segment: trigger_9
+  steps:
+  - intent: quinoaburritobowl
+  - action: utter_rep
+
+- segment: trigger_10
+  steps:
+  - intent: mangohabanerohotsauce
+  - action: utter_rep
+
+- segment: trigger_11
+  steps:
+  - intent: veggie tikka masala
+  - action: utter_rep
+
+- segment: trigger_12
+  steps:
+  - intent: newyorkcrumbcake
+  - action: utter_rep
+
+- segment: trigger_13
+  steps:
+  - intent: holidaybundtcake
+  - action: utter_rep
+
+- segment: trigger_14
+  steps:
+  - intent: makeaheadgravy
+  - action: utter_rep
+
+- segment: trigger_15
+  steps:
+  - intent: cranberryupsidedowncake
+  - action: utter_rep
+
+- segment: trigger_16
+  steps:
+  - intent: whiteoutcake
+  - action: utter_rep
+
+- segment: trigger_17
+  steps:
+  - intent: oatmealraisincookies
+  - action: utter_rep
+
+- segment: trigger_18
+  steps:
+  - intent: irishsodamuffins
+  - action: utter_rep
+
+- segment: trigger_19
+  steps:
+  - intent: strawberrymilkshakecupcakes
+  - action: utter_rep
+
+- segment: trigger_20
+  steps:
+  - intent: heartyvegetablesoup
+  - action: utter_rep
+
+- segment: trigger_21
+  steps:
+  - intent: spaghettiandmeatballs
+  - action: utter_rep
+
+- segment: trigger_22
+  steps:
+  - intent: potatosalad
+  - action: utter_rep
+
+- segment: trigger_23
+  steps:
+  - intent: chickenmasala
+  - action: utter_rep
+
+- segment: trigger_24
+  steps:
+  - intent: roasted vegetable lasagna
+  - action: utter_rep
+
+- segment: trigger_25
+  steps:
+  - intent: cranberrypecanmuffins
+  - action: utter_rep
+
+- segment: trigger_26
+  steps:
+  - intent: savorytomatopie
+  - action: utter_rep
+
+- segment: trigger_27
+  steps:
+  - intent: cherrypiebars
+  - action: utter_rep
+
+- segment: trigger_28
+  steps:
+  - intent: mushroomragu
+  - action: utter_rep
+
+- segment: trigger_29
+  steps:
+  - intent: minestronesoup
+  - action: utter_rep
+
+- segment: trigger_30
+  steps:
+  - intent: homemademarzipan
+  - action: utter_rep
+
+- segment: trigger_31
+  steps:
+  - intent: cherrymarzipanstreuselcake
+  - action: utter_rep
+
+- segment: trigger_32
+  steps:
+  - intent: sweetpotatoburritos
+  - action: utter_rep
+
+- segment: trigger_33
+  steps:
+  - intent: blueberryscones
+  - action: utter_rep
+
+- segment: trigger_34
+  steps:
+  - intent: nutellacereal
+  - action: utter_rep
+
+- segment: trigger_35
+  steps:
+  - intent: cherrybonboncookies
+  - action: utter_rep
+
+- segment: trigger_36
+  steps:
+  - intent: overnightoatmeal
+  - action: utter_rep
+
+- segment: trigger_37
+  steps:
+  - intent: chickennoodlesoup
+  - action: utter_rep
+
+- segment: trigger_38
+  steps:
+  - intent: butterscotchblondiecookies
+  - action: utter_rep
+
+- segment: trigger_39
+  steps:
+  - intent: beefstroganoff
+  - action: utter_rep
+
+- segment: trigger_40
+  steps:
+  - intent: mashedbutternutsquash
+  - action: utter_rep
+
+- segment: trigger_41
+  steps:
+  - intent: mashedcauliflower
+  - action: utter_rep
+
+- segment: trigger_42
+  steps:
+  - intent: sweetpotatobiscuits
+  - action: utter_rep
+
+- segment: trigger_43
+  steps:
+  - intent: buffalochili
+  - action: utter_rep
+
+- segment: trigger_44
+  steps:
+  - intent: sweetpotatoandpineapplefruitsalad
+  - action: utter_rep
+
+- segment: trigger_45
+  steps:
+  - intent: poundcake
+  - action: utter_rep
+
+- segment: trigger_46
+  steps:
+  - intent: creamyasparagussoup
+  - action: utter_rep
+
+- segment: trigger_47
+  steps:
+  - intent: crepes
+  - action: utter_rep
+
+- segment: trigger_48
+  steps:
+  - intent: bananabread
+  - action: utter_rep
+
+- segment: trigger_49
+  steps:
+  - intent: creamscones
+  - action: utter_rep
+
+- segment: trigger_50
+  steps:
+  - intent: herbquinoamilletcakes
+  - action: utter_rep
+
+- segment: trigger_51
+  steps:
+  - intent: spiralvegetabletart
+  - action: utter_rep
+
+- segment: trigger_52
+  steps:
+  - intent: homemadetortillachips
+  - action: utter_rep
+
+- segment: trigger_53
+  steps:
+  - intent: rhubarboatmealcrunch
+  - action: utter_rep
+
+- segment: trigger_54
+  steps:
+  - intent: coconutpineapplecake
+  - action: utter_rep
+
+- segment: trigger_55
+  steps:
+  - intent: bakedgermanapplepancakes
+  - action: utter_rep
+
+- segment: trigger_56
+  steps:
+  - intent: southernbuttermilkbiscuits
+  - action: utter_rep
+
+- segment: trigger_57
+  steps:
+  - intent: chocolatetrufflecake
+  - action: utter_rep
+
+- segment: trigger_58
+  steps:
+  - intent: sloppyjoes
+  - action: utter_rep
+
+- segment: trigger_59
+  steps:
+  - intent: stackedenchiladas
+  - action: utter_rep
+
+- segment: trigger_60
+  steps:
+  - intent: homemadeflourtortillas
+  - action: utter_rep
+
+- segment: trigger_61
+  steps:
+  - intent: macaroniandcheese
+  - action: utter_rep
+
+- segment: trigger_62
+  steps:
+  - intent: homemadechickennuggets
+  - action: utter_rep
+
+- segment: trigger_63
+  steps:
+  - intent: coconutblueberryoatmealcookies
+  - action: utter_rep
+
+- segment: trigger_64
+  steps:
+  - intent: fruitsdalsacemilletbreakfastcookies
+  - action: utter_rep
+
+- segment: trigger_65
+  steps:
+  - intent: superspringsalad
+  - action: utter_rep
+
+- segment: trigger_66
+  steps:
+  - intent: feijoada
+  - action: utter_rep
+
+- segment: trigger_67
+  steps:
+  - intent: cubanblackbeansandrice
+  - action: utter_rep
+
+- segment: trigger_68
+  steps:
+  - intent: adobonggalunggong
+  - action: utter_rep
+
+- segment: trigger_69
+  steps:
+  - intent: slowcookerchickenpho
+  - action: utter_rep
+
+- segment: trigger_70
+  steps:
+  - intent: slowcookerchickenpho
+  - action: utter_rep
+
+- segment: trigger_71
+  steps:
+  - intent: pastabataka
+  - action: utter_rep
+
+- segment: trigger_72
+  steps:
+  - intent: marinatedprimeribroast
+  - action: utter_rep
+
+- segment: trigger_73
+  steps:
+  - intent: chickentraybakewithchorizo
+  - action: utter_rep
+
+- segment: trigger_74
+  steps:
+  - intent: pastinasoup
+  - action: utter_rep
+
+- segment: trigger_75
+  steps:
+  - intent: pastawithspinachricottaandham
+  - action: utter_rep
+
+- segment: trigger_76
+  steps:
+  - intent: africanchickeninpeanutaauce
+  - action: utter_rep
+
+- segment: trigger_77
+  steps:
+  - intent: pearandfigchutney
+  - action: utter_rep
+
+- segment: trigger_78
+  steps:
+  - intent: swissmushroompheasantbreast
+  - action: utter_rep
+
+- segment: trigger_79
+  steps:
+  - intent: meyerlemonyogurtbundtcake
+  - action: utter_rep
+
+- segment: trigger_80
+  steps:
+  - intent: flashroastedsteakwithsquashgorgonzolaandsage
+  - action: utter_rep
+
+- segment: trigger_81
+  steps:
+  - intent: fennelleekandsquashgratinwithtarragonandhazelnuts
+  - action: utter_rep
+
+- segment: trigger_82
+  steps:
+  - intent: amishpotpiesquares
+  - action: utter_rep
+
+- segment: trigger_83
+  steps:
+  - intent: bakedparmesantilapia
+  - action: utter_rep
+
+- segment: trigger_84
+  steps:
+  - intent: quickcrabwontons
+  - action: utter_rep
+
+- segment: trigger_85
+  steps:
+  - intent: maltesestuffedmarrows
+  - action: utter_rep
+
+- segment: trigger_86
+  steps:
+  - intent: beansoup
+  - action: utter_rep
+
+- segment: trigger_87
+  steps:
+  - intent: janssonstemptation
+  - action: utter_rep
+
+- segment: trigger_88
+  steps:
+  - intent: balinesebbqporkroast
+  - action: utter_rep
+
+- segment: trigger_89
+  steps:
+  - intent: italianeasterbreadtakes
+  - action: utter_rep
+
+- segment: trigger_90
+  steps:
+  - intent: vegetablecruditesplatter
+  - action: utter_rep
+
+- segment: trigger_91
+  steps:
+  - intent: kamotefries
+  - action: utter_rep
+
+- segment: trigger_92
+  steps:
+  - intent: cinnamonbuns
+  - action: utter_rep
+
+- segment: trigger_93
+  steps:
+  - intent: russianomelet
+  - action: utter_rep
+
+- segment: trigger_94
+  steps:
+  - intent: hopia
+  - action: utter_rep
+
+- segment: trigger_95
+  steps:
+  - intent: hashbrownscasserole
+  - action: utter_rep
+
+- segment: trigger_96
+  steps:
+  - intent: stirfriedbroccoliwithchiligarlicsauce
+  - action: utter_rep
+
+- segment: trigger_97
+  steps:
+  - intent: smokedsalmoncrepes
+  - action: utter_rep
+
+- segment: trigger_98
+  steps:
+  - intent: aranciniitalianriceballs
+  - action: utter_rep
+
+- segment: trigger_99
+  steps:
+  - intent: breakfastquesadillas
+  - action: utter_rep
+
+- segment: trigger_100
+  steps:
+  - intent: bakedbanguswithcheesytoppings
+  - action: utter_rep
+
+- segment: trigger_101
+  steps:
+  - intent: chickenandeggplantpasta
+  - action: utter_rep
+
+- segment: trigger_102
+  steps:
+  - intent: longganisafilipinostylesausage
+  - action: utter_rep
+
+- segment: trigger_103
+  steps:
+  - intent: classiccioppino
+  - action: utter_rep
+
+- segment: trigger_104
+  steps:
+  - intent: gypsyeggs
+  - action: utter_rep
+
+- segment: trigger_105
+  steps:
+  - intent: veganbreakfast
+  - action: utter_rep
+
+- segment: trigger_106
+  steps:
+  - intent: chickenandchorizojambalaya
+  - action: utter_rep
+
+- segment: trigger_107
+  steps:
+  - intent: cheeseburgermacaroni
+  - action: utter_rep
+
+- segment: trigger_108
+  steps:
+  - intent: whitechickenchili
+  - action: utter_rep
+
+- segment: trigger_109
+  steps:
+  - intent: breadpudding
+  - action: utter_rep
+
+- segment: trigger_110
+  steps:
+  - intent: broccolipasta
+  - action: utter_rep
+
+- segment: trigger_111
+  steps:
+  - intent: quickvegetariansingaporefriednoodles
+  - action: utter_rep
+
+- segment: trigger_112
+  steps:
+  - intent: teriyakisalmon
+  - action: utter_rep
+
+- segment: trigger_113
+  steps:
+  - intent: limpabread
+  - action: utter_rep
+
+- segment: trigger_114
+  steps:
+  - intent: veganandglutenfreechocolatechipchewybrownies
+  - action: utter_rep
+
+- segment: trigger_115
+  steps:
+  - intent: meatloaf
+  - action: utter_rep
+
+- segment: trigger_116
+  steps:
+  - intent: chickentraybakewithchorizotomatoandredpeppers
+  - action: utter_rep
+
+- segment: trigger_117
+  steps:
+  - intent: indianstylecauliflowerandpotatoes
+  - action: utter_rep
+
+- segment: trigger_118
+  steps:
+  - intent: chickenfricassee
+  - action: utter_rep
+
+- segment: trigger_119
+  steps:
+  - intent: chickenpiccata
+  - action: utter_rep
+
+- segment: trigger_120
+  steps:
+  - intent: caribbeanturkeywings
+  - action: utter_rep
+
+- segment: trigger_121
+  steps:
+  - intent: roastpheasantandbreadsauce
+  - action: utter_rep
+
+- segment: trigger_122
+  steps:
+  - intent: masalahotdogs
+  - action: utter_rep
+
+- segment: trigger_123
+  steps:
+  - intent: guernseypotatopeelpie
+  - action: utter_rep
+
+- segment: trigger_124
+  steps:
+  - intent: sweetchickpeafudgetakes
+  - action: utter_rep
+
+- segment: trigger_125
+  steps:
+  - intent: bbqspareribs
+  - action: utter_rep
+
+- segment: trigger_126
+  steps:
+  - intent: vegetablepizza
+  - action: utter_rep
+
+- segment: trigger_127
+  steps:
+  - intent: chilerelleons
+  - action: utter_rep
+
+- segment: trigger_128
+  steps:
+  - intent: mexicancoleslawwithlimeandcilantro
+  - action: utter_rep
+
+- segment: trigger_129
+  steps:
+  - intent: brusselsproutssauteedingarlicandoliveoil
+  - action: utter_rep
+
+- segment: trigger_130
+  steps:
+  - intent: freshsmallclams
+  - action: utter_rep
+
+- segment: trigger_131
+  steps:
+  - intent: slowcookerchicken
+  - action: utter_rep
+
+- segment: trigger_132
+  steps:
+  - intent: skinlesschickenlongganisa
+  - action: utter_rep
+
+- segment: trigger_133
+  steps:
+  - intent: chickennachos
+  - action: utter_rep
+
+- segment: trigger_134
+  steps:
+  - intent: taroroot
+  - action: utter_rep
+
+- segment: trigger_135
+  steps:
+  - intent: chickencashewcurry
+  - action: utter_rep
+
+- segment: trigger_136
+  steps:
+  - intent: spicyshrimpmoroccanstyle
+  - action: utter_rep
+
+- segment: trigger_137
+  steps:
+  - intent: crockpotsplitpeasoup
+  - action: utter_rep
+
+- segment: trigger_138
+  steps:
+  - intent: pelmeni
+  - action: utter_rep
+
+- segment: trigger_139
+  steps:
+  - intent: easychickencurry
+  - action: utter_rep
+
+- segment: trigger_140
+  steps:
+  - intent: steamtofuwithfish
+  - action: utter_rep
+
+- segment: trigger_141
+  steps:
+  - intent: redbeanswithrice
+  - action: utter_rep
+
+- segment: trigger_142
+  steps:
+  - intent: tacocasserole
+  - action: utter_rep
+
+- segment: trigger_143
+  steps:
+  - intent: chickencordonbleuschnitzelstyle
+  - action: utter_rep
+
+- segment: trigger_144
+  steps:
+  - intent: appleovenpancake
+  - action: utter_rep
+
+- segment: trigger_145
+  steps:
+  - intent: italianspinachsoup
+  - action: utter_rep
+
+- segment: trigger_146
+  steps:
+  - intent: chickenandcoconutcurry
+  - action: utter_rep
+
+- segment: trigger_147
+  steps:
+  - intent: butterchicken
+  - action: utter_rep
+
+- segment: trigger_148
+  steps:
+  - intent: brownbuttercolcannon
+  - action: utter_rep
+
+- segment: trigger_149
+  steps:
+  - intent: irishfishchowder
+  - action: utter_rep
+
+- segment: trigger_150
+  steps:
+  - intent: cornbreadjalapenomaplebacon
+  - action: utter_rep
+
+- segment: trigger_151
+  steps:
+  - intent: indianjeerachicken
+  - action: utter_rep
+
+- segment: trigger_152
+  steps:
+  - intent: dominicancake
+  - action: utter_rep
+
+- segment: trigger_153
+  steps:
+  - intent: pangatnasapsap
+  - action: utter_rep
+
+- segment: trigger_154
+  steps:
+  - intent: chickenalexander
+  - action: utter_rep
+
+- segment: trigger_155
+  steps:
+  - intent: mongateauauchocolat
+  - action: utter_rep
+
+- segment: trigger_156
+  steps:
+  - intent: bbqporktenderloin
+  - action: utter_rep
+
+- segment: trigger_157
+  steps:
+  - intent: lentilsoupwithdumplings
+  - action: utter_rep
+
+- segment: trigger_158
+  steps:
+  - intent: italianbreadedchickenbreast
+  - action: utter_rep
+
+- segment: trigger_159
+  steps:
+  - intent: frieddrylandfish
+  - action: utter_rep
+
+- segment: trigger_160
+  steps:
+  - intent: smokedsirlointiproast
+  - action: utter_rep
+
+- segment: trigger_161
+  steps:
+  - intent: mashedpotatopstuffedchickenbreast
+  - action: utter_rep
+
+- segment: trigger_162
+  steps:
+  - intent: juicychickenbreaktexmextstyle
+  - action: utter_rep
+
+- segment: trigger_163
+  steps:
+  - intent: irishbeefstew
+  - action: utter_rep
+
+- segment: trigger_164
+  steps:
+  - intent: cuminchicken
+  - action: utter_rep
+
+- segment: trigger_165
+  steps:
+  - intent: stpatricksdaybeefstewwithguinness
+  - action: utter_rep
+
+- segment: trigger_166
+  steps:
+  - intent: irishapplecakewithwhiskycream
+  - action: utter_rep
+
+- segment: trigger_167
+  steps:
+  - intent: pavbhaji
+  - action: utter_rep
+
+- segment: trigger_168
+  steps:
+  - intent: creamymushroomchicken
+  - action: utter_rep
+
+- segment: trigger_169
+  steps:
+  - intent: lowcaloriechickencaesarsaladstuffedshells
+  - action: utter_rep
+
+- segment: trigger_170
+  steps:
+  - intent: bucopie
+  - action: utter_rep
+
+- segment: trigger_171
+  steps:
+  - intent: italianstylebakedmashedpotato
+  - action: utter_rep
+
+- segment: trigger_172
+  steps:
+  - intent: chilesrellenos
+  - action: utter_rep
+
+- segment: trigger_173
+  steps:
+  - intent: pankocrustedbakedtilapia
+  - action: utter_rep
+
+- segment: trigger_174
+  steps:
+  - intent: fetastuffedlambwithfriedpotatoes
+  - action: utter_rep
+
+- segment: trigger_175
+  steps:
+  - intent: shrimpscampiwithangelhairpasta
+  - action: utter_rep
+
+- segment: trigger_176
+  steps:
+  - intent: garlictomatobasilgrilledshrimp
+  - action: utter_rep
+
+- segment: trigger_177
+  steps:
+  - intent: carnitas
+  - action: utter_rep
+
+- segment: trigger_178
+  steps:
+  - intent: threesistersoup
+  - action: utter_rep
+
+- segment: trigger_179
+  steps:
+  - intent: binatog
+  - action: utter_rep
+
+- segment: trigger_180
+  steps:
+  - intent: lambsouvlaki
+  - action: utter_rep
+
+- segment: trigger_181
+  steps:
+  - intent: sinaingnatulingan
+  - action: utter_rep
+
+- segment: trigger_182
+  steps:
+  - intent: turkishflatbread
+  - action: utter_rep
+
+- segment: trigger_183
+  steps:
+  - intent: vegetariansingaporefriednoodles
+  - action: utter_rep
+
+- segment: trigger_184
+  steps:
+  - intent: lentilandbaconsoup
+  - action: utter_rep
+
+- segment: trigger_185
+  steps:
+  - intent: pastawithgarlicandoliveoil
+  - action: utter_rep
+
+- segment: trigger_186
+  steps:
+  - intent: butternutsquashsambar
+  - action: utter_rep
+
+- segment: trigger_187
+  steps:
+  - intent: arrozverde
+  - action: utter_rep
+
+- segment: trigger_188
+  steps:
+  - intent: salmonavocadoandrocketsalad
+  - action: utter_rep
+
+- segment: trigger_189
+  steps:
+  - intent: wrappedchildren
+  - action: utter_rep
+
+- segment: trigger_190
+  steps:
+  - intent: pinoycassavacake
+  - action: utter_rep
+
+- segment: trigger_191
+  steps:
+  - intent: germanpotatosaladheirloom
+  - action: utter_rep
+
+- segment: trigger_192
+  steps:
+  - intent: oreocookiecupcakes
+  - action: utter_rep
+
+- segment: trigger_193
+  steps:
+  - intent: stjosephsbread
+  - action: utter_rep
+
+- segment: trigger_194
+  steps:
+  - intent: courgettegratin
+  - action: utter_rep
+
+- segment: trigger_195
+  steps:
+  - intent: avocadoindianroti
+  - action: utter_rep
+
+- segment: trigger_196
+  steps:
+  - intent: beetrootwalnutandorangesaladwithorangeblossomdressing
+  - action: utter_rep
+
+- segment: trigger_197
+  steps:
+  - intent: lambmeatballs
+  - action: utter_rep
+
+- segment: trigger_198
+  steps:
+  - intent: healthymeatballs
+  - action: utter_rep
+
+- segment: trigger_199
+  steps:
+  - intent: kindsbreadpudding
+  - action: utter_rep
+
+- segment: trigger_200
+  steps:
+  - intent: irishchocolatestoutcake
+  - action: utter_rep
+
+- segment: trigger_201
+  steps:
+  - intent: apricotcheesepie
+  - action: utter_rep
+
+- segment: trigger_202
+  steps:
+  - intent: spanishsardinesandoliveoil
+  - action: utter_rep
+
+- segment: trigger_203
+  steps:
+  - intent: cheeseandonionenchiladaswithtexmexchiligravy
+  - action: utter_rep
+
+- segment: trigger_204
+  steps:
+  - intent: snowballcookies
+  - action: utter_rep
+
+- segment: trigger_205
+  steps:
+  - intent: flakypadancroissant
+  - action: utter_rep
+
+- segment: trigger_206
+  steps:
+  - intent: crabwontons
+  - action: utter_rep
+
+- segment: trigger_207
+  steps:
+  - intent: jerkchickenwings
+  - action: utter_rep
+
+- segment: trigger_208
+  steps:
+  - intent: ahitunatower
+  - action: utter_rep
+
+- segment: trigger_209
+  steps:
+  - intent: salsadechilipequin
+  - action: utter_rep
+
+- segment: trigger_210
+  steps:
+  - intent: jerkchickenthighs
+  - action: utter_rep
+
+- segment: trigger_211
+  steps:
+  - intent: caramelpecanpie
+  - action: utter_rep
+
+- segment: trigger_212
+  steps:
+  - intent: westindiespollocriollo
+  - action: utter_rep
+
+- segment: trigger_213
+  steps:
+  - intent: cabbagepachadisalad
+  - action: utter_rep
+
+- segment: trigger_214
+  steps:
+  - intent: cauliflowerandwhitebeansaute
+  - action: utter_rep
+
+- segment: trigger_215
+  steps:
+  - intent: mexicanmacandcheese
+  - action: utter_rep
+
+- segment: trigger_216
+  steps:
+  - intent: indiansalmonmasala
+  - action: utter_rep
+
+- segment: trigger_217
+  steps:
+  - intent: meatballsandwhich
+  - action: utter_rep
+
+- segment: trigger_218
+  steps:
+  - intent: persimmoncookies
+  - action: utter_rep
+
+- segment: trigger_219
+  steps:
+  - intent: chicharonbaby
+  - action: utter_rep
+
+- segment: trigger_220
+  steps:
+  - intent: tallerinecasserole
+  - action: utter_rep
+
+- segment: trigger_221
+  steps:
+  - intent: scottishshortbread
+  - action: utter_rep
+
+- segment: trigger_222
+  steps:
+  - intent: sweetcornarepa
+  - action: utter_rep
+
+- segment: trigger_223
+  steps:
+  - intent: georgianbeefstew
+  - action: utter_rep
+
+- segment: trigger_224
+  steps:
+  - intent: friedeggplant
+  - action: utter_rep
+
+- segment: trigger_225
+  steps:
+  - intent: italiansnowballcookies
+  - action: utter_rep
+
+- segment: trigger_226
+  steps:
+  - intent: fermentedriceandshrimp
+  - action: utter_rep
+
+- segment: trigger_227
+  steps:
+  - intent: chicharonbulaklak
+  - action: utter_rep
+
+- segment: trigger_228
+  steps:
+  - intent: strawberrydanishdessert
+  - action: utter_rep
+
+- segment: trigger_229
+  steps:
+  - intent: sicilianeggplantandricottapasta
+  - action: utter_rep
+
+- segment: trigger_230
+  steps:
+  - intent: spicycoconutchickencurry
+  - action: utter_rep
+
+- segment: trigger_231
+  steps:
+  - intent: pinoyokoy
+  - action: utter_rep
+
+- segment: trigger_232
+  steps:
+  - intent: filipinohotcakes
+  - action: utter_rep
+
+- segment: trigger_233
+  steps:
+  - intent: pansearedseabassinamarsalasauce
+  - action: utter_rep
+
+- segment: trigger_234
+  steps:
+  - intent: bananacue
+  - action: utter_rep
+
+- segment: trigger_235
+  steps:
+  - intent: thaibeefsalad
+  - action: utter_rep
+
+- segment: trigger_236
+  steps:
+  - intent: fishcakeswithparsleysauce
+  - action: utter_rep
+
+- segment: trigger_237
+  steps:
+  - intent: pinoyporksteak
+  - action: utter_rep
+
+- segment: trigger_238
+  steps:
+  - intent: irishstew
+  - action: utter_rep
+
+- segment: trigger_239
+  steps:
+  - intent: breakfastquiche
+  - action: utter_rep
+
+- segment: trigger_240
+  steps:
+  - intent: snickerdoodlemuffins
+  - action: utter_rep
+
+- segment: trigger_241
+  steps:
+  - intent: afganchicken
+  - action: utter_rep
+
+- segment: trigger_242
+  steps:
+  - intent: blueberrieswithlimeandcitrusconfit
+  - action: utter_rep
+
+- segment: trigger_243
+  steps:
+  - intent: porkadobo
+  - action: utter_rep
+
+- segment: trigger_244
+  steps:
+  - intent: tunapatties
+  - action: utter_rep
+
+- segment: trigger_245
+  steps:
+  - intent: seafoodrisotto
+  - action: utter_rep
+
+- segment: trigger_246
+  steps:
+  - intent: roastchickenlegs
+  - action: utter_rep
+
+- segment: trigger_247
+  steps:
+  - intent: smokedbeefbrisket
+  - action: utter_rep
+
+- segment: trigger_248
+  steps:
+  - intent: harirasoup
+  - action: utter_rep
+
+- segment: trigger_249
+  steps:
+  - intent: germanpancakes
+  - action: utter_rep
+
+- segment: trigger_250
+  steps:
+  - intent: mediterraneanfiletofsole
+  - action: utter_rep
+
+- segment: trigger_251
+  steps:
+  - intent: italianshrimpscampi
+  - action: utter_rep
+
+- segment: trigger_252
+  steps:
+  - intent: perfectfrenchsidesalad
+  - action: utter_rep
+
+- segment: trigger_253
+  steps:
+  - intent: punjabichickencurry
+  - action: utter_rep
+
+- segment: trigger_254
+  steps:
+  - intent: maltagliati
+  - action: utter_rep
+
+- segment: trigger_255
+  steps:
+  - intent: pancitbihonguisadowithataybalunbalunan
+  - action: utter_rep
+
+- segment: trigger_256
+  steps:
+  - intent: southernlowcountrybraisedpigsfeet
+  - action: utter_rep
+
+- segment: trigger_257
+  steps:
+  - intent: caramilkbrownies
+  - action: utter_rep
+
+- segment: trigger_258
+  steps:
+  - intent: grilledtandooriturkeytenderloin
+  - action: utter_rep
+
+- segment: trigger_259
+  steps:
+  - intent: pancitcanton
+  - action: utter_rep
+
+- segment: trigger_260
+  steps:
+  - intent: grilledsalmonwithbraziliangarlicmarinade
+  - action: utter_rep
+
+- segment: trigger_261
+  steps:
+  - intent: cevichedepescade
+  - action: utter_rep
+
+- segment: trigger_262
+  steps:
+  - intent: haranerobutterchicken
+  - action: utter_rep
+
+- segment: trigger_263
+  steps:
+  - intent: redlobstercheddarbiscuits
+  - action: utter_rep
+
+- segment: trigger_264
+  steps:
+  - intent: chickenwithrice
+  - action: utter_rep
+
+- segment: trigger_265
+  steps:
+  - intent: mushroomandleekpasta
+  - action: utter_rep
+
+- segment: trigger_266
+  steps:
+  - intent: roastedhalibutwithbalsamicgarlicglaze
+  - action: utter_rep
+
+- segment: trigger_267
+  steps:
+  - intent: rabbitmixedgrill
+  - action: utter_rep
+
+- segment: trigger_268
+  steps:
+  - intent: calamansicloudcake
+  - action: utter_rep
+
+- segment: trigger_269
+  steps:
+  - intent: apacherattlesnakefry
+  - action: utter_rep
+
+- segment: trigger_270
+  steps:
+  - intent: stpatricksdaysalmonwithleeks
+  - action: utter_rep
+
+- segment: trigger_271
+  steps:
+  - intent: chickenchilli
+  - action: utter_rep
+
+- segment: trigger_272
+  steps:
+  - intent: crispyporkdinuguan
+  - action: utter_rep
+
+- segment: trigger_273
+  steps:
+  - intent: quebecstylebakedbeans
+  - action: utter_rep
+
+- segment: trigger_274
+  steps:
+  - intent: cranberrymoussejellomoldsalad
+  - action: utter_rep
+
+- segment: trigger_275
+  steps:
+  - intent: portuguesesweetrice
+  - action: utter_rep
+
+- segment: trigger_276
+  steps:
+  - intent: cannellinibeans
+  - action: utter_rep
+
+- segment: trigger_277
+  steps:
+  - intent: aubergineandblackbeanbowl
+  - action: utter_rep
+
+- segment: trigger_278
+  steps:
+  - intent: swedishpancakes
+  - action: utter_rep
+
+- segment: trigger_279
+  steps:
+  - intent: chileanempanada
+  - action: utter_rep
+
+- segment: trigger_280
+  steps:
+  - intent: mexicanbeanstew
+  - action: utter_rep
+
+- segment: trigger_281
+  steps:
+  - intent: cheesygarlicmashedpotatoes
+  - action: utter_rep
+
+- segment: trigger_282
+  steps:
+  - intent: caipirinha
+  - action: utter_rep
+
+- segment: trigger_283
+  steps:
+  - intent: mexicanstuffedjalapenos
+  - action: utter_rep
+
+- segment: trigger_284
+  steps:
+  - intent: veganaubergineburgers
+  - action: utter_rep
+
+- segment: trigger_285
+  steps:
+  - intent: chickentacos
+  - action: utter_rep
+
+- segment: trigger_286
+  steps:
+  - intent: salmonbakedinfoil
+  - action: utter_rep
+
+- segment: trigger_287
+  steps:
+  - intent: peruvianroastchicken
+  - action: utter_rep
+
+- segment: trigger_288
+  steps:
+  - intent: limeandchipotleblackbeantacos
+  - action: utter_rep
+
+- segment: trigger_289
+  steps:
+  - intent: pansearedlambchops
+  - action: utter_rep
+
+- segment: trigger_290
+  steps:
+  - intent: lambrisotto
+  - action: utter_rep
+
+- segment: trigger_291
+  steps:
+  - intent: italianspaghettisaucewithmeatballs
+  - action: utter_rep
+
+- segment: trigger_292
+  steps:
+  - intent: apfelkuchen
+  - action: utter_rep
+
+- segment: trigger_293
+  steps:
+  - intent: pastawithgarlicbreadcrumbs
+  - action: utter_rep
+
+- segment: trigger_294
+  steps:
+  - intent: inihawnatengangbaboy
+  - action: utter_rep
+
+- segment: trigger_295
+  steps:
+  - intent: chocolatechiffoncake
+  - action: utter_rep
+
+- segment: trigger_296
+  steps:
+  - intent: canieandfelinehealthypumpkinballs
+  - action: utter_rep
+
+- segment: trigger_297
+  steps:
+  - intent: friedonionrings
+  - action: utter_rep
+
+- segment: trigger_298
+  steps:
+  - intent: shallotandredwinebeefwellingtonsauce
+  - action: utter_rep
+
+- segment: trigger_299
+  steps:
+  - intent: steamedcleanedandsplitbluecrabs
+  - action: utter_rep
+
+- segment: trigger_300
+  steps:
+  - intent: steaktacoswithburntcornsalsa
+  - action: utter_rep
+
+- segment: trigger_301
+  steps:
+  - intent: escabechenggalunggong
+  - action: utter_rep
+
+- segment: trigger_302
+  steps:
+  - intent: piripirichicken
+  - action: utter_rep
+
+- segment: trigger_303
+  steps:
+  - intent: grilledsquid
+  - action: utter_rep
+
+- segment: trigger_304
+  steps:
+  - intent: tofupeanutveganstirfry
+  - action: utter_rep
+
+- segment: trigger_305
+  steps:
+  - intent: moussakamediterraneo
+  - action: utter_rep
+
+- segment: trigger_306
+  steps:
+  - intent: chilerellenossouffle
+  - action: utter_rep
+
+- segment: trigger_307
+  steps:
+  - intent: garlicbutteroctopus
+  - action: utter_rep
+
+- segment: trigger_308
+  steps:
+  - intent: curriedlentilstewwithrice
+  - action: utter_rep
+
+- segment: trigger_309
+  steps:
+  - intent: barbacoadecabeza
+  - action: utter_rep
+
+- segment: trigger_310
+  steps:
+  - intent: chinesebarbecuedchicken
+  - action: utter_rep
+
+- segment: trigger_311
+  steps:
+  - intent: sauteedbananaheartveggie
+  - action: utter_rep
+
+- segment: trigger_312
+  steps:
+  - intent: beefchowmein
+  - action: utter_rep
+
+- segment: trigger_313
+  steps:
+  - intent: pinoysumansaibos
+  - action: utter_rep
+
+- segment: trigger_314
+  steps:
+  - intent: texasroadhouserollswithcinnamonhoneybutter
+  - action: utter_rep
+
+- segment: trigger_315
+  steps:
+  - intent: stirfriedcabbagewithgarlic
+  - action: utter_rep
+
+- segment: trigger_316
+  steps:
+  - intent: coldangelhairpastaintruffleoil
+  - action: utter_rep
+
+- segment: trigger_317
+  steps:
+  - intent: bamboosteamsalmonwithsesameoil
+  - action: utter_rep
+
+- segment: trigger_318
+  steps:
+  - intent: polishsausageandsauerkrautinsauce
+  - action: utter_rep
+
+- segment: trigger_319
+  steps:
+  - intent: spanishbreadpinoystyle
+  - action: utter_rep
+
+- segment: trigger_320
+  steps:
+  - intent: lowfatspicerubbedroastturkey
+  - action: utter_rep
+
+- segment: trigger_321
+  steps:
+  - intent: romaniesaladwithcreamybasildressing
+  - action: utter_rep
+
+- segment: trigger_322
+  steps:
+  - intent: grilledstuffedpomfretwithgreenchutney
+  - action: utter_rep
+
+- segment: trigger_323
+  steps:
+  - intent: monaofeaster
+  - action: utter_rep
+
+- segment: trigger_324
+  steps:
+  - intent: beefandpepperstirfry
+  - action: utter_rep
+
+- segment: trigger_325
+  steps:
+  - intent: sesamechickenstirfry
+  - action: utter_rep
+
+- segment: trigger_326
+  steps:
+  - intent: arrozcongri
+  - action: utter_rep
+
+- segment: trigger_327
+  steps:
+  - intent: blackforestcheesecakesquares
+  - action: utter_rep
+
+- segment: trigger_328
+  steps:
+  - intent: spicedlambwithsmashedsquashandspinach
+  - action: utter_rep
+
+- segment: trigger_329
+  steps:
+  - intent: sirloinsteakswithsauteedonions
+  - action: utter_rep
+
+- segment: trigger_330
+  steps:
+  - intent: porksouvlakiwithtzatziki
+  - action: utter_rep
+
+- segment: trigger_331
+  steps:
+  - intent: beefcaldertawithcocomilk
+  - action: utter_rep
+
+- segment: trigger_332
+  steps:
+  - intent: mediterraneanchicken
+  - action: utter_rep
+
+- segment: trigger_333
+  steps:
+  - intent: trufflecrustedbeeftenderloin
+  - action: utter_rep
+
+- segment: trigger_334
+  steps:
+  - intent: slowcookerfrenchdip
+  - action: utter_rep
+
+- segment: trigger_335
+  steps:
+  - intent: panfriedtrout
+  - action: utter_rep
+
+- segment: trigger_336
+  steps:
+  - intent: lambkarahiwithnewpotatoes
+  - action: utter_rep
+
+- segment: trigger_337
+  steps:
+  - intent: chilecorianderchicken
+  - action: utter_rep
+
+- segment: trigger_338
+  steps:
+  - intent: tuscanbaconandbeansoupwithwildgarlicpesto
+  - action: utter_rep
+
+- segment: trigger_339
+  steps:
+  - intent: macandcheese
+  - action: utter_rep
+
+- segment: trigger_340
+  steps:
+  - intent: misuasoupwithupoandpatola
+  - action: utter_rep
+
+- segment: trigger_341
+  steps:
+  - intent: tinolandmanokwithluyangdilaw
+  - action: utter_rep
+
+- segment: trigger_342
+  steps:
+  - intent: chaatwithspicedsoup
+  - action: utter_rep
+
+- segment: trigger_343
+  steps:
+  - intent: salmonfurikake
+  - action: utter_rep
+
+- segment: trigger_344
+  steps:
+  - intent: chilipie
+  - action: utter_rep
+
+- segment: trigger_345
+  steps:
+  - intent: bananapeanutbuttermocjicecream
+  - action: utter_rep
+
+- segment: trigger_346
+  steps:
+  - intent: koreanfriedchicken
+  - action: utter_rep
+
+- segment: trigger_347
+  steps:
+  - intent: tashreebe
+  - action: utter_rep
+
+- segment: trigger_348
+  steps:
+  - intent: vanillachipfruittart
+  - action: utter_rep
+

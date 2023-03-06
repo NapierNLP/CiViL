@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-requested_ingredient",
+      "2": "I-requested_ingredient",
+      "3": "L-requested_ingredient",
+      "4": "U-requested_ingredient",
+      "5": "B-status",
+      "6": "I-status",
+      "7": "L-status",
+      "8": "U-status",
+      "9": "B-utensils",
+      "10": "I-utensils",
+      "11": "L-utensils",
+      "12": "U-utensils",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-requested_ingredient": 1,
+      "I-requested_ingredient": 2,
+      "L-requested_ingredient": 3,
+      "U-requested_ingredient": 4,
+      "B-status": 5,
+      "I-status": 6,
+      "L-status": 7,
+      "U-status": 8,
+      "B-utensils": 9,
+      "I-utensils": 10,
+      "L-utensils": 11,
+      "U-utensils": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
