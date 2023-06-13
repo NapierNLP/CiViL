@@ -9,7 +9,7 @@ echo $SCRIPTPATH
 PROJECTROOTPATH="$(dirname "$SCRIPTPATH")"
 echo $PROJECTROOTPATH
 
-source ${SCRIPTPATH}/ENV/bin/activate
+source ${SCRIPTPATH}/ENV/Scripts/activate
 
 export PYTHONPATH=$PYTHONPATH:"${SCRIPTPATH}"
 export PYTHONPATH=$PYTHONPATH:"${SCRIPTPATH}/src"

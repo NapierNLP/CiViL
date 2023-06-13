@@ -12,6 +12,6 @@ echo $PROJECTROOTPATH
 source ${SCRIPTPATH}/ENV/bin/activate
 "${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
 
-cd "${SCRIPTPATH}"/src
-rasa run --enable-api --port 5005 --credentials credentials.yml --endpoints endpoints.yml
+#cd "${SCRIPTPATH}"/src
+rasa run -m models/nlu-20230403-142856-relaxed-fennel.tar.gz --enable-api --port 7002
 

@@ -146,7 +146,7 @@ class CheifBot(Observer):
                     result = {"system_action": "",
                               "response": _response,
                               "stateInfo": self._prev_dialogue_state}
-                    self._existing_chats[session_id] = result
+                    self._existing_chats[self.this_session] = result
                     self._prev_dialogue_state = None
                     return result
                 else:
@@ -299,7 +299,7 @@ class CheifBot(Observer):
 
     def update(self, subject: Subject) -> None:
         print("subject._recognised_text: {}".format(subject.recognised_text))
-        text = self.get_answer(self.this_session, subject.recognised_text)
+        text = self.get_answer(subject.recognised_text)
         text_to_speech.synthesize_text(text)
 
 

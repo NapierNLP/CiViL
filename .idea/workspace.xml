@@ -1,14 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="fix some bugs with import">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="hack some changes to fix minor errors; will find a better way to solve it later.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.github/ISSUE_TEMPLATE/bug-report.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.github/ISSUE_TEMPLATE/feature-request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.github/ISSUE_TEMPLATE/question.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.github/dependabot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.github/translate-readme.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/.pre-commit-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/CITATION.cff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docker/Dockerfile-arm64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docker/Dockerfile-cpu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/app.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/callbacks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/cfg.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/cli.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/engine.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/hub.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/predict.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/python.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/quickstart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/base_pred.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/base_trainer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/base_val.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/exporter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/model.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/nn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/ops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/reference/results.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/tasks/classification.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/tasks/detection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/tasks/segmentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/docs/tasks/tracking.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-CPP-Inference/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-CPP-Inference/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-CPP-Inference/inference.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-CPP-Inference/inference.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-CPP-Inference/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-OpenCV-ONNX-Python/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/YOLOv8-OpenCV-ONNX-Python/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/examples/tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/mkdocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/tests/test_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/tests/test_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/tests/test_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/hub/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/hub/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/hub/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/hub/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/nn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/nn/autobackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/nn/autoshape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/nn/modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/nn/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/track.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/webcam_object_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CiViL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CiViL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/run_telegram_endpoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/core/run_telegram_endpoint.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/speech/asr.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/speech/asr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/utility/observ_pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/utility/observ_pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/.idea/rasax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/.idea/rasax.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/run_nlu_endpoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/run_nlu_endpoint.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rasax/src/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/src/.rasa/cache/cache.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasax/train_nlu_model.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/train_nlu_model.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/src/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasax/src/models/nlu-20230306-163207-vibrato-board.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/models/nlu-20230403-142856-relaxed-fennel.tar.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +148,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/y-yu/WorkSpace/codebase/CiViL",
+    "last_opened_file_path": "/home/y-yu/WorkSpace/codebase/CiViL/ultralytics-main/ultralytics/datasets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets" />
+      <recent name="$PROJECT_DIR$/rasax/models" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/core" />
-      <recent name="$PROJECT_DIR$/core/src/sql" />
       <recent name="$PROJECT_DIR$/rasax" />
-      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$PROJECT_DIR$/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/speech" />
@@ -215,7 +313,13 @@
       <workItem from="1663188708925" duration="7027000" />
       <workItem from="1663237409262" duration="6496000" />
       <workItem from="1664567832828" duration="11473000" />
-      <workItem from="1678111922684" duration="8868000" />
+      <workItem from="1678111922684" duration="8935000" />
+      <workItem from="1678353508127" duration="2067000" />
+      <workItem from="1680526292041" duration="1750000" />
+      <workItem from="1680528317086" duration="59000" />
+      <workItem from="1680528382481" duration="1183000" />
+      <workItem from="1685016187950" duration="841000" />
+      <workItem from="1686643181487" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="add new version of bert and fix a bug">
       <created>1656427714159</created>
@@ -364,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678125242522</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hack some changes to fix minor errors; will find a better way to solve it later.">
+      <created>1678138440259</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678138440259</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,13 +518,14 @@
     <MESSAGE value="remove all speech codes" />
     <MESSAGE value="the latest updates on the system" />
     <MESSAGE value="fix some bugs with import" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs with import" />
+    <MESSAGE value="hack some changes to fix minor errors; will find a better way to solve it later." />
+    <option name="LAST_COMMIT_MESSAGE" value="hack some changes to fix minor errors; will find a better way to solve it later." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CiViL$tts.coverage" NAME="tts Coverage Results" MODIFIED="1663276770446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
+    <SUITE FILE_PATH="coverage/CiViL$speech_bot.coverage" NAME="asr Coverage Results" MODIFIED="1663320818666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
+    <SUITE FILE_PATH="coverage/CiViL$text_to_speech.coverage" NAME="text_to_speech Coverage Results" MODIFIED="1678123528234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src/speech" />
     <SUITE FILE_PATH="coverage/CiViL$sqlac.coverage" NAME="sqlac Coverage Results" MODIFIED="1658182162189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src/sql" />
     <SUITE FILE_PATH="coverage/CiViL$telegram_bot.coverage" NAME="telegram_bot Coverage Results" MODIFIED="1658183273583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
-    <SUITE FILE_PATH="coverage/CiViL$text_to_speech.coverage" NAME="text_to_speech Coverage Results" MODIFIED="1678123528234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src/speech" />
-    <SUITE FILE_PATH="coverage/CiViL$speech_bot.coverage" NAME="asr Coverage Results" MODIFIED="1663320818666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
+    <SUITE FILE_PATH="coverage/CiViL$tts.coverage" NAME="tts Coverage Results" MODIFIED="1663276770446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
   </component>
 </project>
