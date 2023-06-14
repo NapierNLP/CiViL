@@ -4,109 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="add ultralytics into the repository">
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/train_model.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v3/yolov3-sppu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v3/yolov3-tinyu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v3/yolov3u.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5l6u.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5lu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5m6u.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5mu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5n6u.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5nu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5s6u.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5su.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5x6u.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v5/yolov5xu.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/cls/yolov8l-cls.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/cls/yolov8m-cls.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/cls/yolov8n-cls.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/cls/yolov8s-cls.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/cls/yolov8x-cls.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/seg/yolov8l-seg.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/seg/yolov8m-seg.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/seg/yolov8n-seg.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/seg/yolov8s-seg.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/seg/yolov8x-seg.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/yolov8l.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/yolov8m.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/yolov8n.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/yolov8s.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/yolov8x.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/models/v8/yolov8x6.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/cfg/botsort.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/cfg/bytetrack.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/trackers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/trackers/basetrack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/trackers/bot_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/trackers/byte_tracker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/utils/gmc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/utils/kalman_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/tracker/utils/matching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/cfg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/cfg/default.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/augment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/dataloaders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/dataloaders/stream_loaders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/dataloaders/v5augmentations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/dataloaders/v5loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/dataset_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/scripts/download_weights.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/scripts/get_coco.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/scripts/get_coco128.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/scripts/get_imagenet.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/data/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/exporter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/autobatch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/benchmarks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/callbacks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/callbacks/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/callbacks/clearml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/callbacks/comet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/callbacks/hub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/callbacks/tensorboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/checks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/dist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/downloads.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/plotting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/tal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/utils/torch_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/classify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/classify/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/classify/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/classify/val.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/detect/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/detect/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/detect/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/detect/val.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/segment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/segment/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/segment/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/v8/segment/val.py" afterDir="false" />
+    <list default="true" id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="add yolo file and shell script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasax/src/models/nlu-20230306-163207-vibrato-board.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/rasax/models/nlu-20230403-142856-relaxed-fennel.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralytics-main/ultralytics/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics-main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics-main/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +226,7 @@
       <workItem from="1680528317086" duration="59000" />
       <workItem from="1680528382481" duration="1183000" />
       <workItem from="1685016187950" duration="841000" />
-      <workItem from="1686643181487" duration="3273000" />
+      <workItem from="1686643181487" duration="3480000" />
     </task>
     <task id="LOCAL-00001" summary="add new version of bert and fix a bug">
       <created>1656427714159</created>
@@ -489,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686644660854</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add yolo file and shell script">
+      <created>1686724884783</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686724884783</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +441,8 @@
     <MESSAGE value="fix some bugs with import" />
     <MESSAGE value="hack some changes to fix minor errors; will find a better way to solve it later." />
     <MESSAGE value="add ultralytics into the repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ultralytics into the repository" />
+    <MESSAGE value="add yolo file and shell script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add yolo file and shell script" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CiViL$speech_bot.coverage" NAME="asr Coverage Results" MODIFIED="1663320818666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/src" />
