@@ -35,6 +35,13 @@ from ultralytics.yolo.utils.torch_utils import (EarlyStopping, ModelEMA, de_para
                                                 select_device, strip_optimizer)
 
 
+def get_dataset(data):
+    """
+    Get train, val path from data dict if it exists. Returns None if data format is not recognized.
+    """
+    return os.path.join(data.get('path'), data.get('train')),os.path.join(data.get('path'), data.get('val')) or os.path.join(data.get('path'), data.get('test'))
+
+
 class BaseTrainer:
     """
     BaseTrainer
@@ -114,19 +121,24 @@ class BaseTrainer:
         if self.device.type == 'cpu':
             self.args.workers = 0  # faster CPU training as time dominated by inference, not dataloading
 
+
+
         # Model and Dataloaders.
         self.model = self.args.model
         try:
+            self._data_path = os.path.join(os.getcwd(), 'ultralytics', 'datasets', self.args.data)
+            print("_path: {}".format(self._data_path))
+
             if self.args.task == 'classify':
                 self.data = check_cls_dataset(self.args.data)
             elif self.args.data.endswith('.yaml') or self.args.task in ('detect', 'segment'):
-                self.data = check_det_dataset(self.args.data)
+                self.data = check_det_dataset(self._data_path)
                 if 'yaml_file' in self.data:
                     self.args.data = self.data['yaml_file']  # for validating 'yolo train data=url.zip' usage
         except Exception as e:
-            raise RuntimeError(emojis(f"Dataset '{self.args.data}' error ❌ {e}")) from e
+            raise RuntimeError(emojis(f"Dataset '{self._data_path}' error ❌ {e}")) from e
 
-        self.trainset, self.testset = self.get_dataset(self.data)
+        self.trainset, self.testset = get_dataset(self.data)
         self.ema = None
 
         # Optimization utils init
@@ -399,12 +411,6 @@ class BaseTrainer:
         if (self.epoch > 0) and (self.save_period > 0) and (self.epoch % self.save_period == 0):
             torch.save(ckpt, self.wdir / f'epoch{self.epoch}.pt')
         del ckpt
-
-    def get_dataset(self, data):
-        """
-        Get train, val path from data dict if it exists. Returns None if data format is not recognized.
-        """
-        return data['train'], data.get('val') or data.get('test')
 
     def setup_model(self):
         """

@@ -1,0 +1,14 @@
+path: /home/yyu/Codebase/CiViL/ultralytics-main/ultralytics/datasets/ingredients
+train: train/images
+val: valid/images
+test: ytest/images
+
+nc: 29
+names: ['Apple', 'Basmatirice', 'Blackpepper', 'Broccoli', 'Brownsugar', 'Buttermilk', 'Buttonmushroom', 'Cashewnut', 'Chickenstock', 'Cilantro', 'Cinnamon', 'Egg', 'Flour', 'Garlic', 'Greenpepper', 'Lemon', 'Mayonnaise', 'Medjooldates', 'Mustard', 'Onion', 'Peas', 'Potato', 'Redbeans', 'Redpepper', 'Salt', 'Springonion', 'Tomato', 'Vegetableoil', 'Whitesugar']
+
+roboflow:
+  workspace: food-p0rcc
+  project: ingredients-uwmz3
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/food-p0rcc/ingredients-uwmz3/dataset/4

@@ -15,11 +15,11 @@ echo $PROJECTROOTPATH
 #else
 # virtualenv -p python3 ENV
 #fi
-
-source ${SCRIPTPATH}/ENV/bin/activate
-"${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
-
-"${SCRIPTPATH}"/ENV/bin/python -m pip install -r requirements.txt
+#
+#source ${SCRIPTPATH}/ENV/bin/activate
+#"${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
+#
+#"${SCRIPTPATH}"/ENV/bin/python -m pip install -r requirements.txt
 
 
 export PYTHONPATH=$PYTHONPATH:"${SCRIPTPATH}"

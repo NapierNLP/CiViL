@@ -1,0 +1,14 @@
+path: C:\Users\carls\Downloads\CiViL-CiViL\CiViL-CiViL\ultralytics-main\ultralytics\datasets\utensils
+train: C:\Users\carls\Downloads\CiViL-CiViL\CiViL-CiViL\ultralytics-main\ultralytics\utensils\train
+val: C:\Users\carls\Downloads\CiViL-CiViL\CiViL-CiViL\ultralytics-main\ultralytics\utensils\valid
+test: C:\Users\carls\Downloads\CiViL-CiViL\CiViL-CiViL\ultralytics-main\ultralytics\utensils\test
+
+nc: 21
+names: ['Blender', 'Bowl', 'Canopener', 'Choppingboard', 'Colander', 'Cup', 'Dinnerfork', 'Dinnerknife', 'Fishslice', 'Garlicpress', 'Kitchenknife', 'Ladle', 'Pan', 'Peeler', 'Saucepan', 'Spoon', 'Teaspoon', 'Tongs', 'Tray', 'Whisk', 'Woodenspoon']
+
+roboflow:
+  workspace: utensils
+  project: utensils-wp5hm
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/utensils/utensils-wp5hm/dataset/8

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94670b20-ece7-4222-97c0-8a52763ecbd9" name="Changes" comment="add yolo file and shell script">
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/ingredients/README.dataset.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/ingredients/README.roboflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/ingredients/data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/utensils/README.roboflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/utensils/data.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralytics-main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics-main/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics-main/train_model.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics-main/train_model.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics-main/ultralytics/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics-main/ultralytics/yolo/engine/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="CiViL" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +65,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/y-yu/WorkSpace/codebase/CiViL/ultralytics-main/ultralytics/datasets/ingredients",
+    "last_opened_file_path": "/home/yyu/Codebase/CiViL/ultralytics-main/ultralytics/datasets/utensils",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,11 +77,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/utensils" />
       <recent name="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets/ingredients" />
       <recent name="$PROJECT_DIR$/ultralytics-main/ultralytics" />
       <recent name="$PROJECT_DIR$/ultralytics-main/ultralytics/datasets" />
       <recent name="$PROJECT_DIR$/rasax/models" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/speech" />
