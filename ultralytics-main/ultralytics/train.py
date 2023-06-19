@@ -5,7 +5,7 @@ model = YOLO('yolov8n.pt')
 
 # Training.
 results = model.train(
-    data='ingredients/data.yaml',
+    data='utensils/data.yaml',
     # data='/home/y-yu/WorkSpace/codebase/CiViL/ultralytics-main/ultralytics/datasets/utensils/data.yaml',
     imgsz=1280,
     epochs=50,

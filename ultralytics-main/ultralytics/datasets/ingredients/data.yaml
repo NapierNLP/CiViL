@@ -1,7 +1,7 @@
-path: /home/yyu/Codebase/CiViL/ultralytics-main/ultralytics/datasets/ingredients
+path: /home/y_yu/scratch/projects/CiViL/ultralytics-main/ultralytics/datasets/ingredients
 train: train/images
 val: valid/images
-test: ytest/images
+test: test/images
 
 nc: 29
 names: ['Apple', 'Basmatirice', 'Blackpepper', 'Broccoli', 'Brownsugar', 'Buttermilk', 'Buttonmushroom', 'Cashewnut', 'Chickenstock', 'Cilantro', 'Cinnamon', 'Egg', 'Flour', 'Garlic', 'Greenpepper', 'Lemon', 'Mayonnaise', 'Medjooldates', 'Mustard', 'Onion', 'Peas', 'Potato', 'Redbeans', 'Redpepper', 'Salt', 'Springonion', 'Tomato', 'Vegetableoil', 'Whitesugar']
