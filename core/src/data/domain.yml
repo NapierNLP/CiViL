@@ -1,4 +1,4 @@
-.version: '2.0'
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -434,6 +434,8 @@ entities:
 - meal_type
 - menu
 - utensils
+#- see_ingredients
+
 
 slots:
   meal_type:
@@ -454,6 +456,17 @@ slots:
   requested_ingredient:
     type: string
     influence_conversation: false
+
+  see_ingredients:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: cuisine
+  num_people:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: number
 
 actions:
 
@@ -485,3 +498,13 @@ forms:
         type: from_entity
       vegetarian:
       - type: from_text
+
+#  english_muffins_form:
+#    required_slots:
+#        - see_milk
+#        - see_butter
+#        - see_egg
+#        - see_bread_flour
+#        - see_instant_yeast
+
+

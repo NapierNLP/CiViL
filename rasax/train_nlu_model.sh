@@ -36,10 +36,9 @@ source ${SCRIPTPATH}/ENV/bin/activate
 #mkdir "${SCRIPTPATH}"/src/data
 #mv nlu.md "${SCRIPTPATH}"/src/data
 
-rasa data convert nlu -f yaml --data="${SCRIPTPATH}"/src/data --out="${SCRIPTPATH}"/src/data
+#rasa data convert nlu -f yaml --data="${SCRIPTPATH}"/src/data --out="${SCRIPTPATH}"/src/data
 
 cd "${SCRIPTPATH}"/src
-#rasa train nlu --out /scratch/Alana2018/SPRING/main/spring-alana/rasa/saved_models
 # by default, rasa will store latest trained model in sub-directory 'models'
 rasa train nlu
 

@@ -4,11 +4,13 @@ utter_did_that_help:
 utter_happy:
 - text: Great, carry on!
 utter_goodbye:
-- text: Bye
+- text: Goodbye, please check back soon for new meals.
 #utter_iamabot:
 #- text: I am a bot, powered by Rasa.
 utter_submit:
 - text: I will now order a pizza for you!
+utter_all:
+- text: Do you have all the ingredients you need? Say 'yes' to start cooking and 'no' to swap other ingredients.
 utter_pizza_slots:
 - text: I will order a {pizza_size} {meal_type} pizza.
 utter_ask_continue:
@@ -19,6 +21,8 @@ utter_ask_meal_type:
 - text: What kind of pizza would you like to buy?
 utter_ask_menu:
 - text: What meal do you want to cook?
+utter_try_different_menu:
+- text: Would you like to select a different meal?
 utter_not_all_ingredients:
 - text: Please state which ingredients are missing
 utter_yes_no:
@@ -28,10 +32,11 @@ utter_yes_no:
       payload: /yesmode
     - title: No?
       payload: /nomode
+
 utter_greet:
-  - text: Hello, this is chefbot, please select a meal type
-    buttons:
-    - title: Vegetarian Meals
-      payload: /vegmeals
-    - title: Non-vegetarian Meals
-      payload: /meatmeals
+- text: Hello, I am Euclid, I will help you cook today. please select a meal from today's menu. roasted vegetable noodles, vegetable tika masala, roasted vegetable lasagne, english muffins or crepes
+#    buttons:
+#    - title: Vegetarian Meals
+#      payload: /vegmeals
+#    - title: Non-vegetarian Meals
+#      payload: /meatmeals

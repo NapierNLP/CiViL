@@ -89,7 +89,7 @@ display_lightsnacksmenumeat:
   - text: Select a recipe from the list,
     buttons:
     - title: english muffins
-      payload: /englishmuffins
+      payload: /english muffins
     - title: airfryer glazed donuts
       payload: /airfryerglazeddonuts
     - title: pumpkin spice donuts
@@ -175,11 +175,11 @@ display_dinnermenuvege:
   - text: Select a recipe from the list,
     buttons:
     - title: roasted veggie noodles
-      payload: /roastedveggienoodles
+      payload: /roasted veggie noodles
     - title: veggie tikka masala
-      payload: /veggietikkamasala
+      payload: /veggie tikka masala
     - title: roasted vegetable lasagna
-      payload: /roastedvegetablelasagna
+      payload: /roasted vegetable lasagna
     - title: mushroom ragu
       payload: /mushroomragu
     - title: minestrone soup
@@ -226,7 +226,7 @@ display_lightsnacksmenuveg:
   - text: Select a recipe from the list,
     buttons:
     - title: english muffins
-      payload: /englishmuffins
+      payload: /english muffins
     - title: airfryer glazed donuts
       payload: /airfryerglazeddonuts
     - title: pumpkin spice donuts

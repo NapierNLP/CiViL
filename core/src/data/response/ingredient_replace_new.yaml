@@ -1,0 +1,1933 @@
+utter_replace:
+
+  white_sugar:
+  - text: I think you are missing white sugar, if you dont have this you can use, cane sugar or brown sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+#  white_sugar:
+#  - text: I think you are missing , if you dont have this, you can use, cane sugar or brown sugar, do you have any of these ingredients?
+#    qType: confirm_ingredients
+
+  sugar:
+  - text: I think you are missing sugar, if you dont have this you can use, cane sugar or brown sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  water:
+  - text: water is a foundation ingredient, there are no alternatives although you can use bottles or tap water, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coco_powder:
+  - text: I think you are missing , if you dont have this you can use, unsweetened chocolate powder or flakes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  instant_yeast:
+  - text: I think you are missing instant yeast, if you dont have this you can use baking powder. baking soda or sourdough, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  egg:
+  - text: I think you are missing egg, if you dont have this you can use commerical egg substitute or tofu, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  oil_spray:
+  - text: I think you are missing oil spray, if you dont have this you can use olive oil, peanut oil, butter, walnut oil, sunflower oil, canola oil or vegetable oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vanilla_extract:
+  - text: I think you are missing vanilla extract, if you dont have this, you can use, maple syrup, almond extract, bourbon, brandy, rum, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  powdered_sugar:
+  - text: I think you are missing powdered sugar, if you dont have this you can use, sweetner or cornstarch do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  maple_syrup:
+  - text: I think you are missing maple syrup, if you dont have this, you can use, honey, corn syrup or agave nectar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cinnamon_powder:
+  - text: I think you are missing cinnamon powder, if you dont have this you can use, all spice or or nutmeg, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bread_flour:
+  - text: I think you are missing bread flour, if you dont have this you can use all purpose flour do you have this ingredient?
+    qType: confirm_ingredients
+
+  sprinkles:
+  - text: I think you are missing sprinkles, if you dont have this you can use, brown sugar or honey, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canned_pumpkin:
+  - text: I think you are missing canned pumpkin, if you dont have this you can use, mashed sweet potato or butternut squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  brown_sugar:
+  - text: I think you are missing brown sugar, if you dont have this you can use, white sugar, honey, maple syrup, coconut sugar or muscovado sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vegetable_oil:
+  - text: I think you are missing vegetable oil, if you dont have this you can use, canola oil, sunflower oil, peanut oil or grapeseed oil, do you have any of these ingredients
+    qType: confirm_ingredients
+
+  baking_powder:
+  - text: I think you are missing baking powder, if you dont have this you can use, buttermilk, plain yogurt, molasses, cream of tartar, sour milk, vinegar, lemon juice, self-rising flour or whipped egg whites, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  nutmeg:
+  - text: I think you are missing nutmeg, if you dont have this you can use, mace, garam masala, allspice, cinnamon, apple pie spice, giner or cloves, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  allspice:
+  - text: I think you are missing allspice, if you dont have this you can use, cinnamon, nutmeg, cloves or applie pie spice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_cloves:
+  - text: I think you are missing ground cloves, if you dont have this you can use, allspice, caradamon, pumpkin pie spice or cinnamon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  plain_flour:
+  - text: I think you are missing plain flour, if you dont have this you can use, oat flour, bread flour, cake flour or coconut flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  olive_oil:
+  - text: I think you are missing olive oil, if you dont have this you can use, peanut oil, butter, coconut milk, ghee, walnut oil, sunflower oil, canola oil or vegetable oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  salt:
+  - text: I think you are missing salt, if you dont have this you can use mint, rosemary, nutmeg, basil, cardamon, chili, cinnamon or chives, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  black_pepper:
+  - text: I think you are missing black pepper, if you dont have this you can use white pepper, cayenne pepper or papaya seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  eggs:
+  - text: I think you are missing eggs, if you dont have this you can use commercial egg substitute or tofu, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  milk:
+  - text: I think you are missing milk, if you dont have this you can use cream, powdered milk, plain yogurt, nut milk, soy milk, oat milk or rice milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sausage:
+  - text: I think you are missing sausage, if you dont have this you can use vegetarian sausages, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mustard:
+  - text: I think you are missing mustard, if you dont have this you can use turmeric, wasabi powder or horseradish powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  beef_stock:
+  - text: I think you are missing beef stock, if you dont have this you can use vegetable stock, chicken stock, bouillion stock or red wine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cabbage:
+  - text: I think you are missing cabbage, if you dont have this you can use yu choy, kangkong or bok choy, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  garlic:
+  - text: I think you are missing garlic if you dont have this you can use garlic oil, onion, chives or lemon zest, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mixed_herbs:
+  - text: I think you are missing mixed herbs, if you dont have this you can use garlic, basil, marjoram, min, oregano or parsley, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  butter:
+  - text: I think you are missing butter, if you dont have this you can use olive oil, ghee, greek yogurt, avocado, pumpkin puree or coconut oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  potato:
+  - text: I think you are missing potato, if you dont have this you can use cauliflower or cabbage, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  frozen_peas:
+  - text: I think you are missing frozen peas if you dont have this you can use frozen lima beans, green peppers, broad beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mushrooms:
+  - text: I think you are missing mushrooms if you dont have this you can use zucchini, eggplant, chickpeas, tofu, onions or cilantro, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  oat_meal:
+  - text: I think you are missing oat meal if you dont have this you can use amaranth, teff, buckwheat, wheat berries, spelt or quinoa, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  yeast:
+  - text: I think you are missing yeast if you dont have this you can use baking powder. baking soda or sourdough, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bacon:
+  - text: I think you are missing bacon if you dont have this you can use pork, chicken or turkey bacon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tomatoes:
+  - text: I think you are missing tomatoes if you dont have this you can use olives, red peppers or red capsicum, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  baked_beans:
+  - text: I think you are missing baked beans if you dont have this you can use peas or chickpeas, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  feta:
+  - text: I think you are missing feta if you dont have this you can use ricotta, halloumi, goats cheese or queso fresco, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  parsley:
+  - text: I think you are missing parsley if you dont have this you can use chervil, tarragon, chives, oregano, arugula, endive, cilantro or basil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cheddar:
+  - text: I think you are missing cheddar if you dont have this you can use cantal, edam, mimolette, gouda, emmental or french gruyere, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork_fillet:
+  - text: I think you are missing pork fillet if you dont have this you can use pork sirloin, pork tenderloin, chicken, turkey or beef, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_peppers:
+  - text: I think you are missing red peppers if you dont have this you can use poblano peppers, cubanelle, anaheim peppers, pepperoncini, jalapeno, pimiento, zucchini or broccoli, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  courgette:
+  - text: I think you are missing courgette if you dont have this you can use cucumber or zucchini do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_stock:
+  - text: I think you are missing chicken stock if you dont have this you can use beef stock or vegatable stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  muscovado_sugar:
+  - text: I think you are missing muscovado sugar if you dont have this you can use demerara sugar or brown sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  balsamic_vinegar:
+  - text: I think you are missing balsamic vinegar, if you dont have this you can use red wine vinegar, lemon juice or lime juice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  paraham:
+  - text: I think you are missing paraham if you dont have this you can use smoked ham, pork chops, bacon, prosciutti or cooked ham, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  passata:
+  - text: I think you are missing passata if you dont have this you can use tomatoes. pasta sauce, tomato paste, ketchup or fresh tomatoes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  goats cheese:
+  - text: I think you are missing goats cheese if you dont have this you can use cream cheese, mascarpone cheese, feta cheese or ricotta cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  basil:
+  - text: I think you are missing basil if you dont have this you can use marajoram, mint, parsley, oregano or thyme, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  golden_syrup:
+  - text: I think you are missing golden syrup if you dont have this you can use honey, cane syrup or brown rice syrup, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  breadcrumbs:
+  - text: I think you are missing breadcrumbs if you dont have this you can use oats, chrshed chips, nuts, crackers, pretzels or cereal, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lemon:
+  - text: I think you are missing lemon if you dont have this you can use lime. orange, white wine, cream of tartar or citric acid, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sunflower_oil:
+  - text: I think you are missing sunflower oil if you dont have this you can use vegetable oil, peanut oil, canola oil, walnut oil, butter, safflower oil, corn oil or grapeseed oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  potatoe:
+  - text: I think you are missing potatoe if you dont have this you can use cauliflower or cabbage, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  potatos:
+  - text: I think you are missing potatos if you dont have this you can use cauliflower or cabbage, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  potatoes:
+  - text: I think you are missing potatoes if you dont have this you can use cauliflower or cabbage, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sweet_potato:
+  - text: I think you are missing sweet potato if you dont have this you can use garnet potatoes, jewel potatoes, yukon potatoes, carrots, parsnips, pumpkin or butternut, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  apple:
+  - text: I think you are missing apple if you dont have this you can use pear, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  curry_powder:
+  - text: I think you are missing curry powder if you dont have this you can use cumin, coriander, chilli, tumeric or black pepper, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tomato_puree:
+  - text: I think you are missing tomato puree if you dont have this you can use tomato sauce, pizza sauce, tomato, canned tomatoes or ketchup, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mango_chutney:
+  - text: I think you are missing mango chutney if you dont have this you can use apricot, mango salsa or marmalade, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  basmati_rice:
+  - text: I think you are missing basmati rice if you dont have this you can use jasmine rice, brown rice, white rice or texmati rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sour_cream:
+  - text: I think you are missing sour cream if you dont have this you can use greek jogurt, cottage cheese, creme fraiche or buttermilk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coriander:
+  - text: I think you are missing coriander if you dont have this you can use cumin, garam masala, curry powder or caraway, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  braising steak:
+  - text: I think you are missing brasing steak if you dont have this you can use diced beef, sirloin steak or rump steak, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  brown_ale:
+  - text: I think you are missing brown ale if you dont have this you can use beef stock, chicken stock or vegatable stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  celery:
+  - text: I think you are missing celery if you dont have this you can use fennel, onion, scallions, carrots, shallots, garlic, chives or leeks, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bay_leaf:
+  - text: I think you are missing bay leaf if you dont have this you can use thyme, oregano or boldo leaf, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  thyme:
+  - text: I think you are missing thyme if you dont have this you can use oregano, marjoram, rosemary, savoury or basil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  carrots:
+  - text: I think you are missing carrots if you dont have this you can use parsnips, daikon, turnip or celery, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  onions:
+  - text: I think you are missing onions if you dont have this you can use, leeks, chives, garlic, carrors or tomatoes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cornstarch:
+  - text: I think you are missing cornstarch if you dont have this you can use, wheat flour, arrowroot, potao starch, rice flour, ground flaxseeds, glucomannan or psyllium husk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pectin:
+  - text: I think you are missing pectin if you dont have this you can use, citrus peels, cornstarch or geletine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  heavy_cream:
+  - text: I think you are missing heavy cream if you dont have this you can use, milk and butter combined, soy milks and olive oil, milk and cornstarch, greek yogurt, evaporated milk or cottage cheese and milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vegetable_shortening:
+  - text: I think you are missing vegetable shortening if you dont have this you can use butter or magarine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cooking_spray:
+  - text: I think you are missing cooking spray if you dont have this you can use, butter or olive oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pumpkin:
+  - text: I think you are missing pumpkin if you dont have this you can use, butternut, honeynut or acorn squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cinamon:
+  - text: I think you are missing cinamon if you dont have this you can use, cassia, allspice, clives, nutmeg or cardamom, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ginger:
+  - text: I think you are missing ginger if you dont have this you can use, cardamom, allspice, cinnamon, nutmeg or mace, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  berbere_seasoning:
+  - text: I think you are missing berbere seasoning if you dont have this you can use, cayenne pepper or ras el hanout, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tomato_paste:
+  - text: I think you are missing tomato paste if you dont have this you can use, soy sauce, olive tapenade, canned tomatoes or tomato ketchup, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_lentils:
+  - text: I think you are missing red lentils if you dont have this you can use, yellow lentils or green lentils, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  strawberries:
+  - text: I think you are missing strawberries if you dont have this you can use, rasberries, red grapes or blueberries, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pineapple:
+  - text: I think you are missing pineapple if you dont have this you can use, apple, orange, kiwi or grape, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_onion:
+  - text: I think you are missing red onion if you dont have this you can use, yellow onions, leeks, shallots or onion juice, poweder or flakes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sweet_red_pepper:
+  - text: I think you are missing sweet red pepper if you dont have this you can use, red peppers or green peppers do you have any of these ingredients?"
+    qType: confirm_ingredients
+
+  cilantro:
+  - text: I think you are missing cilantro if you dont have this you can use parsley, mint, basil, chives, green onions, dill or carrot greens, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  key_lime_juice:
+  - text: I think you are missing key lime juice if you dont have this you can use, lemon juice or lemon extract, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  unsalted_butter:
+  - text: I think you are missing unsalted butter if you dont have this you can use, maragarine, vegetable shortening, coconut oil or salted butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  egg_yolk:
+  - text: I think you are missing egg yolk if you dont have this you can use, apple sauce, mashed banana, ground flaxseeds, chia seeds, commerial egg replacer, silken tofu or buttermilk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pear:
+  - text: I think you are missing pear if you dont have this you can use, apples, asain pears, quinces, figs or pepinos, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lemon_juice:
+  - text: I think you are missing lemon juice if you dont have this you can use, lime juice, orange juice, vinegar, citric acid, white wine, lemon extract or cream or tartar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  black_beans:
+  - text: I think you are missing black beans if you dont have this you can use, chickpeas, kidney beans, lentils, cauliflower or nuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork ribs:
+  - text: I think you are missing pork ribs if you dont have this you can use, pork chops, or pork belly, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  smokey_bacon:
+  - text: I think you are missing smokey bacon if you dont have this you can use, unsmoked bacon, liquid smoke, smoked paprila, veggie bacon, dark beer or blackstrap moasses, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork_belly:
+  - text: I think you are missing pork belly if you dont have this you can use, pork chops or pork ribs, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dried_chili:
+  - text: I think you are missing dry chili if you dont have this you can use, serrano pepper, cayenne pepper, pequin chili or jalapeno, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cumin:
+  - text: I think you are missing cumin if you dont have this you can use, ground coriander, caraway seeds, chili powder, taco seasoning, curry powder or garam masala, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  oregano:
+  - text: I think you are missing oregano if you dont have this you can use, mint, parsley or poultry seasoning, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  beans:
+  - text: I think you are missing beans if you dont have this you can use, tofu, sourgram, cauliflowder florets, tempeh, quinoa, peas or eggplant, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  long_grain_rice:
+  - text: I think you are missing long grain rice if you dont have this you can use, white rice, brown rice or egg friend rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  star_anise:
+  - text: I think you are missing star anise if you dont have this you can use, allspice, chinese five spice powder or chili powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  spring onions:
+  - text: I think you are missing spring onions if you dont have this you can use, challots, green onions, red onions or celery , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  spring onion:
+  - text: I think you are missing spring onion if you dont have this you can use, challots, green onions, red onions or celery , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  miso_paste:
+  - text: I think you are missing miso paste if you dont have this you can use, soy sauce, salt, tahini or vegetable stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mirin:
+  - text: I think you are missing mirin  if you dont have this you can use, dry sherry or sweet masala wine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  soy sauce:
+  - text: I think you are missing soy sauce  if you dont have this you can use, tamari, worcestershire sauce, coconut aminos, miso paste or maggi seasoning, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  shiitake_mushrooms:
+  - text: I think you are missing shiitake mushrooms if you dont have this you can use, portobello mushrooms, crimini mushrooms or porcini mushrooms, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chestnut_mushrooms:
+  - text: I think you are missing chestnut mushrooms if you dont have this you can use, portobello mushrooms, crimini mushrooms or porcini mushrooms, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vegan_sausages:
+  - text: I think you are missing vegan sausages if you dont have this you can use other plant-based sausages or tofu and cheese sausages, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  baby_spinach:
+  - text: I think you are missing baby spinach if you dont have this you can use, rocket, spinach, watercress or beet greens, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_pepper:
+  - text: I think you are missing white pepper if you dont have this you can use, ground giner, ground mustard or pink peppercorns, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pepper:
+  - text: I think you are missing pepper  if you dont have this you can use, ground giner, ground mustard or pink peppercorns, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  furikake:
+  - text: I think you are missing furikake if you dont have this you can use, crumbled nori seaweed, sesame seeds or togarashi, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pasta:
+  - text: I think you are missing pasta if you dont have this you can use, spaghetti, eggplant lasagna, cabbage noodles, sprouts or onion noodles, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  curry_leaves:
+  - text: I think you are missing curry leaves if you dont have this you can use, lime zest, bay leves, basil leaves, lemon zest or daun salam leaves, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  asafoetida:
+  - text: I think you are missing asafoetida if you dont have this you can use, garlic powder, garlic cloves or  , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  peanuts:
+  - text: I think you are missing peanuts if you dont have this you can use, beans, pretzels, seeds, tahini, sunflower seeds or almonds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sesame_seeds:
+  - text: I think you are missing sesame seeds if you dont have this you can use, poppy seeds or hemp seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  golden_raisins:
+  - text: I think you are missing golden raisins if you dont have this you can use, pitted dates, prines or dried cranberries , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cashew_nuts:
+  - text: I think you are missing cashew nuts if you dont have this you can use, pine nuts, almonds, walknuts, hazelnuts or sunflower seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  green_chili:
+  - text: I think you are missing green chili if you dont have this you can use, banana pepper, anaheim pepper, poblano pepper, jalapeno, serrano or chilli powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  rib_roast:
+  - text: I think you are missing rib roast if you dont have this you can use, prok belly or pork chops, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  kosher_salt:
+  - text: I think you are missing kosher salt if you dont have this you can use, sea saly, brine or coarse himalayan pink salt, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  worcestershire_sauce:
+  - text: I think you are missing worcestershire sauce if you dont have this you can use, soy sauce, miso paste, soy sauce and ketcup r soy cause and apple sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  liquid_smoke:
+  - text: I think you are missing liquid smoke if you dont have this you can use, smoked paprika, smoke tea or chipotle powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  beef_broth:
+  - text: I think you are missing beef broth if you dont have this you can use, vegetable broth, bouillon cubes, soy sauce or mushroom broth, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mustard_powder:
+  - text: I think you are missing mustard powder if you dont have this you can use, tumeri powder, wasabi powder or mustard seed, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coriander_powder:
+  - text: I think you are missing coriander powder if you dont have this you can use, cumin, garam masala, curry powder or caraway, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  onion_powder:
+  - text: I think you are missing onion powder if you dont have this you can use, onion flakes, minced onion, fresh onion or garlc powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bay_leaves:
+  - text: I think you are missing bay leaves if you dont have this you can use, dried thyme or oregano, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dried_thyme:
+  - text: I think you are missing dried thyme if you dont have this you can use, oregano, marjoram, rosemary, savoury,or basil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  rosemary:
+  - text: I think you are missing rosemary if you dont have this you can use, thyme, tarragon or savory, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  yellow_pepper:
+  - text: I think you are missing yellow pepper if you dont have this you can use, red pepper, green pepper, orange bell peppers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chorizo:
+  - text: I think you are missing chorizo if you dont have this you can use, smoked paprika or bacon rind, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cannellini_beans:
+  - text: I think you are missing cannellini beans if you dont have this you can use, red kideny beans, great northen beans or navy beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  italian_seasoning:
+  - text: I think you are missing italian seasoning if you dont have this you can use, basil, marjoram, oregano, rosemary or thyme, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  garlic_salt:
+  - text: I think you are missing garlic salt  if you dont have this you can use, garlic powder, kosher salt, garlic cloves or garlic powder and salt, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pepe_pasta:
+  - text: I think you are missing pepe pasta if you dont have this you can use, arugula or kale, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  parmesan_cheese:
+  - text: I think you are missing parmesan cheese if you dont have this you can use, gran padano or american grana, dry jack or pecorino, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  spinach:
+  - text: I think you are missing spinach if you dont have this you can use, argula or kale, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ricotta:
+  - text: I think you are missing ricotta if you dont have this you can use, goats cheese, cottage cheese, sour cream, cream cheese or queso fresco, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  boiled_ham:
+  - text: I think you are missing boiled ham if you dont have this you can use, candian bacon or gammon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  spice_rub:
+  - text: I think you are missing spice rub  if you dont have this you can use, BBQ seasoning, italian seasoning or allspiace, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cayenne_pepper:
+  - text: I think you are missing cayenne pepper if you dont have this you can use, chili powder, paprika or red chili flakes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  peanut_sauce:
+  - text: I think you are missing peanut sauce if you dont have this you can use, almond butter or cashew butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  jalapeno_pepper:
+  - text: I think you are missing jalapeno pepper if you dont have this you can use, serrano pepper, fresno pepper, anaheim pepper pr pblano pepper, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken broth:
+  - text: I think you are missing chicken broth if you dont have this you can use, beef stock, vegetable stock or lamb stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  peanut_butter:
+  - text: I think you are missing peanut butter if you dont have this you can use, sunflower seed butter, cookie butter, or coconut butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coconut_milk:
+  - text: I think you are missing coconut milk  if you dont have this you can use, soy milk, almond milk, oat milk or rice milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  figs:
+  - text: I think you are missing figs if you dont have this you can use, raisins, prines or dried apriocots, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  apple_vinegar:
+  - text: I think you are missing apple vinegar if you dont have this you can use, rice vinegar, red wine vinegar, lemon juice or champagne vinegar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  deli_ham:
+  - text: I think you are missing deli ham if you dont have this you can use, roasted chicken or canned salmon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  swiss_cheese:
+  - text: I think you are missing swiss cheese if you dont have this you can use, fontina cheese, cheddar cheese or mozzerella cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  milk_yoghurt:
+  - text: I think you are missing milk yoghurt if you dont have this you can use, buttermilk, or sour cream, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  confectioners_sugar:
+  - text: I think you are missing confectioners sugar if you dont have this you can use, granulated sugar or brown sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  low fat greek yogurt:
+  - text: I think you are missing low fat greek yogurt if you dont have this you can use, buttermilk, tofu, cottage cheese or sour cream, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  butternut_squash:
+  - text: I think you are missing butternut squash if you dont have this you can use, buttercup squash, pupkin, carrots or acorn squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chili_flakes:
+  - text: I think you are missing chili flakes if you dont have this you can use, cayenne pepper, black cardamon or fennel seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  broccoli:
+  - text: I think you are missing broccoli if you dont have this you can use, kale, leafy greens, asparagus, or baby spinach leaves, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  gorgonzola:
+  - text: I think you are missing gorgonzola if you dont have this you can use, roquefort, stilon, danish blue or creamy blue cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  leek:
+  - text: I think you are missing leek if you dont have this you can use, green onions, red onions, challots or celery, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  fennel:
+  - text: I think you are missing fennel if you dont have this you can use, anise seeds, cumin seeds, caraway seeds or dill, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  acord_squash:
+  - text: I think you are missing acord squash if you dont have this you can use, butternut squash or pumpkin squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sea_salt_flakes:
+  - text: I think you are missing sea salt flakes if you dont have this you can use, table salt or maldon salt, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tarragon:
+  - text: I think you are missing tarragon if you dont have this you can use, dill, basil or marjoram, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  hazelnuts:
+  - text: I think you are missing hazelnuts if you dont have this you can use, walnuts, macadamia nuts or almonds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mature_cheddar_cheese:
+  - text: I think you are missing mature cheddar cheese if you dont have this you can use, gouda or parmesan cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tilapia:
+  - text: I think you are missing tilapia if you dont have this you can use, catfish, striped bass, red snapper or rainbow trout, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  panko_breadcrumbs:
+  - text: I think you are missing panko breadcrubs if you dont have this you can use, regular breadcrumbs, cracker crumbs, matzo meal, crushed cornflakes or dry stuffing mix, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  parmesan cheese:
+  - text: I think you are missing parmesan cheese if you dont have this you can use, grana padano, piave cheese or pecorino, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  paprika:
+  - text: I think you are missing paprika if you dont have this you can use, cayenne pepper, chili powder, chili flakes or red chili, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cream_cheese:
+  - text: I think you are missing cream cheese if you dont have this you can use, cottage cheese, mascarphone, tofu, ricotta cheese or sour cream, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  hot_sauce:
+  - text: I think you are missing hot sauce if you dont have this you can use, chili powder, chili flakes, harissa, or curry paste, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tortilla_wraps:
+  - text: I think you are missing tortilla wraps if you dont have this you can use, lettice wraps or pita bread, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  marrow:
+  - text: I think you are missing marrow if you dont have this you can use, courgette or squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  semolina:
+  - text: I think you are missing semolina if you dont have this you can use, flour, bread flour or whole wheat flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  northern_beans:
+  - text: I think you are missing northern beans if you dont have this you can use, navy beans, cannellini beans or lima beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dry_mustard_powder:
+  - text: I think you are missing dry mustard powder if you dont have this you can use, dijon mustard or tumeric, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ansjovis:
+  - text: I think you are missing ansjovis if you dont have this you can use, shrimp, shrimp paste, capers or asian fish sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  shallots:
+  - text: I think you are missing shallots if you dont have this you can use, sweet onions, leeks, garlic scapes, red onions or green onions, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tumeric:
+  - text: I think you are missing tumeric if you dont have this you can use, ginger powder, cumin, saffron or annatto powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  galangal:
+  - text: I think you are missing galangal if you dont have this you can use, fresh ginger or ginger powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lemongrass:
+  - text: I think you are missing lemongrass if you dont have this you can use, lemon grass, lemon juice, lime zest or lemon balm, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dry_yeast:
+  - text: I think you are missing dry yeast if you dont have this you can use, equal parts lemon juice and baking soda , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  almonds:
+  - text: I think you are missing almonds if you dont have this you can use, breadcrumbs, ground rice and polenta, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  aniseed:
+  - text: I think you are missing aniseed if you dont have this you can use, star anise, fennel seed, teaspoon caraway seed or chopped tarragon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  asparagus:
+  - text: I think you are missing asparagus if you dont have this you can use, broccoli, celery, green beans or lettuce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  jicama:
+  - text: I think you are missing jicama if you dont have this you can use, daikon radish or jerusalem artichokes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_cabbage:
+  - text: I think you are red cabbage if you dont have this you can use, white cabbage or napa cabbage, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  purple_cabbage:
+  - text: I think you are purple cabbage if you dont have this you can use,, napa cabbage, breussels sprouts, bok choy and celery, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lettuce:
+  - text: I think you are missing lettuce if you dont have this you can use, spinach or parsley, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  blueberries:
+  - text: I think you are missing blueberries if you dont have this you can use, acai berries, blackberries, huckleberries, raspberries or currents, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mint:
+  - text: I think you are missing mint if you dont have this you can use, peppermint or parsely, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  confit_zest:
+  - text: I think you are missing confit zest if you dont have this you can use, lemon zest or lime zest, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chinese_oyster_sauce:
+  - text: I think you are missing chinese oyster sauce if you dont have this you can use, soy sauce, hoisin sauce or fish sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  saffron:
+  - text: I think you are missing saffron if you dont have this you can use, turmeric or cumin, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mussels:
+  - text: I think you are missing mussels if you dont have this you can use, shrimp, prawns or clam, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  prawns:
+  - text: I think you are missing prawns if you dont have this you can use, mussels, clam or shrimp, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  monkfish:
+  - text: I think you are missing monkfish if you dont have this you can use, snapper, sea bass, halibut or sea scallops, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  squid:
+  - text: I think you are missing squid if you dont have this you can use, prawns oe firm white fish, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  risotto_rice:
+  - text: I think you are missing risotto rice if you dont have this you can use, brown rice, sushi rice, basmati rice or quinoa, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_legs:
+  - text: I think you are missing chicken legs if you dont have this you can use, chicke drumsticks or chicken thighs, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cherry tomatoes:
+  - text: I think you are missing cherry tomatoes if you dont have this you can use, olives, red pepper or canned tomatoes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  capers:
+  - text: I think you are missing capers if you dont have this you can use, green olives, anchovies or pickles, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  djion mustard:
+  - text: I think you are missing djion mustard if you dont have this you can use, yellow mustard, honey mustard, wasabi or mayonnaise, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  beef_bouillon:
+  - text: I think you are missing beef bouillon if you dont have this you can use, chicken broth or vegetable stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  celery_seeds:
+  - text: I think you are missing celery seeds if you dont have this you can use, flat leaf parsley or dill seed, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chickpeas:
+  - text: I think you are missing chickpeas if you dont have this you can use, green peas, lentils, soybeans, mung beans or peanuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lamb_stock:
+  - text: I think you are missing lamb stock if you dont have this you can use, chicken stock or vegetable stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canned_tomatoes:
+  - text: I think you are missing canned tomatoes if you dont have this you can use, fresh tomatoes, sun dried tomatoes or red peppers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  caramilk_chocolate:
+  - text: I think you are missing caramilk chocolate if you dont have this you can use, white chocolate, milk chocolate or dark chocolate, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coca:
+  - text: I think you are missing coco if you dont have this you can use, jackfruit seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  garam_masala:
+  - text: I think you are missing garam masala  if you dont have thisyou can use, curry powder, allspice powder or chaat powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  arbol_chili_powder:
+  - text: I think you are missing arbol chili powder if you dont have this you can use, cayenne powder or generic chili powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ghee:
+  - text: I think you are missing ghee if you dont have this you can use, olive oil, coconut oil, canola oil, soybean oil, sunflower oil or butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  turkey_tenderloin:
+  - text: I think you are missing turkey tenderloin if you dont have this you can use, turkey breast fillets or turkey bacon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  egg_noodles:
+  - text: I think you are missing egg noodles if you dont have this you can use, fettucine, ribbon pasta, linguine or brown / white rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken liver:
+  - text: I think you are missing chicken liver if you dont have this you can use, duck liver, turkey liver or goose liver, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken gizzard:
+  - text: I think you are missing chicken gizzard if you dont have this you can use, turkey gizzard or goose gizzard, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bell pepper:
+  - text: I think you are missing bell pepper if you dont have this you can use, anahiem peppers, Jalapenos, pimiento or zucchini, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  small_head_wombok:
+  - text: I think you are missing small head wombok if you dont have this you can use other cabbages such as red, white or napa cabbage, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  oyster_sauce:
+  - text: I think you are missing soy sauce if you dont have this you can use sweet soy sauce, hoisin sauce or plumb sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  calamansi:
+  - text: I think you are missing calamansi if you dont have this you can use lemon and lime juices, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dry_white_wine:
+  - text: I think you are missing dry white wine if you dont have this you can use white wine vinegar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  orange_roughy:
+  - text: I think you are missing orange roughy if you dont have this you can use perch, blackfish, flounder, sole, haddock or red snapper, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  limes:
+  - text: I think you are missing limes if you dont have this you can use, lemon or zest, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  serrano_peppers:
+  - text: I think you are missing serrano peppers if you dont have this you can use jalapeno, habanero, cayenne, guero or poblano pepper, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  avocado:
+  - text: I think you are missing avocado if you dont have this you can use chai seeds or tree nuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  honey:
+  - text: I think you are missing honey if you dont have this you can use rice maly syrup, brown rice syrup, molasses, coconut syrup, maple syrup or golden syrup, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  roma_tomato:
+  - text: I think you are missing roma tomato if you dont have this you can use polish paste, plum or oxheart tomatoes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  yellow_rice:
+  - text: I think you are missing yellow rice if you dont have this you can use white rice, brown rice, long grain rice or egg fried rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bisquick:
+  - text: I think you are missing bisquick if you dont have this you can use 1 cup of all purpose flow mixed with 1 and a half teaspoons of baking powder, half a teaspoon or salt and one tablespoon of vegetable oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  smoked paprika:
+  - text: I think you are missing smoked paprika if you dont have this you can use hungarian paprika, sweer paprika, chipolatle chili or liquid smoke, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  split_pigs_feet:
+  - text: I think you are missing pigs feet  if you dont have this you can use, ham hocks or ham shanks, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_bouillon_cube:
+  - text: I think you are missing chicken bouillon cubes if you dont have this you can use,chicken broth, dry white wine, poultry seasoning with water, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  beet_noodles:
+  - text: I think you are missing beet noodles if you dont have this you can use, cucumber noodles,carrot noodles, raddish noodles, summer squash noodles, spiralized kohlrabi, sweet potato noodles or zucchini noodles, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bosc_pears:
+  - text: I think you are missing bosc pears if you dont have this you can use, asian pears, apples, quinces or figs, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pecans:
+  - text: I think you are missing pecans if you dont have this you can use, hazelnuts, pistachios, macadamia nuts, brazil nuts, walnuts or pecan oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canola_oil:
+  - text: I think you are missing canola oil if you dont have this you can use, grapeseed oil, vegetable oil or sunflower oil , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vodka:
+  - text: I think you are missing vodka if you dont have this you can use, water, apple cide vinegar or white grae juice mixed with lime juice aquavit, tequila or white rum, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cane_sugar:
+  - text: I think you are missing cane sugar if you dont have this you can use, honey, maple syrup, applesauce, caster sugar, brown sugar, raw sugar, powdered sugar, molasses or corn syrup, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  apple_cider_vinegar:
+  - text: I think you are missing apple cider vinegar if you dont have this you can use, red or white wine vinegar, rice vinegar, sherry vinegar, champagne vinegar or lemon juice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  jasmine_rice:
+  - text: I think you are missing jasmine rice if you dont have this you can use, basmati rice or long-grain rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_cinnamon:
+  - text: I think you are missing ground cinnamon if you dont have this you can use, nutmeg, cloves, allspice or apple pie spice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canned_plum_tomatoes:
+  - text: I think you are missing canned plum tomatoes if you dont have this you can use, regular tomatoes and tomato paste, fresh tomatoes and canned whole tomatoes or sun-dried tomatoe, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coconut_cream:
+  - text: I think you are missing coconut cream  if you dont have this you can use, coconut milk, whipping cream, nut butter, tahini, greek yogurt or creamy tomato sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  all_purpose_flour:
+  - text: I think you are missing all purpose flour if you dont have this you can use, chickpea flour, rice flour, almond flour, buckwheat flour or a mixture of bread flour with cake flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  grated_nutmeg:
+  - text: I think you are missing grated nutmeg if you dont have this you can use, ground nutmeg, mace, garam masala, allspice, cinamon, pumpkin pie spice, appke pie spice, ginger or cloves, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ginger_powder:
+  - text: I think you are missing ginger powder if you dont have this you can use, ground allspice, ground cinnamon, ground mace or ground nutmeg, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  granulated_sugar:
+  - text: I think you are missing granulated sugar if you dont have this you can use, honey, maple syrup, applesauce, caster sugar, brown sugar, powdered sugar, molasses or corn syrup, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  packed_light_brown_sugar:
+  - text: I think you are missing packed light brown sugar if you dont have this you can use,white sugar and molasses, honey, white sugar and maple syrup, coconut sugar, maple syryp, agave nectar or plain white sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canned_unsweetened_pumpkin_puree:
+  - text: I think you are missing canned unsweetened pumpkin puree if you dont have this you can use, frozen butternut squash, sweet potatoes, roasted acorn squash or fresh pumpkin puree do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cranberries:
+  - text: I think you are missing cranberries if you dont have this you can use, apricots, apples, cherries, raspberries blueberries or currants, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  turkey_neck:
+  - text: I think you are missing turkey neck if you dont have this you can use chicken quarters, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  celery_sticks:
+  - text: I think you are missing celery sticks if you dont have this you can use fennel, onion, scallions, carrots, shallots, garlic, chives or leeks, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tamari:
+  - text: I think you are missing tamari if you dont have this you can use soy sauce, fish sauce, salt, miso paste, teriyaki sauce or maggi seasoning, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  walnuts:
+  - text: I think you are missing walnuts if you dont have this you can use almonds, cashews, filberst, brazil nuts or macadamia nuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  whole_milk:
+  - text: I think you are missing whole milk if you dont have this you can use semi-skimmed milk, double cream, yogurt, sour cream, soy milk or coconut milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_currant:
+  - text: I think you are missing red currant if you dont have this you can use raisins, dried dates, dried prunes, dried cherries, cranberries or jujube, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  raspberry_jelly:
+  - text: I think you are missing raspberry jelly if you dont have this you can use strawberry jelly, cranberry jelly or red currants , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bittersweet_chocolate:
+  - text: I think you are missing bittersweet chocolate if you dont have this you can use, unsweetened baking chocolate and sugar or semisweet chocolate with cocoa powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  unsweetened_cocoa_powder:
+  - text: I think you are missing unsweetened coco powder if you dont have this you can use melted unsweetened baking chocolate, dutch-processed cocoa or carob powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  buttermilk:
+  - text: I think you are missing buttermilk if you dont have this you can use, milk and vinegar, milk and lemon juice, milk and cream of tartar, sour cream and water, plain yogurt and water or plain kefir, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  semisweet_chocolate_chips:
+  - text: I think you are missing semisweet chocolate chips if you dont have this you can use bittersweet baking chocolate, unsweetened cocoa powder, or unsweetened baking chocolate do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cream_of_tartar:
+  - text: I think you are missing cream of tartar if you dont have this you can use lemon juice, white vinegar, baking powder, buttermilk or yogurt, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  egg_whites:
+  - text: I think you are missing egg whites if you dont have this you can use aquafaba, ground flax seeds and water, agar powder and water or chia seeds and water, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dark_brown_sugar:
+  - text: I think you are missing dark brown sugar if you dont have this you can use, white sugar and molasses, honey, white sugar and maple syrup, coconut sugar, maple syryp, agave nectar or plain white sugar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_nutmeg:
+  - text: I think you are missing ground nutmeg if you dont have this you can use, grated nutmeg, mace, garam masala, allspice, cinamon, pumpkin pie spice, appke pie spice, ginger or cloves, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  rolled_oats:
+  - text: I think you are missing rolled oats if you dont have this you can use, qionoa flakes, stell-cut oats or instant oats, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  raisins:
+  - text: I think you are missing raisins if you dont have this you can use, dried currants, dried cherries, dried cranberries, dried prunes, dried sates, dried apricot or dried pineapple, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vanilla:
+  - text: I think you are missing vanilla if you dont have this you can use, maple syrup, almond extract, bourbon, instant coffee, expresso powder or citrus zest, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lemon_zest:
+  - text: I think you are missing lemon zest if you dont have this you can use, lemon extract, lemon juice, another citrus zest or lemon peel, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  parsnips:
+  - text: I think you are missing parsnips if you dont have this you can use, turnips, celery root, carrots, salsify, sweet potatoes or parsley root, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  thyme_leaves:
+  - text: I think you are missing thyme leaves if you dont have this you can use, oregano, majoram, basil, savory, poultry seasoning, italian seasoning, za'taar or herbes de provence, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_bread:
+  - text: I think you are missing white bread if you dont have this you can use, oopsie bread, ezekiel bread, corn tortillas or rye bread, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canned_cannellini_beans:
+  - text: I think you are missing canned cannellini beans if you dont have this you can use, red kidney beans, great northern beans, navy beans, baby lima beans, butter beans, garbanzo beans, borlotti beans or black beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  baby_lima_beans:
+  - text: I think you are missing baby lima beans if you dont have this you can use, fava beans, red kidney beans or white kidney beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  large_egg:
+  - text: I think you are missing large eggs if you dont have this you can use, any other size of egg, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  powdered_gelatin:
+  - text: I think you are missing powdered gelatin if you dont have this you can use, agar agar powder, pectin powder, carrageean or guar gum, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_beef:
+  - text: I think you are missing ground beef if you dont have this you can use, mushrooms, ground poultry, textured vegetable protein, lentils, tempeh, tofu, seitan or beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  prociutto:
+  - text: I think you are missing prociutto if you dont have this you can use, ham, bacon, pancetta, capiola or spanish serrano ham, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  parsley_leaves:
+  - text: I think you are missing parsley leaves if you dont have this you can use, cilantro, celery leaves, carrot greens, chives or chervil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  crushed_tomatoes:
+  - text: I think you are missing crushed tomatoes if you dont have this you can use, fresh tomatoes, diced tomatoes, tomato paste, tomato puree, whole peeled tomatoes or pasta sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cooking_wine:
+  - text: I think you are missing cooking wine if you dont have this you can use, white grape juice and apple juice, apple cider, cranberry juice, ginger ale, white wine vinegar, red wine vingear, lemon juice, chicken broth or vegetable broth, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  spaghetti:
+  - text: I think you are missing spaghetti if you dont have this you can use, vermicelli, angel hair pasta or rice stick noodles, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_potatoes:
+  - text: I think you are missing red potatoes if you dont have this you can use, yukon gold potatoes, white potatoes, yellow potatoes or russet potato, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_breasts:
+  - text: I think you are missing chicken breasts if you dont have this you can use, chicken cacciatora, shrimp aragonate, grilled scallops, seared duck breasts or roast turkey breasts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  marsala_red_wine:
+  - text: I think you are missing marsala red wine if you dont have this you can use, madeira, fortified wine, dru sherry, sherry wine and sweet vermouth, amontillado wine and pedro ximenez, port, white grape juice with brandy, non-fortified wine, pinot noir or dry white wine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  unflavoured_gelatin:
+  - text: I think you are missing unflavoured gelatin if you dont have this you can use, kudzu, pectin and sugar, arrowroot or agar agar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  porcini_mushrooms:
+  - text: I think you are missing porcini mushrooms if you dont have this you can use, shiitake mushrooms, dried reconstituted shiitake mushrooms, mixed mushrooms or fresh button mushrooms, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cremini_mushrooms:
+  - text: I think you are missing cremini mushrooms if you dont have this you can use, white button mushrooms, portobello mushrooms, shiitake mushrooms or aubergine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_mushrooms:
+  - text: I think you are missing white mushrooms if you dont have this you can use, courgette, sun dried toamtoes, aubergine, garbanzo beans, russel potatoes, tofu or onions, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pasta_sauce:
+  - text: I think you are missing pasta sauce if you dont have this you can use, toamato paste, ketchup or tomato soup do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lasagna_noodles:
+  - text: I think you are missing lasagna noodles  if you dont have this you can use, macaroni with tomato sauce or flat-sliced courgette, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mozzarella_cheese:
+  - text: I think you are missing mozzeralla cheese if you dont have this you can use, white cheddar cheese, provolone, gouda, parmesan, ricotta or feta cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  baking_spray:
+  - text: I think you are missing baking spray if you dont have this you can use, butter or lard, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  gruyere_cheese:
+  - text: I think you are missing  gruyere cheese if you dont have this you can use, comte cheese, beaufort cheese, jalsberg cheese, emmentaler cheese, fontina and parmesan cheese, maasdam and edam cheese or raclette cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cherries:
+  - text: I think you are missing cherries if you dont have this you can use, canned cherries, fresh plums, fresh apricots or fresh nectarines, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  yellow_onions:
+  - text: I think you are missing yellow onions if you dont have this you can use, red onion or white onion, ricotta or feta cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mixed_mushrooms:
+  - text: I think you are missing mixed mushrooms if you dont have this you can use, courgette, sun dried toamtoes, aubergine, garbanzo beans, russel potatoes, tofu or onions, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dried_white_beans:
+  - text: I think you are missing dried white beans if you dont have this you can use, dried cannellini beans, dried navy beans, dried red beans or dried pinto beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  canned_peeled_tomatoes:
+  - text: I think you are missing canned peeled tomatoes if you dont have this you can use, crushed tomatoes, diced tomatoes or fresh tomatoes do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  swiss_chard:
+  - text: I think you are missing swiss chard if you dont have this you can use, mature spinach, mustard greens, kale or large bok choy, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  kale:
+  - text: I think you are missing kale if you dont have this you can use, collard greens, english spinach, baby spinach, swiss chard, mustard greens, chinese broccoli, broccoli raab or turnip, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  almond_flour:
+  - text: I think you are missing almond flour if you dont have this you can use, wheat flour, all-purpose flour, cashew flour, macadamia flour, sunflower seed flour, oat flour or a combination of tapioca flour with coconut flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  almond_extract:
+  - text: I think you are missing almond extract if you dont have this you can use, vanilla extract or almond flavoured liquor do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  rose_water:
+  - text: I think you are missing rose water if you dont have this you can use, rose essence, jamaica flower water,orange flower water, vanilla extract, almond extract, lavender, lemon juice or cardamom, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  food_colouring:
+  - text: I think you are missing food colouring if you dont have this you can use, liquid chlorophyll, matcha powder, spirulina powder, whatgrass juice or parsley juice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  marzipan:
+  - text: I think you are missing marzipan if you dont have this you can use almond paste, do you have this ingredient?
+    qType: confirm_ingredients
+
+  dried_black_beans:
+  - text: I think you are missing dried black beans  if you dont have this you can use, kidney beans, pinto beans, lentils, soyebans, chickpeas or peas, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lime_juice:
+  - text: I think you are missing lime juice if you dont have this you can use, lemon juice, lime zest, orange juice or white wine vinegar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_bell_pepper:
+  - text: I think you are missing red bell pepper  if you dont have this you can use, poblano peppers, anaheim peppers, jalapeños, sichuan peppers, cubanelle or red, yellow or orange peppers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cocoa_powder:
+  - text: I think you are missing cocoa powder if you dont have this you can use, a chocolate bar, chocolate chips, chocolate coverture, hot chocolate drink powder or carob powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  agave_syrup:
+  - text: I think you are missing agave syrup if you dont have this you can use, honey, simple syrup, maple syrup, brown rice syrup, white sugar, corn syrup or any artificial sweeteners, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  nutella:
+  - text: I think you are missing nutella if you dont have this you can use, any other chocolate spread or hazelnut and chocolate spread, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  maraschino_cherries:
+  - text: I think you are missing maraschino cherries if you dont have this you can use, fresh cherries, amarena cherries or luxardo maraschino cherries , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  maraschino_cherry_juice:
+  - text: I think you are missing maraschino cherry juice if you dont have this you can use cherry juice with sugar, do you have these ingredient?
+    qType: confirm_ingredients
+
+  greek_yogurt:
+  - text: I think you are missing greek yogurt if you dont have this you can use, plain yogurt, sour cream, buttermilk, cottage cheese or silken tofu, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  roasted chicken:
+  - text: I think you are missing roasted chicken if you dont have this you can use, rotisserie chicken meat, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  old_bay_seasoning:
+  - text: I think you are missing old bay seasoning if you dont have this you can make your own by combining 1 tablespoon celery salt, 3 whole bay leaves, 3/4 teaspoon brown mustard seeds, 1/2 teaspoon black peppercorns, 10 allspice berries, 10 whole cloves and 1/2 teaspoon paprika or use crab boil or pickling spice do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  butterscotch_chips:
+  - text: I think you are missing butterscotch chips if you dont have this you can use, caramel chips, chocolate chips or carob chips, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sirloin_steak:
+  - text: I think you are missing sirloin steak if you dont have this you can use, ribeye steak, new York strip steaks, round steak or flank steak, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dry_mustard:
+  - text: I think you are missing dry mustard if you dont have this you can use, dijon mustard or yellow mustard, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_wine:
+  - text: I think you are missing white wine if you dont have this you can use, apple cider vinegar, chicken broth, apple juice, grape juice, white wine vinegar or ginger ale, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cauliflower:
+  - text: I think you are missing cauliflower if you dont have this you can use, broccoli, courgette or lettuce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  orange_zest:
+  - text: I think you are missing orange zest if you dont have this you can use, any other citrus fruit zest, fruit juice, fruit concentrate, pure extracts or vinegar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  green_bell_pepper:
+  - text: I think you are missing green bell pepper if you dont have this you can use, poblano peppers, anaheim peppers, jalapeños, sichuan peppers, pimientos, cubanelle, red bell peppers or yellow bell peppers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chipotle_chillies:
+  - text: I think you are missing chipotle chillies if you dont have this you can use, fresh jalapeños, serrano peppers or poblano peppers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chilli_powder:
+  - text: I think you are missing chilli powder if you dont have this you can use, paprika, cumin, garlic powder, onion powder, oregano or cayenne, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_coriander:
+  - text: I think you are missing ground coriander if you dont have this you can use, cumin, caraway, garam masala or curry powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_cumin:
+  - text: I think you are missing ground cumin if you dont have this you can use, ground coriander, caraway seeds, chilli powder, taco seasoning, curry powder, garam masala, paprika or fennel seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_buffalo:
+  - text: I think you are missing ground buffalo if you dont have this you can use, ground bison or ground beef, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pinto_beans:
+  - text: I think you are missing pinto beans if you dont have this you can use, black beans, navy beans, borlotti beans, red beans, kidney beans, white beans or cannellini beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  masa_harina_flour:
+  - text: I think you are missing masa harina flour if you dont have this you can use, corn meal, gritis, regular flour, ground corn tortillas, corn starch, fresh masa or masa preparada, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  green_beans:
+  - text: I think you are missing green beans if you dont have this you can use, nopalitos, thin asparagus stalks or wax beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_flour:
+  - text: I think you are missing white flour if you dont have this you can use, almond flour, coconut flour, quinoa flour, chickpea flour, brown rice flour, oat flour, spelt flour or buckwheat flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cardamom:
+  - text: I think you are missing cardamom if you dont have this you can use, cinnamon and cloves, cinnamon and nutmeg or allspice powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  caster_sugar:
+  - text: I think you are missing caster sugar if you dont have this you can use granulated sugar, do you have this ingredient?
+    qType: confirm_ingredients
+
+  free_range_eggs:
+  - text: I think you are missing free range eggs if you dont have this you can use, banana, flaxseed, chia seeds, applesauce or organic eggs, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  shortening:
+  - text: I think you are missing shortening if you dont have this you can use, butter, coconut oil, margarine, lard, vegetable oil or vegan butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vinegar:
+  - text: I think you are missing vinegar if you dont have this you can use, lemon or lemon juice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mung_beans:
+  - text: I think you are missing mung beans if you dont have this you can use, snow peas or pigeon peas, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  hash_browns:
+  - text: I think you are missing hash browns if you dont have this you can use, cauliflower hash browns, keto has browns or fries, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cream_of_chicken_soup:
+  - text: I think you are missing cream of chicken soup if you dont have this you can use, sour cream, yogurt, tomato sauce or eggs and milk  do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  colby_cheese:
+  - text: I think you are missing colby cheese if you dont have this you can use, pata cabra cheese, fontina cheese, limburguer cheese or carciotta cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sherry:
+  - text: I think you are missing sherry if you dont have this you can use, white wine vinegar, apple cider vinegar, sherry vinegar or port wine, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  sesame_oil:
+  - text: I think you are missing sesame oil if you dont have this you can use, perilla oil, walnut oil, oilve oil, canola oil, avocado oil, tahini or roasted sesame seed, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  garlic_sauce:
+  - text: I think you are missing garlic sauce if you dont have this you can use, harissa sauce, sriracha, ketchup with garlic or red pepper flakes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  red_pepper_flakes:
+  - text: I think you are missing red pepper flakes if you dont have this you can use, dried peppers, ground cayenne pepper or chilli powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dill:
+  - text: I think you are missing dill if you dont have this you can use, fennel, thyme, rosemary, parsley, chevil, basil or tarragon, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  smoked_salmon:
+  - text: I think you are missing smoked salmon if you dont have this you can use, smoked mackerel, sardines, or pink snapper, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  arborio_rice:
+  - text: I think you are missing arborio rice if you dont have this you can use, pearled barley, basmati rice, brown rice, carnaroli rice, sushi rice, quinoa or bulgur wheat, do you have any of thse ingredients?
+    qType: confirm_ingredients
+
+  marinara_sauce:
+  - text: I think you are missing marinara sauce if you dont have this you can use tomato sauce mixed with water, do you have this ingredient?
+    qType: confirm_ingredients
+
+  baby_green_peas:
+  - text: I think you are missing baby green peas if you dont have this you can use, black-eyed peas, lima beans or fresh cranberry beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  bread_crumbs:
+  - text: I think you are missing bread crumbs if you dont have this you can use, almonds, walnuts, chia seeds or flax seeds, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  flour_tortillas:
+  - text: I think you are missing flour tortillas if you dont have this you can use, corn tortillas, grain-free tortillas, lettuce wraps or spinach wraps, , do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chillies:
+  - text: I think you are missing chillies if you dont have this you can use, red bell pepper flakes or smoked paprika, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  guacamole:
+  - text: I think you are missing guacamole if you dont have this you can use, nut butter, pesto, edamame beans, hummus or mockamole, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  refried_beans:
+  - text: I think you are missing refried beans if you dont have this you can use, chilli beans, rattlesnake beans, red kidney beans or cranberry beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  angel_food_cake_mix:
+  - text: I think you are missing angle food cake mix if you dont have this you can use sponge cake mix, do you have this ingredient?
+    qType: confirm_ingredients
+
+  milkfish:
+  - text: I think you are missing milkfish if you dont have this you can use mullet fish, do you have this ingredient?
+    qType: confirm_ingredients
+
+  calamansi_juice:
+  - text: I think you are missing calamansi juice if you dont have this you can use, lime juice, orange juice, vinegar, citric acid, lemon zest, white wine, lemon extract or cream of tartar, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pickles:
+  - text: I think you are missing pickles if you dont have this you can use, chopped dill pickles, freen olives, capers, green bell peppers, celery or cucumbers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  eggplant:
+  - text: I think you are missing eggplant if you dont have this you can use, okra, zuchinni, mushrooms, summer squash or root vegetables, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  grapes:
+  - text: I think you are missing grapes if you dont have this you can use, baby kiwi, mayhaw berries, white mulberries or elderberry, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork:
+  - text: I think you are missing pork if you dont have this you can use, chicken or tempeh, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  annatto_powder:
+  - text: I think you are missing annatto powder if you dont have this you can use, hibiscus powder, tumeric powder, nutmeg, beet powder and paprika, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  kinchay:
+  - text: I think you are missing kinchay if you dont have this you can use, parsley, basil or herb mixtures, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  wheat_flour:
+  - text: I think you are missing wheat flour if you dont have this you can use, buckwheat flour, corn flour or coconut flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_cardamon:
+  - text: I think you are missing ground cardamon if you dont have this you can use, allspice, cinnamon or nutmeg, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  baking_soda:
+  - text: I think you are missing baking soda if you dont have this you can use, self raising flour, bakers ammoni or baking powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  banana_mixture:
+  - text: I think you are missing banana mixture if you dont have this you can use, apple sauce, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  plain_yoghurt:
+  - text: I think you are missing plain yoghurt if you dont have this you can use, buttermilk or sour cream, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chopped_walnuts:
+  - text: I think you are missing chopped walnuts if you dont have this you can use, chopped brazil nuts or chopped hazel nuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  oats:
+  - text: I think you are missing oats if you dont have this you can use, chia seeds, quino or brown rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  quick_oats:
+  - text: I think you are missing quick oats if you dont have this you can use, chia seeds, quino or brown rice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  shredded_coconut:
+  - text: I think you are missing shredded coconut if you dont have this you can use, chopped nuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cornmeal:
+  - text: I think you are missing cornmeal if you dont have this you can use, semoilina, ground oats, wheat flour or rice flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  coconut_flakes:
+  - text: I think you are missing coconut flakes if you dont have this you can use, chopped nuts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  fruit_spread:
+  - text: I think you are missing fruit spread if you dont have this you can use, fruit jam or jelly, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dry_millet:
+  - text: I think you are missing dry millet if you dont have this you can use, bulgur or amaranth, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_broth:
+  - text: I think you are missing chicken broth if you dont have this you can use, vegatable or beef stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vegatable_broth:
+  - text: I think you are missing vegetable broth if you dont have this you can use, beef or chicken stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  uncooked_quinoa:
+  - text: I think you are missing uncooked quinoa if you dont have this you can use, uncooked rice or uncooked couscous, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  frozen_corn:
+  - text: I think you are missing frozen corn if you dont have this you can use, fresh corn, arrowroot, tapioca, rice flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  mayonnaise:
+  - text: I think you are missing mayonnaise if you dont have this you can use, sour cream, pesto, greek yogurt or mustard, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  monterey_jack_cheese:
+  - text: I think you are missing monetary jack cheese if you dont have this you can use, parmesan cheese, gouda cheese or muenster cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cheddar_cheese:
+  - text: I think you are missing cheddar cheese if you dont have this you can use, colby cheese, gloucester or tillamook cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  hard_eggs:
+  - text: I think you are missing hard eggs if you dont have this you can use, commercial egg replacer, silken tofu or chia, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  luke_warm_water:
+  - text: I think you are missing luke warm water if you dont have this you can use,, you can warm up cold water in a pan or microwave, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  olives:
+  - text: I think you are missing olives if you dont have this you can use, capers, artichoke hearts, pickled peppers, mushrooms or anchvoies, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork_lard:
+  - text: I think you are missing pork lard if you dont have this you can use, butter or goose fat, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  warm_milk:
+  - text: If you have cold milk, warm it up in a pan or microwave, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  spring_onions:
+  - text: I think you are missing spring onions if you dont have this you can use, shallots, green onions, white onions, red onions, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lime:
+  - text: I think you are missing lime if you dont have this you can use, lemon juice, lime zest, orange juice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  greek_yoghurt:
+  - text: I think you are missing greek yoghurt if you dont have this you can use, sour cream or cottage cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tinned_mixed_beans:
+  - text: I think you are missing tinned mixed beans if you dont have this you can use, fresh mized beans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tinned_chopped_tomatoes:
+  - text: I think you are missing tinned chopped tomatoes if you dont have this you can use, fresh chopped tomatoes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  yellow_squash:
+  - text: I think you are missing yellow squash if you dont have this you can use, egg plant, pumpkin, egg plant, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  zucchini:
+  - text: I think you are missing zucchini if you dont have this you can use, eggplant, yellow squash or patty pan, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  full_fat_coconut_milk:
+  - text: I think you are missing full fat coconut milk if you dont have this you can use, soy milk, almond milk, oat milk or hemp milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chopped_parsley:
+  - text: I think you are missing chopped parsley if you dont have this you can use, tarragon, oregano, chives or arugula, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  celery_stalks:
+  - text: I think you are missing celery stalks if you dont have this you can use, fennel, radish or cucumber, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  garlic_cloves:
+  - text: I think you are missing garlic cloves if you dont have this you can use, garlic flakes, granulated garlic or garlic powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  aubergine:
+  - text: I think you are missing aubergine if you dont have this you can use, okra, zucchini, summer squash or root vegetables, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  strong_white_flour:
+  - text: I think you are missing strong white flour if you dont have this you can use, plain flour or oat flour, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  peanut_oil:
+  - text: I think you are missing peanut oil if you dont have this you can use, sesame oil, canola or grapeseed oil, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  marrows:
+  - text: I think you are missing marrows if you dont have this you can use, courgette or squash, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  diced_ham:
+  - text: I think you are missing diced ham if you dont have this you can use, diced chicken or turkey, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  green_cabbage:
+  - text: I think you are missing green cabbage if you dont have this you can use, red cabbage, nap cabbage or brussels sprouts, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vermicelli_noodles:
+  - text: I think you are missing vermicelli noodles if you dont have this you can use, angel hair pasta or capellini, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  full_fat_milk:
+  - text: I think you are missing full fat milk if you dont have this you can use, skimmed, semi skimmed or powdered milk, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  golden_wonder_potatoes:
+  - text: I think you are missing golden wonder potatoes if you dont have this you can use, red potatoes, green potatoes or parnsips, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  poblano_chillies:
+  - text: I think you are missing poblano chillies if you dont have this you can use, red chilies, green chillies or yellow chillies, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cheese:
+  - text: I think you are missing cheese if you dont have this you can use, sweet potatoe sauce, cashew cheese or kite hill riccotta, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  dried_pigeon_peas:
+  - text: I think you are missing dried pigeon peas if you dont have this you can use, black eyed peas, yellow eyed peas, lima beans or lentils, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  medjool_dates:
+  - text: I think you are missing mejool dates if you dont have this you can use, dried raisins, dried cranberries, dried cherries or dried apricots, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  djion_mustard:
+  - text: I think you are missing djion mustard if you dont have this you can use, colemans mustard, mustard paste or chillie paste, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  double_cream:
+  - text: I think you are missing double cream if you dont have this you can use, single cream or vanilla yogurt, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chili:
+  - text: I think you are missing chili if you dont have this you can use, red chillie flakes, yellow chillies, red chillies, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  panko_bread_crumbs:
+  - text: I think you are missing panko bread crumbs if you dont have this you can use, white dried breadcrumbs or salted bread crumbs, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_onions:
+  - text: I think you are missing white onions if you dont have this you can use, red onion or shallots, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  quinoa:
+  - text: I think you are missing quinoa if you dont have this you can use, dcooked rice, cooked couscous, cooked barley, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lime_zest:
+  - text: I think you are missing lime zest if you dont have this you can use, lemon zest or citus zest, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  black_olives:
+  - text: I think you are missing black olives if you dont have this you can use, capers, artichoke hearts or pickled peppers do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  uncooked_millet:
+  - text: I think you are missing uncooked millet if you dont have this you can use, bulgur, quinoa or amaranth, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  panden_paste:
+  - text: I think you are missing panden paste if you dont have this you can use, vanilla extract, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cake_flour:
+  - text: I think you are missing cake flour if you dont have this you can use, cornstarch, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cooking_oats:
+  - text: I think you are missing cooking oats if you dont have this you can use, quinoa flakes, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vanilla_ice_cream:
+  - text: I think you are missing vanilla ice cream if you dont have this you can use, whipped cream or vanilla yogurt, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cardamon:
+  - text: I think you are missing cardamom if you dont have this you can use, cinnamon or ginger, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cinnamon:
+  - text: I think you are missing cinnamon if you dont have this you can use, nutmeg or allspice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  corn_starch:
+  - text: I think you are missing corn starch if you dont have this you can use, wheat flour, arrowroot or potato starch, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  assorted_fruit:
+  - text: I think you are missing assorted fruit if you dont have this you can use, canned fruits, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  whipping_cream:
+  - text: I think you are missing whipping cream if you dont have this you can use, heavy cream or whip fresh cream, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  vanilla_milk_chips:
+  - text: I think you are missing vanilla milk chips if you dont have this you can use, chocolate milk chips or vanilla chocolcate, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pineapple_juice:
+  - text: I think you are missing pineapple juice if you dont have this you can use, apple juice, orange juice or apricaot juice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  peas:
+  - text: I think you are missing peas if you dont have this you can use, lima beans or soybeans, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  prosciutto:
+  - text: I think you are missing prosciutto if you dont have this you can use, bacon, ham, salami or pancetta, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  minced_parsley:
+  - text: I think you are missing minced parsely if you dont have this you can use, you can use minced chervil, minced tarragon or minced oregano, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  masala_red_wine:
+  - text: I think you are missing marsala red wine if you dont have this you can use, maderia wine, fortified wine or dry sherry, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_breast:
+  - text: I think you are missing chicken breast if you dont have this you can use, chicken leg meat or chocken thigh meat, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chicken_drumsticks:
+  - text: I think you are missing chicken drumsticks if you dont have this you can use, turkey drumsticks, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  fresh_ginger:
+  - text: I think you are missing fresh ginger if you dont have this you can use, ground ginger, galangal or allspice, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chopped_tomatoes:
+  - text: I think you are missing chopped tomatoes if you dont have this you can use, sun dried tomatoes, tomato sauce or tomato paste, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chili_powder:
+  - text: I think you are missing chili powder if you dont have this you can use, paprika, cumin, garlic powder or onion powder, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork_shoulder_roast:
+  - text: I think you are missing pork shoulder roast  if you dont have this you can use, prok chops or pork loins, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tulya:
+  - text: I think you are missing tulya if you dont have this you can use, fresh water clams or muscles, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  brown_onion:
+  - text: I think you are missing brown onion if you dont have this you can use, white onions or challots, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  fish_stock:
+  - text: I think you are missing fish stock if you dont have this you can use, chicken or vegetable stock, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chili_leaves:
+  - text: I think you are missing chili leaves if you dont have this you can use, red chili flakes, chives or spinach, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  pork_fat:
+  - text: I think you are missing pork fat if you dont have this you can use, duck fat, goose fat or butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  ground_chicken:
+  - text: I think you are missing ground chicken if you dont have this you can use, ground turkey, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  liquid_seasoning:
+  - text: I think you are missing liquid seasoning if you dont have this you can use, worcestshire sauce, tamati or liquid aminos, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  diced_tomato:
+  - text: I think you are missing diced tomato if you dont have this you can use, tomato juice or tomato paste, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  shredded_lettuce:
+  - text: I think you are missing shredded lettuce if you dont have this you can use, spinach, escarole or arugula, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  diced_jalapenos:
+  - text: I think you are missing diced jalapenos if you dont have this you can use, serrano peppers, cayenne peppers or bell peppers, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  gucamole:
+  - text: I think you are missing gucamole if you dont have this you can use, pumpkin, butternut squash or nut butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  tortilla_chips:
+  - text: I think you are missing tortilla chips if you dont have this you can use, grilled potatoe skins, grilled sweet potatoe skins or plain chips (crips), do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  shredded_cheese:
+  - text: I think you are missing shredded cheese if you dont have this you can use, soft cheese or melted cheese, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  lamb_chops:
+  - text: I think you are missing lamb chops if you dont have this you can use, lamb cutlets or lamb loins, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  seasoning_salute:
+  - text: I think you are missing seasoning salute if you dont have this you can use, allspice, mixed herb seasoning or italian seasoning, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  masa_harine_flour:
+  - text: I think you are missing masa harine flour if you dont have this you can use, corn meal, regular flour or grits, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  wraps:
+  - text: I think you are missing wraps if you dont have this you can use, tortillas or flatbread, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  roasted_chicken:
+  - text: I think you are missing roasted chicken if you dont have this you can use, roasted turkey, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  baguette:
+  - text: I think you are missing baguette if you dont have this you can use, flat bread, bread loaf or french bread, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  extra_virgin_olive_oil:
+  - text: I think you are missing extra virgin olive oil if you dont have this you can use, cooking oil, sunflower oil, olive oil or butter, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  boston_lettuce:
+  - text: I think you are missing boston lettuce if you dont have this you can use, green lettuce, white lettuce or celerly, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  curly_endive:
+  - text: I think you are missing curly endive if you dont have this you can use, argula or watercress, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  fresh_chives:
+  - text: I think you are missing fresh chives if you dont have this you can use, scallion greens, leefs, or wild garlic, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  chervil:
+  - text: I think you are missing chervil if you dont have this you can use, tarragon, parsley or dill, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  slender_green_beans:
+  - text: I think you are missing slender green beans if you dont have this you can use, garden peas, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  Djion_mustard:
+  - text: I think you are missing djion mustard if you dont have this you can use, flat bread, stone ground mustard, yellow mustard or spicy brown mustard, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  white_wine_vinegar:
+  - text: I think you are missing white wine vinegar if you dont have this you can use, vinegar or soy sauce, yellow mustard or spicy brown mustard, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cool_whip:
+  - text: I think you are missing cool whip if you dont have this,  you can use, whipped cream, ice cream or spray cream, do you have any of these ingredients?
+    qType: confirm_ingredients
+
+  cake_mix:
+  - text: I think you are missing cake mix if you dont have this you can use, yellow cake mix or combie, 2 half C. flour. 1 three quarter C. sugar. 1 Tbsp. baking soda. half C. powdered milk., do you have any of these ingredients?
+    qType: confirm_ingredients

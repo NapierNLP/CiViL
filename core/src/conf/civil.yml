@@ -1,3 +1,3 @@
 SERVICES:
 #    "nlu": "http://outside:7003/model/parse"
-    "nlu": "http://0.0.0.0:7002/model/parse"
+    "nlu": "http://localhost:5005/model/parse"

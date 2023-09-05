@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext, ConversationHandler, \
-    MessageHandler, Filters
+    MessageHandler, filters
 
 from bot import CheifBot
 
@@ -55,7 +55,8 @@ def get_answer(chat_id, user_input: str, button_intent: str):
         button_list = []
         for item in buttons:
             button_list.append([InlineKeyboardButton(item.get('title'),
-                                                     callback_data="[{}]".format(item.get('payload').replace('/', '')))])
+                                                     callback_data="[{}]".format(
+                                                         item.get('payload').replace('/', '')))])
 
         logger.info("button_list: {}".format(button_list))
         reply_markup = InlineKeyboardMarkup(button_list)
@@ -93,7 +94,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("Use /start to test this bot.")
 
 
-def main(token: str, bert_enabled: bool == True) -> None:
+def main(token: str, bert_enabled: bool = True) -> None:
     global bot
     bot = CheifBot(logger, bert_enabled)
     # Create the Updater and pass it your bots token.
@@ -102,7 +103,7 @@ def main(token: str, bert_enabled: bool == True) -> None:
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("start", start))
-    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, process_query))
+    dispatcher.add_handler(MessageHandler(filters.text & ~filters.command, process_query))
     dispatcher.add_handler(CallbackQueryHandler(button))
     dispatcher.add_handler(CommandHandler('help', help_command))
     # Start the Bot

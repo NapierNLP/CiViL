@@ -12,6 +12,7 @@ echo $PROJECTROOTPATH
 source ${SCRIPTPATH}/ENV/bin/activate
 "${SCRIPTPATH}"/ENV/bin/pip3 install --upgrade setuptools pip
 
-cd "${SCRIPTPATH}"/src
-rasa run -m nlu-20221003-094311-immature-synergy.tar.gz --enable-api --port 7002
+#cd "${SCRIPTPATH}"/src
+rasa run -m models/nlu-20230503-091058-soft-inventory.tar.gz --enable-api --port 5005
 
+rasa run --enable-api -m models/nlu-20230503-091058-soft-inventory.tar.gz

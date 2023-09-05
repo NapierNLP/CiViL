@@ -3,7 +3,7 @@ version: '2.0'
 segments:
 - segment: trigger_1
   steps:
-  - intent: englishmuffins
+  - intent: english muffins
   - action: utter_rep
 
 - segment: trigger_2
@@ -38,7 +38,7 @@ segments:
 
 - segment: trigger_8
   steps:
-  - intent: roastedveggienoodles
+  - intent: roasted veggie noodles
   - action: utter_rep
 
 - segment: trigger_9
@@ -53,7 +53,7 @@ segments:
 
 - segment: trigger_11
   steps:
-  - intent: veggietikkamasala
+  - intent: veggie tikka masala
   - action: utter_rep
 
 - segment: trigger_12
@@ -118,7 +118,7 @@ segments:
 
 - segment: trigger_24
   steps:
-  - intent: roastedvegetablelasagna
+  - intent: roasted vegetable lasagna
   - action: utter_rep
 
 - segment: trigger_25
@@ -1740,3 +1740,4 @@ segments:
   steps:
   - intent: vanillachipfruittart
   - action: utter_rep
+

@@ -1,6 +1,6 @@
 flask
 pyaml
-wheel
+wheel==0.38.4
 pandas
 matplotlib
 elasticsearch

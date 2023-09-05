@@ -1,19 +1,4 @@
 #**************************************************************MENU 1 ********************************************
-
-display_meat_menu_types:
-  - text: Please select a menu
-    buttons:
-    - title: Breakfast Menu
-      payload: /breakfastmenumeat
-    - title: Lunch Menu
-      payload: /lunchmenumeat
-    - title: Dinner Menu
-      payload: /dinnermenumeat
-    - title: Light Snacks Menu
-      payload: /lightsnacksmenumeat
-    - title: Dessert Menu
-      payload: /dessertmenumeat
-
 display_veg_menu_types:
   - text: Please select a menu
     buttons:
@@ -89,7 +74,7 @@ display_lightsnacksmenumeat:
   - text: Select a recipe from the list,
     buttons:
     - title: english muffins
-      payload: /englishmuffins
+      payload: /english muffins
     - title: airfryer glazed donuts
       payload: /airfryerglazeddonuts
     - title: pumpkin spice donuts
@@ -175,11 +160,11 @@ display_dinnermenuvege:
   - text: Select a recipe from the list,
     buttons:
     - title: roasted veggie noodles
-      payload: /roastedveggienoodles
+      payload: /roasted veggie noodles
     - title: veggie tikka masala
-      payload: /veggietikkamasala
+      payload: /veggie tikka masala
     - title: roasted vegetable lasagna
-      payload: /roastedvegetablelasagna
+      payload: /roasted vegetable lasagna
     - title: mushroom ragu
       payload: /mushroomragu
     - title: minestrone soup
@@ -226,7 +211,7 @@ display_lightsnacksmenuveg:
   - text: Select a recipe from the list,
     buttons:
     - title: english muffins
-      payload: /englishmuffins
+      payload: /english muffins
     - title: airfryer glazed donuts
       payload: /airfryerglazeddonuts
     - title: pumpkin spice donuts

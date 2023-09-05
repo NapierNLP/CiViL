@@ -670,7 +670,7 @@ utter_utensils:
     qType: confirm_utensils
 
   cheese_knife:
-  - text: A cheese knife is a knife with a concaved blade made to cut hard cheeses, they are usually found in a kitchen drawer or on a knife rack.                   
+  - text: A cheese knife is a knife with a curved blade made to cut hard cheeses, they are usually found in a kitchen drawer or on a knife rack.
     qType: confirm_utensils
 
   cheesecloth:

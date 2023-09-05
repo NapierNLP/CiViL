@@ -14,19 +14,19 @@ rules:
       - state:
           last_action: utter_rep
           sys_q_type: confirm_ingredients
-        action: display_not_all_ingredients_<meal_type>
+        action: utter_try_different_menu
 
       - state:
           last_action: utter_rep
           sys_q_type: confirm
-        action: display_meal_types
+        action: utter_try_different_menu
 
-  - intent: deny
+  - intent: all_ingredients
     conditions:
       - state:
           last_action: utter_rep
           sys_q_type: confirm_ingredients
-        action: display_not_all_ingredients_<meal_type>
+        action: utter_replace
 
       - state:
           last_action: utter_rep
@@ -38,6 +38,13 @@ rules:
           sys_q_type: confirm_ingredients
           action: display_not_all_ingredients_<meal_type>
 
+  - intent: all_ingredients
+    conditions:
+      - state:
+          last_action: utter_rep
+          sys_q_type: confirm_ingredients
+        action: utter_replace
+
   - intent: affirm
     conditions:
       - state:
@@ -48,12 +55,75 @@ rules:
       - state:
           last_action: utter_replace
           sys_q_type: confirm_ingredients
-        action: display_not_all_ingredients_<meal_type>
+        action: utter_all
+
+      - state:
+          last_action: utter_all
+          sys_q_type: confirm_ingredients
+        action: utter_rep
+
+      - state:
+          last_action: utter_try_different_menu
+          sys_q_type: confirm
+        action: utter_greet
+
+      - state:
+          last_action: utter_try_different_menu
+          sys_q_type: confirm_ingredients
+        action: utter_greet
+
+      - state:
+          last_action: utter_replace
+          sys_q_type: confirm_ingredients
+        action: utter_try_different_menu
 
       - state:
           sys_q_type: confirm_ingredients
         action: utter_rep
 
+
+
+  - intent: deny
+    conditions:
       - state:
-          sys_q_type: confirm_utensils
+          last_action: utter_rep
+          sys_q_type: confirm
+        action: utter_try_different_menu
+
+      - state:
+          last_action: utter_all
         action: utter_rep
+        sys_q_type: confirm_ingredients
+
+      - state:
+          last_action: utter_rep
+          sys_q_type: confirm_ingredients
+        action: utter_try_different_menu
+
+      - state:
+          last_action: utter_try_different_menu
+          sys_q_type: confirm
+        action: utter_goodbye
+
+      - state:
+          last_action: utter_try_different_menu
+          sys_q_type: confirm_ingredients
+        action: utter_goodbye
+
+      - state:
+          last_action: utter_replace
+          sys_q_type: confirm_ingredients
+        action: utter_try_different_menu
+
+#      - state:
+#          last_action: utter_rep
+#          sys_q_type: confirm_ingredients
+#        action: display_not_all_ingredients_<meal_type>
+#
+#      - state:
+#          sys_q_type: confirm_ingredients
+#        action: utter_greet
+#
+#      - state:
+#          sys_q_type: confirm_utensils
+#        action: utter_rep

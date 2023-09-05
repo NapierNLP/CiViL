@@ -7,7 +7,6 @@ try:
 except ImportError:
     raise ImportError("""
     Bart will be released through pip in v 3.0.0, until then use it by installing from source:
-
     git clone git@github.com:huggingface/transformers.git
     git checkout d6de6423
     cd transformers

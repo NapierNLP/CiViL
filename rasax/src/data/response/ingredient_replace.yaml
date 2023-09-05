@@ -5,6 +5,10 @@ utter_replace:
   - text: instead of sugar you can use, cane sugar or brown sugar, do you have any of these ingredients?
     qType: confirm_ingredients
 
+#  white_sugar:
+#  - text: I think you are missing white sugar? If you dont have any you can use, cane sugar, demerara Sugar or brown sugar, do you have any of these ingredients?
+#    qType: confirm_ingredients
+
   sugar:
   - text: instead of sugar you can use, cane sugar or brown sugar, do you have any of these ingredients?
     qType: confirm_ingredients
@@ -61,7 +65,7 @@ utter_replace:
   - text: instead of brown sugar you can use, white sugar, honey, maple syrup, coconut sugar or muscovado sugar, do you have any of these ingredients?
     qType: confirm_ingredients
 
-  vegetable_oil:
+    brown_sugar:
   - text: instead of vegetable oil you can use, canola oil, sunflower oil, peanut oil or grapeseed oil, do you have any of these ingredients
     qType: confirm_ingredients
 
@@ -177,7 +181,7 @@ utter_replace:
   passata:
   - text: instead of passata you can use; tomatoes. pasta sauce, tomato paste, ketchup or fresh tomatoes, do you have any of these ingredients?
 
-  goats cheese:
+  goats_cheese:
   - text: instead of goats cheese you can use; cream cheese, mascarpone cheese, feta cheese or ricotta cheese, do you have any of these ingredients?
 
   basil:
@@ -315,7 +319,7 @@ utter_replace:
   black_beans:
   - text: instead of black beans you can use, chickpeas, kidney beans, lentils, cauliflower or nuts, do you have any of these ingredients?
 
-  pork ribs:
+  pork_ribs:
   - text: instead of pork ribs you can use, pork chops, or pork belly, do you have any of these ingredients?
 
   smokey_bacon:
@@ -342,10 +346,10 @@ utter_replace:
   star_anise:
   - text: instead of star anise you can use, allspice, chinese five spice powder or chili powder, do you have any of these ingredients?
 
-  spring onions:
+  spring_onions:
   - text: instead of spring onions you can use, challots, green onions, red onions or celery , do you have any of these ingredients?
 
-  spring onion:
+  spring_onion:
   - text: instead of spring onions you can use, challots, green onions, red onions or celery , do you have any of these ingredients?
 
   miso_paste:
@@ -354,7 +358,7 @@ utter_replace:
   mirin:
   - text: instead of mirin you can use, dry sherry or sweet masala wine, do you have any of these ingredients?
 
-  soy sauce:
+  soy_sauce:
   - text: instead of soy sauce you can use, tamari, worcestershire sauce, coconut aminos, miso paste or maggi seasoning, do you have any of these ingredients?
 
   shiitake_mushrooms:
@@ -444,7 +448,7 @@ utter_replace:
   cannellini_beans:
   - text: instead of cannellini beans you can use, red kideny beans, great northen beans or navy beans, do you have any of these ingredients?
 
-  italian_seasoniong:
+  italian_seasoning:
   - text: instead of italian seasoning you can use, basil, marjoram, oregano, rosemary or thyme, do you have any of these ingredients?
 
   garlic_salt:
@@ -452,9 +456,6 @@ utter_replace:
 
   pepe_pasta:
   - text: instead of pepe pasta you can use, arugula or kale, do you have any of these ingredients?
-
-  parmesan_cheese:
-  - text: instead of parmesan cheese you can use, gran padano or american grana, dry jack or pecorino, do you have any of these ingredients?
 
   spinach:
   - text: instead of spinach you can use, argula or kale, do you have any of these ingredients?
@@ -504,7 +505,7 @@ utter_replace:
   confectioners_sugar:
   - text: instead of confectioners sugar you can use, granulated sugar or brown sugar, do you have any of these ingredients?
 
-  low fat greek yogurt:
+  low_fat_greek_yogurt:
   - text: instead of low fat greek yogurt you can use, buttermilk, tofu, cottage cheese or sour cream, do you have any of these ingredients?
 
   butternut_squash:
@@ -546,7 +547,7 @@ utter_replace:
   panko_breadcrumbs:
   - text: instead of breadcrumbs you can use, regular breadcrumbs, cracker crumbs, matzo meal, crushed cornflakes or dry stuffing mix, do you have any of these ingredients?
 
-  parmesan cheese:
+  parmesan_cheese:
   - text: instead of parmesan cheese you can use, grana padano, piave cheese or pecorino, do you have any of these ingredients?
 
   paprika:
@@ -567,8 +568,8 @@ utter_replace:
   semolina:
   - text: instead of semolina you can use, flour, bread flour or whole wheat flour, do you have any of these ingredients?
 
-  northen_beans:
-  - text: instead of northen beans you can use, navy beans, cannellini beans or lima beans, do you have any of these ingredients?
+  northern_beans:
+  - text: instead of northern beans you can use, navy beans, cannellini beans or lima beans, do you have any of these ingredients?
 
   dry_mustard_powder:
   - text: instead of dry mustard powder you can use, dijon mustard or tumeric, do you have any of these ingredients?
@@ -651,9 +652,6 @@ utter_replace:
   capers:
   - text: instead of capers you can use, green olives, anchovies or pickles, do you have any of these ingredients?
 
-  djion mustard:
-  - text: instead of djion mustard you can use, yellow mustard, honey mustard, wasabi or mayonnaise, do you have any of these ingredients?
-
   beef_bouillon:
   - text: instead of beef bouillon you can use, chicken broth or vegetable stock, do you have any of these ingredients?
 
@@ -696,7 +694,7 @@ utter_replace:
   chicken gizzard:
   - text: instead of chicken gizzard you can use, turkey gizzard or goose gizzard, do you have any of these ingredients?
 
-  bell pepper:
+  bell_pepper:
   - text: instead of bell pepper you can use, anahiem peppers, Jalapenos, pimiento or zucchini, do you have any of these ingredients?
 
   small_head_wombok:
@@ -735,7 +733,7 @@ utter_replace:
   bisquick:
   - text: instead of bisquick you can use 1 cup of all purpose flow mixed with 1 and a half teaspoons of baking powder, half a teaspoon or salt and one tablespoon of vegetable oil, do you have any of these ingredients?
 
-  smoked paprika:
+  smoked_paprika:
   - text: instead of smoked paprika you can use hungarian paprika, sweer paprika, chipolatle chili or liquid smoke, do you have any of these ingredients?
 
   split_pigs_feet:
@@ -777,7 +775,7 @@ utter_replace:
   coconut_cream:
   - text: instead of coconut cream you can use, coconut milk, whipping cream, nut butter, tahini, greek yogurt or creamy tomato sauce, do you have any of these ingredients?
 
-  all_purpose_flour:
+  all purpose flour:
   - text: instead of all purpose flour you can use, chickpea flour, rice flour, almond flour, buckwheat flour or a mixture of bread flour with cake flour, do you have any of these ingredients?
 
   grated_nutmeg:
@@ -993,9 +991,6 @@ utter_replace:
   greek_yogurt:
   - text: instead of greek yogurt you can use, plain yogurt, sour cream, buttermilk, cottage cheese or silken tofu, do you have any of these ingredients?
 
-  roasted chicken:
-  - text: instead of roasted chicken you can use rotisserie chicken meat, do you have any of these ingredients?
-
   old_bay_seasoning:
   - text: instead old bay seasoning you can make your own by combining 1 tablespoon celery salt, 3 whole bay leaves, 3/4 teaspoon brown mustard seeds, 1/2 teaspoon black peppercorns, 10 allspice berries, 10 whole cloves and 1/2 teaspoon paprika or use crab boil or pickling spice; do you have any of these ingredients?
 
@@ -1185,7 +1180,7 @@ utter_replace:
   chicken_broth:
   - text: instead of chicken broth spread you can use, vegatable or beef stock, do you have any of these ingredients?
 
-  vegatable_broth:
+  vegetable_broth:
   - text: instead of vegetable broth you can use, beef or chicken stock, do you have any of these ingredients?
 
   uncooked_quinoa:
@@ -1217,9 +1212,6 @@ utter_replace:
 
   warm_milk:
   - text: If you have cold milk, warm it up in a pan or microwave, do you have any of these ingredients?
-
-  spring_onions:
-  - text: instead of spring onions you can use, shallots, green onions, white onions, red onions, do you have any of these ingredients?
 
   lime:
   - text: instead of lime you can use, lemon juice, lime zest, orange juice, do you have any of these ingredients?
@@ -1345,14 +1337,16 @@ utter_replace:
   - text: instead of whipping cream you can use, heavy cream or whip fresh cream, do you have any of these ingredients?
 
   vanilla_milk_chips:
-  - text: instead of vanilla milk chips you can use, chocolate milk chips or vanilla chocolcate, do you have any of these ingredients?
+  - text: instead of vanilla milk chips you can use, chocolate milk chips or vanilla chocolate, do you have any of these ingredients?
+
+  milk_chocolate:
+  - text: instead of milk chocolate you can use, dark chocolate or vanilla chocolate, do you have any of these ingredients?
 
   pineapple_juice:
   - text: instead of pineapple juice you can use, apple juice, orange juice or apricaot juice, do you have any of these ingredients?
 
   peas:
   - text: instead of peas you can use, lima beans or soybeans, do you have any of these ingredients?
-
 
   prosciutto:
   - text: instead of prosciutto you can use, bacon, ham, salami or pancetta, do you have any of these ingredients?

@@ -139,6 +139,7 @@ User: Thank you.
 R8:  Roasted Veggie Noodles  https://www.makebetterfood.com/recipes/roasted-veggie-noodles-with-pears/
 
 This recipe takes 40 minutes to cook, serves 12 and contains 9 ingredients,  [‘sweet potato, butternut squash and beet noodles’,’bosc pears’,’olive oil’,’salt’,’pepper’,’butter’,’pecans’, ‘cinamon’, ‘lemon’]
+
 User: I want to make Roasted Veggie Noodles with Pears 
 Robot: Okay let’s start.The first thing to do is preheat the oven at 180º. Then, take 2 Bosc pears and use a kitchen knife to dice into small pieces. When this is done, toss 2 pounds of sweet potato, butternut squash and beet noodles, ¼ cup of olive oil and the cut pears into a big bowl. Then, season the ingredients with salt and pepper to taste and mix. When it is all combined, spread the mixture onto a baking sheet previously lined with parchment paper. 
 User: Okay the ingredients are now on the baking sheet, what do I do now? 
@@ -154,7 +155,8 @@ R9:  Quinoa Burrito Bowl https://www.makebetterfood.com/recipes/quinoa-burrito-b
 This recipe takes 40 minutes to cook, serves 4-6 and contains 12 ingredients,  [‘canola oil’,’red onion’,’jalapeño’,’garlic’,’chicken/vegetable broth’,’black beans’,’uncooked quinoa’,’tomatoes’,’frozen corn’,’kosher salt’,’cilantro/parsley’, ‘lime juice’]
 It has 9 optional ingredients [‘shredded cheese’,’lettuce’,’sour cream’,’avocados’,’onion’,’lime juice’,’sea salt’,’pepper’,’tomato’]
 User: I want to make a Quinoa Burrito Bowl
-Robot: Okay, let’s start. Put 1 tablespoon of canola oil into a large saucepan or dutch oven and start preheating over medium heat. While the pan is heating up, use a kitchen knife and a cutting board and chop 1 small red onion, 1 jalapeó and mince 2 cloves of garlic. Add these onto the pan and use a spatula to saute until fragrant. This should take about 1 minute. 
+Robot: Okay, let’s start. Put 1 tablespoon of canola oil into a large saucepan
+ or dutch oven and start preheating over medium heat. While the pan is heating up, use a kitchen knife and a cutting board and chop 1 small red onion, 1 jalapeó and mince 2 cloves of garlic. Add these onto the pan and use a spatula to saute until fragrant. This should take about 1 minute.
 User: I have sauted the ingredients, what’s next?
 Robot: Now take 15 ounces of black beans and 1 cup uncooked quinoa and use a sieve rinse and rain both ingredients. Then, using a kitchen knife and cutting board dice 2 tomatoes. Take these ingredients and  1 ⅓ cups of chicken or vegetable broth, 1 cup of frozen corn and ½ teaspoon of kosher salt and add them to the pot. Use the spatula to combine and bring the pot to a boil. Once it boils, keep stirring and bring it down to a simmer. Cover and let it cook for about 25 minutes, or until the quinoa is cooked and the liquid has been absorbed. 
 User: The quinoa has finished cooking, what do I do now? 
@@ -224,24 +226,14 @@ User: Thank you.
 
 R13: All-in-one Holiday Bundt Cake https://www.makebetterfood.com/recipes/holiday-bundt-cake/
 
-This recipe takes 1 hour and 45 minutes to cook, serves 12 and contains 19 ingredients,  [‘butter’,’flour’,’baking powder’,’baking soda’,’cinnamon’,’grated nutmeg’,’’,’ginger powder’,’salt’,’granulated sugar’,’packed light brown sugar’,’eggs’,’pure vanilla extract’,’canned unsweetened pumpkin puree’,’apple’,’cranberries’,’pecans’,’confectioners sugar’,’maple syrup’]
-User: I want to make an all-in-one holiday bundt cake 
-Robot: Okay let's begin. For this recipe you will need butter at room temperature, so if you don’t have it be sure to leave 1 ¼ sticks of butter out for a couple hours then come back to do this recipe. 
-User: I have room temperature butter, what do I do?
-Robot: Now preheat the oven at 180º. Using your hand, take 1-2 tablespoons of butter and grease a large Bundt. When it has been greased, take 1 teaspoon of flour and dust it over the butter.
-User: I have greased the Bundt, what’s next?
-Robot: Next, put 2 cups all-purpose flour, 2 teaspoons baking powder, ½ teaspoon baking soda, 2 teaspoons ground cinnamon, ¼ teaspoon grated nutmeg, 1 teaspoon ginger powder and pinch salt into a medium bowl and using a whisk or a spatula mix together until they are well combined. 
-User: I have combined the ingredients, what do I do now?
-Robot: Now put the rest of the butter, 1 cup granulated sugar and ½ cup packed light brown sugar into a large bowl. Blend them together using a hand mixer at medium speed until the mixture starts looking fluffy. This should take around 3 minutes. 
-User: Everything is now blended, what comes next?
-Robot: Take 2 large eggs and 1 teaspoon of pure vanilla extract and add them to the mixture you just whisked. Take the hand mixer and whisk until it’s combined. This should take another 2 minutes. When it’s done, add 1 ¼ cup of canned unsweetened pumpkin purée to the bowl and keep blending with the hand mixer on medium speed until well combined. 
-User: All the ingredients are mixed, what should I do now?
-Robot: Now, using a kitchen knife and a cutting board peel, core and chop 1 large apple. On the same board, halve and chop 1 cup of cranberries and 1 cup of pecans. Take another bowl and add the flour mixture and the chopped ingredients. Use a spatula to stir all the ingredients until they are well combined. Then, pour the batter into the Bundt pan and smooth the top with the spatula. Put the Bundt into the oven and bake for 60-70 minutes. When it’s done, remove the Bundt from the oven and let it cool for 10 minutes before removing the cake from the pan. Then, let it cool down for 3-4 hours before serving. The next step is to make the icing, let me know when you would like me to tell you the steps. 
-User: The cake is now cooling down. How do I make the icing?
-Robot: To make the icing, start by using a colander to sift 6 tablespoons of confection’s sugar into a small bowl. Then, use a spatula to stir the sugar and, slowly, start adding 2 tablespoons of maple syrup until the icing drips off the tip of the spatula. 
-User: The mixture is now done, what comes next?
-Robot: Wait until the cake is completely cooled and put it on wax paper. Drizzle the icing on top of the cake and let it harden for a few minutes. Enjoy your meal!
-User: Thank you. 
+Okay let's begin. For this recipe you will need butter at room temperature, so if you don’t have it be sure to leave 1 ¼ sticks of butter out for a couple hours then come back to do this recipe.
+Now preheat the oven at 180º. Using your hand, take 1-2 tablespoons of butter and grease a large Bundt. When it has been greased, take 1 teaspoon of flour and dust it over the butter.
+Next, put 2 cups all-purpose flour, 2 teaspoons baking powder, ½ teaspoon baking soda, 2 teaspoons ground cinnamon, ¼ teaspoon grated nutmeg, 1 teaspoon ginger powder and pinch salt into a medium bowl and using a whisk or a spatula mix together until they are well combined.
+Now put the rest of the butter, 1 cup granulated sugar and ½ cup packed light brown sugar into a large bowl. Blend them together using a hand mixer at medium speed until the mixture starts looking fluffy. This should take around 3 minutes.
+Take 2 large eggs and 1 teaspoon of pure vanilla extract and add them to the mixture you just whisked. Take the hand mixer and whisk until it’s combined. This should take another 2 minutes. When it’s done, add 1 ¼ cup of canned unsweetened pumpkin purée to the bowl and keep blending with the hand mixer on medium speed until well combined.
+Now, using a kitchen knife and a cutting board peel, core and chop 1 large apple. On the same board, halve and chop 1 cup of cranberries and 1 cup of pecans. Take another bowl and add the flour mixture and the chopped ingredients. Use a spatula to stir all the ingredients until they are well combined. Then, pour the batter into the Bundt pan and smooth the top with the spatula. Put the Bundt into the oven and bake for 60-70 minutes. When it’s done, remove the Bundt from the oven and let it cool for 10 minutes before removing the cake from the pan. Then, let it cool down for 3-4 hours before serving. The next step is to make the icing, let me know when you would like me to tell you the steps.
+To make the icing, start by using a colander to sift 6 tablespoons of confection’s sugar into a small bowl. Then, use a spatula to stir the sugar and, slowly, start adding 2 tablespoons of maple syrup until the icing drips off the tip of the spatula.
+Wait until the cake is completely cooled and put it on wax paper. Drizzle the icing on top of the cake and let it harden for a few minutes. Enjoy your meal!
 
 R14: Make-ahead gravy https://www.makebetterfood.com/recipes/make-ahead-gravy/
 
@@ -259,7 +251,7 @@ Robot: Now let’s make the gravy. Pour 4 ½ cups of the stock you have decided 
 User: The stock is done, what do I do now? 
 Robot: Now, in another saucepan melt 1 stick of butter over medium heat. Using a knife and a chopping board, chop ½ an onion and then add it to the saucepan with the butter. Cook, stirring occasionally using a spatula for about 5 minutes, or until the onion is translucent.
 User: The onion is now cooked, what now? 
-Robot: Now sprinkle ½ cup of flour over the onions and stir using a wooden spoon until combined. Keep stirring and adjusting the heat so the flour doesn’t burn until it looks golden brown. This should take 3-5 minutes. Then, start adding 4 ½ cups of the reserved stock and whisk it in. Keep whisking over medium heat until the gravy starts to thicken. This should take about 5 minutes. 
+Robot: Now sprinkle ½ cup of flour over the onions and stir using a wooden spoon until combined. Keep stirring and adjusting the heat so the flour doesn’t burn until it looks golden brown. This should take 3-5 minutes. Then, start adding 4 ½ cups of the reserved stock and whisk it in. Keep whisking over medium heat until the gravy starts to thicken. This should take about 5 minutes.
 User: The gravy has now started to thicken, what’s next? 
 Robot: Now, add 1 teaspoon of tamari or soy sauce, ½ teaspoon of salt and ¼ teaspoon of pepper to the gravy and keep whisking it with the wooden spoon. Finally, add 1 ½ to 2 cups of turkey drippings into the gravy and combine. Enjoy your meal!
 User: Thank you.
@@ -5518,7 +5510,7 @@ Robot: Next up, remove the skin from a selection of 12  of your preferred chicke
 User: The chicken has finished marinating in the fridge. What is the next step?
 Robot: Next preheat the grill to high. While you are waiting for it to heat, oil the grill grate.
 User: The grill is ready. What do I do now?
-Robot: Now add each  of the chicken pieces to the grill. Using tongs, turn them occasionally until they are nicely browned on the outside but not burned. This usually takes 8-10 minutes on each side. Sometimes the grill may be too hot and could burn the chicken, if so use a lower setting. If any marinade remains you can apply this to the upturned side using a cooking brush.
+Robot: Now add each  #of the chicken pieces to the grill. Using tongs, turn them occasionally until they are nicely browned on the outside but not burned. This usually takes 8-10 minutes on each side. Sometimes the grill may be too hot and could burn the chicken, if so use a lower setting. If any marinade remains you can apply this to the upturned side using a cooking brush.
 User: I have done that. What comes next?
 Robot: Finally, transfer them to a plate, serve and enjoy. 
 User: Thank you for helping me cook Afghan Chicken.
@@ -6291,8 +6283,8 @@ Robot: Firstly, roast 5-6 cloves of garlic. To start, preheat your oven to 200º
 User: I have  cooked the garlic, what do I do now?
 Robot: Now remove from the oven and allow to cool to the touch. Cut off the ends of the cloves and squeeze out of the shells, before mincing in a garlic crusher. 
 User: I have  minced the roasted garlic, what next?
-Robot: Peel 900g of potatoes and cut them into quarters using a peeler and knife. Put them into a large pot with 15g of salt. Fill the pot with cold water, covering the potatoes and boiling uncovered  for 15-20 minutes until the potatoes come off the fork when stuck in. While they are boiling, melt 120g of butter in a small saucepan. 
-User: I have  started boiling the potatoes, and the butter is melted in the small saucepan. What do I do now?
+Robot: Peel 900g of potatoes and cut them into quarters using a peeler and knife. Put them into a large pot with 15g of salt. Fill the pot with cold water, covering the potatoes and boiling uncovered for 15-20 minutes until the potatoes come off the fork when stuck in. While they are boiling, melt 120g of butter in a small saucepan.
+User: I have started boiling the potatoes, and the butter is melted in the small saucepan. What do I do now?
 Robot: Now, add 240ml of heavy cream, the roasted garlic, and a sprinkle of salt and black pepper to the small saucepan. Whisk together until they combine and then bring to the boil. Once boiling, remove from the heat and cover to keep warm.
 User: I have  warmed up the garlic sauce, what comes next?
 Robot: Next, once the potatoes are done drain them well using a colander. Put them along with the mixture into a large bowl and use a potato masher to mash them, adding 240g of cheddar cheese. Once well mashed, stir for a minute with a large spoon to mix well. Serve and enjoy.
@@ -6570,7 +6562,7 @@ User: I have added the mixtures together, what comes next?
 Robot: Dip each of the onion rings into the batter and drop them into a deep fat fryer at 185ºC, using canola oil for the fryer. Fry them until golden brown, turning them to brown on both sides. Remove them and place on paper towels to drain and dry.
 User: I have fried the onion rings and dried them on paper towels. What now?
 Robot: Now sprinkle with a little salt, serve and enjoy.
-User: Thanks for helping me make Fried Onion Rings. 
+User: Thanks for helping me make Fried Onion Rings.
 
 r427: Shallot and Red Wine Beef Wellington Sauce. https://cookeatshare.com/recipes/shallot-and-red-wine-beef-wellington-sauce-526739
 

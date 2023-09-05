@@ -79,17 +79,17 @@ intents:
 - next
 - alternatefoods
 - search_utensils
-- englishmuffins
+- english muffins
 - strawberrypie
 - airfryerglazeddonuts
 - pumpkinspicedonuts
 - misirwot
 - pineapplestrawberrysalad
 - peartartetatin
-- roastedveggienoodles
+- roasted veggie noodles
 - quinoaburritobowl
 - mangohabanerohotsauce
-- veggietikkamasala
+- veggie tikka masala
 - newyorkcrumbcake
 - holidaybundtcake
 - makeaheadgravy
@@ -102,7 +102,7 @@ intents:
 - spaghettiandmeatballs
 - potatosalad
 - chickenmasala
-- roastedvegetablelasagna
+- roasted vegetable lasagna
 - cranberrypecanmuffins
 - savorytomatopie
 - cherrypiebars
